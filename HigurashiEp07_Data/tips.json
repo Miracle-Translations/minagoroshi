@@ -1,0 +1,82 @@
+{
+	"0": [
+		{
+			"Id": 38,
+			"Title": "Para minha neta",
+			"TitleJp": "＊代子へ",
+			"Script": "_mina_tips_001"
+		},
+		{
+			"Id": 39,
+			"Title": "Bons momentos com Oyashiro-sama",
+			"TitleJp": "オヤシロさまも団欒",
+			"Script": "_mina_tips_002"
+		},
+		{
+			"Id": 40,
+			"Title": "Nós duas",
+			"TitleJp": "僕とボク",
+			"Script": "_mina_tips_003"
+		},
+		{
+			"Id": 41,
+			"Title": "Antes do voo",
+			"TitleJp": "高飛び直前",
+			"Script": "_mina_tips_004"
+		},
+		{
+			"Id": 42,
+			"Title": "Coisa desanimadora",
+			"TitleJp": "出鼻に釘",
+			"Script": "_mina_tips_005"
+		},
+		{
+			"Id": 43,
+			"Title": "Nota da recepcionista",
+			"TitleJp": "受付メモ",
+			"Script": "_mina_tips_006"
+		},
+		{
+			"Id": 44,
+			"Title": "A frustração da carteira bancária",
+			"TitleJp": "鬱積と通帳",
+			"Script": "_mina_tips_007"
+		},
+		{
+			"Id": 45,
+			"Title": "Sem relações",
+			"TitleJp": "背後関係は無し",
+			"Script": "_mina_tips_008"
+		},
+		{
+			"Id": 46,
+			"Title": "Mandando a pirralha de volta",
+			"TitleJp": "疫病神と復学",
+			"Script": "_mina_tips_009"
+		},
+		{
+			"Id": 47,
+			"Title": "Os preparativos de um funcionário público",
+			"TitleJp": "公務員の心構え",
+			"Script": "_mina_tips_010"
+		},
+		{
+			"Id": 48,
+			"Title": "Um caderno desbotado",
+			"TitleJp": "色褪せたノート序文",
+			"Script": "_mina_tips_011"
+		},
+		{
+			"Id": 49,
+			"Title": "Caderno desbotado II・III",
+			"TitleJp": "色褪せたノート II・III",
+			"Script": "_mina_tips_012"
+		},
+		{
+			"Id": 50,
+			"Title": "O Fim deste fragmento",
+			"TitleJp": "カケラ遊びの最後に",
+			"Script": "_mina_tips_013"
+		}
+	]
+}
