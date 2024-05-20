@@ -1,0 +1,172 @@
+void main()
+{
+	EnableJumpingOfReturnIcon();
+
+	DrawSceneWithMask( "background/hu_r1", "maskup", 1, 0, 300 );
+	PlayBGM( 0, "Iru", 56, 0 );
+
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　夕食後、私と沙都子と羽入はテレビを見ていた。",
+		   NULL, "Eu estava assistindo TV com Satoko e Hanyuu depois do jantar.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　バラエティ番組の中で、お笑い芸人がどっと観客を沸かせる。",
+		   NULL, "Era um show de variedades e os artistas faziam o público rir.", Line_WaitForInput);
+	OutputLine(NULL, "私たちも大笑いしていた。",
+		   NULL, " Estávamos rindo também.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacterWithFiltering(2, 4, "sprite/sa2b_akuwarai_b1_", "2", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400093", 256, TRUE);
+	OutputLine(NULL, "「ほっほっほっほ！　ざまぁないでございますわねー！！",
+		   NULL, "\"Ho ho ho ho! Olha só isso!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModSetLayerFilter(1, 179, "none");
+	ModDrawCharacterWithFiltering(1, 12, "sprite/ha1_au_", "2", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 12, "ps3/s20/12/441100015", 256, TRUE);
+	OutputLine(NULL, "「あぅあぅあぅ、でも、とっても痛そうなのです…。」",
+		   NULL, "\"Au au au... mas isso parece doloroso...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500063", 256, TRUE);
+	OutputLine(NULL, "「……みー。にぱ〜☆",
+		   NULL, "\"...Mii. Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私の目から見ると３人での食後の団欒だが、実際には私と沙都子の２人しかいない。",
+		   NULL, "Enquanto nós três estávamos nos divertindo, na verdade só estavam Satoko e eu na sala.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入が見えるのは私だけだ。",
+		   NULL, "Eu sou a única que pode ver Hanyuu.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　沙都子には当然見えていない。",
+		   NULL, "Satoko não consegue vê-la.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(2, 4, "sprite/sa2a_warai_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
+	ModDrawCharacter(1, 12, "sprite/ha1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　沙都子が何かを言うたびに羽入も相槌を打つ。",
+		   NULL, "Hanyuu responde toda vez que Satoko diz algo.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その相槌が沙都子に聞こえるわけではないのだが、羽入は機嫌がいい時にはよく相槌を打っていた。",
+		   NULL, "Satoko não consegue ouvi-la, mas Hanyuu ainda responde quando ela está de bom humor.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それは例えるなら、テレビの中の人物の問いかけに返事をするような、決して双方向でない擬似的コミュニケーションでしかない。",
+		   NULL, "É como se ela estivesse respondendo a uma pergunta feita na TV.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…言ってみればコミュニケーションのままごとかもしれない。",
+		   NULL, "...É como se ela estivesse brincando de casinha.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　私以外の人間と意思を疎通できな羽入が、そういう遊びを覚えたのは必然と言えたに違いない。",
+		   NULL, "Ela começou a jogar esse jogo com outras pessoas, porque ela não consegue se comunicar com ninguém além de mim.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから、部活にも羽入はいつも一緒にいて、みんなの盛り上がりと一緒になって笑ったりハラハラしたりしているのだ。",
+		   NULL, "Hanyuu sempre participa das reuniões do nosso clube e se diverte lá também.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……もし、羽入が普通に会話をすることができたなら、私たちの良き仲間として迎え入れられてるだろうか。",
+		   NULL, "...Se ela pudesse se comunicar com meus outros amigos, ela poderia ser uma boa amiga para nós.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…それを想像することは、かえって羽入を傷つけることになるので避けた。",
+		   NULL, "...Mas eu não quero ferir os sentimentos dela pensando sobre isso.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "black", "maskdown", 1, 0, 400 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　古手家に伝わる古い古文書に出て来る奇跡の話が、全て事実でそれが羽入を指すなら、",
+		   NULL, "Se a história do milagre escrito nas antigas escrituras for verdadeira, se foi realmente Hanyuu quem o realizou,", Line_WaitForInput);
+	OutputLine(NULL, "羽入は太古の昔、少なくない人々と交流しその力を示せた。",
+		   NULL, " ela é alguém que tinha um poder tremendo há muito tempo.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…それが今では神通力のジの字どころか、私以外には存在を感じ取ってもらうことすらできない。",
+		   NULL, "Mas agora ela não tem nenhum poder espiritual, e eu sou a única que consegue vê-la.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　羽入がどうしてそういう、らしい力を喪失したのかは語られたことがない。",
+		   NULL, "Hanyuu nunca me contou como ela perdeu seu poder.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　時代と近代化が進み、神々の居場所がなくなるにつれ羽入の力や存在は薄まっていったのだろうと納得するしかなかった。",
+		   NULL, "Eu só tenho que assumir que o poder espiritual dela diminuiu com o tempo...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　古手家に女子が七代続けば、オヤシロさまが蘇るという伝説。",
+		   NULL, "Há uma lenda na família Furude que diz que Oyashiro-sama renascerá se uma menina nascer na família por sete gerações seguidas.", Line_Normal);
+	ClearMessage();
+
+	DrawSceneWithMask( "background/hu_r1", "maskup", 1, 0, 300 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…確かに私の代になって羽入は久し振りにコミュニケーションができる人間と出会えた。",
+		   NULL, "Com o meu nascimento, Hanyuu finalmente conseguiu se comunicar com um humano pela primeira vez em séculos.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…それは人間側の見地からだと、オヤシロさまが蘇ったということになるのだろうか。",
+		   NULL, "Isso significa que Oyashiro-sama retornou...?", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　村人たちが崇めるオヤシロさまという存在と、そうだと主張する羽入の存在は時々重ならない。",
+		   NULL, "A imagem que os moradores têm de Oyashiro-sama não corresponde exatamente à de Hanyuu.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModSetLayerFilter(2, 179, "none");
+	ModDrawCharacter(2, 12, "sprite/ha1_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, FALSE );
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacter(1, 4, "sprite/sa2a_warai_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　沙都子と一緒に並んでうつ伏せになって、頬杖をしながらテレビを楽しむその姿からはとてもとても。",
+		   NULL, "Principalmente quando a vejo deitada de bruços e assistindo TV com a Satoko.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	Wait( 1000 );
+	DrawScene( "black", 1000 );
+}

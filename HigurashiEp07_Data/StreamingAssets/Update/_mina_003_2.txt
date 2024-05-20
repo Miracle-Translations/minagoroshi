@@ -1,0 +1,595 @@
+void main()
+{
+
+	DrawSceneWithMask( "white", "maskc", 1, 0, 1000 );
+	ModSetLayerFilter(0, 256, "none");
+	ModDrawCharacter(0, 5, "sprite/ri1_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawScene( "background/gk1", 1000 );
+
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100228", 256, TRUE);
+	OutputLine(NULL, "「今でもさ、ちょっとでも怪しいシチュエーションがあると、針が混じってるかもしれないなって考えちゃうんだよ。",
+		   NULL, "\"Ainda estou um pouco preocupado com agulhas de costura de vez em quando.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100229", 256, TRUE);
+	OutputLine(NULL, "もちろん、ちょっと考えるだけだぜ？",
+		   NULL, " Eu não penso nisso o tempo todo, é claro.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100230", 256, TRUE);
+	OutputLine(NULL, "　みんなの弁当を突っつく時、いちいち中身を改めてたら失礼だもんな。",
+		   NULL, "Seria muito rude se eu cutucasse minha comida enquanto almoçava com vocês, não seria?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100231", 256, TRUE);
+	OutputLine(NULL, "針を混ぜるなんて危ない悪戯なんて絶対するわけがないって思うから、そんな下らないトラウマなんか気にしないで食べてるんだよ。」",
+		   NULL, " Claro que sei que ninguém colocaria um agulha de costura dentro da minha comida.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(0, 5, "sprite/ri1_fuman_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500203", 256, TRUE);
+	OutputLine(NULL, "「……でも、今でもちょっと怖いのですね？」",
+		   NULL, "\"......Mas você ainda está um pouco assustado?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100232", 256, TRUE);
+	OutputLine(NULL, "「んーーー…、",
+		   NULL, "\"Bem...", Line_Continue);
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 1700 );
+	// (backup) SetValidityOfInput( TRUE );
+	OutputLine(NULL, "未だに忘れられないってことは、今でも心の中にはちょっと残ってるのかもなぁ。」",
+		   NULL, " Talvez eu esteja em algum lugar dentro do meu coração.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(0, 5, "sprite/ri1_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500204", 256, TRUE);
+	OutputLine(NULL, "「……では、",
+		   NULL, "\"......Bem.", Line_Continue);
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 1700 );
+	// (backup) SetValidityOfInput( TRUE );
+	OutputLine(NULL, "……その魅ぃのおはぎからは、",
+		   NULL, " ...Você viu uma agulha de costura...", Line_Continue);
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 3200 );
+	// (backup) SetValidityOfInput( TRUE );
+	OutputLine(NULL, "…出てきたのですね？」",
+		   NULL, " ...dentro do ohagi que a Mii te deu?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………………。",
+		   NULL, ".........", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 400 );
+	PlaySE( 0, "s_suzu", 56, 64 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500205", 256, TRUE);
+	OutputLine(NULL, "「……裁縫針が。」",
+		   NULL, "\"......Você viu uma agulha dentro de um?\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100233", 256, TRUE);
+	OutputLine(NULL, "「あぁ。",
+		   NULL, "\"Sim.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100234", 256, TRUE);
+	OutputLine(NULL, "…………出てきた。」",
+		   NULL, " ...Eu vi.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そのおはぎの中からは……、",
+		   NULL, "Dentro do ohagi...", Line_ContinueAfterTyping);
+	SetValidityOfInput( FALSE );
+	Wait( 700 );
+	SetValidityOfInput( TRUE );
+	OutputLine(NULL, "針を恐れる俺の期待通りに、針が出てくるのだ……。",
+		   NULL, " havia uma agulha, assim como eu temia...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…………どうして俺は、妄想とも白昼夢ともつかない滅裂な話を大真面目にしているんだろう。",
+		   NULL, ".........Por que eu estava contando a ela sobre algo que era apenas minha imaginação?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…風邪かなんかで休んでいる俺のところに魅音とレナが来て、お見舞いにおはぎを置いていった。",
+		   NULL, "Mion e Rena vieram me ver quando tirei folga da escola enquanto estava doente.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……そんな経験はないのだから、これは確実に記憶のエラーなのだが。",
+		   NULL, "...Isso nunca aconteceu, então obviamente meu cérebro estava apenas inventando...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、……梨花ちゃんは笑わないから話せといった。",
+		   NULL, "Mas eu falei com Rika-chan", Line_WaitForInput);
+	OutputLine(NULL, "だから話した。",
+		   NULL, " porque ela disse que não iria tirar sarro de mim.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(0, 5, "sprite/ri1_fuman_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawScene( "background/gk1", 400 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500206", 256, TRUE);
+	OutputLine(NULL, "「……圭一は、目の前にあるこのおはぎにも、針が混じっているように感じて怖いですか？",
+		   NULL, "\"......Você está com medo desse ohagi agora? Você sente que pode haver uma agulha dentro?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500207", 256, TRUE);
+	OutputLine(NULL, "　だから、さっきから手を付けられない？」",
+		   NULL, " É por isso que você não está comendo?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　気付くと、魅音やレナも俺の方を見ていた。",
+		   NULL, "Percebi que Mion e Rena também estavam olhando para mim.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…俺がおはぎを神妙な顔をしながらじっと見ているのを、不思議に思っているようだった。",
+		   NULL, "Eles estavam se perguntando por que eu estava olhando para o ohagi sem comê-lo.", Line_Normal);
+	ClearMessage();
+
+	FadeOutBGM( 0, 300, FALSE );
+	ModSetLayerFilter(2, 256, "none");
+	ModDrawCharacter(2, 3, "sprite/me1a_yowaki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
+	DrawSceneWithMask( "background/gk3", "maskleft", 1, 0, 300 );
+	ModPlayBGM( 1, "semi", 56, 0, 0 );
+	ModPlayBGM( 2, "suzume", 56, 0, 0 );
+	ModPlayBGM( 1, "semi", 28, 0, 1 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300095", 256, TRUE);
+	OutputLine(NULL, "「…あ、…圭ちゃん、おはぎ嫌いだった？",
+		   NULL, "\"Oh... você não gosta de ohagi, Kei-chan...?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300096", 256, TRUE);
+	OutputLine(NULL, "　嫌いだったなら無理しなくても…。」",
+		   NULL, " Se não, você não precisa comê-lo...\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　魅音は俺がおはぎが嫌いだと思ったらしい。",
+		   NULL, "Mion estava presumindo que eu não gostava de ohagi.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…苦手な物を無理に食べさせようとしてしまって申し訳ないことをした……、そう、魅音の顔に文字が浮かび上がる。",
+		   NULL, "...Ela se sentiu mal por me forçar a comer algo que eu não gostava.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その、少しだけ気の毒な表情の魅音を見た瞬間に、心を掻き毟られる。",
+		   NULL, "Por sua vez, me senti culpado ao ver a expressão triste em seu rosto.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModSetLayerFilter(1, 256, "none");
+	ModDrawCharacterWithFiltering(1, 6, "sprite/si3_akuwarai_a1_", "2", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600027", 256, TRUE);
+	OutputLine(NULL, "「お姉のおはぎなんで、中に何か妙なものが仕込まれてるって疑ってるんですよー。」",
+		   NULL, "\"Onee, ele deve estar convencido de que você colocou algo nele.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　詩音がそう言った時、反射的に俺は言い返す。",
+		   NULL, "Eu imediatamente neguei a observação de Shion.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……それは誰にも伝わらないはずの妄言だ。",
+		   NULL, "...Ninguém mais entenderia o que estou dizendo.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だって、自分でも何を言っているのかわからない。",
+		   NULL, "Mesmo eu não sabia.", Line_Normal);
+	ClearMessage();
+
+	ModFadeOutBGM( 1, 1000, FALSE, 1 );
+	PlayBGM( 0, "demo_48khz", 56, 0 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100235", 256, TRUE);
+	OutputLine(NULL, "「いや、はっきり断言できるぜ、ここにある魅音のおはぎには針なんて絶対に入っていねえ。」",
+		   NULL, "\"Não, eu tenho certeza que não há agulha de costura dentro deste ohagi.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(2, 3, "sprite/me1b_odoroki_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300097", 256, TRUE);
+	OutputLine(NULL, "「は、針ぃ？！",
+		   NULL, "\"A-Agulha de costura?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300098", 256, TRUE);
+	OutputLine(NULL, "　そんなの何でおじさんが入れるわけぇ！」",
+		   NULL, " Por que eu colocaria algo assim aí?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100236", 256, TRUE);
+	OutputLine(NULL, "「あははは…、当り前だよな。",
+		   NULL, "\"Aha ha ha... é claro que você não faria isso.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100237", 256, TRUE);
+	OutputLine(NULL, "魅音は確かに、大人しくお見舞いを持ってくるようなヤツじゃない。",
+		   NULL, " Você não é do tipo que visita e traz algo com você por pura generosidade.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100238", 256, TRUE);
+	OutputLine(NULL, "タバスコを入れるとか、そういう冗談はやるかもしれないが、間違っても針なんて混ぜない。",
+		   NULL, " Você pode pegar uma peça com molho de tabasco ou algo assim, mas nunca colocaria agulhas dentro. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100239", 256, TRUE);
+	OutputLine(NULL, "…シャレになることとならないことのけじめははっきり付けてる。",
+		   NULL, "Você nunca faria algo tão perigoso quanto isso...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100240", 256, TRUE);
+	OutputLine(NULL, "だからそんなことは絶対にありえない。」",
+		   NULL, " Eu sei que você nunca faria tal coisa.\"", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "black", 400 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　俺はおはぎをむんずと掴む。",
+		   NULL, "Eu peguei o ohagi com a mão.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それを口の前に持ってきた時、今さらのように小学生時代の怖い漫画の記憶が蘇り、頬張る前に中身を改めさせたい衝動を掻き立てさせた。",
+		   NULL, "Ao colocá-lo na frente da boca, senti necessidade de verificá-lo, só para garantir...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…そんな臆病な、心の中の自分に俺ははっきりと言ってやる。",
+		   NULL, "...Mas eu disse a mim mesmo claramente.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　おい、クソ臆病な俺！！",
+		   NULL, "Ei, seu covarde!", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　いつまでガキの頃の漫画の話でビビってやがるんだよ。",
+		   NULL, "Quando você vai parar de ter medo daquela história em quadrinhos estúpida?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　このおはぎは、魅音がみんなにご馳走したくてわざわざ持って来てくれた。",
+		   NULL, "Mion trouxe esses ohagi para presentear todos da turma.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから、針なんて絶対に混ざってねぇんだよ！！",
+		   NULL, "De jeito nenhum ela colocaria agulhas dentro disso!", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 0, "s_furu", 56, 64 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　俺は自分の小さくて下らない過去の妄執と決別し、がぶりとおはぎをかじった。",
+		   NULL, "Forcei aquela memória estúpida a sair do meu cérebro e mastiguei o ohagi.", Line_Normal);
+	ClearMessage();
+
+	DrawScene( "background/gk1", 400 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100241", 256, TRUE);
+	OutputLine(NULL, "「………ぉ、……うめえじゃねぇかよ！！」",
+		   NULL, "\"Mmmm... É delicioso!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(0, 3, "sprite/me1a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 400, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300099", 256, TRUE);
+	OutputLine(NULL, "「うまくて当然！",
+		   NULL, "\"Claro que é!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300100", 256, TRUE);
+	OutputLine(NULL, "　針なんか入ってなかったでしょー？！」",
+		   NULL, " Não havia uma agulha dentro, havia?!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100242", 256, TRUE);
+	OutputLine(NULL, "「そりゃそうだよな。",
+		   NULL, "\"De forma alguma.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100243", 256, TRUE);
+	OutputLine(NULL, "本当にスマン。",
+		   NULL, " Eu realmente sinto muito.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100244", 256, TRUE);
+	OutputLine(NULL, "自分でも下らないトラウマにずっと縛られてたって呆れるぜ。」",
+		   NULL, " Acabei de ser pego por uma experiência traumática que tive uma vez...\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　胸からしこりが取れて、何だかすーっとした気がした。",
+		   NULL, "Meu coração parou de bater rapidamente e me senti aliviado.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　すると、なぜか言わなければならない一言が胸の奥から込み上げてきた。",
+		   NULL, "No momento seguinte, tive vontade de dizer algo para Mion.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……状況としてはちょっと妥当な言葉ではないが、今それを口にしなくてはいけない気がした。",
+		   NULL, "Não foi a coisa certa a dizer, mas senti que tinha que dizer.", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100245", 256, TRUE);
+	OutputLine(NULL, "「おい、魅音。」",
+		   NULL, "\"Ei, Mion.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(0, 3, "sprite/me1a_def_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300101", 256, TRUE);
+	OutputLine(NULL, "「うん？　何〜？」",
+		   NULL, "\"Hã? O que é?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100246", 256, TRUE);
+	OutputLine(NULL, "「おはぎ、うまかったぜ。」",
+		   NULL, "\"O ohagi estava delicioso.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300102", 256, TRUE);
+	OutputLine(NULL, "「？",
+		   NULL, "\"Hã?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacter(0, 3, "sprite/me1a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300103", 256, TRUE);
+	OutputLine(NULL, "あははははは、大きなカバンを担いできた甲斐があったよ！」",
+		   NULL, "Ahahahahaha. Estou feliz por tê-los trago, mesmo sendo tão pesados!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　何で改めておはぎがうまかったと言わなければならないのか、自分でもよくわからなかったが。",
+		   NULL, "Eu não sabia por que queria contar a ela de novo que o ohagi estava delicioso.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　でも、魅音にそれはちゃんと伝えられた。",
+		   NULL, "Mas fiquei feliz por ter dito isso a ela.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……そして、俺はようやく、さっきからずっと感じ続けていた緩い焦燥感のようなものから解放されるのだった。",
+		   NULL, "...Eu finalmente fui libertado daquele sentimento estranho.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	FadeBustshotWithFiltering( 0, "mask00" , 0, FALSE, 0, 0, 300, TRUE );
+	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_warai_a1_", "2", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600028", 256, TRUE);
+	OutputLine(NULL, "「さぁさぁ！",
+		   NULL, "\"Bem, então!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600029", 256, TRUE);
+	OutputLine(NULL, "　沙都子も圭ちゃんを見習ってカボチャをガブリといきましょう！",
+		   NULL, " Já que Kei-chan superou seus medos e comeu ohagi, você deveria comer abóbora, Satoko-chan!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600030", 256, TRUE);
+	OutputLine(NULL, "　よく煮込んでありますから、やわらかいですよ〜！」",
+		   NULL, " Mm, é tão suave e doce~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacterWithFiltering(1, 4, "sprite/sa1b_hannbeso_b1_", "0", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s12/04/180400094", 256, TRUE);
+	OutputLine(NULL, "「詩音さんのお弁当は、何を食べてもカボチャが出て来るんですものー！！",
+		   NULL, "\"Como pode aquela lancheira estar sempre tão cheia de abóbora!?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 4, "ps3/s12/04/180400095", 256, TRUE);
+	OutputLine(NULL, "　私がトラウマになりましてよー！」",
+		   NULL, " Você vai me proporcionar uma experiência traumática!\"", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(0, 2, "sprite/re1b_warai_b1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawSceneWithMask( "background/gk3", "maskleft", 1, 0, 300 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200060", 256, TRUE);
+	OutputLine(NULL, "「あはははは！",
+		   NULL, "\"Ahahahaha!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200061", 256, TRUE);
+	OutputLine(NULL, "　詩ぃちゃんは沙都子ちゃんのカボチャ嫌いを直すのにがんばってるんだね！」",
+		   NULL, " Shii-chan está se esforçando tanto para impedir Satoko-chan de odiar abóbora!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	ModDrawCharacterWithFiltering(1, 3, "sprite/me1a_akuwarai_a1_", "2", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300104", 256, TRUE);
+	OutputLine(NULL, "「詩音も熱心だよね、まったく。",
+		   NULL, "\"Ela é tão apaixonada.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300105", 256, TRUE);
+	OutputLine(NULL, "将来の妹のつもりなのかねぇ、くっくっく！」",
+		   NULL, " Talvez ela a veja como sua futura irmã mais nova. Heh heh heh!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DrawScene( "black", 1000 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　俺がおはぎを食べ終える頃には、いつもののんびりとした食後の団欒になっていた。",
+		   NULL, "Quando terminei de comer meu ohagi, voltamos à nossa habitual e divertida hora de almoço.", Line_Normal);
+	ClearMessage();
+
+	ModDrawCharacter(0, 5, "sprite/ri1_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
+	DrawScene( "background/gk1", 1000 );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500208", 256, TRUE);
+	OutputLine(NULL, "「……圭一。",
+		   NULL, "\"......Keiichi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500209", 256, TRUE);
+	OutputLine(NULL, "もしもですよ？」",
+		   NULL, " E se?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100247", 256, TRUE);
+	OutputLine(NULL, "「うん？",
+		   NULL, "\"Hm?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100248", 256, TRUE);
+	OutputLine(NULL, "　もしも何だよ？」",
+		   NULL, " E se o quê?\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(0, 5, "sprite/ri1_komaru_a2_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500210", 256, TRUE);
+	OutputLine(NULL, "「……本当に食べ物から裁縫針が出てきたら、",
+		   NULL, "\"......E se você realmente ver uma agulha dentro de sua comida?", Line_Continue);
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 4300 );
+	// (backup) SetValidityOfInput( TRUE );
+	OutputLine(NULL, "……どうしますか？」",
+		   NULL, " ...O que você faria...?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100249", 256, TRUE);
+	OutputLine(NULL, "「そんなことあるわけないね。",
+		   NULL, "\"Isso não irá acontecer.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100250", 256, TRUE);
+	OutputLine(NULL, "梨花ちゃん、脅そうったって無駄だぜ〜？」",
+		   NULL, " Não me ameace, Rika-chan.\"", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(0, 5, "sprite/ri1_fuman_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500211", 256, TRUE);
+	OutputLine(NULL, "「……圭一。",
+		   NULL, "\"......Keiichi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500212", 256, TRUE);
+	OutputLine(NULL, "…それでも、出て来ることがもしもあったなら。」",
+		   NULL, " E se isso realmente acontecer...?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　笑いながら茶化そうとする俺に、梨花ちゃんは再び真剣な様子だった。",
+		   NULL, "Rika-chan olhou para mim com uma cara séria enquanto eu brincava.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…今日の梨花ちゃんは一体どうしたというんだろう。",
+		   NULL, "O que deu nela ultimamente...?", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100251", 256, TRUE);
+	OutputLine(NULL, "「しつこいぜ。",
+		   NULL, "\"Pare com isso.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100252", 256, TRUE);
+	OutputLine(NULL, "そんなことは絶対ありえないし、信じない。」",
+		   NULL, " Isso não vai acontecer, e eu não acredito que isso aconteça.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　俺はもう、このちっぽけなトラウマは克服した。",
+		   NULL, "Eu tinha acabado de superar meu trauma estúpido depois de tudo isso.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だから梨花ちゃんに力強くそう言ってやる。",
+		   NULL, "É por isso que fiz essa declaração firme.", Line_Normal);
+	ClearMessage();
+
+	DisableWindow();
+	ModDrawCharacter(0, 5, "sprite/ri1_niko_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500213", 256, TRUE);
+	OutputLine(NULL, "「わかりましたです。",
+		   NULL, "\"Entendi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500214", 256, TRUE);
+	OutputLine(NULL, "……圭一。",
+		   NULL, " ......Keiichi.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500215", 256, TRUE);
+	OutputLine(NULL, "しつこくてごめんなさいなのです。",
+		   NULL, " Me desculpe, estou te pedindo tanto...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500216", 256, TRUE);
+	OutputLine(NULL, "……もしも針が出てきたら、それはきっと圭一の勘違いなのですよ……。",
+		   NULL, " ...Se você ver uma agulha dentro de sua comida, é definitivamente algum tipo de erro...", Line_WaitForInput);
+	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500217", 256, TRUE);
+	OutputLine(NULL, "魅ぃが混ぜたなんて、絶対に思わないであげてくださいなのです。」",
+		   NULL, " Por favor, nunca acredite que é culpa de Mii.\"", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100253", 256, TRUE);
+	OutputLine(NULL, "「魅音を疑うな、ってことなんだろ？",
+		   NULL, "\"Você está apenas tentando me dizer para não suspeitar de Mion, certo?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100254", 256, TRUE);
+	OutputLine(NULL, "　あぁ、当然だぜ！",
+		   NULL, " Claro que não vou!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100255", 256, TRUE);
+	OutputLine(NULL, "　俺は絶対に仲間を疑わないぞ！」",
+		   NULL, " Eu nunca suspeitaria dos meus amigos!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　そう言いながら、力強い握りこぶしを作って見せる。",
+		   NULL, "Eu levantei meu punho no ar.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　それでようやく梨花ちゃんは納得してくれたらしい。",
+		   NULL, "Rika-chan finalmente parecia feliz.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　安堵するような微笑を浮かべてくれた。",
+		   NULL, "Ela sorriu como se estivesse aliviada com minhas palavras.", Line_Normal);
+	ClearMessage();
+	ModFadeOutBGM( 0, 300, TRUE, 1 );
+
+	CallScript( "&eye" );
+	ModFadeOutBGM( 0, 1000, FALSE, 0 );
+	ModFadeOutBGM( 1, 1000, FALSE, 0 );
+	ModFadeOutBGM( 2, 1000, TRUE, 0 );
+}
