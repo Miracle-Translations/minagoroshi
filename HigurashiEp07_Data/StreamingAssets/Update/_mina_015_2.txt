@@ -398,10 +398,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101154", 256, TRUE);
 	OutputLine(NULL, "「団長なんて、そんな恥ずかしい…。",
-		   NULL, "\"Capitão...?", Line_WaitForInput);
+		   NULL, "\"Capitão...? Ser chamado assim me deixa envergonhado...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101155", 256, TRUE);
 	OutputLine(NULL, "俺なんて単なる発起人で…。」",
-		   NULL, " Eu sou apenas a pessoa que planejou isso...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A única coisa que eu fiz foi dar a ideia...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -422,7 +422,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800115", 256, TRUE);
 	OutputLine(NULL, "さぁ、胸を張って！」",
-		   NULL, "Suba lá e comece!\"", Line_Normal);
+		   NULL, "Suba lá e manda ver!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 100 );
