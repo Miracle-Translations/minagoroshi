@@ -7,3 +7,17 @@ Tradução de _Higurashi no Naku Koro ni Hou_ do _Project Miracle_ compatível c
 [lunhas](https://www.youtube.com/@lunhasz) - Tradução do jogo.
 
 [Tech](https://twitter.com/TechHero_) - Revisão da tradução.
+
+## Outros capítulos em Português Brasileiro
+
+[Onikakushi](https://github.com/0Mateus/onikakushi)
+
+[Watanagashi](https://github.com/0Mateus/watanagashi)
+
+[Tatarigoroshi](https://github.com/0Mateus/tatarigoroshi)
+
+[Himatsubushi](https://github.com/0Mateus/himatsubushi)
+
+[Meakashi](https://github.com/0Mateus/meakashi)
+
+[Tsumihoroboshi](https://github.com/0Mateus/tsumihoroboshi)
