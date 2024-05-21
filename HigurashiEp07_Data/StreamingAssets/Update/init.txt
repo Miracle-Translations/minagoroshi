@@ -142,9 +142,9 @@ void main()
 	// Audio presets the user can select, consisting of a combination of the BGM and SE flags
 	ModAddAudioset(
 		"Novos BGM/SE",
-		"Use a nova música de fundo (BGM) e efeitos sonoros (SE) introduzidos pelo MangaGamer na atualização de abril de 2019, reproduzidos com os timings do Console.",
+		"Use as novas músicas de fundo (BGM) e efeitos sonoros (SE) introduzidos pela MangaGamer na atualização de abril de 2019, reproduzidos com os timings do Console.",
 		"JP: Novos BGM/SE",
-		"JP: Use a nova música de fundo (BGM) e efeitos sonoros (SE) introduzidos pelo MangaGamer na atualização de abril de 2019, reproduzidos com os timings do Console.",
+		"JP: Use as novas músicas de fundo (BGM) e efeitos sonoros (SE) introduzidos pela MangaGamer na atualização de abril de 2019, reproduzidos com os timings do Console.",
 		0, // GAltBGM
 		0, // GAltBGMFlow
 		0, // GAltSE
@@ -153,15 +153,15 @@ void main()
 
 	ModAddAudioset(
 		"GIN's BGM/SE",
-		"Esta opção usa música de fundo (BGM) e efeitos sonoros (SE) do GIN, que se aproxima do BGM/SE (mas definitivamente NÃO são idênticos) ao lançamento original em japonês e/ou atualização pré-abril.
+		"Esta opção usa as músicas de fundo (BGM) e efeitos sonoros (SE) do GIN, que se aproxima do BGM/SE (mas definitivamente NÃO são idênticos ao) lançamento original em japonês e/ou atualização pré-abril.
 
-		Por favor, clique no botão 'Open BGM/SE FAQ' para visualizar a wiki do 07th Mod e obter mais detalhes.
+		Por favor, clique no botão 'Abrir BGM/SE FAQ' para visualizar a wiki do 07th Mod e obter mais detalhes.
 
 		Esta opção era anteriormente conhecida como 'Original BGM/SE' ou 'Correção de BGM/SE'.",
 		"JP: GIN's BGM/SE",
-		"JP: Esta opção usa música de fundo (BGM) e efeitos sonoros (SE) do GIN, que se aproxima do BGM/SE (mas definitivamente NÃO são idênticos) ao lançamento original em japonês e/ou atualização pré-abril.
+		"JP: Esta opção usa as músicas de fundo (BGM) e efeitos sonoros (SE) do GIN, que se aproxima do BGM/SE (mas definitivamente NÃO são idênticos ao) lançamento original em japonês e/ou atualização pré-abril.
 
-		Por favor, clique no botão 'Open BGM/SE FAQ' para visualizar a wiki do 07th Mod e obter mais detalhes.
+		Por favor, clique no botão 'Abrir BGM/SE FAQ' para visualizar a wiki do 07th Mod e obter mais detalhes.
 
 		Esta opção era anteriormente conhecida como 'Original BGM/SE' ou 'Correção de BGM/SE'.",
 		1, // GAltBGM
