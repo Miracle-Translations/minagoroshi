@@ -389,10 +389,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900261", 256, TRUE);
 	OutputLine(NULL, "「さ、そろそろ時間よ。",
-		   NULL, "\"Já esta na hora.", Line_WaitForInput);
+		   NULL, "\"Já está na hora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900262", 256, TRUE);
 	OutputLine(NULL, "団長、決起の挨拶をお願いね。」",
-		   NULL, " Nos dê uma atenção, capitão!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Capitão, nos dê uma saudação!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -737,7 +737,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これだけの人数なら今日こそきっと行けると詩音が意気込むが、だからこそ俺は油断できなかった。",
-		   NULL, "Shion disse que este seria o dia em que finalmente conseguiríamos, mas eu não possi ficar tão otimista ainda.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Shion disse que este seria o dia em que finalmente conseguiríamos, mas eu não posso ficar tão otimista ainda.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

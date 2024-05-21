@@ -30,7 +30,7 @@ void main()
 		   NULL, "\"É que...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6002", 256, TRUE);
 	OutputLine(NULL, "だからさおじさん、",
-		   NULL, " É só que essa velhas aqui acha que...", Line_WaitForInput);
+		   NULL, " É só que essa velha aqui acha que...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6003", 256, TRUE);
 	OutputLine(NULL, "こういう可愛いお人形はさ、",
 		   NULL, " bonecas fofas como essa...", Line_WaitForInput);
