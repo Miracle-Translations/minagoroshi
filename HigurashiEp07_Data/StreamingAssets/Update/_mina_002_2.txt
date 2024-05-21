@@ -27,16 +27,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6001", 256, TRUE);
 	OutputLine(NULL, "「だだ、",
-		   NULL, "\"Eu só...", Line_WaitForInput);
+		   NULL, "\"É que...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6002", 256, TRUE);
 	OutputLine(NULL, "だからさおじさん、",
-		   NULL, " Eu só acho que...", Line_WaitForInput);
+		   NULL, " É só que essa velhas aqui acha que...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6003", 256, TRUE);
 	OutputLine(NULL, "こういう可愛いお人形はさ、",
-		   NULL, " bonecas fofas como essas combinam mais...", Line_WaitForInput);
+		   NULL, " bonecas fofas como essa...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6004", 256, TRUE);
 	OutputLine(NULL, "ちゃんとした可愛い女の子に渡した方が似合うと思うんだよね！",
-		   NULL, " com garotas, sabe...?", Line_Continue);
+		   NULL, " combinam mais com garotas que também são fofas, né?", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -199,7 +199,7 @@ void main()
 		   NULL, " Umm...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300044", 256, TRUE);
 	OutputLine(NULL, "　おじさんがこの人形が欲しいからもらうんじゃないよ？！",
-		   NULL, " Eu só queria deixar claro que eu só aceito essa boneca porque ele não quer!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu só queria deixar claro que essa velha só aceitou a boneca porque ele não quis!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -333,7 +333,7 @@ void main()
 		   NULL, "\"Ei, pessoal!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300047", 256, TRUE);
 	OutputLine(NULL, "　おじさんの陰口を言ってるでしょー！",
-		   NULL, " Vocês estão falando sobre mim?", Line_WaitForInput);
+		   NULL, " Vocês estão falando da velha pelas costas, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300048", 256, TRUE);
 	OutputLine(NULL, "　こらぁー！」",
 		   NULL, " Parem já com isso!\"", GetGlobalFlag(GLinemodeSp));

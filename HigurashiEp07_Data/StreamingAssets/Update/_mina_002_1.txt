@@ -5729,7 +5729,7 @@ void main()
 	OutputLine(NULL, "　…あぁ、今日のお駄賃代わりにってことで、以前の世界でもくれたっけ。",
 		   NULL, "Eu lembro... Ele nos deu presentes como recompensa por hoje...", Line_WaitForInput);
 	OutputLine(NULL, "確か中に人形が入っているのだ。",
-		   NULL, " Eu acho que haviam bonecas dentro.", Line_Normal);
+		   NULL, " Eu acho que havia bonecas dentro.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>善郎</color>", NULL, "<color=#f5e6d3>Yoshirou</color>", NULL, Line_ContinueAfterTyping); }

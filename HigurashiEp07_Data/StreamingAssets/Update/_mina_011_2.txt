@@ -1217,10 +1217,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6046", 256, TRUE);
 	OutputLine(NULL, "「くっくっく。",
-		   NULL, "\"Hihihi.", Line_WaitForInput);
+		   NULL, "\"Kukuku.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6047", 256, TRUE);
 	OutputLine(NULL, "とにかく、そうと決まったら躊躇せずに実行しよう。",
-		   NULL, " De qualquer forma, vamos fazer acontecer.", Line_WaitForInput);
+		   NULL, " De qualquer forma, vamos lá sem hesitar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6048", 256, TRUE);
 	OutputLine(NULL, "児童相談所の場所はわかってる。",
 		   NULL, " Eu sei onde o centro de consulta infantil fica.", GetGlobalFlag(GLinemodeSp));
@@ -1232,7 +1232,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6049", 256, TRUE);
 	OutputLine(NULL, "実はね、おじさんも知らなかったんだけど、図書館の一階に児童相談所があったんだよねぇ。」",
-		   NULL, "Eu não sabia até recentemente, mas está no primeiro andar na biblioteca.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na verade, a velha aqui também não sabia até pouco tempo atrás, mas tem um centro de consulta infantil no primeiro andar da biblioteca.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

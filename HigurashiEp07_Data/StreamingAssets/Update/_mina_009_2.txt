@@ -23,7 +23,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　アパートの雑多な窓には様々な洗濯物が干されているが、風になびきもしないそれは涼感どころか、むしろ鬱陶しさを感じさせるだけだ。",
-		   NULL, "Haviam várias peças de roupa penduradas para secar nas janelas bagunçadas dos apartamentos, mas a falta de vento evocava uma impressão muito distante do frescor. Na verdade, só parecia mais opressivo.", Line_Normal);
+		   NULL, "Havia várias peças de roupa penduradas para secar nas janelas bagunçadas dos apartamentos, mas a falta de vento evocava uma impressão muito distante do frescor. Na verdade, só parecia mais opressivo.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 1300 );

@@ -955,7 +955,7 @@ void main()
 		   NULL, "\"Lembro-me de Rena vindo até mim e me dizendo que tinha um segredo para me contar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300118", 256, TRUE);
 	OutputLine(NULL, "おじさんはてっきり、変な検査薬で陽性でも出ちゃったんじゃないかと真面目に思ったよー！",
-		   NULL, " Sinceramente, por um momento, pensei que ela tivesse dado positivo em um teste de gravidez!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sinceramente, por um momento, a velha aqui pensou que ela tivesse dado positivo em um teste de gravidez!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1274,7 +1274,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　玄関から、魅音と町会のおばさん方が挨拶する声が聞こえてくる。",
-		   NULL, "Eu a ouvi cumprimentando as senhoras do conselho municipal.", Line_Normal);
+		   NULL, "Eu a ouvi cumprimentando as senhoras do conselho do vilarejo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -1648,7 +1648,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300134", 256, TRUE);
 	OutputLine(NULL, "「そういや、季節の度に来る人はいたねぇ。」",
-		   NULL, "\"Bem, haviam pessoas que vinham a cada estação, não é?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Bem, havia pessoas que vinham a cada estação, não é?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

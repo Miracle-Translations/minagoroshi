@@ -492,7 +492,7 @@ void main()
 		   NULL, "\"Aonde você se machucou?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300004", 256, TRUE);
 	OutputLine(NULL, "　おじさんに見せてみて！」",
-		   NULL, " Deixe-me dar uma olhada nisso!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Deixa essa velha aqui dar uma olhada!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
