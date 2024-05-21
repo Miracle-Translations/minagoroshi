@@ -26,7 +26,7 @@
 		},
 		{
 			"Id": 42,
-			"Title": "Coisa desanimadora",
+			"Title": "Estraga-prazeres",
 			"TitleJp": "出鼻に釘",
 			"Script": "_mina_tips_005"
 		},
@@ -38,7 +38,7 @@
 		},
 		{
 			"Id": 44,
-			"Title": "A frustração da carteira bancária",
+			"Title": "A frustração da caderneta bancária",
 			"TitleJp": "鬱積と通帳",
 			"Script": "_mina_tips_007"
 		},
@@ -62,19 +62,19 @@
 		},
 		{
 			"Id": 48,
-			"Title": "Um caderno desbotado",
+			"Title": "Caderno desbotado, Prefácio",
 			"TitleJp": "色褪せたノート序文",
 			"Script": "_mina_tips_011"
 		},
 		{
 			"Id": 49,
-			"Title": "Caderno desbotado II・III",
+			"Title": "Caderno desbotado, II・III",
 			"TitleJp": "色褪せたノート II・III",
 			"Script": "_mina_tips_012"
 		},
 		{
 			"Id": 50,
-			"Title": "O Fim deste fragmento",
+			"Title": "O fim deste fragmento",
 			"TitleJp": "カケラ遊びの最後に",
 			"Script": "_mina_tips_013"
 		}
