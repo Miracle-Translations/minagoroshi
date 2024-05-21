@@ -8,6 +8,8 @@ Tradução de _Higurashi no Naku Koro ni Hou_ do _Project Miracle_ compatível c
 
 [Tech](https://twitter.com/TechHero_) - Revisão da tradução.
 
+[0Mateus](https://github.com/0Mateus) - Tradução e edição das imagens de omake.
+
 ## Outros capítulos em Português Brasileiro
 
 [Onikakushi](https://github.com/0Mateus/onikakushi)
