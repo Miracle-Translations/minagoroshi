@@ -155,15 +155,15 @@ void main()
 		"GIN's BGM/SE",
 		"Esta opção usa as músicas de fundo (BGM) e efeitos sonoros (SE) do GIN, que se aproxima do BGM/SE (mas definitivamente NÃO são idênticos ao) lançamento original em japonês e/ou atualização pré-abril.
 
-		Por favor, clique no botão 'Abrir BGM/SE FAQ' para visualizar a wiki do 07th Mod e obter mais detalhes.
+		Por favor, clique no botão 'Abrir o FAQ de BGM/SE' para visualizar a wiki do 07th Mod e obter mais detalhes.
 
-		Esta opção era anteriormente conhecida como 'Original BGM/SE' ou 'Correção de BGM/SE'.",
+		Esta opção era anteriormente conhecida como 'BGM/SE Original' ou 'Correção de BGM/SE'.",
 		"JP: GIN's BGM/SE",
 		"JP: Esta opção usa as músicas de fundo (BGM) e efeitos sonoros (SE) do GIN, que se aproxima do BGM/SE (mas definitivamente NÃO são idênticos ao) lançamento original em japonês e/ou atualização pré-abril.
 
-		Por favor, clique no botão 'Abrir BGM/SE FAQ' para visualizar a wiki do 07th Mod e obter mais detalhes.
+		Por favor, clique no botão 'Abrir o FAQ de BGM/SE' para visualizar a wiki do 07th Mod e obter mais detalhes.
 
-		Esta opção era anteriormente conhecida como 'Original BGM/SE' ou 'Correção de BGM/SE'.",
+		Esta opção era anteriormente conhecida como 'BGM/SE Original' ou 'Correção de BGM/SE'.",
 		1, // GAltBGM
 		1, // GAltBGMFlow
 		1, // GAltSE
