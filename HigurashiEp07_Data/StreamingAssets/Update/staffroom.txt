@@ -13,12 +13,12 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんにちは、竜騎士07です。",
-		   NULL, "Olá, sou Ryukishi07.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Olá, eu sou Ryukishi07.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この度は『ひぐらしのなく頃に解』皆殺し編をお楽しみいただき、誠にありがとうございます。",
-		   NULL, "Obrigado por jogar\nHigurashi When They Cry Kai - Cap.7 Minagoroshi.", Line_Normal);
+		   NULL, "Obrigado por jogar\nHigurashi no Naku Koro ni Kai - Cap. 7 Minagoroshi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -28,7 +28,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これまでのシナリオに併せて読む、副菜のようなシナリオだったかもしれません。",
-		   NULL, "Ou talvez o cenário fosse como um acompanhamento que desfrutamos junto com todos os cenários até agora.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ou talvez o cenário fosse como um acompanhamento que desfrutamos junto com todos os cenários anteriores.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -56,7 +56,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　公開を渋りたい弱気も少しありました。",
-		   NULL, "Para ser honesto, eu não queria lançar este capítulo por um tempo.", Line_Normal);
+		   NULL, "Para ser honesto, eu estava hesitante em lançar este capítulo por um tempo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -72,7 +72,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　せっかく苦労して自分なりの答えを見つけても、正解かどうか確かめられないなら悲しいだけです。",
-		   NULL, "Encontrar uma resposta quando você não tem como saber se está certa ou não é um pouco triste eu acho.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Encontrar uma resposta quando você não tem como saber se está certa ou não é um pouco triste.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -84,7 +84,7 @@ void main()
 	OutputLine(NULL, "　そのため、なぞなぞ本来の楽しさが失われ、",
 		   NULL, "Lamento ver que há muitas histórias por aí", Line_WaitForInput);
 	OutputLine(NULL, "インパクトだけが先行した作品が増えすぎたことを個人的に残念に思ってきました。",
-		   NULL, " que não oferecem esse tipo de alegria.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " que não oferecem esse tipo de alegria, focando apenas no impacto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -119,7 +119,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、それらの深い推理に勇気付けられたお陰で、第７話まで挫けずに書き進むことができたと思います。",
-		   NULL, "Além disso, seu apoio me deu coragem para terminar de escrever o sétimo capítulo desta série.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, o apoio de vocês me deu coragem para terminar de escrever o sétimo capítulo desta série.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -169,14 +169,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これだけの長い物語となった『ひぐらしのなく頃に』の、締めとなるシナリオとして見事描ききれるかどうか、",
-		   NULL, "Estou sobrecarregado com a pressão de escrever o último capítulo de Higurashi When They Cry,", Line_WaitForInput);
+		   NULL, "Estou sobrecarregado com a pressão de escrever o último capítulo de Higurashi no Naku Koro ni,", Line_WaitForInput);
 	OutputLine(NULL, "早くもプレッシャーでいっぱいですが、頑張ろうと思います。",
 		   NULL, " que acabou sendo uma longa história.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうか温かく見守っていただければ幸いです。",
-		   NULL, "Espero que você continue com seu gentil apoio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Espero que vocês continuem com esse apoio gentil.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
