@@ -1580,7 +1580,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誤解がないようにしたいのは、入江が極右的な政治結社の末端ではないというだ。",
-		   NULL, "Preciso deixar claro que Irie não é um apoiador de extrema direita desta sociedade secreta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Preciso deixar claro que o Irie não é um apoiador de extrema direita desta sociedade secreta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1593,7 +1593,7 @@ void main()
 	OutputLine(NULL, "　また、革新的な論文を発表し、学会からは異端だと無視されていたが、",
 		   NULL, "Ele publicou uma tese inovadora, mas outros acadêmicos o consideraram radical demais.", Line_WaitForInput);
 	OutputLine(NULL, "その内容から「東京」は、『雛見沢症候群』を研究できる適任者は彼以外にはいないと判断し白羽の矢を立てたのである。",
-		   NULL, " No entanto, isso convenceu Tóquio de que ele era o único pesquisador adequado para pesquisar sobre a Síndrome de Hinamizawa.", Line_Normal);
+		   NULL, " No entanto, isso convenceu a Tóquio de que ele era o único pesquisador adequado para pesquisar sobre a Síndrome de Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1655,7 +1655,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　名目上の所長は入江だが、もちろん一介の研究者なので、「東京」からお目付け役が派遣された。",
-		   NULL, "Irie era nominalmente o chefe da organização, mas Tóquio ainda enviou uma supervisora, porque no final das contas ele era apenas um pesquisador.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Irie era nominalmente o chefe da organização, mas a Tóquio ainda enviou uma supervisora, porque no final das contas ele era apenas um pesquisador.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1669,12 +1669,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野の仕事は「東京」と入江の仲介と、研究の進捗管理、機密保持などだった。",
-		   NULL, "O trabalho de Takano no Instituto era atuar como intermediário entre Tóquio e Irie, gerenciar o progresso da pesquisa e preservar seu sigilo.", Line_Normal);
+		   NULL, "O trabalho da Takano no Instituto era atuar como intermediário entre a Tóquio e o Irie, gerenciar o progresso da pesquisa e preservar seu sigilo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　特にこの機密保持がもっとも重要で、奇病研究の事実と、奇病が発覚するような事態の隠蔽は鷹野の最大の任務だった。",
-		   NULL, "Esta última era a parte mais importante de seu trabalho. Ela teve que fazer o possível para evitar que as pessoas descobrissem que Irie estava pesquisando a doença, ou mesmo que a doença existia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Esta última era a parte mais importante de seu trabalho. Ela teve que fazer o possível para evitar que as pessoas descobrissem que o Irie estava pesquisando a doença, ou mesmo que a doença existia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1684,12 +1684,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのための存在が山狗だった。",
-		   NULL, "A \"Yamainu\" foram formados para esse fim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A \"Yamainu\" foi formada para esse fim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山狗と呼ばれる鷹野直属の部隊が機密保持の実行部隊だったのだ。",
-		   NULL, "Eles estavam sob o comando de Takano e seu trabalho é impedir que os segredos do Instituto sejam descobertos.", Line_Normal);
+		   NULL, "Eles estavam sob o comando da Takano e seu trabalho é impedir que os segredos do Instituto sejam descobertos.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1697,12 +1697,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山狗は、自衛隊に絶大な影響力を持つ「東京」が有する不正規戦専門の特殊部隊のひとつだ。",
-		   NULL, "A Yamainu são uma unidade de forças especiais especializadas em guerra não convencional e de propriedade de Tóquio, com sua vasta influência nas SDF.", Line_Normal);
+		   NULL, "A Yamainu é uma unidade de forças especiais especializadas em guerra não convencional e de propriedade da Tóquio, com sua vasta influência nas Forças de Autodefesa do Japão.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「東京」は非核の切り札として、少数精鋭の秘密工作部隊が紛争初期に大きな活躍ができると注目。",
-		   NULL, "Tóquio estava de olho na probabilidade de que um pequeno esquadrão de elite de agentes secretos seria um trunfo na era anti-nuclear.", Line_WaitForInput);
+		   NULL, "A Tóquio estava de olho na probabilidade de que um pequeno esquadrão de elite de agentes secretos seria um trunfo na era anti-nuclear.", Line_WaitForInput);
 	OutputLine(NULL, "盛んに研究させていた。",
 		   NULL, " Então, eles investigaram vigorosamente essas opções.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1710,12 +1710,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これは冷戦構造化で表立って軍隊を送れないため、世界的に加速した風潮でもある。",
-		   NULL, "Esta era uma tendência mundial, desde a Guerra Fria, todos evitaram enviar tropas diretamente para a porta do inimigo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Esta era uma tendência mundial desde a Guerra Fria. Todos evitaram enviar tropas diretamente para a porta do inimigo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　日本もその風潮に遅れまいとしたのだ。",
-		   NULL, "O Japão também estava tentando fazer parte desse mundo.", Line_Normal);
+		   NULL, "O Japão também estava tentando fazer parte dessa tendência.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1727,7 +1727,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　レナの篭城事件の時にやってきた府警第２機動隊は後に零中隊と名を変え、関西空港を中心としたハイジャック対策の対テロ専門部隊へと成長していく。",
-		   NULL, "O Esquadrão 2 da Polícia Provincial, aqueles que intervieram quando Rena sitiou sua escola, mudaram seu nome para Companhia Zero e se transformaram em um esquadrão antiterrorismo que lidava com sequestros na área do aeroporto de Kansai.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O Esquadrão 2 da Polícia da Prefeitura, aqueles que intervieram quando Rena sitiou sua escola, mudaram seu nome para Companhia Zero e se transformaram em um esquadrão antiterrorismo que lidava com sequestros na área do Aeroporto de Kansai.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1755,18 +1755,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　平和に慣れきった日本人は特殊部隊という言葉を聞くと、まるで漫画か映画の中のような気分になるかもしれない。",
-		   NULL, "Quando ouvem uma frase como \"forças especiais"\, a maioria das pessoas tende a pensar em um filme ou história em quadrinhos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando os japoneses, que estão acostumados com a paz, ouvem um nome como \"forças especiais"\, tendem a pensar que são coisas de filmes e mangás.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが実際にはこれだけの、これ以上の特殊部隊が存在し、陰に陽に活躍しているのだ。",
-		   NULL, "No entanto, estas unidades realmente existem e estão protegendo o Japão em segredo.", Line_Normal);
+		   NULL, "Mas estas unidades realmente existem e estão protegendo o Japão em segredo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　有名な能登半島不審船事件でも、一般のニュースで報道された“銃撃戦を専門にした部隊のヘリが向ったが不審船が沈没したため退き返した”とは海上保安庁特殊部隊のＳＳＴのことを指す。",
-		   NULL, "Durante o famoso incidente com barcos suspeitos na costa da península de Noto, o noticiário informou que \"o esquadrão de helicópteros treinado em tiroteios se diriga para lá, mas foi chamado de volta porque os barcos suspeitos afundaram.\". SST agiu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Durante o famoso incidente com barcos suspeitos na costa da península de Noto, o noticiário informou que \"o esquadrão de helicópteros treinado em tiroteios se dirigiu para lá, mas foi chamado de volta porque os barcos suspeitos afundaram.\", mas isso foi porque a SST da Guarda Costeira agiu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1779,24 +1779,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これらの部隊は全て「東京」が政府に働きかけた結果、創立されたものだ。",
-		   NULL, "Todas essas unidades foram estabelecidas depois que Tóquio fez uma sugestão ao governo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Todas essas unidades foram estabelecidas depois que a Tóquio fez uma sugestão ao governo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　治安の名で戦術研究を行なうのは、表沙汰にできない東京の隠れ蓑としては最適だった。",
-		   NULL, "Pesquisar táticas militares sob o nome da paz e da ordem funcionou perfeitamente para Tóquio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pesquisar táticas militares sob o nome da paz e da ordem funcionou perfeitamente para a Tóquio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、昭和中期の反戦ムードがこれらの部隊の存在を嫌ったため、昭和５８年の当時にはこういった特殊部隊は国民には隠蔽されていた。",
-		   NULL, "Mas desde que o movimento anti-guerra de meados do século fez com que as pessoas se ressentissem dessas forças, estas unidades especiais foram mantidas em segredo desde 1983.", Line_Normal);
+		   NULL, "Mas desde que surgiu o movimento anti-guerra no meio do século, as pessoas começaram a se ressentir dessas forças, então estas unidades especiais foram mantidas em segredo em 1983.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、ここに挙げた特殊部隊は全て、警察の部隊だけでしかない。",
-		   NULL, "Além disso, nem todas estas unidades são formadas sob a jurisdição da polícia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, nem todas essas unidades são formadas sob a jurisdição da polícia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1806,7 +1806,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「山狗」はその自衛隊の特殊部隊の中の１つから選抜された部隊だ。",
-		   NULL, "A Yamainu são na verdade uma daquelas unidades especiais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Yamainu é uma dessas unidades especiais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/aka1", 1000 );
@@ -1828,24 +1828,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江機関の研究を頓挫させるダム計画を、「東京」はあらゆる手で中止させようと画策した。",
-		   NULL, "Tóquio trabalhou para encerrar o projeto da represa devido ao impacto que teria na pesquisa de Irie.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Tóquio trabalhou para encerrar o projeto da represa devido ao impacto que teria na pesquisa do Irie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その中で、山狗による大臣誘拐事件も発生したのである。",
-		   NULL, "Foram os Yamainu que sequestraram o neto do Ministro da Construção.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi a Yamainu que sequestrou o neto do Ministro da Construção.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あるいはそれだけでなく、園崎家がやったと誰もが信じる一部の事件も、山狗の仕業かもしれない。",
-		   NULL, "A maioria das pessoas acredita que a família Sonozaki estava no centro do movimento, mas na realidade, a Yamainu foi responsáveis por muitas das coisas de que os Sonozakis foram acusados.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A maioria das pessoas acredita que a família Sonozaki estava no centro do movimento, mas na realidade, a Yamainu foi responsável por muitas das coisas de que os Sonozakis foram acusados.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何か不審な事件があれば黒幕は園崎家に違いないと誰もが信じる土壌は、山狗が暗躍する上でこの上なく好都合だった。",
-		   NULL, "Nesse sentido, a existência da família Sonozaki foi uma vantagem para os agentes.", Line_Normal);
+		   NULL, "Nesse sentido, a existência da família Sonozaki foi perfeita para a Yamainu poder agir sem ser notada.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 1300 );
@@ -1853,18 +1853,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム戦争後の彼らの主な仕事は、奇病の隠蔽だった。",
-		   NULL, "A sua principal tarefa após o fim do conflito da represa tem sido continuar a manter a doença escondida no público.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A sua principal tarefa após o fim do conflito da represa tem sido continuar a manter a doença escondida do público.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　情報網が普及した近代では、異常な事件が起きればマスコミが飛び付き、すぐに全国に配信してしまう。",
-		   NULL, "Com a disseminação das redes de informação na erda moderna, a mídia aproveitou qualquer incidente incomum e rapidamente o transmitiu para toda a nação.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Com a disseminação das redes de informação na era moderna, a mídia aproveitou qualquer incidente incomum e rapidamente o transmitiu para toda a nação.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　軍事的価値の見地から「東京」は、事件により奇病が全国に知られてしまうのを嫌ったのだ。",
-		   NULL, "Tóquio não quer que a doença seja conhecida em todo o país, pois estão tentando utilizá-la para seus próprios fins.", Line_Normal);
+		   NULL, "A Tóquio não quer que a doença seja conhecida em todo o país, pois estão tentando utilizá-la para seus próprios fins.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 1300 );
@@ -1882,7 +1882,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「鬼隠し」の真の実行者と言ってもいい。",
-		   NULL, "São eles que demonizam as pessoas que desaparecem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "São eles os culpados pelos desaparecimentos das pessoas levadas por demônios.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1898,22 +1898,22 @@ void main()
 	OutputLine(NULL, "　そして、最後に富竹ジロウ。",
 		   NULL, "A última pessoa importante foi Jirou Tomitake.", Line_WaitForInput);
 	OutputLine(NULL, "本名は知らない。",
-		   NULL, " Eu não sei seu nome real.", Line_Normal);
+		   NULL, " Eu não sei o seu verdadeiro nome.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼は年４回、「東京」から派遣される定期査察の連絡員だった。",
-		   NULL, "Ele era um auditor enviado de Tóquio quatro vezes por ano.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele era um auditor enviado da Tóquio quatro vezes por ano.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　進捗の確認と方針説明、「東京」の要望などを説明し、入江からの予算や要求を汲み上げる。",
-		   NULL, "Ele veio verificar o andamento da pesquisa e delineou os pedidos de Tóquio. Ele também discutiu o orçamento de pesquisa com Irie.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele veio verificar o andamento da pesquisa e explicar os pedidos da Tóquio. Ele também discutiu o orçamento de pesquisa com o Irie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして鷹野から入江の監視報告を受ける。",
-		   NULL, "Ele também recebeu o relatório de observação de Irie de Takano.", Line_WaitForInput);
+		   NULL, "Ele também recebeu o relatório de observação do Irie escrito pela Takano.", Line_WaitForInput);
 	OutputLine(NULL, "そういう役だった。",
 		   NULL, " Esse era o seu propósito.", Line_Normal);
 	ClearMessage();
@@ -1925,10 +1925,10 @@ void main()
 	OutputLine(NULL, "　入江の研究は雛見沢の住人の検死を研究に流用するところから始まり、",
 		   NULL, "Irie começou estudando os resultados da autópsia de moradores mortos,", Line_WaitForInput);
 	OutputLine(NULL, "仮設の外堀を徐々に埋め、",
-		   NULL, " e ele descobriu muitas respostas com base nisso. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " descobrindo muitas respostas com base nisso. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５４年、山狗が拉致した、バラバラ殺人事件の犯人という末期発症者の生体を得た時点で『雛見沢症候群』の劇的解明に至った。",
-		   NULL, "Em 1979, a Yamainu sequestrou o culpado do assassinato do chefe da construção, que era um paciente terminal da Síndrome de Hinamizawa. A natureza da doença foi dramaticamente esclarecida.", Line_Normal);
+		   NULL, "Em 1979, a Yamainu sequestrou o culpado do assassinato por desmembramento do líder da construção da represa, que era um paciente terminal da Síndrome de Hinamizawa. A natureza da doença foi dramaticamente esclarecida.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1939,10 +1939,10 @@ void main()
 	OutputLine(NULL, "予防薬の発見、",
 		   NULL, " medicação,", Line_WaitForInput);
 	OutputLine(NULL, "治療法の確立と目を見張る成果を挙げた。",
-		   NULL, " e outros métodos de tratamento para a doença. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " além de outros métodos de tratamento para a doença. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……その一方で、軍事的に利用できる研究も併せて進められていた。",
-		   NULL, "...Ao mesmo tempo, continuaram a investigar como utilizá-lo para fins militares.", Line_Normal);
+		   NULL, "...Ao mesmo tempo, continuaram a investigar como utilizá-la para fins militares.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -1960,22 +1960,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、一般的には検出不能ということだ。",
-		   NULL, "Em outras palavras, é virtualmente impossível detectar o patógeno por meios normais.", Line_Normal);
+		   NULL, "Em outras palavras, é impossível detectar o patógeno por meios normais.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　痕跡はほとんど残らず、その異常行為は限りなく自発的であるため、軍事的に非常に有用であると判断された。",
-		   NULL, "Quase não deixou vestígios e os sintomas incomuns que produziu pareciam um comportamento voluntário, por isso concluíram que a doença poderia ser usada em seu benefício.", Line_Normal);
+		   NULL, "Ela quase não deixava vestígios e os sintomas incomuns que ela produzia pareciam um comportamento voluntário, por isso concluíram que a doença poderia ser muito útil militarmente.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、",
-		   NULL, "No entanto...", Line_ContinueAfterTyping);
+		   NULL, "Mas...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 600 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…………この頃、「東京」は緩やかな変化を迎えていた。",
-		   NULL, " ...Tóquio vem passando por algumas mudanças.", Line_Normal);
+		   NULL, " ...a Tóquio vem passando por algumas mudanças.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/mati12", "maskup", 1, 0, 1300 );
@@ -1987,7 +1987,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつて「東京」の中枢に君臨し、日本の政財界の黒幕だった重鎮たちも少しずつ老衰により席を空け、徐々に幹部が世代交代を進めていた。",
-		   NULL, "Os líderes nas sombras por trás do governo do Japão, que governavam a partir do centro de \"Tóquio\", começaram a ficar enfermos e a abrir assentos, passando constantemente a sua liderança para a nova geração.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aqueles que lideravam a política do Japão, governavando a partir do centro da \"Tóquio\", ficaram enfermos por causa da idade avançada e começaram a passar os seus postos, fazendo uma mudança geracional acontecer gradualmente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1998,7 +1998,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　依然、「東京」の設立趣旨は変らない。",
-		   NULL, "É claro, o propósito de \"Tóquio\" permaneceu o mesmo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É claro, o propósito da \"Tóquio\" permaneceu o mesmo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2009,19 +2009,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ、大東亜共栄圏の復活であるとか、米英に報復戦争を仕掛けるとかいった、戦争の亡霊たちが少しずつ薄れていっていた。",
-		   NULL, "No entanto, a sua ambição de iniciar uma guerra com a América e dominar o mundo diminuiu.", Line_Normal);
+		   NULL, "No entanto, a sua ambição de iniciar uma guerra com os Estados Unidos e dominar o mundo diminuiu.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「東京」は次第に方針を転換し、経済や外交、教育などに重点方針を移し始めていたのである。",
-		   NULL, "Tóquio direcionou suas prioridades para a economia, assuntos internacionais e educação.", Line_Normal);
+		   NULL, "A Tóquio direcionou suas prioridades para outras áreas como a economia, a diplomacia e a educação.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskup", 1, 0, 1300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、戦争の亡霊である重鎮たちが全ていなくなったわけではない。",
-		   NULL, "Isso não significa que essas ambições desapareceram completamente, no entanto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas isso não significa que essas ambições desapareceram completamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2031,13 +2031,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らは聖域的予算によって、依然、現在の「東京」の方針にそぐわない軍事的研究を継続させていたのである。",
-		   NULL, "Tóquio continua a financiar pesquisas militares...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Tóquio continua a financiar pesquisas militares...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……つまり、入江機関の研究もそれで、今の「東京」にとっては、すでに煙たい研究となっていたのだ。",
-		   NULL, "Mas para a Tóquio atual, a pesquisa de Irie é na verdade uma espécie de embaraço.", Line_Normal);
+		   NULL, "Mas para a política atual da Tóquio, a pesquisa do Irie é na verdade um problema sério.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2058,74 +2058,74 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…これが小此木の言う、入江と東京が対立していたという部分である。",
-		   NULL, "É disso que Okonogi estava falando. Irie está em desacordo com Tóquio.", Line_Normal);
+		   NULL, "É disso que o Okonogi estava falando. Irie está em desacordo com a Tóquio.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/sinryou_soto1", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この頃、入江は『雛見沢症候群』の全容解明に向けてもっとも躍進していた時だった。",
-		   NULL, "A pesquisa de Irie tem feito grandes progressos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A pesquisa do Irie tem feito grandes progressos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　様々な治療法や検査法が確立し、全住民の治療プランにも着手していた。",
-		   NULL, "Eles descobriram vários métodos de tratamento e testes, e ele está até começando a desenvolver um plano de tratamento para toda o vilarejo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles descobriram vários métodos de tratamento e testes, e ele está até começando a desenvolver um plano de tratamento para todo o vilarejo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここで援助が打ち切られれば、結局、入江の研究は何も残さなかったことになってしまうのだ。",
-		   NULL, "Se cortassem seu financiamento, a pesquisa de Irie terminaria sem nenhum resultado.", Line_Normal);
+		   NULL, "Se cortassem seu financiamento, a pesquisa do Irie terminaria sem nenhum resultado.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 1300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「東京」は富竹を通じて、入江と交渉を重ね、即時中止を段階的中止に変更した。",
-		   NULL, "Tóquio teve uma discussão com Irie através de Tomitake, e eles decidiram encerrar sua pesquisa parcialmente, mas não totalmente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Tóquio teve uma discussão com o Irie através do Tomitake, e eles decidiram encerrar sua pesquisa parcialmente, mas não totalmente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただし、軍事的研究は即時破棄とし、研究成果の全てを抹消するよう求められた。",
-		   NULL, "No entanto, eles lhe disseram para parar imediatamente de pesquisar aplicações militares da doença e destruir todos os dados de pesquisa relacionados a isso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Porém, eles lhe disseram para parar imediatamente de pesquisar aplicações militares da doença e destruir todos os dados de pesquisa relacionados a isso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もともと善良な小市民である彼は軍事的研究の中止にはさほど異議は唱えず、すぐに了承したという。",
-		   NULL, "De qualquer forma, ele tinha pouco interesse em transformar a doença em uma arma, então Irie aceitou esses termos imediatamente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Irie já não interesse em transformar a doença em uma arma, então ele aceitou esses termos imediatamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「東京」は即時中止して奇病を放置するよりは、この奇病が完全に撲滅された方が長い目で見れば機密の保持になると考えたのである。",
-		   NULL, "Tóquio provavelmente acreditava que era melhor deixá-lo encontrar uma cura para a doença do que encerrar totalmente o projeto.", Line_Normal);
+		   NULL, "A Tóquio provavelmente acreditava que era melhor deixá-lo encontrar uma cura para a doença do que encerrar totalmente o projeto.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/hi1", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この頃には入江も、一研究者であると同時に村の一員としても溶け込んでいた。",
-		   NULL, "Neste ponto, Irie se considera um dos moradores.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Neste ponto, Irie se considera um dos moradores do vilarejo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村人が知らずに感染している奇病を撲滅することは、村で後ろめたい研究をしながら名士と讃えられてきたことに対する彼なりの罪滅ぼしと考えたのかもしれない。",
-		   NULL, "Talvez exterminar a doença que infecta os moradores sem o seu conhecimento seja a sua forma de expiar o fato de ter usado o vilarejo para promover a sua investigação e reputação.", Line_Normal);
+		   NULL, "Talvez exterminar a doença que infecta os moradores sem o seu conhecimento seja a sua forma de expiar o fato de ter usado o vilarejo para promover a sua pesquisa e reputação.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両者の利害は一致し、入江は数年以内に『雛見沢症候群』を完全に撲滅して研究を完全に終了させることとなった。",
-		   NULL, "Tanto Tóquio quanto Irie concordaram em encerrar totalmente sua pesquisa assim que ele descobrisse uma maneira de erradicar completamente a Síndrome de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tanto a Tóquio quanto o Irie concordaram em encerrar totalmente sua pesquisa assim que ele descobrisse uma maneira de erradicar completamente a Síndrome de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江はそれを３カ年計画として立案し、昭和６１年までに完全治療プランを提案。",
-		   NULL, "Irie fez um plano para os próximos três anos e prometeu-lhes que encontraria uma solução até 1986, o mais tardar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Irie fez um plano para os próximos três anos e prometeu-lhes que encontraria uma solução até, no máximo, 1986.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2145,7 +2145,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江が「東京」と対立し、悪意ある切り札として古手梨花を暗殺しようとしている話。",
-		   NULL, "Uma teoria diz que Irie está em oposição a Tóquio e, como trunfo, ele está planejando matar Rika Furude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Uma teoria diz que o Irie está em oposição à Tóquio e, como trunfo, ele está planejando matar Rika Furude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/aka1", 300 );
@@ -2153,7 +2153,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もしくは、鷹野が富竹を殺し、さらに何らかの切り札として古手梨花を暗殺しようとしている話に戻る。",
-		   NULL, "A outra teoria é que Takano matou Tomitake e, como trunfo, ela matará Rika Furude.", Line_Normal);
+		   NULL, "A outra teoria é que a Takano matou o Tomitake e, como trunfo, matará Rika Furude.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1000, FALSE );
@@ -2161,7 +2161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそも古手梨花がどうして切り札なのかの説明がいる。",
-		   NULL, "Suponho que preciso explicar por que Rika Furude pode ser um trunfo.", Line_Normal);
+		   NULL, "Acho que preciso explicar por que Rika Furude poderia ser um trunfo.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/file", 1000 );
@@ -2186,20 +2186,20 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実は違う。",
-		   NULL, "No entanto, isso não é verdade...", Line_WaitForInput);
+		   NULL, "Na verdade, não é isso...", Line_WaitForInput);
 	OutputLine(NULL, "……鬼たちには、いや、病原体には女王にあたる特別な存在があったのだ。",
-		   NULL, " ...Para que os demônios, os patógenos, sobrevivam, um determinado ser deve estar presente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Para que os demônios... os patógenos, sobrevivam, deve estar presente um ser especial, a rainha.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを代々受け継ぐのが古手家だった。",
-		   NULL, "Esse ser é o sucessor da linhagem familiar Furude.", Line_Normal);
+		   NULL, "Esse ser foi herdado de geração em geração na linhagem da família Furude.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　伝承にある、オヤシロさまの降臨と、",
-		   NULL, "A verdade por trás do aparecimento de Oyashiro-sama,", Line_ContinueAfterTyping);
+		   NULL, "A verdade por trás do advento de Oyashiro-sama...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
@@ -2209,19 +2209,19 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…彼らの女王の存在を示していたのだ。",
-		   NULL, " é que Oyashiro-sama era na verdade a rainha do vilarejo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " é que Oyashiro-sama era, na verdade, a rainha do vilarejo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江の研究によると、信じ難いことだが、梨花が村中に猫のように可愛がられているのは梨花の個人的魅力によるものでなく、女王によるというのだ。",
-		   NULL, "De acordo com a pesquisa de Irie, Rika é adorada por todo o vilarejo não só porque é uma garotinha charmosa, mas porque é a rainha portadora.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De acordo com a pesquisa do Irie, Rika é adorada como um gato por todo o vilarejo não só porque é uma garotinha charmosa, mas porque é a portadora da rainha.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　感染者たちは無意識の内に女王感染者を守るように「誘導」されているのだという。",
-		   NULL, "Pacientes infectados são inconscientemente levado a proteger sua rainha.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pacientes infectados são inconscientemente levados a proteger sua rainha.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2233,7 +2233,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の母も、小さい頃には村中から猫可愛がりだったという。",
-		   NULL, "A mãe de Rika Furude também era adorada por tantos desde criança.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A mãe da Rika Furude também era adorada por muitos desde criança.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2251,20 +2251,20 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、この村では女王は特別な存在なのだ。",
-		   NULL, "A rainha é uma existência preciosa para as pessoas deste vilarejo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Em resumo, a rainha é uma pessoa preciosa para os moradores deste vilarejo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実は感染者は、雛見沢を離れては生きていけないのではなく、",
-		   NULL, "Existem teorias de que os portadores da doença não conseguem sobreviver quando estão longe da rainha,", Line_WaitForInput);
+		   NULL, "Existem teorias de que o motivo dos portadores da doença não conseguirem sobreviver é a distância entre eles e a rainha,", Line_WaitForInput);
 	OutputLine(NULL, "女王を離れては生きていけないのではないかとも疑われたくらいだ。",
-		   NULL, " não do próprio vilarejo.", Line_Normal);
+		   NULL, " não do vilarejo em si.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江の研究によるならば、おそらく、女王は雛見沢でしか生きていけず、",
-		   NULL, "A pesquisa de Irie indica que a rainha só pode sobreviver em Hinamizawa,", Line_WaitForInput);
+		   NULL, "A pesquisa do Irie indica que a rainha só pode sobreviver em Hinamizawa,", Line_WaitForInput);
 	OutputLine(NULL, "そして一般感染者は女王の周りでしか生きていけないのではないかと言う。",
 		   NULL, " e pacientes infectados só conseguem permanecer vivos quando estão perto dela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2277,9 +2277,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そして、信じられないことだが、",
-		   NULL, "...Surpreendentemente, no entanto,", Line_WaitForInput);
+		   NULL, "...E, surpreendentemente,", Line_WaitForInput);
 	OutputLine(NULL, "一番最初に『雛見沢症候群』を発見した戦時中の医師も、女王の存在を仮定していたのである。",
-		   NULL, " o médico que primeiro descobriu a síndrome também sabia da existência da rainha.", Line_Normal);
+		   NULL, " o médico que descobriu essa síndrome na época da guerra também teorizou a existência de uma rainha.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/file", 1000 );
@@ -2297,12 +2297,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　真相は不明だが、太古にはそのような力が本当にあり、古手家には神職に相応しい奇跡の力が宿っていたのかもしれない。",
-		   NULL, "A verdade ainda é desconhecida, mas talvez a família Furude realmente detenha tal poder deste os tempos antigos, um poder milagroso que os tornaria perfeitos para servir no sacerdócio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A verdade ainda é desconhecida, mas talvez a família Furude realmente detenha tal poder desde os tempos antigos, um poder milagroso que os tornaria perfeitos para servir em um sacerdócio xintoísta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　末裔の梨花には、せいぜい村中から可愛がってもらう程度の力しか残っていないようだが。",
-		   NULL, "Embora a única coisa que Rika possa fazer seja ser adorada pelos moradores.", Line_Normal);
+		   NULL, "Mas a única coisa que Rika pode fazer é conseguir o carinho dos moradores.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/aka1", 1000 );
@@ -2314,19 +2314,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　戦時中の医師は、女王がもし死ぬようなことがあれば、全ての感染者全員が末期症状を起こし、",
-		   NULL, "Durante a guerra, um médico profetizou que se a rainha morresse, todos os infectados apresentariam sintomas terminais,", Line_WaitForInput);
+		   NULL, "Durante a guerra, um médico acreditava que se a rainha morresse, todos os infectados apresentariam sintomas terminais,", Line_WaitForInput);
 	OutputLine(NULL, "ひとつの自治体が壊滅すると予言。",
 		   NULL, " e todo o vilarejo seria dizimado. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "女王感染者を厳重に保護するべきであると提唱していた。",
-		   NULL, "Ele defendeu a preservação estrita do anfitrião da rainha.", Line_Normal);
+		   NULL, "Ele defendeu a preservação estrita da pessoa que estivesse portando a rainha.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/aka2", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花の存在の重要性は、彼女を調べることで多くの謎を解明できた、生きた標本としてだけではない。",
-		   NULL, "Rika é importante para Tóquio não apenas porque Irie encontrou muitas respostas após fazer testes em seu corpo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika é importante para a Tóquio não apenas porque o Irie encontrou muitas respostas após fazer testes em seu corpo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2337,18 +2337,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかもその発症は一見、自発的で、その上、自覚症状も他覚症状もない。",
-		   NULL, "Isso aconteceria muito rápido para as pessoas perceberem que estão ficando doentes.", Line_Normal);
+		   NULL, "Isso aconteceria tão rápido que as pessoas nem perceberiam que estão ficando doentes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村中が突然、同時多発的に恐ろしい被害妄想に包まれ、生きるために殺しあう阿鼻叫喚の生き地獄が現れるのだ……。",
-		   NULL, "Cada um deles será dominado por um violento complexo de perseguição e começarão a matar uns aos outros por medo...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cada um deles será dominado por uma violenta paranoia e eles começarão a matar uns aos outros por medo...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのため、山狗は女王である古手梨花の警護を最優先任務としていた。",
-		   NULL, "É por isso que a Yamainu estão protegendo a rainha, Rika Furude.", Line_WaitForInput);
+		   NULL, "É por isso que a Yamainu está protegendo a rainha, Rika Furude.", Line_WaitForInput);
 	OutputLine(NULL, "彼女の死は村の死なのだから。",
 		   NULL, " A morte dela significa o fim de todo o vilarejo.", Line_Normal);
 	ClearMessage();
@@ -2357,7 +2357,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、古手梨花が女王であることを知る者にとって、古手梨花を殺すぞと脅迫することは「切り札」になり得るのだ……。",
-		   NULL, "É por isso que Rika Furude é o trunfo para quem sabe que ela é o centro de toda a epidemia...", Line_Normal);
+		   NULL, "É por isso que Rika Furude é o trunfo para quem sabe que ela é o centro de toda a endemia...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 1300 );
@@ -2365,21 +2365,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これが、雛見沢という舞台だ。",
-		   NULL, "Esta é a história de Hinamizawa.", Line_Normal);
+		   NULL, "Esta é a história da peça chamada Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この舞台の状況の中で、昭和５８年６月。",
-		   NULL, "Nossa história começa em junho, de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nossa história começa em junho de 1983.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	DrawSceneWithMask( "background/flashback/ryuuketu1", "maskaa", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　東京の連絡員である富竹が、予防薬の投与を受けているにもかかわらず急性発症し異常な死に方で発見された。",
-		   NULL, "O contato de Tóquio, Tomitake, foi encontrado morto devido à doença, embora tenha sido vacinado contra ela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O contato da Tóquio, Tomitake, foi encontrado morto devido à doença, mesmo tendo sido vacinado contra ela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2390,7 +2390,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……本当に殺されたのか実は生きているのかは取り敢えず捨て置くが……。",
-		   NULL, "...Embora eu não tenha certeza se ela está realmente morta ou não...", Line_Normal);
+		   NULL, "...Na verdade, eu não tenho certeza se ela está realmente morta ou não...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2402,40 +2402,40 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………入江が怪しい、鷹野が怪しいというこの状況に来て初めて東京を疑った。",
-		   NULL, "...Embora eu suspeitasse de Irie e Takano, esta foi a primeira vez que duvidei de Tóquio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mesmo que eu tenha suspeitado do Irie e da Takano, esta foi a primeira vez que duvidei da Tóquio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　東京は味方のはずだと思っていた。",
-		   NULL, "Eu sempre pensei que eles estavam do meu lado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu sempre pensei que eles eram meus aliados.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん味方だ。",
-		   NULL, "Eles tinham que estar.", Line_WaitForInput);
+		   NULL, "Eles deveriam ser.", Line_WaitForInput);
 	OutputLine(NULL, "私が死ねば大惨事になる。",
-		   NULL, " Minha morte não levaria a nada além de desastre.", Line_Normal);
+		   NULL, " Minha morte só traria desastre.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/aka2", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが同時に、東京の内側に、それを切り札にして何かを目論んでいる人間もいるようなのだ。",
-		   NULL, "Ao mesmo tempo, pode haver pessoas em Tóquio que possam usar a minha morte como um trunfo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ao mesmo tempo, parece que há pessoas da Tóquio que estão tramando usar a minha morte como um trunfo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………東京に派閥があるなんて、考えたこともなかった。",
-		   NULL, "......Nunca considerei que houvesse facções opostas dentro de Tóquio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Nunca considerei que houvesse facções opostas dentro da Tóquio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……いや、「東京」の方針が変りつつある時点で、世代交代に関わる新旧対立の構図を描けなかった私の浅はかさなのか。",
-		   NULL, "Acho que fui ingênua o suficiente para não perceber que Tóquio tinha problemas internos devido ao conflito de gerações...", Line_Normal);
+		   NULL, "Acho que fui ingênua o suficiente para não perceber que a Tóquio tinha problemas internos devido ao conflito de gerações...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2445,37 +2445,37 @@ void main()
 	Wait( 600 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…………鷹野の死体がニセモノかも知れないと、たったひとつを疑わない限り、至れなかった。",
-		   NULL, " eu não estaria me sentindo assim se não suspeitasse que Takano ainda poderia estar viva...", Line_Normal);
+		   NULL, " eu não estaria me sentindo assim se não suspeitasse que a Takano ainda poderia estar viva...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/aka1", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　このたったひとつに気付けたら、一気に真相が見えてきた。",
-		   NULL, "Eu sinto que estou começando a ver a imagem maior.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sinto que perceber isso me permitiu chegar mais perto da verdade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろん悪いのは入江で鷹野は善良な犠牲者である可能性もある。",
-		   NULL, "Também é possível que Takano seja a vítima e Irie seja o assassino.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Também é possível que a Takano seja a vítima e o Irie seja o assassino.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………つまり、私を今、守ってくれている山狗２０人は、頼もしい味方か、私を殺す暗殺者なのかの二択だというわけだ。",
-		   NULL, "A Yaminu pode estar do meu lado ou pode ser assassinos que estão tentando me matar...", Line_Normal);
+		   NULL, "Ou seja, a Yamainu pode ser duas coisas: aliados confiáveis ou assassinos que querem me matar...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 1300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…汚物の混じったリスクのあるワイン樽なんか怖くて選べない。",
-		   NULL, "...Eu estava com muito medo de escolher um vinho que corresse o risco de algo venenoso misturado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu tenho medo de escolher um vinho, tendo em vista o risco de ter veneno misturado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それならば多少不味くても綺麗なワイン樽の方が安心できる……。",
-		   NULL, "Nesse caso, eu poderia ficar tranquila com uma garrafa nova e fechada, mesmo que estivesse um pouco ruim...", Line_Normal);
+		   NULL, "Nesse caso, eu poderia ficar tranquila com uma garrafa nova e fechada, mesmo que estivesse com o gosto um pouco ruim...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/hu_r1", 1000 );
@@ -2489,18 +2489,18 @@ void main()
 	OutputLine(NULL, "　本当に私は馬鹿だ。",
 		   NULL, "Eu sou realmente idiota.", Line_WaitForInput);
 	OutputLine(NULL, "……色々考えているつもりで、百年間も考えて、何もわかっちゃいなかった。",
-		   NULL, " ...Achei que estava pensando muito, mas na verdade nunca entendi nada.", Line_Normal);
+		   NULL, " ...Achei que estava pensando muito. Passei cem anos pensando nessas coisas, mas, na verdade, nunca entendi nada.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こうしてみんなに口を開くだけで、勝手に理解できてしまうことがたくさんある。",
-		   NULL, "Depois de todo esse tempo, deixei as coisas claras apenas conversando sobre elas com meus amigos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Depois de todo esse tempo, consegui entender apenas conversando sobre elas com meus amigos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…仲間に打ち明けるだけで、こんなにも何かが違うのか…。",
-		   NULL, "...Eu nunca pensei que isso faria uma diferença tão grande...", Line_Normal);
+		   NULL, "...Eu nunca pensei que confiar neles faria uma diferença tão grande...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 3000 );
