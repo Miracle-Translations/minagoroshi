@@ -994,7 +994,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "org/mob7i6000", 256, TRUE);
 	OutputLine(NULL, "「そんな危険な病気、初めて聞いたよ！",
 		   NULL, "\"Nunca ouvi falar de uma doença tão perigosa!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "org/mob7i6000", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7i6001", 256, TRUE);
 	OutputLine(NULL, "　本当に治療の手段はないのか？！」",
 		   NULL, " Não há cura para isso?\"", Line_Normal);
 	ClearMessage();
