@@ -27,3 +27,7 @@ Tradução de _Higurashi no Naku Koro ni Hou_ do _Project Miracle_ compatível c
 [Cap. 5 Meakashi](https://github.com/0Mateus/meakashi)
 
 [Cap. 6 Tsumihoroboshi](https://github.com/0Mateus/tsumihoroboshi)
+
+Cap. 7 Minagoroshi
+
+Cap. 8 Matsuribayashi
