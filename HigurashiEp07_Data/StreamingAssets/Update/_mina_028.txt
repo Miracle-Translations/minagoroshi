@@ -97,7 +97,7 @@ void main()
 		   NULL, " Repito, você não tem permissão para disparar suas armas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/honbu28017", 256, TRUE);
 	OutputLine(NULL, "本部より鶯。",
-		   NULL, " QG para Nightingale. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " QG para Rouxinol. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Quartel General</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/honbu28018", 256, TRUE);
 	OutputLine(NULL, "鳳が作戦を開始する。",
@@ -107,7 +107,7 @@ void main()
 		   NULL, " Desligue as linhas telefônicas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Nightingale 1</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Rouxinol 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/ugu128013", 256, TRUE);
 	OutputLine(NULL, "「鶯了解。",
 		   NULL, "\"Certo.", Line_WaitForInput);
