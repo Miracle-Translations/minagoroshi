@@ -48,9 +48,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうね。",
-		   NULL, "Entendo.", Line_WaitForInput);
+		   NULL, "Entendi.", Line_WaitForInput);
 	OutputLine(NULL, "古いカケラをもう一度積み木遊びしてみると、別のものが見えて楽しいかもしれないわね。",
-		   NULL, " Você ainda pode encontrar algo diferente examinando alguns fragmentos antigos.", Line_Normal);
+		   NULL, " Você ainda pode encontrar algo diferente examinando alguns Fragmentos antigos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -65,25 +65,25 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　箱遊びも、箱の中身を知ってしまえばもう何の楽しみもない。",
-		   NULL, "Para mim, brincar com esses fragmentos deixa de ser divertido quando descubro o que tem dentro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Para mim, brincar com esses Fragmentos deixa de ser divertido quando descubro o que tem dentro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それでもなお、箱遊びが楽しめるのだとしたら、あなたはなかなか殊勝だと思うわ。",
-		   NULL, "...Mas se você puder me dizer como se divertir com eles, isso o tornará muito inteligente.", Line_Normal);
+		   NULL, "...Mas se você puder me dizer como se divertir com eles, isso me fará te ver como alguém muito admirável.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　え？",
 		   NULL, "O quê?", Line_WaitForInput);
 	OutputLine(NULL, "　私はどういう遊びをしているのか？",
-		   NULL, " Você quer saber com o que eu jogo?", Line_Normal);
+		   NULL, " Você quer saber com o que eu brinco?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　遊びというよりは、退屈しのぎね。",
-		   NULL, "Eu não jogo. Estou apenas matando tempo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não estou brincando. Só matando tempo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -100,7 +100,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今回のカケラで、世界の構造をほとんどわかったでしょう？",
-		   NULL, "Você descobriu como esses mundos são configurados olhando os anteriores, certo?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Você descobriu como esses mundos são definidos olhando os anteriores, certo?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -111,7 +111,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どんなカケラか見たいって？",
-		   NULL, "Você quer ver o que está em minha mente?", Line_Normal);
+		   NULL, "Você quer ver o que eu estou imaginando?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -133,12 +133,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自己満足のようなカケラだから、恥ずかしくてとても見せられないけれどもね。",
-		   NULL, "É apenas minha imaginação. Não cabe a mim compartilhar com você...", Line_Normal);
+		   NULL, "É apenas a minha imaginação, então estou com vergonha de compartilhar com você...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、梨花がこれから作ってくれるカケラの方が、もっともっと輝いてくれるに違いない。",
-		   NULL, "Tenho certeza de que o mundo que Rika está prestes a criar é melhor do que qualquer coisa na minha imaginação.", Line_Normal);
+		   NULL, "Tenho certeza de que o mundo que Rika está prestes a criar é melhor do que qualquer coisa que eu possa imaginar.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -149,7 +149,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはそれで、梨花のひとつの世界の終焉としてこの上なく輝かしいカケラとなるでしょうし。",
-		   NULL, "Tenho certeza de que este mundo agora encerrado continuará sendo um dos fragmentos mais brilhantes de Rika de qualquer maneira.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tenho certeza de que este mundo agora encerrado continuará sendo um dos Fragmentos mais brilhantes de Rika.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -157,12 +157,12 @@ void main()
 	OutputLine(NULL, "　どんなに苦難があったにせよ、",
 		   NULL, "Não importa o quanto ela lute,", Line_WaitForInput);
 	OutputLine(NULL, "もしもそれを乗り越えられたなら、もっともっと輝くカケラになるでしょうし。",
-		   NULL, " se ela realmente superar seu destino, será o fragmento mais brilhante de sua história.", Line_Normal);
+		   NULL, " se ela realmente superar seu destino, será o Fragmento mais brilhante de sua história.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私が描くどんな物語より、梨花が自ら紡ぐ物語の方がよっぽど素晴らしいものになるでしょうね。",
-		   NULL, "Tenho certeza de que a vida que Rika vive é uma história melhor do que uma imaginação chata.", Line_Normal);
+		   NULL, "Tenho certeza de que a história que a própria Rika vai contar é bem melhor do que a minha imaginação chata.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -193,12 +193,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どんな世界なのかしらね。",
-		   NULL, "Como será que é essa vida?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como será que é esse novo mundo?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これから見に行ってみるつもり。",
-		   NULL, "Estou indo lá agora para verificar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vou lá agora para verificar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
