@@ -178,7 +178,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　記憶のカケラで積み木遊び？",
-		   NULL, "Você está coletando fragmentos de memória?", Line_Normal);
+		   NULL, "Você está coletando Fragmentos de memória?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -194,7 +194,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当はもっともっとたくさんあったの。",
-		   NULL, "Costumava haver mais fragmentos há muito tempo atrás, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Costumava haver mais Fragmentos há muito tempo atrás, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -332,7 +332,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そっちのカケラは「綿流し編」よ。",
-		   NULL, "Esse fragmento é o capítulo \"Watanagashi\".", Line_Normal);
+		   NULL, "Esse Fragmento é o capítulo \"Watanagashi\".", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(2, 256, "flashback");
@@ -372,7 +372,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そっちのカケラは「祟殺し編」という世界よ。",
-		   NULL, "Aquele fragmento ali é o capítulo \"Tatarigoroshi\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aquele Fragmento ali é o capítulo \"Tatarigoroshi\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	ModDrawCharacter(1, 4, "sprite/sa1b_hannbeso_b1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -493,7 +493,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、あなたが今遊んでいるその記憶のカケラという積み木が、「複数個」見えている時点で、あなたはとてもとても特別な存在だということなの。",
-		   NULL, "Você é especial o suficiente para poder ver aqueles fragmentos de memória.", Line_Normal);
+		   NULL, "Você é especial o suficiente para poder ver aqueles Fragmentos de memória.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -509,7 +509,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だってあなたは、それらが複数見えることが当り前な世界に、最初から生まれてきたのだから。",
-		   NULL, "Você nasceu em um mundo onde é natural ver esses fragmentos.", Line_Normal);
+		   NULL, "Você nasceu em um mundo onde é natural ver esses Fragmentos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -519,13 +519,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、記憶のカケラで積み木遊びができるなんてことは、本当に最近になって覚えたのよ。",
-		   NULL, "Eu não sabia até recentemente que poderia coletar esses fragmentos de memória.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não sabia até recentemente que poderia coletar esses Fragmentos de memória.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あなたが、手悪戯がしたくて手に取っただけの行為でも、私にとっては長い時間の中でようやく気付いたこと。",
-		   NULL, "Você pegou aqueles fragmentos só porque podia, mas eu não sabia como fazer isso há muito tempo.", Line_Normal);
+		   NULL, "Você pegou aqueles Fragmentos só porque podia, mas eu não sabia como fazer isso há muito tempo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -784,7 +784,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちょっとの積み木遊びだけでも、園崎魅音が部活に対してどんなことを考えているか、案外わかるものでしょう？",
-		   NULL, "Podemos ler a mente de Mion Sonozaki simplesmente examinando estes fragmentos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Podemos ler a mente de Mion Sonozaki simplesmente examinando estes Fragmentos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -815,7 +815,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、私たちは、たくさんあるカケラを重ね合わせて、彼らには気付けない真実を見付け出すことができる。",
-		   NULL, "Nós, no entanto, podemos comparar diferentes fragmentos e descobrir algo que eles nunca poderiam ver.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nós, no entanto, podemos comparar diferentes Fragmentos e descobrir algo que eles nunca poderiam ver.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -831,7 +831,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少なくとも、あなたの手元にある５〜６個のカケラの中には、前原圭一が友人たちを撲殺する物語はその１つしかないはず。",
-		   NULL, "Na verdade, embora haja cerca de cinco ou seis fragmentos na sua frente, ele só mata suas amigas em um deles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na verdade, embora haja cerca de cinco ou seis Fragmentos na sua frente, ele só mata suas amigas em um deles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -989,7 +989,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　複数の世界のカケラを重ねて透かし見た時。",
-		   NULL, "Quando examinamos esses fragmentos de múltiplos mundos,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando examinamos esses Fragmentos de múltiplos mundos,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1261,7 +1261,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石蔵人というコマの役割については、これまでのカケラを重ね合わせれば見えてくる。",
-		   NULL, "Ao comparar nossos fragmentos anteriores, o papel da peça conhecida como Kuraudo Ooishi fica claro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ao comparar nossos Fragmentos anteriores, o papel da peça conhecida como Kuraudo Ooishi fica claro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1436,7 +1436,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これについては手元にあるカケラから完全な解答が出ているわね。",
-		   NULL, "Você já deve ter uma resposta para esse mistério em seus fragmentos em mãos.", Line_Normal);
+		   NULL, "Você já deve ter uma resposta para esse mistério em seus Fragmentos em mãos.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/flashback/so2", 1000 );
@@ -1492,7 +1492,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今この場にある記憶のカケラはほとんどが昭和５８年のものしかないから、",
-		   NULL, "Quase todos os fragmentos de memórias que temos aqui são de 1983,", Line_WaitForInput);
+		   NULL, "Quase todos os Fragmentos de memórias que temos aqui são de 1983,", Line_WaitForInput);
 	OutputLine(NULL, "昭和５４年から５７年までの事件についてはさっぱりわからないけれど。",
 		   NULL, " então não tenho ideia sobre os incidentes de 1980-1982.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1513,7 +1513,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まぁ、ここにあるカケラからは真実が確かめようもないけれど。",
-		   NULL, "Bem, não tenho como discernir a verdade dos fragmentos aqui.", Line_Normal);
+		   NULL, "Bem, não tenho como discernir a verdade dos Fragmentos aqui.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1556,7 +1556,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここにあるカケラはほとんどが昭和５８年のものだから、詩音のこの仮説が正しいかは裏付けられないけれど、それでも興味深い部分があるわ。",
-		   NULL, "Como a maioria dos fragmentos aqui são de 1983, não há nada que apoie a validade da teoria de Shion, mas ainda há coisas interessantes sobre ela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como a maioria dos Fragmentos aqui são de 1983, não há nada que apoie a validade da teoria de Shion, mas ainda há coisas interessantes sobre ela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1698,7 +1698,7 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "世界のカケラを重ね合わせてわかる最後の事実がもう１つある。",
-		   NULL, " Há mais um fato que podemos entender a partir desses fragmentos de mundos.", Line_Normal);
+		   NULL, " Há mais um fato que podemos entender a partir desses Fragmentos de mundos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1848,7 +1848,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もっとも、この悲劇もまた、私たちのように、異なる世界のカケラを重ね透かすことができる存在にしか知覚できない悲劇なのだけれども。",
-		   NULL, "Porém, é uma tragédia que só conseguimos receber, porque somos seres capazes de comparar fragmentos de mundos diferentes.", Line_Normal);
+		   NULL, "Porém, é uma tragédia que só conseguimos receber, porque somos seres capazes de comparar Fragmentos de mundos diferentes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2161,7 +2161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一が、他の世界のわずかなカケラを偶然に知覚でき、ルールＸを打ち破ったのだ。",
-		   NULL, "Keiichi Maebara foi capaz de reconhecer um pequeno fragmento de outro mundo por acaso e venceu a regra X.", Line_Normal);
+		   NULL, "Keiichi Maebara foi capaz de reconhecer um pequeno Fragmento de outro mundo por acaso e venceu a regra X.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -2288,7 +2288,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　記憶のカケラという玩具も次第に薄れて消え、",
-		   NULL, "Os fragmentos de nossas memórias desaparecerão gradualmente,", Line_ContinueAfterTyping);
+		   NULL, "Os Fragmentos de nossas memórias desaparecerão gradualmente,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
