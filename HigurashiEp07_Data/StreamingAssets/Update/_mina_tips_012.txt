@@ -21,7 +21,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　復活とは肉体が蘇ることではなく、その心と教えが蘇ることだからです。",
-		   NULL, "Ele quis dizer que seu espírito e suas lições seriam ressuscitação, não sua casca física.", Line_Normal);
+		   NULL, "Ele quis dizer que seu espírito e suas lições seriam ressuscitados, não a sua casca física.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -58,7 +58,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを試すことは即ち、神を試すということです。",
-		   NULL, "Ele tentou desafiar o senhor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele tentou desafiar o Senhor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -83,7 +83,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らの成果を疑うな。",
-		   NULL, "Não duvide de suas próprias conquistas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não duvide das suas próprias conquistas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -93,13 +93,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らの貢献を疑うな。",
-		   NULL, "Não duvide de suas contribuições.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não duvide das suas contribuições.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして自分の実績を人が評価することを試してはならない。",
-		   NULL, "Não deixe que outros critiquem suas conquistas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não deixe que outros critiquem as suas conquistas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
