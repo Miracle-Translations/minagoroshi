@@ -23,33 +23,33 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442900001", 256, TRUE);
 	OutputLine(NULL, "「はい。雛見沢の総意でないとわかればこちらも落ち着いて処理ができます。」",
-		   NULL, "\"Eu irei. Fico feliz em saber que o vilarejo inteiro não os apoia.\"", Line_Normal);
+		   NULL, "\"Eu irei. Fico feliz em saber que não é um consenso no vilarejo inteiro, então poderemos trabalhar com calma.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100003", 256, TRUE);
 	OutputLine(NULL, "「しかし、私は好きになれませんね。裏に誰がいようがいなかろうが、常に公平な対応をするのが公務員です。",
-		   NULL, "\"Eu não concordaria com eles se apoiassem, no entanto. Não importa quem esteja controlando, devemos tratar todos os casos igualmente. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"E mesmo se fosse, eu não concordaria com eles. Não importa quem seja, devemos tratar todos os casos igualmente. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100004", 256, TRUE);
 	OutputLine(NULL, "恫喝がまかり通るようなことがあったという先例を残したから、雛見沢は特別扱いだという妙なルールができてしまったのではないですか？」",
-		   NULL, "Toda essa estranha regra de que devemos dar tratamento especial a Hinamizawa se deve apenas ao precedente estabelecido quando deixamos que as ameaças nos influenciem antes.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não é estranha essa regra de que devemos dar tratamento especial a Hinamizawa? Só por causa do precedente estabelecido quando deixamos as ameaças nos influenciar antes.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442900002", 256, TRUE);
 	OutputLine(NULL, "「……まぁ、確かに所長の仰るとおりだとは思いますが、……一応ですね、その…。」",
-		   NULL, "\"...Bem, você está absolutamente certo, senhor, mas...\"", Line_Normal);
+		   NULL, "\"...Bom, você está absolutamente certo, senhor, mas...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100005", 256, TRUE);
 	OutputLine(NULL, "「わざわざ自治の係長が、連合町会が背景にいないことを確認してくれたんですから、うちの職員も厳粛に事務を進めてください。",
-		   NULL, "\"Por favor, continue trabalhando neste caso. O gestor da prefeitura garantiu-nos que a Câmara Municipal nada tem a ver com esta petição. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Por favor, continue trabalhando neste caso. O gerente da prefeitura nos garantiu que a Câmara Municipal nada tem a ver com esta petição. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100006", 256, TRUE);
 	OutputLine(NULL, "雛見沢だからどうすべきかとお伺いを立てること自体がすでに公務員の心構えとして問題です。係長も、その辺をよく職員に教えてくれなければ困ります。」",
-		   NULL, "É um problema que a nossa organização tenha tanto medo de uma pequena comunidade. Como gerente, você deve pensar um pouco sobre isso.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É um problema que a nossa organização tenha tanto medo de uma comunidade pequena. Como gerente, você deve pensar um pouco sobre isso.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
@@ -61,13 +61,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100007", 256, TRUE);
 	OutputLine(NULL, "「裏に村がいるとわかっても、対応を焦るべきではありません。何があろうとも！",
-		   NULL, "\"Você deve agir da mesma forma, mesmo que a aldeia os apoie. Não importa quem está nos bastidores!", Line_WaitForInput);
+		   NULL, "\"Você deve agir da mesma forma, mesmo que o vilarejo os apoie. Não tenha pressa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100008", 256, TRUE);
 	OutputLine(NULL, "　北条沙都子さんの件は慎重に対応してください。",
-		   NULL, " Por favor, tenha muito cuidado com o caso de Satoko Houjou.", Line_WaitForInput);
+		   NULL, " Por favor, trate o caso de Satoko Houjou com muito cuidado.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100009", 256, TRUE);
 	OutputLine(NULL, "くれぐれも異例の措置は取らないよう、担当に念を押しておいてくださいよ。」",
-		   NULL, " Não tente dar nenhum tratamento especial a ela, entendeu?\"", Line_Normal);
+		   NULL, " Não dê nenhum tratamento especial a ela, entendeu?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
