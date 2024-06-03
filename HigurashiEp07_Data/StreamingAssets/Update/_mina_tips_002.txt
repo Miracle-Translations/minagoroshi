@@ -8,12 +8,12 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　夕食後、私と沙都子と羽入はテレビを見ていた。",
-		   NULL, "Eu estava assistindo TV com Satoko e Hanyuu depois do jantar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu estava assistindo TV com a Satoko e a Hanyuu depois do jantar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　バラエティ番組の中で、お笑い芸人がどっと観客を沸かせる。",
-		   NULL, "Era um show de variedades e os artistas faziam o público rir.", Line_WaitForInput);
+		   NULL, "Era um programa de variedades, onde um comediante fazia o público rir.", Line_WaitForInput);
 	OutputLine(NULL, "私たちも大笑いしていた。",
 		   NULL, " Estávamos rindo também.", Line_Normal);
 	ClearMessage();
@@ -46,18 +46,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の目から見ると３人での食後の団欒だが、実際には私と沙都子の２人しかいない。",
-		   NULL, "Enquanto nós três estávamos nos divertindo, na verdade só estavam Satoko e eu na sala.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Do meu ponto de vista, estávamos nós três nos divertindo, mas na verdade só estavam Satoko e eu na sala.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入が見えるのは私だけだ。",
-		   NULL, "Eu sou a única que pode ver Hanyuu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu sou a única que pode ver a Hanyuu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子には当然見えていない。",
-		   NULL, "Satoko não consegue vê-la.", Line_Normal);
+		   NULL, "A Satoko não consegue vê-la.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -66,12 +66,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子が何かを言うたびに羽入も相槌を打つ。",
-		   NULL, "Hanyuu responde toda vez que Satoko diz algo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Toda vez que a Satoko diz algo, Hanyuu responde.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その相槌が沙都子に聞こえるわけではないのだが、羽入は機嫌がいい時にはよく相槌を打っていた。",
-		   NULL, "Satoko não consegue ouvi-la, mas Hanyuu ainda responde quando ela está de bom humor.", Line_Normal);
+		   NULL, "Mesmo não conseguindo ser ouvida, ela ainda responde quando está de bom humor.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -87,32 +87,32 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私以外の人間と意思を疎通できな羽入が、そういう遊びを覚えたのは必然と言えたに違いない。",
-		   NULL, "Ela começou a jogar esse jogo com outras pessoas, porque ela não consegue se comunicar com ninguém além de mim.", Line_Normal);
+		   NULL, "Já que ela não consegue se comunicar com ninguém além de mim, essa foi a forma em que ela começou a agir.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、部活にも羽入はいつも一緒にいて、みんなの盛り上がりと一緒になって笑ったりハラハラしたりしているのだ。",
-		   NULL, "Hanyuu sempre participa das reuniões do nosso clube e se diverte lá também.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É por isso que ela sempre participa das reuniões do nosso clube e se diverte junto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……もし、羽入が普通に会話をすることができたなら、私たちの良き仲間として迎え入れられてるだろうか。",
-		   NULL, "...Se ela pudesse se comunicar com meus outros amigos, ela poderia ser uma boa amiga para nós.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...E se ela pudesse se comunicar com os meus outros amigos? Ela seria bem aceita?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それを想像することは、かえって羽入を傷つけることになるので避けた。",
-		   NULL, "...Mas eu não quero ferir os sentimentos dela pensando sobre isso.", Line_Normal);
+		   NULL, "...É melhor eu evitar pensar sobre isso porque não quero ferir os sentimentos dela.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手家に伝わる古い古文書に出て来る奇跡の話が、全て事実でそれが羽入を指すなら、",
-		   NULL, "Se a história do milagre escrito nas antigas escrituras for verdadeira, se foi realmente Hanyuu quem o realizou,", Line_WaitForInput);
+		   NULL, "Se todas as histórias de milagres escritas nas antigas escrituras passadas pela família Furude forem verdadeiras, e se elas se referem a Hanyuu, então...", Line_WaitForInput);
 	OutputLine(NULL, "羽入は太古の昔、少なくない人々と交流しその力を示せた。",
-		   NULL, " ela é alguém que tinha um poder tremendo há muito tempo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " antigamente, ela conseguia se comunicar com os outros e mostrar o seu poder a muitas pessoas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -123,13 +123,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入がどうしてそういう、らしい力を喪失したのかは語られたことがない。",
-		   NULL, "Hanyuu nunca me contou como ela perdeu seu poder.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hanyuu nunca me contou como ela perdeu seus poderes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時代と近代化が進み、神々の居場所がなくなるにつれ羽入の力や存在は薄まっていったのだろうと納得するしかなかった。",
-		   NULL, "Eu só tenho que assumir que o poder espiritual dela diminuiu com o tempo...", Line_Normal);
+		   NULL, "Eu só pude presumir que o poder espiritual dela diminuiu com o tempo...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -147,12 +147,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それは人間側の見地からだと、オヤシロさまが蘇ったということになるのだろうか。",
-		   NULL, "Isso significa que Oyashiro-sama retornou...?", Line_Normal);
+		   NULL, "Isso significa que Oyashiro-sama renasceu...?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村人たちが崇めるオヤシロさまという存在と、そうだと主張する羽入の存在は時々重ならない。",
-		   NULL, "A imagem que os moradores têm de Oyashiro-sama não corresponde exatamente à de Hanyuu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A imagem que os moradores do vilarejo têm de Oyashiro-sama não corresponde exatamente à de Hanyuu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
