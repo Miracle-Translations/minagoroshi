@@ -11,7 +11,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神がいつ降臨されるのかは誰も知りません。",
-		   NULL, "Vigiai, pois, porque não sabeis a que hora virá o vosso senhor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Vigiai, pois, porque não sabeis a que hora virá o vosso Senhor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -24,7 +24,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから予期せずしてその時を迎えて、不信心であったことを悔いぬよう、常に目を醒ましていなさい。",
-		   NULL, "Portanto, estai vós também preparados; porque na hora em que não imaginais, o Filho do homem virá.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Portanto, estai vós também preparados; porque na hora em que não imaginais, o Filho do Homem virá.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -49,7 +49,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつ日の光を浴びるかは、その神すらも知り得ないのだから。",
-		   NULL, "Seu Deus nem sabe quando verá a luz.", Line_Normal);
+		   NULL, "Seu Deus nem mesmo sabe quando verá a luz do dia.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -84,7 +84,7 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 9 ); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　Hifumi T. ",
+	OutputLine(NULL, "　Hifumi．T ",
 		   NULL, "                                   Hifumi T.", Line_Normal);
 	ClearMessage();
 
