@@ -253,7 +253,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400005", 256, TRUE);
 	OutputLine(NULL, "「私、興宮分校教諭の知恵と申します…！",
-		   NULL, "\"Meu nome é Chie e eu sou professora da Escola Secundária de Hinamizawa!", Line_Continue);
+		   NULL, "\"Meu nome é Chie e eu sou a professora da Escola Secundária de Hinamizawa!", Line_Continue);
 	Wait( 5000 );
 	OutputLine(NULL, "　北条沙都子さんはいらっしゃいますか。」",
 		   NULL, " Satoko Houjou-san está aqui?\"", Line_Normal);
