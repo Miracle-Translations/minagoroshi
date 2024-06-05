@@ -3695,12 +3695,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　生きていればその内いいことがあると信じられるから生きていける。",
-		   NULL, "As pessoas podem sobreviver porque acreditam que algo de bom lhes acontecerá eventualmente, desde que continuem vivendo.", Line_Normal);
+		   NULL, "As pessoas podem sobreviver porque acreditam que algo de bom lhes acontecerá em algum momento, desde que continuem vivendo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもそれは、運命を知りえない普通の人間たちの楽観論の話だ。",
-		   NULL, "Mas isso é apenas para pessoas normais que não sabem o que os esperam no futuro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas isso é apenas para pessoas normais que não sabem o que as esperam no futuro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
