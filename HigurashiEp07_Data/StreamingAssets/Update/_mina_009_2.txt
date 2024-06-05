@@ -1226,7 +1226,7 @@ void main()
 		   NULL, "\"Satoko!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000002", 256, TRUE);
 	OutputLine(NULL, "　なぁんね放ったらかん！！",
-		   NULL, " O que você diabos tá fazendo?", Line_WaitForInput);
+		   NULL, " O que diabos você tá fazendo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000003", 256, TRUE);
 	OutputLine(NULL, "　どご行きよんね！！」",
 		   NULL, " É melhor você não ir a lugar nenhum!!\"", GetGlobalFlag(GLinemodeSp));
