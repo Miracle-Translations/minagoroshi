@@ -2090,7 +2090,7 @@ void main()
 		   NULL, " O centro vai voltar aqui na próxima semana...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps2/21/182000045", 540, TRUE);
 	OutputLine(NULL, "…腫れが引かんがったん、面倒なごとになるのぉ……。",
-		   NULL, " ...Eu vou tá fodido se ainda tiver inchado até lá...", Line_WaitForInput);
+		   NULL, " ...Eu vou me foder se ainda tiver inchado até lá...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps2/21/182000046", 540, TRUE);
 	OutputLine(NULL, "ああぁッ！！！",
 		   NULL, " Aaaaah, que merda!!!", Line_WaitForInput);

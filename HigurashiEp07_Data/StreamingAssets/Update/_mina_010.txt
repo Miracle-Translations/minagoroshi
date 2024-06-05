@@ -1244,10 +1244,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000026", 256, TRUE);
 	OutputLine(NULL, "「あぁん、…風邪なんねぇ、そうそう。",
-		   NULL, "\"Ahh... Ela está doente... É isso aí. Ela está resfriada.", Line_WaitForInput);
+		   NULL, "\"Ahh... Ela tá doente... É isso aí. Ela tá resfriada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000027", 256, TRUE);
 	OutputLine(NULL, "…沙都子は風邪で熱ぅ出してるんですわ。」",
-		   NULL, " Ela está descansando porque está com febre...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela está descansando porque tá com febre...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
