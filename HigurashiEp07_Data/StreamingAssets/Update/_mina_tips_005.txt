@@ -311,16 +311,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 21, "ps3/s20/21/442000004", 256, TRUE);
 	OutputLine(NULL, "「あぁん、…風邪なんねぇ、そうそう",
-		   NULL, "\"Ahh... Ela está doente... É isso aí. Ela está resfriada.", Line_Continue);
+		   NULL, "\"Ahh... Ela tá doente... É isso aí. Ela tá resfriada.", Line_Continue);
 	Wait( 3700 );
 	OutputLine(NULL, "。…沙都子は風邪で熱ぅ出してるんですわ。」",
-		   NULL, " Ela está descansando porque está com febre...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela tá descansando porque tá com febre...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400009", 256, TRUE);
 	OutputLine(NULL, "「プリントとかをお渡ししたいですので、ちょっとだけお話することはできませんか？」",
-		   NULL, "\"Preciso ter uma conversinha com ela. Posso vê-la, por favor?\"", Line_Normal);
+		   NULL, "\"Preciso entregar umas anotações. Posso conversar com ela?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
@@ -332,10 +332,10 @@ void main()
 		   NULL, " Você não ouviu o que eu acabei de dizer?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s20/21/442000006", 256, TRUE);
 	OutputLine(NULL, "沙都子は風邪じゃ！",
-		   NULL, " Satoko está doente!", Line_WaitForInput);
+		   NULL, " Satoko tá doente!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s20/21/442000007", 256, TRUE);
 	OutputLine(NULL, "　うんうんうなっとるんね！！",
-		   NULL, " Ela está dormindo agora!!", Line_WaitForInput);
+		   NULL, " Ela tá dormindo agora!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s20/21/442000008", 256, TRUE);
 	OutputLine(NULL, "　それを会わせられるかいボケぇ！！」",
 		   NULL, " Eu não posso deixar você ver ela, imbecil!!\"", Line_Normal);
@@ -391,7 +391,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s20/22/441400011", 256, TRUE);
 	OutputLine(NULL, "「……………………そ、…そうですか。",
-		   NULL, "\"............Eu... eu entendo.", Line_Continue);
+		   NULL, "\"............Eu... Eu entendo.", Line_Continue);
 	Wait( 3700 );
 	OutputLine(NULL, "…わかりました。",
 		   NULL, " Certo...", Line_WaitForInput);

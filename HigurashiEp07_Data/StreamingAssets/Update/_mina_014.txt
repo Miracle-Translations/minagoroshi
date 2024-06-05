@@ -2061,7 +2061,7 @@ void main()
 		   NULL, " Você não estava aqui em Hinamizawa no ano passado...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6056", 256, TRUE);
 	OutputLine(NULL, "　鉄平さんについてそう詳しくご存知とは思えない。",
-		   NULL, " Eu acho que você não muito sobre Teppei-san.", Line_WaitForInput);
+		   NULL, " Eu acho que você não muito sobre o Teppei-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6057", 256, TRUE);
 	OutputLine(NULL, "…にもかかわらず、どうしてそこまで鉄平さんを危険視できるんですかねぇ？」",
 		   NULL, " Por que você tem tanta certeza de que ele é tão perigoso?\"", Line_Normal);
@@ -2076,7 +2076,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…確かに俺は鉄平のことを詳しくは知らない。",
-		   NULL, "...Ele estava certo. Eu não sabia muito sobre Teppei.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ele estava certo. Eu não sabia muito sobre o Teppei.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

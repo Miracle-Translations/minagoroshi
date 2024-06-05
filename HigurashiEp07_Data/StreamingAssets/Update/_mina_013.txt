@@ -1641,7 +1641,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6010", 256, TRUE);
 	OutputLine(NULL, "「…なるほど、では去年の時点でも鉄平氏は児童に虐待を加えていた可能性があると…。」",
-		   NULL, "\"...Entendo. Então você afirma que havia uma probabilidade de Teppei-san também ter infligido abuso à criança nesta época do ano passado.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Entendo. Então você afirma que havia uma probabilidade do Teppei-san também ter infligido abuso à criança nesta época do ano passado.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1670,7 +1670,7 @@ void main()
 		   NULL, "\"Entendo. Estamos levando isso em consideração.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6012", 256, TRUE);
 	OutputLine(NULL, "鉄平氏の件については改めて調査させていただきます。」",
-		   NULL, " Por favor, permita-nos fazer uma investigação mais aprofundada sobre Teppei-san.\"", Line_Normal);
+		   NULL, " Por favor, permita-nos fazer uma investigação mais aprofundada sobre o Teppei-san.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(2, 2, "sprite/re1a_def_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
@@ -1689,7 +1689,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6013", 256, TRUE);
 	OutputLine(NULL, "「もちろん当方でも、鉄平氏が一年間自宅を空けられていた件は把握しており、それについて鉄平氏にもお尋ねしています。」",
-		   NULL, "\"É claro que nosso escritório está ciente de que Teppei-san esteve ausente de sua residência por um ano, e nós o entrevistamos sobre esse assunto.\"", Line_Normal);
+		   NULL, "\"É claro que nosso escritório está ciente de que o Teppei-san esteve ausente de sua residência por um ano, e nós o entrevistamos sobre esse assunto.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1764,7 +1764,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6018", 256, TRUE);
 	OutputLine(NULL, "鉄平氏と一緒に今後も住み続けたいですか、との問いにイエスのお返事をいただいておりますわけで…。」",
-		   NULL, "Quando perguntamos se ela desejava continuar morando com Teppei-san, ela respondeu diretamente...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando perguntamos se ela desejava continuar morando com o Teppei-san, ela respondeu diretamente...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1853,14 +1853,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6028", 256, TRUE);
 	OutputLine(NULL, "客観的に判断して、鉄平氏は親権者としての責務を全うしていないと断言できるレベルではありません。",
-		   NULL, "Não podemos dizer que Teppei-san não está assumindo a responsabilidade como seu responsável.", Line_WaitForInput);
+		   NULL, "Não podemos dizer que o Teppei-san não está assumindo a responsabilidade como seu responsável.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6029", 256, TRUE);
 	OutputLine(NULL, "鉄平氏も沙都子さんも、現在の生活に不満は申しておりませんでした。",
 		   NULL, " Ambos pareciam não ter queixas sobre suas atuais condições de vida. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6030", 256, TRUE);
 	OutputLine(NULL, "鉄平氏の去年の接し方やこの一年間の話は今後、指導していく余地があると思いますが…。",
-		   NULL, "Acreditamos que precisamos investigar mais a fundo o passado de Teppei-san...", Line_WaitForInput);
+		   NULL, "Acreditamos que precisamos investigar mais a fundo o passado do Teppei-san...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6031", 256, TRUE);
 	OutputLine(NULL, "とりあえずですね、皆さんにはちょっとお耳に痛い話になるかと思いますが、虐待があるというのは、正直なところ少々皆さんの過剰な反応ではないかと思います。」",
 		   NULL, " Mas, infelizmente, também acreditamos que você e seus amigos estão reagindo de forma exagerada a esta situação.\"", Line_Normal);
@@ -1985,7 +1985,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "org/harayama6038", 256, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	OutputLine(NULL, "皆さんはお友達的な感情からその方が幸せだと思われているかもしれませんが、どうか鉄平氏と沙都子さんが、叔父・姪の間柄でもう一度新しい生活をやり直すのを温かく見守っていただけないでしょうか。」",
-		   NULL, "Tenho certeza de que em sua amizade com ela, todos vocês acreditam que ela pode ser mais feliz assim, mas vocês poderiam, por favor, dar a Satoko-san e Teppei-san a oportunidade de recomeçarem suas novas vidas como tio e sobrinha, e cuidar deles gentilmente?\"", Line_Normal);
+		   NULL, "Tenho certeza de que em sua amizade com ela, todos vocês acreditam que ela pode ser mais feliz assim, mas vocês poderiam, por favor, dar a Satoko-san e o Teppei-san a oportunidade de recomeçarem suas novas vidas como tio e sobrinha, e cuidar deles gentilmente?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

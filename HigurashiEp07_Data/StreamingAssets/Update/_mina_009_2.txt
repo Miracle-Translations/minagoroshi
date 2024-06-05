@@ -1226,7 +1226,7 @@ void main()
 		   NULL, "\"Satoko!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000002", 256, TRUE);
 	OutputLine(NULL, "　なぁんね放ったらかん！！",
-		   NULL, " Que diabos está fazendo?", Line_WaitForInput);
+		   NULL, " O que você diabos tá fazendo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000003", 256, TRUE);
 	OutputLine(NULL, "　どご行きよんね！！」",
 		   NULL, " É melhor você não ir a lugar nenhum!!\"", GetGlobalFlag(GLinemodeSp));
@@ -1306,19 +1306,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000009", 256, TRUE);
 	OutputLine(NULL, "「遊びの約束だったかい？",
-		   NULL, "\"Você estava convidando ela para brincar?", Line_WaitForInput);
+		   NULL, "\"Você estava convidando ela pra brincar?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000010", 256, TRUE);
 	OutputLine(NULL, "　スマンのぉお、ちょいと沙都子は家の片付けで忙しいんよ。",
-		   NULL, " Sinto muito, mas ela está ocupada cuidando das tarefas.", Line_WaitForInput);
+		   NULL, " Sinto muito, mas ela tá ocupada cuidando das tarefas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000011", 256, TRUE);
 	OutputLine(NULL, "わしゃあ、沙都子の叔父なんね。",
 		   NULL, " Eu sou o tio dela.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000012", 256, TRUE);
 	OutputLine(NULL, "ちょおっと長いこと出張に出とってん。",
-		   NULL, " Eu estive fora por um tempo em uma viagem de negócios.", Line_WaitForInput);
+		   NULL, " Eu fiquei fora por um tempo em uma viagem de negócios.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000013", 256, TRUE);
 	OutputLine(NULL, "ようやく雛見沢に戻ってきたわけなんよ。」",
-		   NULL, " Finalmente estou de volta ao vilarejo, sabe.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Finalmente tô de volta ao vilarejo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1362,7 +1362,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000014", 256, TRUE);
 	OutputLine(NULL, "「なぁんね、泣く子も黙るわしのガンにびびってもうたんかいね。",
-		   NULL, "\"Você está intimidada com minha cara assustadora, é?", Line_WaitForInput);
+		   NULL, "\"Você tá intimidada com a minha cara assustadora, é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 21, "ps3/s12/21/182000015", 256, TRUE);
 	OutputLine(NULL, "がっはっはっはっは！！」",
 		   NULL, " Gah ha ha ha ha ha!!\"", GetGlobalFlag(GLinemodeSp));
@@ -2845,7 +2845,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900241", 256, TRUE);
 	OutputLine(NULL, "その女はどうも北条鉄平の愛人らしい。",
-		   NULL, "Acontece que aquela mulher era amante de Teppei Houjou.", Line_WaitForInput);
+		   NULL, "Acontece que aquela mulher era amante do Teppei Houjou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900242", 256, TRUE);
 	OutputLine(NULL, "綿流しも近いしね。",
 		   NULL, " O Watanagashi também está se aproximando... ", GetGlobalFlag(GLinemodeSp));
@@ -2864,7 +2864,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900244", 256, TRUE);
 	OutputLine(NULL, "「北条鉄平をマークしてれば、『オヤシロさまの祟り』の真犯人を吊り上げられると睨んでるのよ。」",
-		   NULL, "\"Eles suspeitam que podem descobrir o verdadeiro culpado por trás da maldição de Oyashiro-sama se mantiverem os olhos em Teppei Houjou.\"", Line_Normal);
+		   NULL, "\"Eles suspeitam que podem descobrir o verdadeiro culpado por trás da maldição de Oyashiro-sama se mantiverem os olhos no Teppei Houjou.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 9, "sprite/ta2_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
