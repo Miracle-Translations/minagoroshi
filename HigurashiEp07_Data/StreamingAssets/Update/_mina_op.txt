@@ -559,7 +559,7 @@ void main()
 	OutputLine(NULL, "　………何々？",
 		   NULL, "...O quê?", Line_WaitForInput);
 	OutputLine(NULL, "　どうして同じ舞台の世界なのに、これほどまでに違う事件が起こるのか？",
-		   NULL, " Você está curiosa para saber por que tantos incidentes diferentes ocorrem no mesmo mundo?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você está curiosa para saber por que tantos incidentes diferentes ocorrem na mesma Hinamizawa?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -853,7 +853,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さぁ、ここから何かの共通点が見つけられる…？",
-		   NULL, "Agora, você pode encontrar o fio condutor a ser traçado a partir daqui...?", Line_Normal);
+		   NULL, "Agora, você consegue encontrar o ponto em comum a partir daqui...?", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -863,45 +863,45 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…さすが、この世界に生まれただけのことはあるのね。",
-		   NULL, "Não é de admirar que você tenha nascido neste mundo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Como esperado de alguém que nasceu neste mundo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　積み木遊びの要領を学ぶのが早いわ。",
-		   NULL, "Você aprende rapidamente o jeito de brincar com os fragmentos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Você aprendeu muito rápido a como brincar com os Fragmentos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はなかなか気付けなかったわ。",
-		   NULL, "Faz um tempo que não entendo isso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu levei um tempinho até conseguir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……普通の世界に生まれた身だから、単一世界単位でしか物が見れなくて。",
-		   NULL, "...Eu nasci no mundo normal, então só conseguia ver as coisas de uma única perspectiva de mundo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu nasci em um mundo normal, então só conseguia ver as coisas através de uma única perspectiva.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…「前原圭一が」という点に固執してしまって、なかなか気付けなかった。",
-		   NULL, "...Eu estava muito obcecada com o fato de que \"Keiichi Maebara\" causou a tragédia, então tive dificuldade em encontrá-lo.", Line_Normal);
+		   NULL, "...Eu estava muito obcecada em pensar que \"Keiichi Maebara\" causou a tragédia, então tive dificuldade em entender.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう、",
-		   NULL, "Certo!", Line_ContinueAfterTyping);
+		   NULL, "Isso!", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 600 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "そのとおりよ。",
-		   NULL, " Está exatamente certo!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É exatamente isso!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少なくとも",
-		   NULL, "Veja isso:", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No mínimo,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -928,12 +928,12 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "には明白な共通点がある。",
-		   NULL, " todos esses capítulos têm algo em comum.", Line_Normal);
+		   NULL, " têm semelhanças bem óbvias entre si.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、不特定人物が疑心暗鬼に取り付かれて凶行に走るという点。",
-		   NULL, "Alguém do grupo se torna violento por causa de pensamentos obscuros e paranóicos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Uma pessoa aleatória do grupo desenvolve paranoia e comete um ato de violência.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -965,7 +965,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "あるいは竜宮レナが、自身の妄想を加速させ凶行に至ってゆく。",
-		   NULL, "seja Rena Ryuugu que se tornou violenta à medida que seus delírios ficavam mais fortes.", Line_Normal);
+		   NULL, "ou Rena Ryuugu, alguém se torna violento à medida que seus delírios ficam mais fortes.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -973,18 +973,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一と園崎詩音、そして竜宮レナは皆、近い位置にいて交友関係を持つけれど、生まれも育ちもまったく違う他人同士。",
-		   NULL, "Keiichi Maebara, Shion Sonozaki, e Rena Ryuugu são todos meus amigos próximos, mas todos nasceram e foram criados de maneiras diferentes.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Keiichi Maebara, Shion Sonozaki, e Rena Ryuugu são amigos próximos, mas eles três nasceram e cresceram de maneiras diferentes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……雛見沢という舞台に登場するコマという以上の共通点は見付けられない。",
-		   NULL, "O único fator comum é que todos vivem em Hinamizawa.", Line_Normal);
+		   NULL, "O único fator comum é que todos eles vivem em Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうね、私がさっき自分で言ったわね。",
-		   NULL, "Eu acabei de dizer isso não faz muito tempo, no entanto.", Line_Normal);
+		   NULL, "É, eu mesma acabei de falar isso.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -994,51 +994,51 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　偏る事象にこそ真実があるのであって、気まぐれな事象には大した意味はない。",
-		   NULL, "os fenômenos constantes tornam-se nossos fatos, e os fenômenos casuais têm pouco significado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "os fenômenos constantes tornam-se nossos fatos, e os fenômenos casuais pouco importam.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、共通しない「犯人」たち個人には、それほど重要な意味はないということ。",
-		   NULL, "Em outras palavras, os não relacionados, individuais \"culpados\" não são tão importantes.", Line_Normal);
+		   NULL, "Ou seja, os \"culpados\" individuais não têm muita relevância.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さらに言えば、事件である「凶行」そのものにも意味はない。",
-		   NULL, "Indo adiante, a \"violência\" de seus crimes também não tem significado.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E digo mais, a \"violência\" em si também não tem significado.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原圭一は友人２人を撲殺。",
-		   NULL, "Keiichi Maebara espancou suas amigas até a morte,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Keiichi Maebara espancou duas de suas amigas até a morte,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎詩音は御三家を中心に皆殺しにし、",
 		   NULL, "Shion Sonozaki matou os líderes das Três Famílias,", Line_WaitForInput);
 	OutputLine(NULL, "竜宮レナは学校を占拠した。",
-		   NULL, " e Rena Ryuugu assumiu a escola.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e Rena Ryuugu manteve a escola como refém.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どれもバラバラ。",
-		   NULL, "Todos eram diferentes.", Line_WaitForInput);
+		   NULL, "Completamente diferente.", Line_WaitForInput);
 	OutputLine(NULL, "何の共通項もない。",
-		   NULL, " Não há nenhuma semelhança nisso.", Line_Normal);
+		   NULL, " Não tem nada parecido entre esses casos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むしろもっともっと重要な事実は、犯人も事件もランダムに決まるのに、",
-		   NULL, "A verdade mais importante é que, embora os culpados e os crimes sejam decididos aleatoriamente,", Line_WaitForInput);
+		   NULL, "O mais importante é que, mesmo que os culpados e os crimes sejam decididos aleatoriamente,", Line_WaitForInput);
 	OutputLine(NULL, "凶行に至るまでの疑心暗鬼の「プロセス」は完全に共通するという点。",
-		   NULL, " seu \"processo\" de ficar paranóico até recorrer à violência é sempre constante.", Line_Normal);
+		   NULL, " o \"processo\" de desenvolver a paranoia e recorrer à violência é sempre o mesmo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯人というコマが不特定なのにもかかわらず、",
-		   NULL, "O suspeito muda sempre,", Line_WaitForInput);
+		   NULL, "O culpado sempre muda,", Line_WaitForInput);
 	OutputLine(NULL, "凶行に至る「プロセス」だけが一致する。",
 		   NULL, " mas o processo não.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1046,17 +1046,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　異なる世界のカケラを重ねて、浮かび上がる真実のひとつがこれ。",
-		   NULL, "Depois de comparar os diferentes mundos, esta é a verdade que descobri.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Depois de comparar os diferentes mundos, esta é a verdade que eu descobri.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまりこれこそが、雛見沢という舞台に無限に広がる並行世界の真実のひとつ。",
-		   NULL, "Esta é uma verdade que é comum a todos os mundos de Hinamizawa.", Line_Normal);
+		   NULL, "Ou seja, esta é uma das verdades que se aplicam a todos os mundos deste cenário que chamamos de Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、この舞台には「特定されないランダムな人物が、疑心暗鬼に取り憑かれ、凶行に誘われる」というルールＸがあるということ。",
-		   NULL, "A regra é que uma pessoa aleatória se torne violenta sob a influência de pensamentos paranóicos esta é a Regra X.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Uma pessoa aleatória é possuída por paranoia e tende a cometer um ato violento\". Isto é o que eu chamo de Regra X.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1066,14 +1066,14 @@ void main()
 	OutputLine(NULL, "園崎詩音、",
 		   NULL, " Shion Sonozaki,", Line_WaitForInput);
 	OutputLine(NULL, "竜宮レナという、",
-		   NULL, " e Rena Ryuugu--", Line_WaitForInput);
+		   NULL, " e Rena Ryuugu,", Line_WaitForInput);
 	OutputLine(NULL, "特別な繋がりの見えないコマたちが、ランダムな確率で、そのルールに取り込まれる可能性があるということ。",
-		   NULL, " --peças sem conexão específica, têm o potencial de sucumbir a essa regra com probabilidade aleatória.", Line_Normal);
+		   NULL, " mesmo sendo peças sem conexão específica, podem ser aprisionados por essa regra com probabilidade aleatória.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　このコマたちが、どういう確率の元でルールに取り込まれているのかはわからない。",
-		   NULL, "Não sei qual é a probabilidade de que essas peças sejam apanhadas por essa regra.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não sei como calcular a probabilidade de que essas peças sejam apanhadas por essa regra.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1084,41 +1084,41 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば、この３人が近い年齢にあることが鍵なのかもしれないし、",
-		   NULL, "É porque esses três têm quase a mesma idade?", Line_WaitForInput);
+		   NULL, "Por exemplo, poderia ser porque esses três têm quase a mesma idade,", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢に住んでいることが鍵なのかもしれない。",
-		   NULL, " Ou é porque todos vivem em Hinamizawa?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ou então porque eles vivem em Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それは、探偵でもなければ警察でもない、",
-		   NULL, "...Bem, não somos detetives nem policiais.", Line_ContinueAfterTyping);
+		   NULL, "...Bom, não somos detetives nem policiais.", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 700 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "小娘に過ぎない私たち「古手梨花」にはわかりようもないことよね。",
-		   NULL, " Isso não é algo que uma garotinha como nós, \"Rika Furude\", possa descobrir facilmente.", Line_Normal);
+		   NULL, " Não tem como nós, \"Rika Furude\", entendermos esse tipo de coisa, já que somos apenas uma garotinha.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、雛見沢という舞台に、そういう不思議なルールＸが存在することは、焙り出せたでしょう。",
-		   NULL, "Pelo menos agora sabemos que existe uma regra misteriosa no mundo de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pelo menos agora sabemos que existe essa Regra X misteriosa no cenário de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これは単一世界に住まう人間たちには絶対に理解できないことなの。",
-		   NULL, "Pessoas que vivem em apenas um mundo não têm como saber disso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E isso é algo que as pessoas que vivem em um único mundo não conseguem compreender.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私はそれを理解できることに愉悦を感じるのだけれど…。",
-		   NULL, "Estou orgulhosa de mim mesmo por ter descoberto isso...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu fico feliz em poder descobrir isso, mas...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あなたにとってはそれは当り前のこと過ぎて、特にどうとも思わないのかしらね。",
-		   NULL, "Eu acho que para você não é particularmente surpreendente, no entanto.", Line_Normal);
+		   NULL, " para você, isso deve ser tão óbvio que você nem se importa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1130,16 +1130,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうよ。",
-		   NULL, "Está certo.", Line_WaitForInput);
+		   NULL, "Isso mesmo.", Line_WaitForInput);
 	OutputLine(NULL, "共通すればするほど、それは強い意志を持って行なわれていることになる。",
 		   NULL, " Se algo é comum entre todos os mundos, isso significa que está destinado a acontecer.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あら、くすくす。",
-		   NULL, "Hihihi...", Line_WaitForInput);
+		   NULL, "Ahh, hihihi...", Line_WaitForInput);
 	OutputLine(NULL, "それは真っ先に気付くところよね。",
-		   NULL, " Alguns eventos vêm rapidamente à mente, não é?...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Isso lembra a outra coisa que descobrimos, não é...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1149,7 +1149,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そう、富竹ジロウと鷹野三四は、この舞台においてほぼ絶対的運命で殺される。",
-		   NULL, "...Certo. Jirou Tomitake e Miyo Takano são sempre mortos nesses mundos.", Line_Normal);
+		   NULL, "...Isso. O destino de Jirou Tomitake e Miyo Takano, que são mortos em todos esses mundos.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -1157,12 +1157,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも、その殺され方などは全ての世界において不変。",
-		   NULL, "Além disso, eles são assassinados exatamente da mesma forma em todos os mundos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, a forma como eles são assassinados é exatamente a mesma em todos os mundos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…つまり、さっき見つけたルールのような不安定さとは違い、その全てが徹頭徹尾、強い意志によって完遂されているということ。",
-		   NULL, "...Em outras palavras, ao contrário da nossa regra anterior com a sua variabilidade, os seus assassinatos são cuidadosamente planejados por alguém com uma forte força de vontade.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Em outras palavras, ao contrário da variação da regra anterior, os seus assassinatos são cuidadosamente planejados por alguém com uma forte força de vontade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1174,7 +1174,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だって、誰がこのルールに囚われようとも無関係に、必ず彼らは殺されるんですもの。",
-		   NULL, "Afinal, eles são sempre assassinados, independentemente de quem obedece à Regra X.", Line_Normal);
+		   NULL, "Afinal, eles são sempre assassinados, independentemente de quem é escolhido pela Regra X.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -1182,7 +1182,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、毎年、綿流しの夜に富竹ジロウと鷹野三四が殺されるという、もう１つの異なるルール、Ｙがあることがわかる。",
-		   NULL, "Portanto, há outra regra para esses mundos, uma regra que diz que Jirou Tomitake e Miyo Takano serão mortos na noite do Watanagashi. Vamos chamar isso de Regra Y.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isso significa que há outra regra para esses mundos, uma que diz que Jirou Tomitake e Miyo Takano serão mortos na noite do Watanagashi. Vamos chamá-la de Regra Y.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1190,48 +1190,48 @@ void main()
 	OutputLine(NULL, "　くすくす…。",
 		   NULL, "Hihi...", Line_WaitForInput);
 	OutputLine(NULL, "ここにちょっとした喜劇性があるのに気付くかしら？",
-		   NULL, " Você não vê o quão engraçado isso é?", Line_Normal);
+		   NULL, " Você não acha isso engraçado também?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「鬼隠し編」や「綿流し編」で、あるいは「罪滅し編」で、毎回、富竹ジロウたちが殺されるわよね？",
-		   NULL, "Jirou Tomitake e Miyo Takano são mortos em todos os mundos, certo?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Seja \"Onikakushi\", \"Watanagashi\" ou até \"Tsumihoroboshi\", Jirou Tomitake e Miyo Takano morrem em todos eles, certo?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それらの世界の中で、毎回、惨劇の主人公たちは、その富竹殺人が自分の身辺に迫っている危機と関係があるように曲解していない？",
-		   NULL, "Toda vez, o personagem que é amaldiçoado sempre pensa que suas mortes têm algo a ver com o perigo que os espera.", Line_Normal);
+		   NULL, "Toda vez, o protagonista da tragédia pensa que as mortes deles são o indício de um perigo que o espera.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らが凶行に誘われるルールＸと、",
-		   NULL, "O fato de alguém se tornar violento, Regra X,", Line_WaitForInput);
+		   NULL, "O fato de alguém se tornar violento, a Regra X,", Line_WaitForInput);
 	OutputLine(NULL, "富竹ジロウたちが殺されるルールＹは異なる独立したもののはずなのに、",
-		   NULL, " e as mortes de Jirou Tomitake e Miyo Takano, Regra Y, deveriam ser duas regras independentes,", Line_WaitForInput);
+		   NULL, " e as mortes de Jirou Tomitake e Miyo Takano, a Regra Y, deveriam ser independentes,", Line_WaitForInput);
 	OutputLine(NULL, "彼らはその２つのルールを無理に結びつけようとしたがる。",
-		   NULL, " mas todos eles tendem a ligá-los entre si.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " mas ambas tendem a se ligar entre si.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それにはもちろん、凶行に誘われる彼らがそのプロセスで疑心暗鬼の被害妄想に取り憑かれているためとも言えるんだけれど…。",
-		   NULL, "Claro, pode-se dizer que foi assim que eles ficaram presos no feitiço da paranóia que os leva à violência, para começar...", Line_Normal);
+		   NULL, "Claro, também é possível que isso aconteça porque esse foi o próprio motivo de eles desenvolverem a paranoia...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　疑心暗鬼に囚われた彼らに、この２つのルールを結びつけるようと誘導している存在がいることに気付くかしら？",
-		   NULL, "Mas você acha que, em sua paranóia, eles percebem que alguém está tentando levá-los a vincular essas regras?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas você acha que eles perceberiam, enquanto estão paranoicos, que alguém está tentando levá-los a vincular essas regras?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう。",
-		   NULL, "Sim.", Line_WaitForInput);
+		   NULL, "É.", Line_WaitForInput);
 	OutputLine(NULL, "この誘導するコマの存在が、この雛見沢という舞台をややこしくしている。",
-		   NULL, " Seja quem for a peça que os lidera, são eles que tornam Hinamizawa muito indecifrável.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Seja qual for a peça que os lidera, são eles que tornam Hinamizawa tão indecifrável.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1244,7 +1244,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう。",
-		   NULL, "Isso mesmo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isso aí.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1261,7 +1261,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石蔵人というコマの役割については、これまでのカケラを重ね合わせれば見えてくる。",
-		   NULL, "Ao comparar nossos Fragmentos anteriores, o papel da peça conhecida como Kuraudo Ooishi fica claro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ao comparar os nossos Fragmentos anteriores, o papel da peça conhecida como Kuraudo Ooishi fica claro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1277,12 +1277,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから何としてでも、退職前の雛見沢にいられる内にこの事件を解決したいと思っている。",
-		   NULL, "É por isso que ele está desesperado para resolver ester caso antes de deixar Hinamizawa.", Line_Normal);
+		   NULL, "É por isso que ele está desesperado para resolver este caso antes de deixar Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうしてこんなにも雛見沢村連続怪死事件に固執をしているのかしら？",
-		   NULL, "Por que ele está tão obcecado com os assassinatos em série em Hinamizawa?", Line_Normal);
+		   NULL, "Por que ele está tão obcecado com os assassinatos em série de Hinamizawa?", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -1290,20 +1290,20 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう。",
-		   NULL, "Isso mesmo.", Line_WaitForInput);
+		   NULL, "Exatamente.", Line_WaitForInput);
 	OutputLine(NULL, "それは一番最初の事件、現場監督バラバラ殺人事件。",
-		   NULL, " É por causa do primeiro assassinato envolvendo o gerente do canteiro de obras.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É por causa do primeiro assassinato envolvendo o líder da construção da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この被害者が、大石蔵人の親しい友人だったことに起因している。",
-		   NULL, "A vítima era amigo próximo de Ooishi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A vítima era um amigo próximo de Ooishi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これについては「暇潰し編」のカケラを見ればわかるわね。",
-		   NULL, "Você verá isso se olhar o capítulo \"Himatsubushi\".", Line_Normal);
+		   NULL, "Você pode ver isso no capítulo \"Himatsubushi\".", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -1311,41 +1311,41 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また当時、ダム戦争が激化している最中に大石はいた。",
-		   NULL, "Ooishi estava lá quando o conflito na represa estava no auge.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ooishi estava lá quando o conflito na represa estava no seu auge.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石は鬼ヶ淵死守同盟を先導する園崎本家を間近に見ており、全ての黒幕が園崎本家に違いないと確信していた。",
-		   NULL, "Ele viu como a família Sonozaki assumiu o controle dos guardiões de Onigafuchi e acreditou que a família Sonozaki estava controlando todo o incidente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele viu como a família Sonozaki assumiu o controle dos Guardiões de Onigafuchi e acreditou que a família Sonozaki estava controlando todo o incidente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、雛見沢村連続怪死事件について、どのような証拠があろうとなかろうと、初めから園崎本家が犯人だと決め付けていた。",
-		   NULL, "É por isso que ele sempre suspeitou que a familia Sonozaki estava por trás da série de mortes misteriosas, independentemente da evidência ou da falta dela.", Line_Normal);
+		   NULL, "É por isso que ele sempre suspeitou que a familia Sonozaki estava por trás da série de mortes misteriosas, mesmo com a falta de evidências.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その偏執的な私的見解が、警察の刑事であるという信憑性を得て、各々の世界の哀れな被害妄想者たちに影響を与えていく。",
-		   NULL, "Sua crença pessoal e tendenciosa, combinada com sua credibilidade como detetive de polícia, afetou as lamentáveis vítimas dos complexos de perseguição em cada mundo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sua crença pessoal e tendenciosa, combinada com a sua credibilidade como detetive de polícia, afetou as lamentáveis vítimas da paranoia em cada mundo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その結果、ルールＸに囚われた気の毒な「犠牲者」は、自身でも正体のわからない疑心暗鬼の正体を、園崎家の暗躍のせいという形で納得させられていく。",
-		   NULL, "Como resultado, as lamentáveis vítimas da Regra X passam a aceitar a família Sonozaki como a identidade da força desconhecida que sua paranóia busca.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como resultado, as vítimas da Regra X passam a acreditar que a sua paranoia se deve às ações suspeitas da família Sonozaki.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……一番顕著な例が、園崎詩音の事件かもね。",
-		   NULL, "...O caso de Shion Sonozaki foi o mais notável nesse assunto.", Line_Normal);
+		   NULL, "...O caso de Shion Sonozaki foi o exemplo mais notável dessa influência.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう、だからこの大石というコマが変に干渉しなかったなら、ルールに囚われた犠牲者たちはあれだけの凶行に及ばなかったかもしれない。",
-		   NULL, "Então sim, se esta peça, Ooishi, não intervisse, então talvez as vítimas da Regra X não tivessem recorrido a tal violência.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então, se esta peça chamada Ooishi, não intervisse, talvez as vítimas da Regra X não tivessem recorrido a tal violência.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
