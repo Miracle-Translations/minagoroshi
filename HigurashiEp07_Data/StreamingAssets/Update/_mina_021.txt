@@ -1240,12 +1240,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私が舞台の上に上がろうとする役者なら、羽入は本当の意味での傍観者なのかもしれない。",
-		   NULL, "Se eu sou uma atriz tentando subir no palco, Hanyuu é uma verdadeira espectadora.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu sou uma atriz tentando subir no palco, a Hanyuu é uma espectadora.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こういう時、私と羽入の心は大きくすれ違うのだった…。",
-		   NULL, "Temos opiniões muito diferentes quando se trata disso.", Line_Normal);
+		   NULL, "Temos opiniões muito diferentes em momentos como esse.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
