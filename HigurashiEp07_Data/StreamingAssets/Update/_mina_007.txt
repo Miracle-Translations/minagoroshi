@@ -840,7 +840,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900176", 256, TRUE);
 	OutputLine(NULL, "「………被害妄想だと思いたいけれど。",
-		   NULL, "\"......Eu quero acreditar que é apenas paranóia.", Line_WaitForInput);
+		   NULL, "\"......Eu quero acreditar que é apenas paranoia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900177", 256, TRUE);
 	OutputLine(NULL, "…本人だって明確な証拠は示せないって言ったわけだし。」",
 		   NULL, " ...Ela disse que também não há prova absoluta.\"", GetGlobalFlag(GLinemodeSp));
@@ -954,7 +954,7 @@ void main()
 		   NULL, "\"Por que ela acha que alguém está tentando matá-la?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000137", 256, TRUE);
 	OutputLine(NULL, "　追跡妄想や被害妄想の類だとしたら、確かにＬ５の初期症状と言えなくもありませんね。」",
-		   NULL, " Se ela estiver passando por paranóia, ela pode estar no estágio inicial N5...\"", Line_Normal);
+		   NULL, " Se ela estiver passando por paranoia, ela pode estar no estágio inicial do N5...\"", Line_Normal);
 	ClearMessage();
 
 
