@@ -2365,7 +2365,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これが、雛見沢という舞台だ。",
-		   NULL, "Esta é a história da peça chamada Hinamizawa.", Line_Normal);
+		   NULL, "Essa é a história de Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
