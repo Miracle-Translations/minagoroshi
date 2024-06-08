@@ -1582,7 +1582,7 @@ void main()
 	OutputLine(NULL, "　つまり、強盗犯Ａはたまたま事件を起こしただけで、",
 		   NULL, "Ou seja, pode ter sido apenas um acaso que um Suspeito A tenha sido aquele a cometer o crime,", Line_WaitForInput);
 	OutputLine(NULL, "貧困な環境は、ひょっとしたら強盗犯Ｂ、",
-		   NULL, " ou um Suspeito B, criado pelo ambiente podre,", Line_ContinueAfterTyping);
+		   NULL, " ou um Suspeito B, influenciado pelo ambiente ruim,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
