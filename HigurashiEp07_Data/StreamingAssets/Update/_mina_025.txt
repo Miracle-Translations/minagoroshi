@@ -2606,7 +2606,7 @@ void main()
 		   NULL, " Parece que ela inventou isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28010", 256, TRUE);
 	OutputLine(NULL, "また、それとは別に興宮署から私服警官が数人派遣されるようです。」",
-		   NULL, " Além disso, o departamento de polícia de Okinomiya está enviando ainda mais políciais para onde ela está.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Além disso, o departamento de polícia de Okinomiya está enviando ainda mais policiais para onde ela está.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
@@ -2651,7 +2651,7 @@ void main()
 		   NULL, " QG para todas as unidades.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28015", 256, TRUE);
 	OutputLine(NULL, "古手神社周辺に警察介入の動きあり。",
-		   NULL, " Há políciais ao redor do Santuário Furude.", Line_WaitForInput);
+		   NULL, " Há policiais ao redor do Santuário Furude.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28016", 256, TRUE);
 	OutputLine(NULL, "職質には特に注意されたし。」",
 		   NULL, " Por favor, tenham cuidado com eles. ", GetGlobalFlag(GLinemodeSp));

@@ -534,7 +534,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が「町会用」と書いたメモとセロテープを渡す。",
-		   NULL, "Mion entregou a Keiichi um pedaço de papel que dizia \"conselho municipal\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion entregou a Keiichi um pedaço de papel que dizia \"conselho do vilarejo\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2907,7 +2907,7 @@ void main()
 		   NULL, "\"Isso foi incrível! Estou muito impressionado!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100378", 256, TRUE);
 	OutputLine(NULL, "　あの、俺に教えてください、もう一度もう一度スローで！！」",
-		   NULL, " Você vai me ensinar em câmera lenta?\"", Line_Normal);
+		   NULL, " Poderia ensinar em câmera lenta?\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/mati_o4", 300 );
@@ -2916,7 +2916,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700043", 256, TRUE);
 	OutputLine(NULL, "「んっふっふ！",
-		   NULL, "\"Hihihi!", Line_WaitForInput);
+		   NULL, "\"Nfufu!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700044", 256, TRUE);
 	OutputLine(NULL, "　いいですよぅ？",
 		   NULL, " Claro, por que não?", Line_WaitForInput);

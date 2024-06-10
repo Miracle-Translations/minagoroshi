@@ -14,7 +14,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100001", 256, TRUE);
 	OutputLine(NULL, "「そうですか。裏に、町会も、その鬼ヶ淵死守同盟とかいう恫喝団体もいないとわかれば、これで安心でしょう。",
-		   NULL, "\"Entendo... Estamos bem, desde que saibamos que o conselho municipal e os Guardiões de Onigafuchi não estão envolvidos.", Line_WaitForInput);
+		   NULL, "\"Entendo... Estamos bem, desde que saibamos que o conselho de Hinamizawa e os Guardiões de Onigafuchi não estão envolvidos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100002", 256, TRUE);
 	OutputLine(NULL, "北条沙都子さんの件は、特別扱いせずに慎重に対応してください。」",
 		   NULL, " Por favor, cuide do caso de Satoko Houjou-san sem se preocupar muito com isso.\"", GetGlobalFlag(GLinemodeSp));
@@ -45,7 +45,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100005", 256, TRUE);
 	OutputLine(NULL, "「わざわざ自治の係長が、連合町会が背景にいないことを確認してくれたんですから、うちの職員も厳粛に事務を進めてください。",
-		   NULL, "\"Por favor, continue trabalhando neste caso. O gerente da prefeitura nos garantiu que a Câmara Municipal nada tem a ver com esta petição. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Por favor, continue trabalhando neste caso. O gerente da prefeitura nos garantiu que o conselho de Hinamizawa nada tem a ver com esta petição. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100006", 256, TRUE);
 	OutputLine(NULL, "雛見沢だからどうすべきかとお伺いを立てること自体がすでに公務員の心構えとして問題です。係長も、その辺をよく職員に教えてくれなければ困ります。」",

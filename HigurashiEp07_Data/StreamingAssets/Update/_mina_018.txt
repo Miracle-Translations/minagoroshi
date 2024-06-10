@@ -497,7 +497,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6285", 256, TRUE);
 	OutputLine(NULL, "「村と役所は手打ち。沙都子には並みの対応。",
-		   NULL, "\"O conselho municipal e os funcionários do governo mantêm uma relação comercial. Eles estão tratando o problema da Satoko como se fosse comum. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"O conselho do vilarejo e os funcionários do governo mantêm uma relação comercial. Eles estão tratando o problema da Satoko como se fosse comum. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6286", 256, TRUE);
 	OutputLine(NULL, "………だから沙都子がどんなにヤバい状況でも知ったことじゃないってんですか。",
@@ -589,7 +589,7 @@ void main()
 		   NULL, "\"Mas não posso mais continuar nosso apelo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101446", 256, TRUE);
 	OutputLine(NULL, "町会が役所に対し、俺たちのやってることを支持しないと言ってしまったから、相談所はもう、俺たちの訴えに耳を貸してはくれないんです。」",
-		   NULL, " Se o conselho municipal não disser aos funcionários que vão nos apoiar, o centro de consulta infantil não nos ouvirá de qualquer forma...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se o conselho do vilarejo não disser aos funcionários que vão nos apoiar, o centro de consulta infantil não nos ouvirá de qualquer forma...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	ModDrawCharacter(2, 3, "sprite/me2_tohoho_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
@@ -2123,7 +2123,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200066", 256, TRUE);
 	OutputLine(NULL, "「鬼婆さまは雛見沢連合町会が圭一くんを支持することを認めてくれたよ。",
-		   NULL, "\"Ela deu aprovação ao conselho municipal para apoiar Keiichi-kun.", Line_WaitForInput);
+		   NULL, "\"Ela deu aprovação ao conselho do vilarejo para apoiar Keiichi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200067", 256, TRUE);
 	OutputLine(NULL, "雛見沢連町がバックにつくってことは、鬼ヶ淵死守同盟がバックについたのと同じってことになる。",
 		   NULL, " Agora você tem os Guardiões Onigafuchi ao seu lado.", Line_WaitForInput);
@@ -2293,7 +2293,7 @@ void main()
 		   NULL, "\"Você não precisa me agradecer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200085", 256, TRUE);
 	OutputLine(NULL, "何しろ、町会はもう話がついてんだ。",
-		   NULL, " O conselho municipal que tomou a decisão.", Line_WaitForInput);
+		   NULL, " O conselho do vilarejo que tomou a decisão.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200086", 256, TRUE);
 	OutputLine(NULL, "逆らいようがないさね。",
 		   NULL, " Não podemos ir contra a vontade deles.", Line_WaitForInput);
@@ -3261,7 +3261,7 @@ void main()
 		   NULL, " No entanto, ainda não vamos reverter a nossa decisão, mesmo que todo o vilarejo realmente apareça.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/182100005", 540, TRUE);
 	OutputLine(NULL, "町会の抗議があったから特別待遇にしなくちゃならないなんておかしいですから。」",
-		   NULL, " Não seria certo dar-lhe tratamento especial só porque o conselho do vilarejo está protestando.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não seria certo dar-lhe tratamento especial só porque o conselho está protestando.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
@@ -3416,7 +3416,7 @@ void main()
 		   NULL, " Esse cara nem é daqui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000061", 540, TRUE);
 	OutputLine(NULL, "地元町会の怖さをわかってない！」",
-		   NULL, " Ele não tem ideia de quaõ assustador esse conselho do vilarejo é...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ele não tem ideia de quão assustador o conselho de Hinamizawa é...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>斉藤</color>", NULL, "<color=#f5e6d3>Saitou</color>", NULL, Line_ContinueAfterTyping); }

@@ -163,7 +163,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443000016", 256, TRUE);
 	OutputLine(NULL, "「では……連町の方からそういう話が出てるとか、そういう話はお耳には…、」",
-		   NULL, "\"Você ouviu alguma coisa sobre isso do conselho municipal...?\"", Line_Normal);
+		   NULL, "\"Você ouviu alguma coisa sobre isso do conselho do vilarejo...?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }

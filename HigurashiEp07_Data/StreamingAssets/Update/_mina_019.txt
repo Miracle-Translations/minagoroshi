@@ -23,7 +23,7 @@ void main()
 	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacterWithFiltering(1, 18, "sprite/ki_def_", "0", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300156", 256, TRUE);
 	OutputLine(NULL, "「うん。",
 		   NULL, "\"Sim.", Line_WaitForInput);
@@ -36,7 +36,7 @@ void main()
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300159", 256, TRUE);
 	OutputLine(NULL, "向こうも引き続き内部で調整してくれるみたいだけど、ただ、こっちは沙都子ちゃんを救うのに一刻を争ってるんだからな。",
 		   NULL, " Eles ainda estão tentando fazer o que podem, mas não temos muito tempo. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300160", 256, TRUE);
 	OutputLine(NULL, "そんな悠長なことは言ってらんないって言い返してやったよ！」",
 		   NULL, "Eu até disse a eles que não temos tempo de sobra!\"", Line_Normal);
@@ -65,10 +65,10 @@ void main()
 		   NULL, " Não conheço pessoalmente o chefe do centro, mas ele é um cara muito durão para ir contra a vontade de Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/kimi08012", 256, TRUE);
 	OutputLine(NULL, "「何でも県から降りてきた職員らしくて、あまり町会のこととかを知らないらしい。",
-		   NULL, "\"Ele trabalhava para a prefeitura, então não conhece o conselho municipal daqui.", Line_WaitForInput);
+		   NULL, "\"Ele trabalhava para a prefeitura, então não conhece o conselho de Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/kimi08013", 256, TRUE);
 	OutputLine(NULL, "住民の一部がごねてるくらいにしか思ってないらしいよ。」",
 		   NULL, " Ele não está tratando isso como se fosse um grande problema.\"", Line_Normal);
@@ -101,14 +101,14 @@ void main()
 	FadeBustshotWithFiltering( 1, "maskright" , 0, FALSE, 0, 0, 300, TRUE );
 	ModDrawCharacterWithFiltering(1, 18, "sprite/ki_def_", "0", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300163", 256, TRUE);
 	OutputLine(NULL, "「こうなりゃもうやるしかない。",
 		   NULL, "\"Nós apenas teremos que combatê-los.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300164", 256, TRUE);
 	OutputLine(NULL, "さっき神社で役員と話したんだけど、もう後には退けない。",
 		   NULL, " Falei com os outros membros do conselho e todos concordamos que não podemos mais ficar quietos. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300165", 256, TRUE);
 	OutputLine(NULL, "何しろ、うちの名前を出しちまった以上、そうですか駄目ですかじゃあ引き下がれねえ！」",
 		   NULL, "Afinal, não podemos simplesmente balançar a cabeça em sinal de derrota e recuar depois que eu divulgar nosso nome!\"", GetGlobalFlag(GLinemodeSp));
@@ -124,13 +124,13 @@ void main()
 		   NULL, "\"Nós iremos para o centro de consulta depois disso.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300166", 256, TRUE);
 	OutputLine(NULL, "「うん。",
 		   NULL, "\"Ok.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300167", 256, TRUE);
 	OutputLine(NULL, "町会からも人数を出せないかこれからすぐに調整するよ。",
-		   NULL, " Vou providenciar para que o conselho municipal envie algumas pessoas também.", Line_WaitForInput);
+		   NULL, " Vou providenciar para que o conselho do vilarejo envie algumas pessoas também.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300168", 256, TRUE);
 	OutputLine(NULL, "これからお魎さんのところに行って対応を協議する。」",
 		   NULL, " Estou prestes a consultar Oryou-san sobre como lidar com isso.\"", Line_Normal);
@@ -182,14 +182,14 @@ void main()
 	ClearMessage();
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300169", 256, TRUE);
 	OutputLine(NULL, "「普通のお役所は土曜だからお昼で閉まっちゃうけど、相談所は土曜日も午後３時まで開いてるそうだ。",
 		   NULL, "\"Os escritórios regulares do governo geralmente fecham ao meio-dia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300170", 256, TRUE);
 	OutputLine(NULL, "だから、１時に現地集合にしてもらっていいか。",
 		   NULL, " Podemos estar todos lá ao mesmo tempo? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300171", 256, TRUE);
 	OutputLine(NULL, "何人集められるかはちょっと約束できねえけどな！」",
 		   NULL, "Não posso prometer quantas pessoas poderei trazer comigo...\"", GetGlobalFlag(GLinemodeSp));
@@ -281,7 +281,7 @@ void main()
 	ClearMessage();
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300172", 256, TRUE);
 	OutputLine(NULL, "「もちろん、私も行くからな！",
 		   NULL, "\"Eu irei também!", Line_WaitForInput);
@@ -312,7 +312,7 @@ void main()
 		   NULL, " Eu pensei que estava quebrado.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300174", 256, TRUE);
 	OutputLine(NULL, "「それは古い方だよ。",
 		   NULL, "\"Esse era o antigo.", Line_WaitForInput);
@@ -690,7 +690,7 @@ void main()
 	DrawScene( "background/tosyo1", 300 );
 	ModDrawCharacter(0, 18, "sprite/ki_def_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300177", 256, TRUE);
 	OutputLine(NULL, "「圭一くん〜！！",
 		   NULL, "\"Keiichi-kuuun!", Line_WaitForInput);
@@ -705,7 +705,7 @@ void main()
 		   NULL, "\"Kimiyoshi-san... com quantas pessoas você conversou?!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300179", 256, TRUE);
 	OutputLine(NULL, "「人数なんか知らないよ。",
 		   NULL, "\"Eu não tenho tanta certeza.", Line_WaitForInput);
@@ -715,10 +715,10 @@ void main()
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300181", 256, TRUE);
 	OutputLine(NULL, "みんな野良を放り出して駆けつけてくれた猛者ばっかりだよ！",
 		   NULL, " Todo mundo saiu do trabalho e veio aqui! ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300182", 256, TRUE);
 	OutputLine(NULL, "　あーー、みんなみんな、今日は町会としての抗議だから、死守同盟の名前が入ったものは使わないでねー！！」",
-		   NULL, "Ei, pessoal, esse movimento é uma iniciativa do conselho municipal, então não usem o banner com o nome dos Guardiões Onigafuchi!!\"", Line_Normal);
+		   NULL, "Ei, pessoal, esse movimento é uma iniciativa do conselho de Hinamizawa, então não usem o banner com o nome dos Guardiões Onigafuchi!!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/tosyo1", 300 );
@@ -940,7 +940,7 @@ void main()
 	OutputLine(NULL, "大丈夫？",
 		   NULL, " Conseguem me ouvir?", Line_WaitForInput);
 	OutputLine(NULL, "　こちらは雛見沢連合町会でございます。",
-		   NULL, " Este é o conselho municipal de Hinamizawa.", Line_WaitForInput);
+		   NULL, " Este é o conselho de Hinamizawa.", Line_WaitForInput);
 	OutputLine(NULL, "ご近隣の皆様にご迷惑をお掛けします。",
 		   NULL, " Lamentamos por quaisquer problemas que o protesto possa causar à vizinhança.", Line_WaitForInput);
 	OutputLine(NULL, "テーステース！』",
@@ -1024,7 +1024,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacterWithFiltering(1, 18, "sprite/ki_def_", "0", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300183", 256, TRUE);
 	OutputLine(NULL, "「よし、圭一くん。",
 		   NULL, "\"Certo, Keiichi-kun!", Line_WaitForInput);
@@ -1181,7 +1181,7 @@ void main()
 	FadeBustshotWithFiltering( 2, "maskleft" , 1, FALSE, 0, 0, 300, TRUE );
 	ModDrawCharacterWithFiltering(2, 18, "sprite/ki_def_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300185", 256, TRUE);
 	OutputLine(NULL, "「こりゃ大石さんじゃないですか。",
 		   NULL, "\"Olá, Ooishi-san.", Line_WaitForInput);
@@ -1246,7 +1246,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacterWithFiltering(2, 18, "sprite/ki_komaru_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300187", 256, TRUE);
 	OutputLine(NULL, "「どういうこっちゃん！",
 		   NULL, "\"O que você quer dizer?!", Line_WaitForInput);
@@ -1517,11 +1517,11 @@ void main()
 	FadeBustshotWithFiltering( 2, "maskleft" , 1, FALSE, 0, 0, 300, TRUE );
 	ModDrawCharacterWithFiltering(2, 18, "sprite/ki_def_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300189", 256, TRUE);
 	OutputLine(NULL, "「…詩音ちゃん、死守同盟はもちろん押しの強さで戦ったところもあるけど、基本は粘りなんだよ。",
 		   NULL, "\"...Shion-chan, em uma batalha como essa, você tem que ser paciente. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichiro</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300190", 256, TRUE);
 	OutputLine(NULL, "ここまで露骨に拒否されると、ダム戦争の時の工事事務所と同じで、後は囲んで長期戦しかなくなっちまうよ…。」",
 		   NULL, "Eles estão nos recusando tão abertamente, assim como o escritório de construção fez no conflito da represa, então teremos que cercá-los e nos preparar para uma luta prolongada...\"", Line_Normal);
@@ -1643,7 +1643,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　町会の支持を受けて、魅音の婆さんの許可まで取った！",
-		   NULL, "Conseguimos a aprovação do conselho municipal e até da avó da Mion.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Conseguimos a aprovação do conselho do vilarejo e até da avó da Mion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3274,7 +3274,7 @@ void main()
 		   NULL, "\"Basta chamar a pessoa responsável aqui!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/sonop18013", 256, TRUE);
 	OutputLine(NULL, "　雛見沢連町の代表の前原氏が来とるんじゃ、所長対応せんかいッ！！」",
-		   NULL, " Um representante do conselho municipal de Hinamizawa está aqui para vê-lo!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Um representante do conselho de Hinamizawa está aqui para vê-lo!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相談員</color>", NULL, "<color=#f5e6d3>Conselheira</color>", NULL, Line_ContinueAfterTyping); }
@@ -3329,7 +3329,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎市議</color>", NULL, "<color=#f5e6d3>Conselheiro Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/sonoc18007", 256, TRUE);
 	OutputLine(NULL, "「今日は雛見沢連合町会の代表団のメンバーとしてお伺いしました。",
-		   NULL, "\"Estou aqui hoje como membro do conselho municipal de Hinamizawa.", Line_WaitForInput);
+		   NULL, "\"Estou aqui hoje como membro do conselho de Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/sonoc18008", 256, TRUE);
 	OutputLine(NULL, "所長さんに会わせてください。」",
 		   NULL, " Posso ver o chefe do escritório, por favor?\"", GetGlobalFlag(GLinemodeSp));
@@ -3447,7 +3447,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7f6016", 256, TRUE);
 	OutputLine(NULL, "「町会って言うから、もっと近所のおっさんなんかが来ると思ってたのに…！！",
-		   NULL, "\"Ele disse algo sobre um conselho municipal... Eu estava esperando um grupinho de velhos...!!", Line_WaitForInput);
+		   NULL, "\"Ele disse algo sobre o conselho de um vilarejo... Eu estava esperando um grupinho de velhos...!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7f6017", 256, TRUE);
 	OutputLine(NULL, "　何で議員が来るわ弁護士が来るわヤクザは来るわ！",
 		   NULL, " Nunca pensei que veria congressistas, advogados e até a yakuza! ", GetGlobalFlag(GLinemodeSp));
@@ -3604,7 +3604,7 @@ void main()
 		   NULL, "\"Você também é um funcionário público, não é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7f6035", 256, TRUE);
 	OutputLine(NULL, "　あんたが町会の手先になってどうするんです！",
-		   NULL, " Como você ousa ficar do lado do conselho municipal?!", Line_WaitForInput);
+		   NULL, " Como você ousa ficar do lado do conselho daquele vilarejo?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7f6036", 256, TRUE);
 	OutputLine(NULL, "　私は嫌だよ！",
 		   NULL, " Eu não vou ceder!", Line_WaitForInput);
@@ -3763,7 +3763,7 @@ void main()
 		   NULL, " Está certo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7g6002", 256, TRUE);
 	OutputLine(NULL, "雛見沢地区６町会を束ねる連合町会を代表されていらっしゃってる皆さんです。",
-		   NULL, " Eles são membros do conselho municipal de Hinamizawa.", Line_WaitForInput);
+		   NULL, " Eles são membros do conselho de Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7g6003", 256, TRUE);
 	OutputLine(NULL, "…えぇ、そうですね。",
 		   NULL, " ...Sim. Eu entendo...", Line_WaitForInput);
