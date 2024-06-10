@@ -21,12 +21,12 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時計は午前１時を指していた。",
-		   NULL, "A hora era uma da manhã.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O relógio marcava uma hora da madrugada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　都会ならいざ知れず、雛見沢の午前１時は時間も光も眠ってしまう深い深い深夜だった。",
-		   NULL, "Como não é uma cidade grande, 1h da manhã em Hinamizawa é meio da noite. A escuridão aqui fica bem profunda.", Line_Normal);
+		   NULL, "Hinamizawa não é como a cidade. A essa hora, a escuridão aqui fica bem profunda, sem qualquer luz.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -36,7 +36,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからこそ、月明かりをほのかに感じることができた。",
-		   NULL, "Até o luar parecia distinto.", Line_Normal);
+		   NULL, "Até mesmo o luar estava fraco.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 300, FALSE );
@@ -49,7 +49,7 @@ void main()
 		   NULL, "\"Está na hora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/honbu28009", 256, TRUE);
 	OutputLine(NULL, "１階には刑事２名。",
-		   NULL, " Dois detetives estão lá embaixo.", Line_WaitForInput);
+		   NULL, " Dois detetives estão no primeiro andar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/honbu28010", 256, TRUE);
 	OutputLine(NULL, "２階は消灯してすでに１時間以上が経過します。",
 		   NULL, " Já se passou mais de uma hora desde que a luz se apagou acima deles.", Line_WaitForInput);
@@ -61,7 +61,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900250", 256, TRUE);
 	OutputLine(NULL, "「……こんなに月の綺麗な夜だもの。始めなさい。」",
-		   NULL, "\"...Que noite bonita. Você tem permissão para interagir.\"", Line_Normal);
+		   NULL, "\"A noite está tão linda com essa lua... Comece o ataque.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>本部</color>", NULL, "<color=#f5e6d3>Quartel General</color>", NULL, Line_ContinueAfterTyping); }
@@ -76,7 +76,7 @@ void main()
 		   NULL, "\"Sim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900252", 256, TRUE);
 	OutputLine(NULL, "今夜、古手神社にいた人間は全てが忽然と姿を消し、鬼隠しとなる。",
-		   NULL, " Todos no santuário Furude serão demonizados esta noite.", Line_WaitForInput);
+		   NULL, " Todos no Santuário Furude serão levados por demônios esta noite.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900253", 256, TRUE);
 	OutputLine(NULL, "……それでいいわ。」",
 		   NULL, " ...É melhor assim.\"", Line_Normal);
@@ -110,10 +110,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鶯１</color>", NULL, "<color=#f5e6d3>Rouxinol 1</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/ugu128013", 256, TRUE);
 	OutputLine(NULL, "「鶯了解。",
-		   NULL, "\"Certo.", Line_WaitForInput);
+		   NULL, "\"Entendido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/ugu128014", 256, TRUE);
 	OutputLine(NULL, "遮断する。」",
-		   NULL, " Estamos desligando-os.\"", Line_Normal);
+		   NULL, " Estamos desligando-as.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1230,7 +1230,7 @@ void main()
 		   NULL, "\"Sim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/280200097", 256, TRUE);
 	OutputLine(NULL, "帰り際にね、すっごく不審な人がずーっと草陰に潜んでて神社を窺ってるのを見つけたの。」",
-		   NULL, " Eu vi alguém que parecia suspeito olhando para o santuário quando estávamos saindo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu vi alguém que parecia suspeito olhando para o Santuário quando estávamos saindo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
