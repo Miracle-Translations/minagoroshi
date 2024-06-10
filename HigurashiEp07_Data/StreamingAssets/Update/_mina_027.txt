@@ -1923,7 +1923,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがて、境内の砂利を踏む足音が聞こえてきた。",
-		   NULL, "Logo, ouvi o barulho de alguém andando no cascalho do terreno do santuário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Logo, ouvi o barulho de alguém andando no cascalho do terreno do Santuário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2161,7 +2161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子はさっきまであんなにも眠そうだったのに、この神社の周りにはいろいろなトラップが仕掛けてあり、",
-		   NULL, "Satoko parecia tão sonolenta até alguns minutos atrás, mas de repente ela começou a me explicar apaixonadamente todas as armadilhas que ela armou no terreno do santuário. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Satoko parecia tão sonolenta até alguns minutos atrás, mas de repente ela começou a me explicar apaixonadamente todas as armadilhas que ela armou no terreno do Santuário. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "境内を堂々と通ってこない怪しげな侵入者は必ず気取れるようになっていると力説してくれた。",
 		   NULL, "Ela me garantiu que estranhos acabariam presos se tentassem entrar furtivamente aqui.", GetGlobalFlag(GLinemodeSp));

@@ -12,7 +12,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　場所は古手神社の集会所だ。",
-		   NULL, "Estavam todos reunidos na sala de reuniões no santuário Furude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Estavam todos reunidos na sala de reuniões no Santuário Furude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

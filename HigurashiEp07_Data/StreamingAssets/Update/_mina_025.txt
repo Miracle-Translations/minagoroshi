@@ -1708,7 +1708,7 @@ void main()
 		   NULL, "É por isso que estou feliz que você esteja em casa agora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400045", 256, TRUE);
 	OutputLine(NULL, "すでに、古手神社の周辺は山狗が３交代２０人体制で警護に入らせていただきましたん。",
-		   NULL, " Há vinte seguranças patrulhando o santuário Furude em três turnos.", Line_WaitForInput);
+		   NULL, " Há vinte seguranças patrulhando o Santuário Furude em três turnos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400046", 256, TRUE);
 	OutputLine(NULL, "…もちろん、ご安心ください、それっちゃぁわからなんように気を利かせてますんね。」",
 		   NULL, " Você pode não notar, mas eles estão lá para ajudá-la.\"", Line_Normal);
@@ -2558,7 +2558,7 @@ void main()
 		   NULL, "\"Aqui é a Cotovia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28002", 256, TRUE);
 	OutputLine(NULL, "……駐在警官が境内に入りました。",
-		   NULL, " Um policial entrou no santuário.", Line_WaitForInput);
+		   NULL, " Um policial entrou no Santuário.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28003", 256, TRUE);
 	OutputLine(NULL, "Ｒ宅へ向っています。」",
 		   NULL, " Ele está indo em direção à casa da R.\"", GetGlobalFlag(GLinemodeSp));
@@ -2651,7 +2651,7 @@ void main()
 		   NULL, " QG para todas as unidades.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28015", 256, TRUE);
 	OutputLine(NULL, "古手神社周辺に警察介入の動きあり。",
-		   NULL, " Há políciais ao redor do santuário Furude.", Line_WaitForInput);
+		   NULL, " Há políciais ao redor do Santuário Furude.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/hiba28016", 256, TRUE);
 	OutputLine(NULL, "職質には特に注意されたし。」",
 		   NULL, " Por favor, tenham cuidado com eles. ", GetGlobalFlag(GLinemodeSp));
@@ -2742,7 +2742,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　３０分ほどして興宮署から４人の私服警官がやってきた。",
-		   NULL, "Após cerca de trinta minutos, quatro policiais à paisana chegaram no santuário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Após cerca de trinta minutos, quatro policiais à paisana chegaram no Santuário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2758,7 +2758,7 @@ void main()
 		   NULL, "\"Nós ouvimos sobre toda a situação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/polia28002", 256, TRUE);
 	OutputLine(NULL, "神社周辺に我々が立ちますので、何かあったらすぐに呼んでください。",
-		   NULL, " Nós protegeremos o santuário, então, por favor, nos ligue se algo acontecer.", Line_WaitForInput);
+		   NULL, " Nós protegeremos o Santuário, então, por favor, nos ligue se algo acontecer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/polia28003", 256, TRUE);
 	OutputLine(NULL, "あと、夕方になったら、大石刑事がこっちに来ると言っていました。」",
 		   NULL, " O detetive Ooishi estará aqui esta noite.\"", GetGlobalFlag(GLinemodeSp));
@@ -2816,17 +2816,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　警官たちは境内の地図を点検し合い、１階に１名常駐。",
-		   NULL, "Os policiais confirmaram suas posições no mapa do santuário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os policiais confirmaram suas posições no mapa do Santuário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　境内を２名で巡視。",
-		   NULL, "Um estará no depósito e outros dois caminharão pelo santuário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Um estará no depósito e outros dois caminharão pelo Santuário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　境内への階段前に１人立ち番となることを決め、持ち場についてくれた。",
-		   NULL, "Além disso, mais um estará em frente às escadas que levam ao santuário.", Line_Normal);
+		   NULL, "Além disso, mais um estará em frente às escadas que levam ao Santuário.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );

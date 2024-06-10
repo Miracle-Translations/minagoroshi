@@ -73,7 +73,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私は部活メンバーのみんなと神社の境内裏で遊んでいたんだ。",
-		   NULL, "Eu estava brincando atrás do santuário com o resto dos membros do clube.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu estava brincando atrás do Santuário com o resto dos membros do clube.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

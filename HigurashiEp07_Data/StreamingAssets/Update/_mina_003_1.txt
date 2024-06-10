@@ -2108,7 +2108,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　霊験あらたかなオヤシロさまの巫女なんだし。",
-		   NULL, "Afinal, ela é a donzela do santuário de Oyashiro-sama.", Line_Normal);
+		   NULL, "Afinal, ela é a donzela do Santuário de Oyashiro-sama.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 400, FALSE );

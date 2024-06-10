@@ -2659,7 +2659,7 @@ void main()
 		   NULL, "\"Eu prometo...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500520", 256, TRUE);
 	OutputLine(NULL, "神社に来た時はお饅頭とお茶も付けますのです。」",
-		   NULL, " Vou até servir alguns bolos de arroz e chá quando você vier ao santuário.\"", Line_Normal);
+		   NULL, " Vou até servir alguns bolos de arroz e chá quando você vier ao Santuário.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

@@ -185,7 +185,7 @@ void main()
 		   NULL, "\"Eles provavelmente estão indo para lugares diferentes no vilarejo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000081", 256, TRUE);
 	OutputLine(NULL, "あ、でも、いつも待ち合わせは神社の境内なんだそうですよ。",
-		   NULL, " Eu sei que eles sempre se encontram no santuário.", Line_WaitForInput);
+		   NULL, " Eu sei que eles sempre se encontram no Santuário.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000082", 256, TRUE);
 	OutputLine(NULL, "鷹野さんは午後半で帰られましたから、…ひょっとするとまだ境内にいるかもしれませんね。」",
 		   NULL, " Ela saiu há não muito tempo, então ela ainda pode estar em algum lugar perto de lá...\"", Line_Normal);
@@ -203,7 +203,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここで立ち話なんてしてる場合ではないようだ。",
-		   NULL, "Não era hora de conversar com Irie.", Line_Normal);
+		   NULL, "Não era hora de conversar com o Irie.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -212,7 +212,7 @@ void main()
 		   NULL, "\"......Muito obrigada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500319", 256, TRUE);
 	OutputLine(NULL, "神社に戻ってみますです。」",
-		   NULL, " Vou tentar o santuário.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vou tentar o Santuário.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -239,12 +239,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神社に戻ってくる。",
-		   NULL, "Voltei para o santuário.", Line_Normal);
+		   NULL, "Voltei para o Santuário.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　境内へ上がる階段の脇の、いつもの駐輪場所に自転車を停めようとした。",
-		   NULL, "Eu ia estacionar minha bicicleta perto das escadas que levam ao terreno do santuário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu ia estacionar minha bicicleta perto das escadas que levam ao terreno do Santuário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1305,7 +1305,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祭具殿は、外から内部が見えないよう、前室が設けてあって、二重扉の構造になっている。",
-		   NULL, "O armazém do santuário tem duas portas para que as pessoas não possam ver o interior quando a primeira porta for aberta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O armazém do Santuário tem duas portas para que as pessoas não possam ver o interior quando a primeira porta for aberta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

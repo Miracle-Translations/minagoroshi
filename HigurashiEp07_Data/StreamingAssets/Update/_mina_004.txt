@@ -26,7 +26,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　叩き売りオークションとやらで売り物になる寄付品は、古手神社の集会所の中に集められていた。",
-		   NULL, "Os itens doados para o leilão foram recolhidos no santuário Furude.", Line_Normal);
+		   NULL, "Os itens doados para o leilão foram recolhidos no Santuário Furude.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1599,7 +1599,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が集会所に鍵を掛けている間、境内を見回した。",
-		   NULL, "Olhei ao redor ao santuário enquanto Mion trancava a porta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Olhei ao redor do Santuário enquanto Mion trancava a porta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1930,7 +1930,7 @@ void main()
 		   NULL, " O que é essa dança?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100305", 256, TRUE);
 	OutputLine(NULL, "　やっぱり古手神社の巫女さんだから、何か神事でもやるわけか？」",
-		   NULL, " Você vai fazer algo tradicional porque você é a sacerdotisa do santuário?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você vai fazer algo tradicional porque você é a sacerdotisa do Santuário?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

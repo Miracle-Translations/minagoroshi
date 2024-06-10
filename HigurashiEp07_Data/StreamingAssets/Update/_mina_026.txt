@@ -315,10 +315,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600018", 256, TRUE);
 	OutputLine(NULL, "「境内の中にも見慣れない人がいました。",
-		   NULL, "\"Tinha alguns estranhos em volta do santuário.", Line_WaitForInput);
+		   NULL, "\"Tinha alguns estranhos em volta do Santuário.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600019", 256, TRUE);
 	OutputLine(NULL, "あれも私服警官ですか？",
-		   NULL, " Eles também são políciais?", Line_WaitForInput);
+		   NULL, " Eles também são policiais?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600020", 256, TRUE);
 	OutputLine(NULL, "　只事じゃないんですけど…！」",
 		   NULL, " Isso não é normal...!\"", GetGlobalFlag(GLinemodeSp));

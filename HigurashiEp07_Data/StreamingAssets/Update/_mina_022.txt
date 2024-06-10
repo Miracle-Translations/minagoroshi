@@ -1478,7 +1478,7 @@ void main()
 		   NULL, "\"Tenho certeza que ele vai à comemoração após o festival.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400007", 256, TRUE);
 	OutputLine(NULL, "まだ神社の敷地内にいるとのことですんね。」",
-		   NULL, " Ele ainda está no santuário.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ele ainda está no Santuário.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1517,7 +1517,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　帰るべき人は帰り、帰らず打ち上げで飲んでいる人たちは神社で酔っ払っている、そういう時間だ。",
-		   NULL, "Aquelas que ainda estavam lá provavelmente estavam aproveitando a comemoração após o festival enquanto se embriagavam dentro do santuário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aquelas que ainda estavam lá provavelmente estavam aproveitando a comemoração após o festival enquanto se embriagavam dentro do Santuário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
