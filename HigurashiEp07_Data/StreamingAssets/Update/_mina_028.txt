@@ -123,7 +123,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石たちが見たのはその工作だったのだ。",
-		   NULL, "Essa missão foi o que Ooishi encontrou.", Line_Normal);
+		   NULL, "Foi esse procedimento o que Ooishi e Kumagai encontraram.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/yhu2", "maskup", 1, 0, 1300 );
@@ -137,29 +137,29 @@ void main()
 		   NULL, " Fênix 1 para todas as unidades.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400077", 256, TRUE);
 	OutputLine(NULL, "突入準備。",
-		   NULL, " Esteja preparado ao entrar.", Line_WaitForInput);
+		   NULL, " Estejam preparados ao entrar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400078", 256, TRUE);
 	OutputLine(NULL, "１階の刑事２名と２階の同伴者１名を排除せよ。",
-		   NULL, " Elimine os dois detetives no primeiro andar e o companheiro no segundo.", Line_WaitForInput);
+		   NULL, " Eliminem os dois detetives no primeiro andar e a companheira no segundo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400079", 256, TRUE);
 	OutputLine(NULL, "痕跡を残せん。",
-		   NULL, " Não deixe nenhuma evidência. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não deixem nenhuma evidência. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400080", 256, TRUE);
 	OutputLine(NULL, "発砲禁止、ガスも使えんね。",
-		   NULL, "Não dispare suas armas nem use qualquer gás.", Line_WaitForInput);
+		   NULL, "Não disparem suas armas nem usem qualquer gás.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400081", 256, TRUE);
 	OutputLine(NULL, "テーサーを使え。",
-		   NULL, " Use seus tasers.", Line_WaitForInput);
+		   NULL, " Usem seus tasers.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400082", 256, TRUE);
 	OutputLine(NULL, "短銃で武装してるぞ、撃たせるな。」",
-		   NULL, " Lembre-se, eles têm armas. Não os deixe atirar.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Lembrem-se, eles têm armas. Não os deixem atirar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900254", 256, TRUE);
 	OutputLine(NULL, "「小此木、素人相手に手こずらないでよ？",
-		   NULL, "\"Vamos, não me envergonhe, Okonogi.", Line_WaitForInput);
+		   NULL, "\"Okonogi, pega leve com os novatos, tá bom?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900255", 256, TRUE);
 	OutputLine(NULL, "　くすくす。」",
 		   NULL, " Hihi.\"", Line_Normal);
@@ -168,10 +168,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400083", 256, TRUE);
 	OutputLine(NULL, "「まぁ、仕事ですんね、宮仕えの悲しさですわ。",
-		   NULL, "\"Estou apenas fazendo meu trabalho.", Line_WaitForInput);
+		   NULL, "\"Ah, eu estou apenas fazendo o meu trabalho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400084", 256, TRUE);
 	OutputLine(NULL, "鳳７、８前進。",
-		   NULL, " Fênix 7 e 8, avance.", Line_WaitForInput);
+		   NULL, " Fênix 7 e 8, avancem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400085", 256, TRUE);
 	OutputLine(NULL, "バックアップは周辺警戒を厳重にされたし。」",
 		   NULL, " Equipes de reforço, protejam o perímetro.\"", GetGlobalFlag(GLinemodeSp));
@@ -180,47 +180,47 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳７</color>", NULL, "<color=#f5e6d3>Fênix 7</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo728001", 256, TRUE);
 	OutputLine(NULL, "「鳳７了解。",
-		   NULL, "\"Certo.", Line_WaitForInput);
+		   NULL, "\"Entendido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo728002", 256, TRUE);
 	OutputLine(NULL, "前進する。」",
-		   NULL, " Estamos indo agora.\"", Line_Normal);
+		   NULL, " Avançaremos agora.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　作業服姿の男が２人、足音を殺しながらプレハブ小屋に近付いていく。",
-		   NULL, "Os dois homens uniformizados aproximaram-se lentamente do prédio.", Line_Normal);
+		   NULL, "Os dois homens uniformizados aproximaram-se lentamente do local.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　作業服はねずみ色なので迷彩効果はまったくない。",
-		   NULL, "O uniforme da Yamainu é cinza, então não combinava nada com o ambiente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O uniforme da Yamainu é cinza, então não havia nenhum efeito de camuflagem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、発見されても違和感を持たれないという意味では高い迷彩効果があると言えた。",
-		   NULL, "No entanto, não parece tão suspeito quanto trajes de camuflagem reais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas, de certa forma, o efeito é ainda maior porque, mesmo que eles sejam descobertos, os uniformes não são tão suspeitos quanto trajes de camuflagem reais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………もっとも、この深夜に足音を殺すその姿は誰が見ても異様な光景だろうが。",
-		   NULL, "......Claro, eles pareciam suspeitos o suficiente rastejando até a casa daquele jeito de qualquer maneira.", Line_Normal);
+		   NULL, "......Independentemente disso, eles pareciam suspeitos o suficiente só por estarem rastejando daquele jeito tão tarde da noite.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　シャッターの脇にあるドアの隙間からは、灯りと刑事の話し声が漏れ出していた。",
-		   NULL, "Ambos podiam ver a luz vazando da porta e ouvir as vozes dos detetives.", Line_Normal);
+		   NULL, "Ambos podiam ver a luz vazando pela fresta da porta e ouvir as vozes dos detetives.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段、梨花たちが出入りするのはこちらの引き戸だ。",
-		   NULL, "Rika normalmente usaria esta porta deslizante para entrar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika usa esta porta deslizante para entrar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この引き戸はもちろん施錠されていたが、山狗はすでに有事に備え、だいぶ前から合鍵を用意していた。",
-		   NULL, "A porta estava trancada, mas os membros da Yamainu conseguiram uma chave reserva há muito tempo.", Line_Normal);
+		   NULL, "Claro que a porta estava trancada, mas os membros da Yamainu prepararam uma chave reserva há muito tempo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -230,20 +230,20 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　開錠時に少なからずの音を立てるだろう。",
-		   NULL, "Eles tinham certeza de que faria algum tipo de barulho quando o virassem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles tinham certeza de que faria muito barulho quando a virassem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　開錠と同時に気付かれる。",
-		   NULL, "Os detetives iriam notá-los no minuto que fizessem isso.", Line_WaitForInput);
+		   NULL, "Os detetives iriam notá-los no instante que fizessem isso.", Line_WaitForInput);
 	OutputLine(NULL, "その瞬間に突入して制圧しなければならない。",
-		   NULL, " Eles teriam que correr para dentro e derrotá-los em uma explosão rápida.", Line_Normal);
+		   NULL, " Eles teriam que correr para dentro e derrotá-los imediatamente.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鳳７、８と呼ばれた２人は頷き合った。",
-		   NULL, "Fénices 7 e 8 se entreolharam.", Line_Normal);
+		   NULL, "Fênix 7 e 8 se entreolharam.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -251,7 +251,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳７</color>", NULL, "<color=#f5e6d3>Fênix 7</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo728003", 256, TRUE);
 	OutputLine(NULL, "「鳳７より本部、準備位置に到着。",
-		   NULL, "\"Aqui é Fênix 7. Chegamos ao local de destino.", Line_WaitForInput);
+		   NULL, "\"Aqui é a Fênix 7. Chegamos ao local de destino.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo728004", 256, TRUE);
 	OutputLine(NULL, "突入指示を請う。」",
 		   NULL, " Esperando pelo seu comando.\"", GetGlobalFlag(GLinemodeSp));
@@ -263,10 +263,10 @@ void main()
 		   NULL, "\"...Takano aqui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900257", 256, TRUE);
 	OutputLine(NULL, "……綺麗に決めるのよ。",
-		   NULL, " ...Mate-os cuidadosamente.", Line_WaitForInput);
+		   NULL, " ...Matem eles cuidadosamente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900258", 256, TRUE);
 	OutputLine(NULL, "行きなさい。」",
-		   NULL, " Claro.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vão.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳７</color>", NULL, "<color=#f5e6d3>Fênix 7</color>", NULL, Line_ContinueAfterTyping); }
@@ -283,7 +283,7 @@ void main()
 	StartShakingOfAllObjects( 248, 30, 0, 2, 2*2, FALSE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガタガタ、ガシャン！",
-		   NULL, "Clack clack...!", Line_Normal);
+		   NULL, "Clack, clack...!", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "kaze", 56, 0 );
@@ -317,13 +317,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小宮山</color>", NULL, "<color=#f5e6d3>Komiyama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/komi28011", 256, TRUE);
 	OutputLine(NULL, "「がッ！！！」",
-		   NULL, "\"Ugh!!\"", Line_Normal);
+		   NULL, "\"Gah!!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>刑事</color>", NULL, "<color=#f5e6d3>Detetive</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7h6000", 256, TRUE);
 	OutputLine(NULL, "「…ごッ！！！」",
-		   NULL, "\"...Agh!!\"", Line_Normal);
+		   NULL, "\"...Goh!!!\"", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 
@@ -334,28 +334,28 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鋭く短い悲鳴をあげて飛び跳ねると、刑事たちはその場にばったりと倒れた。",
-		   NULL, "Os detetives desmaiaram, fazendo o mínimo de barulho.", Line_Normal);
+		   NULL, "Os detetives caíram no chão, fazendo o mínimo de barulho.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…彼らの体には針が打ち込まれ、その針から伸びたワイヤー状のものが鳳たちの銃口に繋がっていた。",
-		   NULL, "Havia agulhas enfiadas em seus corpos, e essas agulhas estavam conectadas por meio de fios às armas dos atacantes.", Line_Normal);
+		   NULL, "...Agulhas foram enfiadas em seus corpos, conectadas por meio de fios às armas dos atacantes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２人が構えた武器は拳銃ではなく、拳銃型のスタンガンだった。",
-		   NULL, "Em outras palavras, as armas que aqueles dois possuíam não eram armas comuns. Eram armas de choque em forma de armas de fogo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As armas que aqueles dois possuíam não eram comuns, eram armas de choque parecidas com armas de fogo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　弾丸の代わりに電極の針を撃ち出し、人体に差し込んで強力な電流を流し相手を無力化する。",
-		   NULL, "Em vez de balas, eles disparam agulhas elétricas que eletrocutam suas vítimas até deixá-las inconscientes.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Em vez de balas, elas disparam agulhas elétricas que eletrocutam suas vítimas até deixá-las inconscientes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本来は抵抗する犯人を無傷で制圧するための人道的武器だが、彼らが使用しているものには、非人道的な改造が加えられているようだった…。",
-		   NULL, "Normalmente seriam armas não letais que permitem ao atirador capturar sua vítima sem feri-la muito, mas seus tasers foram modificados.", Line_Normal);
+		   NULL, "Normalmente seriam armas não letais usadas para controlar criminosos sem causar danos, mas as armas que eles usavam foram modificadas.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -365,7 +365,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、階上でバタバタと慌しい気配が伝わってきた。",
-		   NULL, "Mas no momento seguinte, eles ouviram um barulho alto acima deles.", Line_Normal);
+		   NULL, "Então, eles ouviram um barulho alto que vinha do andar de cima.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/ymo3", 400 );
@@ -375,29 +375,29 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳１０</color>", NULL, "<color=#f5e6d3>Fênix 10</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1028001", 256, TRUE);
 	OutputLine(NULL, "「こちら鳳１０！",
-		   NULL, "\"Aqui é Fênix 10!", Line_WaitForInput);
+		   NULL, "\"Aqui é a Fênix 10!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1028002", 256, TRUE);
 	OutputLine(NULL, "　Ｒ以下２名が勘付いた！",
 		   NULL, " R e sua companheira nos notaram!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1028003", 256, TRUE);
 	OutputLine(NULL, "　２階の窓から…、飛び降りたぞ！！",
-		   NULL, " Eles simplesmente pularam da janela do segundo andar!", Line_WaitForInput);
+		   NULL, " Elas pularam da janela do segundo andar!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1028004", 256, TRUE);
 	OutputLine(NULL, "　裏の茂みへ逃走している！！」",
-		   NULL, " Eles estão correndo para a floresta!", Line_Normal);
+		   NULL, " Elas estão correndo para a floresta!!", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳１０</color>", NULL, "<color=#f5e6d3>Fênix 10</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1028005", 256, TRUE);
 	OutputLine(NULL, "鳳４、５、そっちへ行くぞ、制圧しろッ！！」",
-		   NULL, "Atenção, Fênix 4 e 5. Eles estão indo na sua direção!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Atenção, Fênix 4 e 5. Elas estão indo na sua direção!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Fênix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s13/00/oto0211001", 256, TRUE);
 	OutputLine(NULL, "「鳳４了解、行くぞ！！」",
-		   NULL, "\"Certo, Vamos!\"", Line_Continue);
+		   NULL, "\"Entendido, vamos!!\"", Line_Continue);
 	OutputLineAll(NULL, "", Line_Normal);
 
 	ClearMessage();
@@ -427,28 +427,28 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　パパパパパンッ！！",
-		   NULL, "Pow pow pow!!", Line_Normal);
+		   NULL, "Pow, pow, pow!!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　安っぽい破裂音と白煙が立ち込めた。",
-		   NULL, "Com uma explosão de som barato, a área ficou cheia de fumaça.", Line_Normal);
+		   NULL, "Com uma explosão de baixa qualidade, a área ficou cheia de fumaça.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは沙都子の仕掛けた癇癪玉を使ったトラップだったのだ。",
-		   NULL, "Essa foi a armadilha que Satoko preparou usando fogos de artifício.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Essa foi a armadilha que a Satoko preparou usando algumas bombinhas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、癇癪玉というのが幸いした。",
-		   NULL, "Isso provou ser uma ideia muito feliz.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A armadilha se mostrou sendo muito útil.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らがプロであったがゆえに、火薬の音を聞いて反射的に銃声だと思い、身を伏せてしまったのだ。",
-		   NULL, "Os membros da Yamainu caíram no chão, presumindo que estavam sob ataque.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os membros da Yamainu, ao ouvirem o som da explosão, caíram no chão achando que eram um tiro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -463,22 +463,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/280400122", 256, TRUE);
 	OutputLine(NULL, "「な、何なんですのあいつらは！！",
-		   NULL, "\"Quem são eles?!", Line_WaitForInput);
+		   NULL, "\"Q-Quem são eles?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/280400123", 256, TRUE);
 	OutputLine(NULL, "　梨花の言う東京なんですの？！」",
-		   NULL, " Eles são a organização de Tóquio de qual você estava falando?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É aquela Tóquio que você estava falando?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500341_1", 256, TRUE);
 	OutputLine(NULL, "「……多分ね！",
-		   NULL, "\"......Acho que sim.", Line_WaitForInput);
+		   NULL, "\"......Acho que sim!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500342_1", 256, TRUE);
 	OutputLine(NULL, "　いいから走って！！",
-		   NULL, " Apenas corra!", Line_WaitForInput);
+		   NULL, " Continue correndo!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500343_1", 256, TRUE);
 	OutputLine(NULL, "　捕まったら殺されるわよッ！！」",
-		   NULL, " Estaremos mortos se eles nos pegarem!\"", Line_Normal);
+		   NULL, " Se eles nos pegarem, a gente já era!!\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 7, 0, 300 );
@@ -495,22 +495,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳５</color>", NULL, "<color=#f5e6d3>Fênix 5</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo528001", 256, TRUE);
 	OutputLine(NULL, "「こちら鳳５、銃撃を受けた模様！",
-		   NULL, "\"Aqui é Fênix 5. Alguém estava atirando em nós!", Line_WaitForInput);
+		   NULL, "\"Aqui é a Fênix 5. Alguém atirou em nós!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo528002", 256, TRUE);
 	OutputLine(NULL, "　Ｒは突破した。",
 		   NULL, " R escapou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo528003", 256, TRUE);
 	OutputLine(NULL, "追撃する！！」",
-		   NULL, " Continue a perseguição!!\"", Line_Normal);
+		   NULL, " Continuaremos a perseguição!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳４</color>", NULL, "<color=#f5e6d3>Fênix 4</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo428009", 256, TRUE);
 	OutputLine(NULL, "「く、くそ、癇癪玉か何かだ！",
-		   NULL, "\"Me-Merda! Eram apenas alguns fogos de artíficio!", Line_WaitForInput);
+		   NULL, "\"Me-Merda! Era só umas bombinhas!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo428010", 256, TRUE);
 	OutputLine(NULL, "　畜生め…！！」",
-		   NULL, " Maldição!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Droga!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -522,25 +522,25 @@ void main()
 		   NULL, " Isso deve ser obra da Satoko-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900261", 256, TRUE);
 	OutputLine(NULL, "やるわねぇ…くすくす。」",
-		   NULL, " Ela é muito boa... hihi.\"", Line_Normal);
+		   NULL, " Ela é muito boa... Hihi.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400086", 256, TRUE);
 	OutputLine(NULL, "「……あぁん！！",
-		   NULL, "\"...O quê?!", Line_WaitForInput);
+		   NULL, "\"...Quê?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400087", 256, TRUE);
 	OutputLine(NULL, "　なっさけなぁ！",
-		   NULL, " Anda logo!", Line_WaitForInput);
+		   NULL, " Vão logo!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400088", 256, TRUE);
 	OutputLine(NULL, "　近場の班は急行しろ、人家に逃げ込まれたらアウトだぞ！」",
-		   NULL, " Não deixe que eles escapem para dentro da casa de alguém!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não deixem que elas escapem para dentro da casa de alguém!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>鳳１８</color>", NULL, "<color=#f5e6d3>Fênix 18</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1828001_01", 256, TRUE);
 	OutputLine(NULL, "「鳳１８、発見した！",
-		   NULL, "\"Aqui é Fênix 18! Eu localizei o alvo!", Line_WaitForInput);
+		   NULL, "\"Aqui é a Fênix 18! Eu localizei o alvo!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/oo1828002", 256, TRUE);
 	OutputLine(NULL, "　追跡中、応援を送れ！！」",
 		   NULL, " Eu preciso de reforço!!\"", GetGlobalFlag(GLinemodeSp));
@@ -552,7 +552,7 @@ void main()
 		   NULL, "\"Elas conhecem esta área muito bem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900263", 256, TRUE);
 	OutputLine(NULL, "早く押さえないと確実に見失うわ。」",
-		   NULL, " Se não as pegarmos agora, definitivamente as perderemos.\"", Line_Normal);
+		   NULL, " Se não pegarmos elas agora, certamente as perderemos.\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 1000, FALSE );
