@@ -168,7 +168,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400083", 256, TRUE);
 	OutputLine(NULL, "「まぁ、仕事ですんね、宮仕えの悲しさですわ。",
-		   NULL, "\"Ah, eu estou apenas fazendo o meu trabalho.", Line_WaitForInput);
+		   NULL, "\"Ah, eu estou só fazendo o meu trabalho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400084", 256, TRUE);
 	OutputLine(NULL, "鳳７、８前進。",
 		   NULL, " Fênix 7 e 8, avancem.", Line_WaitForInput);
@@ -215,7 +215,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段、梨花たちが出入りするのはこちらの引き戸だ。",
-		   NULL, "Rika usa esta porta deslizante para entrar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika usa essa porta deslizante para entrar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -561,7 +561,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう、それは隠れんぼではなく鬼ごっこだった。",
-		   NULL, "Este não era um jogo de esconde-esconde. Foi um jogo de pega-pega.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não era mais um esconde-esconde, mas sim um pega-pega.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -571,13 +571,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼らは馬鹿じゃないから「待て」などという無意味な制止音声は使わない。",
-		   NULL, "...Eles não eram idiotas, então não desperdiçavam energia em um ato fútil de gritar \"espere.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eles não eram idiotas, então não desperdiçariam energia em um ato fútil como gritar \"espere\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、静かな夜に死を賭した静寂の鬼ごっこだったのだ。",
-		   NULL, "Este foi um jogo de pega-pega silencioso e mortal no meio da noite.", Line_Normal);
+		   NULL, "Por isso, este era um pega-pega silencioso e mortal no meio da noite.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 7, 0, 300 );
@@ -596,13 +596,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500344", 256, TRUE);
 	OutputLine(NULL, "「……バ、バラバラになって追っ手を振り切りましょうです！",
-		   NULL, "\"......Vamos, vamos nos separar para tentar nos livrar deles!", Line_WaitForInput);
+		   NULL, "\"......Va-Vamos nos separar pra tentar nos livrar deles!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500345", 256, TRUE);
 	OutputLine(NULL, "　落ち合うのは魅ぃの家！",
-		   NULL, " Nos encontraremos na casa de Mii!", Line_WaitForInput);
+		   NULL, " Nos encontraremos na casa da Mii!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500346", 256, TRUE);
 	OutputLine(NULL, "　地下の隠し部屋なら安全だし外部と連絡も取れますです！！」",
-		   NULL, " O porão dela estará seguro e podemos entrar em contato com a polícia de lá!!\"", Line_Normal);
+		   NULL, " O porão dela vai ser seguro e podemos entrar em contato com a polícia de lá!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -979,7 +979,7 @@ void main()
 	OutputLine(NULL, "　気付く。",
 		   NULL, "Eu tinha notado algo.", Line_WaitForInput);
 	OutputLine(NULL, "彼らは沙都子しか銃で狙わない。",
-		   NULL, " Eles estavam mirando apenas em Satoko.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eles estavam mirando apenas na Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
