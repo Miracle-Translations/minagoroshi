@@ -102,10 +102,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100138", 256, TRUE);
 	OutputLine(NULL, "「おいおい、別に女の子じゃないと人形は渡せないとか、そういう考え方じゃねぇぞ！",
-		   NULL, "\"Ei, não é como se eu só pudesse dar essa boneca para uma garota!", Line_WaitForInput);
+		   NULL, "\"Ei, não é como se eu só pudesse dar essa boneca pra uma garota!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100139", 256, TRUE);
 	OutputLine(NULL, "　こいつは俺と今日の部活で熱いにらみ合いをしてくれた親友への贈り物なんだぜ？」",
-		   NULL, " Pense nisso como meu presente para você, como um amigo!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pense nisso como meu presente pra você, como um amigo!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -117,7 +117,7 @@ void main()
 		   NULL, "\"T-Tem certeza?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300039", 256, TRUE);
 	OutputLine(NULL, "　圭ちゃんは男の子の友達にも人形を渡すわけ？！」",
-		   NULL, " Então você daria uma boneca para um garoto também?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Então você daria uma boneca pra um garoto também?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -273,7 +273,7 @@ void main()
 		   NULL, "\"Ela finalmente aceitou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100146", 256, TRUE);
 	OutputLine(NULL, "人形一個渡すのに手間のかかるやつだぜ。」",
-		   NULL, " Foi um desafio só para dar uma boneca para ela.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Foi um desafio só pra dar uma boneca pra ela.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

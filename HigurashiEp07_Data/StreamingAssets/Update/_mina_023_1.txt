@@ -218,7 +218,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500078", 256, TRUE);
 	OutputLine(NULL, "「……ボクも、こんな祟りはもう金輪際にしてほしいと思っていますです。」",
-		   NULL, "\"...Eu gostaria de ver a maldição desaparecer para sempre também.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Eu gostaria de ver a maldição desaparecer pra sempre também.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -349,7 +349,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500082", 256, TRUE);
 	OutputLine(NULL, "「……富竹は雛見沢にはいつも自転車で来ますから、」",
-		   NULL, "\"......Tomitake voltou de bicicleta para Hinamizawa.\"", Line_Normal);
+		   NULL, "\"......Tomitake voltou de bicicleta pra Hinamizawa.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

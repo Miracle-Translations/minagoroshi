@@ -96,7 +96,7 @@ void main()
 		   NULL, "\"E-Eu não sei...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300032", 256, TRUE);
 	OutputLine(NULL, "まぁ、お人形なんて男の子の持つものじゃないよね〜って言っただけだしさ？」",
-		   NULL, " Só estou dizendo que bonecas não são para meninos.\"", Line_Normal);
+		   NULL, " Só estou dizendo que bonecas não são pra meninos.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -175,7 +175,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100052", 256, TRUE);
 	OutputLine(NULL, "「……梨花、…確率的なものかもしれないのですよ？」",
-		   NULL, "\"Rika... isso pode ser apenas uma coincidência, sabe?\"", Line_Normal);
+		   NULL, "\"Rika... talvez isso seja só uma coincidência, né?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -185,18 +185,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一が、魅音に渡すのは恥ずかしいからレナに渡そうという気持ちが「弱いもの」であったなら、時にはこのような結果になる可能性もあるだろう。",
-		   NULL, "Se a vontade dele de dar a boneca para Rena fosse fraca isso poderia ter sido resultado disso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se a vontade dele de dar a boneca pra Rena fosse fraca, o que aconteceu pode ter sido resultado disso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも私は、確率的なものだったとは思わなかった。",
-		   NULL, "Mas eu não sinto que foi apenas coincidência.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas eu sinto que não foi só uma coincidência.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　きっと圭一は…心のどこかで何かを覚えていてくれて、成長をしてくれたのだ。",
-		   NULL, "Acredito que Keiichi se lembra de algo em seu coração e por causa disso ele fez algum progresso...", Line_Normal);
+		   NULL, "Acredito que o Keiichi se lembra de algo em seu coração e por causa disso ele fez algum progresso...", Line_Normal);
 	ClearMessage();
 
 }

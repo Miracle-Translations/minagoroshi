@@ -183,7 +183,7 @@ void main()
 		   NULL, "\"E-Eu não sei...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300032", 256, TRUE);
 	OutputLine(NULL, "まぁ、お人形なんて男の子の持つものじゃないよね〜って言っただけだしさ？」",
-		   NULL, " Só estou dizendo que bonecas não são para meninos.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Só estou dizendo que bonecas não são pra meninos.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

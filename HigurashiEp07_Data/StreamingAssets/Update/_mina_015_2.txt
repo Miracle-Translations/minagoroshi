@@ -112,7 +112,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　亀田くんは野球関係者だけでなく、エンジェルモートの方もまとめてくれたわけで……、",
-		   NULL, "Kameda-kun fez muito por mim. Ele trouxe não apenas seus companheiros de equipe, mas também pessoas do Angel Mort...", Line_ContinueAfterTyping);
+		   NULL, "Kameda-kun fez muito por mim. Ele não só trouxe os seus companheiros de equipe, mas também pessoas do Angel Mort...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
@@ -440,7 +440,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それだけでみんなの私語が止み、俺へ視線が集まるのを感じた。",
-		   NULL, "Todos ficaram quietos e voltaram seu olhar para mim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Todos ficaram quietos e voltaram seu olhar pra mim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -461,21 +461,21 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6230", 256, TRUE);
 	OutputLine(NULL, "　かつて気の向くままに沙都子を虐め、愛人のところへ一年間も蒸発していた叔父がどうして親権者なんて名乗れるのか！！",
-		   NULL, "Como ele poderia reivindicar ser seu tutor legal? Ele costumava bater nela e a negligenciou por um ano inteiro para poder morar com sua amante aqui em Okinomiya!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como ele poderia reivindicar ser seu tutor legal? Ele costumava bater nela e a negligenciou por um ano inteiro pra poder morar com sua amante aqui em Okinomiya!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6231", 256, TRUE);
 	OutputLine(NULL, "　児童相談所は直ちに状況を理解し、沙都子に対する緊急保護を実施するべきである！！",
 		   NULL, "O centro de consulta infantil deve cuidar urgentemente deste assunto e salvar a Satoko dele!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6232", 256, TRUE);
 	OutputLine(NULL, "　だが児童相談所側は慎重な対応を理由に現状を放置！",
-		   NULL, " No entanto, eles estão colocando o caso dela em espera!", Line_WaitForInput);
+		   NULL, " Mas eles estão colocando o caso dela em espera!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6233", 256, TRUE);
 	OutputLine(NULL, "　沙都子が日々の窒息しそうな環境の中で心をすり潰されていっている急を理解していない！！",
 		   NULL, " Eles simplesmente não entendem como isso é uma emergência!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6234", 256, TRUE);
 	OutputLine(NULL, "　俺たちはこれより三日目の陳情を決行し、児童相談所に改めて緊急の対応を求めるものであるッ！！！」",
-		   NULL, "Hoje vamos tentar o nosso terceiro apelo, para que a salvem, o mais rápido possível!!!\"", Line_Normal);
+		   NULL, "Hoje vamos tentar o nosso terceiro apelo, pra que a salvem o mais rápido possível!!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -487,7 +487,7 @@ void main()
 		   NULL, "\"Aqueles que viram a Satoko-chan na escola hoje, devem saber!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200519", 256, TRUE);
 	OutputLine(NULL, "　あの快活だった沙都子ちゃんがたったの四日であんなにもやつれ果ててしまって！",
-		   NULL, " Ela estava perdendo o juízo depois de apenas quatro dias!", Line_WaitForInput);
+		   NULL, " Ela estava perdendo o juízo depois de só quatro dias!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200520", 256, TRUE);
 	OutputLine(NULL, "　あんな姿をこれ以上放っておくなんて絶対にできない！！」",
 		   NULL, " Não podemos mais deixá-la naquele lugar!!\"", GetGlobalFlag(GLinemodeSp));
@@ -546,7 +546,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600284", 256, TRUE);
 	OutputLine(NULL, "「やっぱり田舎的な人懐っこい風土によるものだと思います。",
-		   NULL, "\"Essa é apenas a cultura daqui, eu acho.", Line_WaitForInput);
+		   NULL, "\"Essa é só a cultura daqui, eu acho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600285", 256, TRUE);
 	OutputLine(NULL, "だから、今日のこれは起こるべくして起こったんです。」",
 		   NULL, " Algo assim acontecendo era inevitável.\"", GetGlobalFlag(GLinemodeSp));
@@ -650,7 +650,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　窓には人影があり、この様子を見ながら慌てふためいているようだった。",
-		   NULL, "Na verdade, pessoas em pânico olhavam para nós pelas janelas.", Line_Normal);
+		   NULL, "Na verdade, pessoas em pânico olhavam pra nós pelas janelas.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -664,7 +664,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　監督に力強く背中を叩かれ、俺はいよいよ６０人という大勢の意思を背負いながら、三日目の第一歩を踏み出す。",
-		   NULL, "Irie me empurrou para frente e dei o primeiro passo da nossa terceira tentativa, com o peso de sessenta pessoas sobre meus ombros.", Line_Normal);
+		   NULL, "Irie me empurrou pra frente e dei o primeiro passo da nossa terceira tentativa, com o peso de sessenta pessoas sobre meus ombros.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskright", 1, 0, 300 );
@@ -682,7 +682,7 @@ void main()
 		   NULL, "\"...Como eles vão lidar com isso?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101164", 256, TRUE);
 	OutputLine(NULL, "一昨日は相談員、昨日は係長。",
-		   NULL, " No primeiro dia foi apenas uma conselheira. Ontem foi o gerente.", Line_WaitForInput);
+		   NULL, " No primeiro dia foi só uma conselheira. Ontem foi o gerente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101165", 256, TRUE);
 	OutputLine(NULL, "なら今日は所長か？！」",
 		   NULL, " Será que hoje vai ser o chefe?\"", GetGlobalFlag(GLinemodeSp));
@@ -720,7 +720,7 @@ void main()
 		   NULL, "\"O mesmo que ontem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6236", 256, TRUE);
 	OutputLine(NULL, "北条沙都子の緊急対応を求めて陳情に参りました！」",
-		   NULL, " Estamos aqui para apelar por ação imediata em nome da Satoko Houjou!\"", Line_Normal);
+		   NULL, " Estamos aqui pra apelar por ação imediata em nome da Satoko Houjou!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -730,7 +730,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その様子を見るだけで、今日も来るかもしれないとは思っていたが、まさかこれほどの人数とは…と驚いているのが伝わってくる。",
-		   NULL, "Dava para notar que ele ficou intimidado ao ver tantas pessoas.", Line_Normal);
+		   NULL, "Dava pra notar que ele ficou intimidado ao ver tantas pessoas.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );
@@ -758,7 +758,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがそんな臆病な感情は、隣を歩いてくれているレナの表情の、頼もしい力強さを見ていると薄れる。",
-		   NULL, "Mas olhar para a expressão esperançosa e encorajadora no rosto de Rena enquanto ela caminhava ao meu lado ajudou a dispersar esses sentimentos tímidos.", Line_Normal);
+		   NULL, "Mas olhar pra expressão esperançosa e encorajadora no rosto da Rena enquanto ela caminhava ao meu lado ajudou a dispersar esses sentimentos tímidos.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -794,7 +794,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一滴の水滴が石に穴を開けるのに気が遠くなる時間が掛かるのに、津波となって押し寄せれば全てを砕いて押し流す！",
-		   NULL, "Uma gota d'água leva uma eternidade para desgastar uma rocha, mas um tsunami pode quebrá-la em pedaços em um segundo!", Line_Normal);
+		   NULL, "Uma gota d'água leva uma eternidade pra desgastar uma rocha, mas um tsunami pode quebrá-la em pedaços em um segundo!", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/mati_ji1", 400 );
@@ -816,12 +816,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただし、今日の話は所長も伺いたいと言っているので、所長席前の応接スペースで伺いたいという。",
-		   NULL, "No entanto, o chefe do escritório estava disposto a nos receber, para que pudéssemos usar a área de recepção em frente à sua mesa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas o chefe do escritório estava disposto a nos receber, pra que pudéssemos usar a área de recepção em frente à sua mesa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　手狭なので、申し訳ないが代表を３名としてほしいとのことだった。",
-		   NULL, "Porém, como a sala é muito pequena, ele nos pediu para escolher três representantes para entrar.", Line_Normal);
+		   NULL, "Porém, como a sala é muito pequena, ele nos pediu pra escolher três representantes pra entrar.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
@@ -840,7 +840,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんなのは受け容れられないと突っぱねようとしたが、魅音は受け容れてもいいだろうと囁く。",
-		   NULL, "Eu queria recusar a oferta deles, mas Mion me disse para aceitar.", Line_Normal);
+		   NULL, "Eu queria recusar a oferta deles, mas Mion me disse pra aceitar.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -931,7 +931,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800119", 256, TRUE);
 	OutputLine(NULL, "「部外者の意見で恐縮だけど、…ここは、話し合いに来ているということをアピールするべきだと思うなぁ。」",
-		   NULL, "\"Acho que deveríamos deixar claro que estamos aqui para conversar...\"", Line_Normal);
+		   NULL, "\"Acho que deveríamos deixar claro que estamos aqui só pra conversar...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1062,13 +1062,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花ちゃんは無口だから、意志の強さを測れない時がある。",
-		   NULL, "Rika-chan é uma garota quieta, então seria difícil para eles entenderem o que ela está pensando.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika-chan é uma garota quieta, então seria difícil pra eles entenderem o que ela está pensando.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、沙都子の一番の親友だったのだ。",
-		   NULL, "No entanto, ela é a melhor amiga da Satoko.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas ela é a melhor amiga da Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1100,7 +1100,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音はウィンクして応えると、みんなに対して事情を説明し始めた。",
-		   NULL, "Mion piscou para mim e começou a explicar a situação para todos os outros.", Line_Normal);
+		   NULL, "Mion piscou pra mim e começou a explicar a situação pra todos os outros.", Line_Normal);
 	ClearMessage();
 
 	CallScript( "&eye" );

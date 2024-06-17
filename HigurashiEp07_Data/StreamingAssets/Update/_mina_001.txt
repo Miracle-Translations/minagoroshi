@@ -165,13 +165,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500004", 256, TRUE);
 	OutputLine(NULL, "「羽入、…そんなことはどうでもいいわ。",
-		   NULL, "\"...Eu não ligo para isso, Hanyuu.", Line_WaitForInput);
+		   NULL, "\"...Eu não ligo pra isso, Hanyuu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500005", 256, TRUE);
 	OutputLine(NULL, "今日はいつ？",
 		   NULL, " Que dia é hoje?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500006", 256, TRUE);
 	OutputLine(NULL, "　昭和何年の何月何日？」",
-		   NULL, " Em que ano e em que mês estamos...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Qual é o ano e o mês que estamos...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -534,7 +534,7 @@ void main()
 		   NULL, "\"Is-Isso é verdade!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100002", 256, TRUE);
 	OutputLine(NULL, "　念には念で、監督に診察してもらった方がいいかもしれないな。」",
-		   NULL, " Você deve pedir ao Treinador para verificar você, apenas por precaução.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você deveria pedir ao Treinador pra verificar você, só por precaução.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -565,7 +565,7 @@ void main()
 		   NULL, "\"Sim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300006", 256, TRUE);
 	OutputLine(NULL, "近くの家で電話を借りて監督を呼んでみるよ。」",
-		   NULL, " Vamos pedir a alguém para usar um telefone e ligar para ele aqui.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vamos pedir a alguém pra usar um telefone e ligar pra ele aqui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -577,7 +577,7 @@ void main()
 		   NULL, " Estou totalmente bem!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500016", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

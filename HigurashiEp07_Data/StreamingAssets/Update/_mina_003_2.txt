@@ -100,7 +100,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………どうして俺は、妄想とも白昼夢ともつかない滅裂な話を大真面目にしているんだろう。",
-		   NULL, ".........Por que eu estava contando a ela sobre algo que era apenas minha imaginação?", GetGlobalFlag(GLinemodeSp));
+		   NULL, ".........Por que eu estava contando a ela sobre uma coisa que era só da minha imaginação?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -111,7 +111,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そんな経験はないのだから、これは確実に記憶のエラーなのだが。",
-		   NULL, "...Isso nunca aconteceu, então obviamente meu cérebro estava apenas inventando...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Isso nunca aconteceu, então é claro que o meu cérebro estava só inventando...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -137,12 +137,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　気付くと、魅音やレナも俺の方を見ていた。",
-		   NULL, "Percebi que Mion e Rena também estavam olhando para mim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Percebi que Mion e Rena também estavam olhando pra mim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺がおはぎを神妙な顔をしながらじっと見ているのを、不思議に思っているようだった。",
-		   NULL, "Eles estavam se perguntando por que eu estava olhando para o ohagi sem comê-lo.", Line_Normal);
+		   NULL, "Eles estavam se perguntando por que eu estava olhando pro ohagi sem comê-lo.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
@@ -254,7 +254,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを口の前に持ってきた時、今さらのように小学生時代の怖い漫画の記憶が蘇り、頬張る前に中身を改めさせたい衝動を掻き立てさせた。",
-		   NULL, "Ao colocá-lo na frente da boca, senti necessidade de verificá-lo, só para garantir...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ao colocá-lo na frente da boca, senti necessidade de verificá-lo, só pra garantir...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -275,7 +275,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　このおはぎは、魅音がみんなにご馳走したくてわざわざ持って来てくれた。",
-		   NULL, "Mion trouxe esses ohagi para presentear todos da turma.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mion trouxe esses ohagi pra presentear todos da turma.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -331,7 +331,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すると、なぜか言わなければならない一言が胸の奥から込み上げてきた。",
-		   NULL, "No momento seguinte, tive vontade de dizer algo para Mion.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No momento seguinte, tive vontade de dizer algo pra Mion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -429,7 +429,7 @@ void main()
 		   NULL, "\"Ahahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200061", 256, TRUE);
 	OutputLine(NULL, "　詩ぃちゃんは沙都子ちゃんのカボチャ嫌いを直すのにがんばってるんだね！」",
-		   NULL, " Shii-chan está se esforçando tanto para impedir Satoko-chan de odiar abóbora!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Shii-chan está se esforçando tanto pra impedir a Satoko-chan de odiar abóbora!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -510,7 +510,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　笑いながら茶化そうとする俺に、梨花ちゃんは再び真剣な様子だった。",
-		   NULL, "Rika-chan olhou para mim com uma cara séria enquanto eu brincava.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika-chan olhou pra mim com uma cara séria enquanto eu brincava.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -562,7 +562,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100253", 256, TRUE);
 	OutputLine(NULL, "「魅音を疑うな、ってことなんだろ？",
-		   NULL, "\"Você está apenas tentando me dizer para não suspeitar de Mion, certo?", Line_WaitForInput);
+		   NULL, "\"Você está tentando me dizer pra não suspeitar da Mion, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100254", 256, TRUE);
 	OutputLine(NULL, "　あぁ、当然だぜ！",
 		   NULL, " Claro que não vou!", Line_WaitForInput);

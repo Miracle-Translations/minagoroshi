@@ -312,7 +312,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/280200006", 256, TRUE);
 	OutputLine(NULL, "「綿流しのお祭りはみんな来るよ。",
-		   NULL, "\"Todo mundo vem para este festival.", Line_WaitForInput);
+		   NULL, "\"Todo mundo vem pra este festival.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/280200007", 256, TRUE);
 	OutputLine(NULL, "多分、雛見沢の人の半分くらいは来てるんじゃないかな。」",
 		   NULL, " Acho que pelo menos metade da população do vilarejo está aqui.\"", GetGlobalFlag(GLinemodeSp));
@@ -461,7 +461,7 @@ void main()
 		   NULL, "Estamos fazendo algo especial este ano!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300017", 256, TRUE);
 	OutputLine(NULL, "　綿流祭、えっと、６人か！",
-		   NULL, " Esse festival do Watanagashi, para nós seis...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Esse festival do Watanagashi, pra nós seis...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	SetSpeedOfMessage( TRUE, 128 );
 
@@ -533,7 +533,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600007", 256, TRUE);
 	OutputLine(NULL, "「昨日までのことなんか、今夜で吹き飛ばしちゃいましょう！」",
-		   NULL, "\"Vamos deixar tudo o que aconteceu antes desta noite para trás!\"", Line_Normal);
+		   NULL, "\"Vamos deixar tudo o que aconteceu antes desta noite pra trás!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1045,13 +1045,13 @@ void main()
 		   NULL, " Coitadinha... Você está tão machucada!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Pai de Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Pai do Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/282600004", 256, TRUE);
 	OutputLine(NULL, "「今後も何かあったら圭一をぜひこき使ってやってください！",
-		   NULL, "\"Se alguma coisa acontecer de novo, sinta-se à vontade para usar o Keiichi!", Line_WaitForInput);
+		   NULL, "\"Se alguma coisa acontecer de novo, sinta-se à vontade pra usar o Keiichi!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/282600005", 256, TRUE);
 	OutputLine(NULL, "　それと引き換えと言っては何ですが、どうですかお嬢さん、ぜひ今度モデルに…！！」",
-		   NULL, " Em troca... o que você acha de ser uma modelo para mim....?!\"", Line_Normal);
+		   NULL, " Em troca... o que você acha de ser uma modelo pra mim....?!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1140,7 +1140,7 @@ void main()
 		   NULL, "\"O festival do Watanagashi só ficou assim há pouco anos, não é mesmo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500015", 256, TRUE);
 	OutputLine(NULL, "　明治以降は退屈な古手家の儀式だし。",
-		   NULL, " Costumava ser apenas uma cerimônia tradicional chata que a família Furude realizava. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Antes era só uma cerimônia tradicional chata que a família Furude realizava. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500016", 256, TRUE);
 	OutputLine(NULL, "それ以前は鷹野好みのお祭りだったはず。」",
@@ -1168,7 +1168,7 @@ void main()
 		   NULL, " Nós duas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500021", 256, TRUE);
 	OutputLine(NULL, "私とあなたを祀る夜なんだから。」",
-		   NULL, " É uma noite especial para mim e para você.\"", Line_Normal);
+		   NULL, " É uma noite especial pra mim e pra você.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 1300 );

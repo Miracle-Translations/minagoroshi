@@ -38,7 +38,7 @@ void main()
 		   NULL, "\"Kyahahaha! Obrigada!", Line_Continue);
 	Wait( 2500 );
 	OutputLine(NULL, "　私、札幌って一度行ってみたかったのよねー。」",
-		   NULL, " Eu sempre quis ir para Sapporo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu sempre quis ir pra Sapporo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>チンピラ</color>", NULL, "<color=#f5e6d3>Delinquente</color>", NULL, Line_ContinueAfterTyping); }

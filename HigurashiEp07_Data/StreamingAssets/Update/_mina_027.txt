@@ -1499,7 +1499,7 @@ void main()
 		   NULL, "\"Eu sei.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/280100177", 256, TRUE);
 	OutputLine(NULL, "何時に終わるのかもわからない仕事って疲れるもんなぁ。」",
-		   NULL, " É uma merda que eles nem saibam quando podem voltar para casa.\"", Line_Normal);
+		   NULL, " É uma merda que eles nem saibam quando podem voltar pra casa.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/hu_r1", 300 );
@@ -1511,7 +1511,7 @@ void main()
 		   NULL, "\"E se nós formos patrulhar lá fora enquanto eles descansam um pouco?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600042", 256, TRUE);
 	OutputLine(NULL, "　沙都子のトラップワークで不審者の接近を阻むとか。」",
-		   NULL, " A Satoko pode montar algumas armadilhas para evitar que estranhos entrem aqui.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A Satoko pode montar algumas armadilhas pra evitar que estranhos entrem aqui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1587,7 +1587,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……途中で食事を取っているのかもしれないという考えは気休めにしかならなかった。",
-		   NULL, "......Quero acreditar que ele parou para jantar no caminho, mas estou começando a ficar preocupada.", Line_Normal);
+		   NULL, "......Quero acreditar que ele parou pra jantar no caminho, mas estou começando a ficar preocupada.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -1881,7 +1881,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつまでも起きていることなどできない。",
-		   NULL, "Não podemos ficar acordados para sempre.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não podemos ficar acordados pra sempre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1957,12 +1957,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らが１階に詰めてくれることになり、４人の警官はこれで帰ってもらうことになった。",
-		   NULL, "Eles iriam ficar lá embaixo, substituindo os quatro policiais que vão voltar para casa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles iriam ficar lá embaixo, substituindo os quatro policiais que vão voltar pra casa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしてそれはみんなにも言われた。",
-		   NULL, "Eles também disseram aos meus amigos para irem embora.", Line_Normal);
+		   NULL, "Eles também disseram aos meus amigos pra irem embora.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小宮山</color>", NULL, "<color=#f5e6d3>Komiyama</color>", NULL, Line_ContinueAfterTyping); }
@@ -2002,7 +2002,7 @@ void main()
 		   NULL, "\"......Estou bem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500327", 256, TRUE);
 	OutputLine(NULL, "第一、お布団も寝巻きもないのです。」",
-		   NULL, " Além disso, não tenho pijamas e cobertores extras para vocês.\"", Line_Normal);
+		   NULL, " Além disso, não tenho pijamas e cobertores extras pra vocês.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2059,7 +2059,7 @@ void main()
 		   NULL, "\"Então, Rika-chama.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600046", 256, TRUE);
 	OutputLine(NULL, "私たちこれで帰りますけど、…用心してください。",
-		   NULL, " Vamos para casa agora, mas tome cuidado.", Line_WaitForInput);
+		   NULL, " Vamos pra casa agora, mas tome cuidado.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600047", 256, TRUE);
 	OutputLine(NULL, "暗闇で一人になるなんてことは絶対しないように。」",
 		   NULL, " Não saia sozinha no escuro em hipótese alguma.\"", GetGlobalFlag(GLinemodeSp));
@@ -2140,7 +2140,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　寝る支度を始めようとしたら、沙都子が今夜は寝巻きではなく普段着で寝たほうがいいなんて言い出す。",
-		   NULL, "Quando comecei a me preparar para ir para a cama, Satoko sugeriu que eu deveria dormir com minhas roupas normais, em vez de pijamas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando comecei a me preparar pra dormir, Satoko sugeriu que eu deveria usar as minhas roupas normais, em vez de pijamas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2170,7 +2170,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　トラップ自慢がほとんどだが、多分、本人は私を安心させたくて言っているのだろう。",
-		   NULL, "Para outra pessoa, pode parecer que ela estava tentando apenas se gabar, mas ela estava tentando me animar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pra outra pessoa, pode parecer que ela estava tentando apenas se gabar, mas ela estava tentando me animar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2329,7 +2329,7 @@ void main()
 		   NULL, "Até agora eu me senti segura de que poderíamos superar isso de alguma forma se estivéssemos todos juntos. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "まるで浮き輪に穴が開いたように漏れていって、……それに掴まっていた私は絶望の海に頭だけを覗かせて沈むまいともがく。",
-		   NULL, "Era como se eu estivesse me segurando em um colete salva-vidas com um buraco vazando ar... Eu estava me afogando em um mar de desespero e lutando para manter a minha cabeça acima da água.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era como se eu estivesse me segurando em um colete salva-vidas com um buraco vazando ar... Eu estava me afogando em um mar de desespero e lutando pra manter a minha cabeça acima da água.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2373,7 +2373,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　トラップ自慢を続ける沙都子を見る。",
-		   NULL, "Eu olhei para a Satoko enquanto ela continuava a se gabar de suas armadilhas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu olhei pra Satoko enquanto ela continuava a se gabar de suas armadilhas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

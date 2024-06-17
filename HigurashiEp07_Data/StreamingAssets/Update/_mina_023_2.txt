@@ -362,7 +362,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/281000046", 256, TRUE);
 	OutputLine(NULL, "「天文学的低確率で起こった偶然だとしか言えません…。",
-		   NULL, "\"Deve ser apenas um coincidência extremamente improvável...", Line_WaitForInput);
+		   NULL, "\"Deve ser só uma coincidência extremamente improvável...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/281000047", 256, TRUE);
 	OutputLine(NULL, "とにかく、絶対そんなことはありえないんです…！」",
 		   NULL, " De qualquer forma, é simplesmente impossível...!\"", Line_Normal);
@@ -594,7 +594,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江は所詮、所長という名を冠した単なる研究者に過ぎないから、何があっても知りはしないだろう。",
-		   NULL, "Irie é apenas um pesquisador, então provavelmente não saberia o que está acontecendo de verdade.", Line_Normal);
+		   NULL, "Irie é só um pesquisador, então provavelmente não saberia o que está acontecendo de verdade.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/aka2", 1000 );

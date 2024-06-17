@@ -35,7 +35,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500309", 256, TRUE);
 	OutputLine(NULL, "「……鷹野とお話したいことがありますのです。",
-		   NULL, "\"......Eu tenho algo que quero perguntar para Takano.", Line_WaitForInput);
+		   NULL, "\"......Eu tenho algo que quero perguntar pra Takano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500310", 256, TRUE);
 	OutputLine(NULL, "今日はいますですか？」",
 		   NULL, " Ela está aqui hoje?\"", Line_Normal);
@@ -275,7 +275,7 @@ void main()
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "その中に明らかに目立つ、見慣れない２台の自転車が停められていた。",
-		   NULL, " No entanto, vi duas desconhecidas estacionadas lá.", Line_Normal);
+		   NULL, " Vi duas bicicletas desconhecidas estacionadas lá.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -474,7 +474,7 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……この村にとっては神聖な意味合いのある鬼ヶ淵村の歴史を、猟奇趣味丸出しで関心を持つからだ。",
-		   NULL, " porque não quero que ela espalhe informações sobre as tradições sagradas e brutais que costumavam ter na vila Onigafuchi. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " porque não quero que ela espalhe informações sobre as tradições sagradas e brutais que costumavam ter no Vilarejo Onigafuchi. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それはある意味で冒涜的だ。",
 		   NULL, "Seria uma desgraça.", GetGlobalFlag(GLinemodeSp));
@@ -488,7 +488,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに、鬼ヶ淵村が辿って来た歴史を鷹野風に解釈することは、羽入にとって苦々しいことでしかないのだ。",
-		   NULL, "Olhar para a história de Onigafuchi da maneira que Takano faz é algo doloroso para Hanyuu também.", Line_Normal);
+		   NULL, "Olhar para a história de Onigafuchi da maneira que a Takano faz é algo doloroso para Hanyuu também.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -572,7 +572,7 @@ void main()
 		   NULL, "\"Hanyuu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500323", 256, TRUE);
 	OutputLine(NULL, "…………鷹野に、祭具殿の中を見せてあげようと思うの。」",
-		   NULL, " ......Estou pensando em mostrar o armazém de ritual para Takano...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......Estou pensando em mostrar o armazém de ritual pra Takano...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -698,7 +698,7 @@ void main()
 		   NULL, " Vou deixar você entrar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500333", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -729,7 +729,7 @@ void main()
 		   NULL, "\"N...", Line_Continue);
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "にぱ――（＞▽＜）ノ――！！」",
-		   NULL, " Nipah――（＞▽＜）ノ――!!\"", Line_Normal);
+		   NULL, " Nipaa――（＞▽＜）ノ――!!\"", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 
@@ -876,7 +876,7 @@ void main()
 		   NULL, "\"Claro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900054", 256, TRUE);
 	OutputLine(NULL, "開かずの祭具殿を、古手家頭首が自ら開けてくれる禁を犯すのだもの。",
-		   NULL, " Você está disposta a quebrar as regras para abrir o armazém proibido para nós.", Line_WaitForInput);
+		   NULL, " Você está disposta a quebrar as regras pra abrir o armazém proibido pra nós.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900055", 256, TRUE);
 	OutputLine(NULL, "約束は守るわ。",
 		   NULL, " Manteremos nossas promessas.", Line_WaitForInput);
@@ -1218,7 +1218,7 @@ void main()
 		   NULL, "\"Jirou-san!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900068", 256, TRUE);
 	OutputLine(NULL, "　梨花ちゃんが入れって言ってるのよ！",
-		   NULL, " Rika-chan está lhe dizendo para entrar!", Line_WaitForInput);
+		   NULL, " Rika-chan está dizendo pra entrar!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900069", 256, TRUE);
 	OutputLine(NULL, "　早く入って？！」",
 		   NULL, " Venha agora!\"", GetGlobalFlag(GLinemodeSp));
@@ -1278,7 +1278,7 @@ void main()
 		   NULL, "\"......Takano, um gato deveria fazer 'miau, miau'...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500353", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1296,11 +1296,11 @@ void main()
 		   NULL, "\"......Se você não agir como um gato, não vou deixar você ver o que tem aqui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500355", 256, TRUE);
 	OutputLine(NULL, "ちゃんと鈴付き首輪と猫耳も持ってきましたですよ。",
-		   NULL, " Trouxe orelhas de gato e uma coleira com sino para você também. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Trouxe orelhas de gato e uma coleira com sino pra você também. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500356", 256, TRUE);
 	OutputLine(NULL, "これをつけて、四つん這いになってにゃーにゃー言ってくれなかったら、次の扉を開けてあげませんです。」",
-		   NULL, "Se você não colocar, ficar de quatro e miar, então não vou abrir a próxima porta.\"", Line_Normal);
+		   NULL, "Se você não colocar, ficar de quatro e miar, eu não vou abrir a próxima porta.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1364,7 +1364,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900074", 256, TRUE);
 	OutputLine(NULL, "これは梨花ちゃんが、私の知的探究心がどれだけ一途で高貴か試しているのよ…！",
-		   NULL, "Você está me testando para ver o quanto sou dedicada à minha pesquisa, não é, Rika-chan?!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Você está me testando pra ver o quanto sou dedicada à minha pesquisa, não é, Rika-chan?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1468,17 +1468,17 @@ void main()
 	OutputLine(NULL, "　富竹め、案外面白くないヤツー！",
 		   NULL, "Tomitake não tem senso de humor!", Line_WaitForInput);
 	OutputLine(NULL, "　ブラウン管の向こうの神さまを今、どれだけ敵に回したと思ってやがるー。",
-		   NULL, " Ele simplesmente decepcionou muitos espectadores que estavam ansiosos para ver Takano com a roupa de gato.", Line_Normal);
+		   NULL, " Ele simplesmente decepcionou muitos espectadores que estavam ansiosos para ver a Takano com roupa de gato.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500361", 256, TRUE);
 	OutputLine(NULL, "「……と、冗談はこのくらいにして、押せば開きますのです。",
-		   NULL, "\"De qualquer forma, ele está certo. Você apenas tem que empurrá-la.", Line_WaitForInput);
+		   NULL, "\"Eu estava bricando. Você só precisa empurrar ela.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500362", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipah~☆\"", Line_Normal);
+		   NULL, " Nipaa~☆\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1300, FALSE );
@@ -1689,11 +1689,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano6003", 256, TRUE);
 	OutputLine(NULL, "もう１つは、使用するぞ使用したらものすごい痛いぞと脅迫するためのものなの。",
-		   NULL, "A outra maneira é ameaçar a vítima apenas mostrando-lhe as ferramentas. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A outra maneira é ameaçar a vítima mostrando as ferramentas. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano6004", 256, TRUE);
 	OutputLine(NULL, "そういう意味では、色々物騒な拷問道具がたくさん取り揃えてある光景は、それだけで脅迫的意味を持つものだったのよ。」",
-		   NULL, "Nesse sentido, ter um número incontável deles pode causar um medo tremendo à vítima.\"", Line_Normal);
+		   NULL, "Nesse sentido, ter uma coleção grande pode deixar a vítima bem amedrontada.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1757,7 +1757,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900090", 256, TRUE);
 	OutputLine(NULL, "「私は、鬼ヶ淵村の独自の戒律を厳重に守らせるためだった、",
-		   NULL, "\"Acho que eles estavam forçando suas vítimas a obedecer às regras da Vila Onigafuchi.", Line_Continue);
+		   NULL, "\"Acho que eles estavam forçando suas vítimas a obedecer às regras do Vilarejo Onigafuchi.", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 6800 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -1784,10 +1784,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika6000", 256, TRUE);
 	OutputLine(NULL, "「……正解なのです。",
-		   NULL, "\"...Sim, você está...", Line_WaitForInput);
+		   NULL, "\"...Sim, você está.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "org/rika6001", 256, TRUE);
 	OutputLine(NULL, "これらの祭具は、実際に使用するためでなく、むしろ、展示して村人を怖がらせて戒律を遵守させることを主眼に置いたものだと言われてますです。",
-		   NULL, " A maioria dessas ferramentas nunca foi construída para uso real. Elas foram simplesmente exibidas na frente dos moradores para intimidá-los. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A maioria dessas ferramentas nunca foi construída pra uso real. Elas foram simplesmente exibidas na frente dos moradores pra intimidá-los. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika6002", 256, TRUE);
 	OutputLine(NULL, "だから、実際にこれらの道具を使う時になって、サイズが合わなかったり、構造的に欠陥があったりで、満足に使用できなかったという話も結構残っていますのです。」",
@@ -1819,10 +1819,10 @@ void main()
 		   NULL, "\"Ei. Rika-chan...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6010", 256, TRUE);
 	OutputLine(NULL, "ではこれらの道具は、基本的に村人を威圧するために用意されているのかしら？",
-		   NULL, " Você tem certeza de que essas ferramentas foram usadas principalmente para intimidar as pessoas do vilarejo?", Line_WaitForInput);
+		   NULL, " Você tem certeza de que essas ferramentas foram usadas principalmente pra intimidar as pessoas do vilarejo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6011", 256, TRUE);
 	OutputLine(NULL, "　本当の意味での綿流しの時、食人の宴に使った調理、解体道具だって言う説があるんだけど？」",
-		   NULL, " Ouvi dizer que usaram para cozinhar e dissecar durante o verdadeiro Watanagashi...\"", Line_Normal);
+		   NULL, " Ouvi dizer que usaram pra cozinhar e dissecar durante o verdadeiro Watanagashi...\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1835,7 +1835,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入にとって、鬼ヶ淵村の暗黒史は、思い出したくない話なのだ。",
-		   NULL, "Ela não queria se lembrar da história sombria do vilarejo Onigafuchi.", Line_Normal);
+		   NULL, "Ela não queria se lembrar da história sombria do Vilarejo Onigafuchi.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1855,7 +1855,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500367", 256, TRUE);
 	OutputLine(NULL, "「……ノーコメントなのですよ、にぱ〜☆」",
-		   NULL, "\"......Sem comentários, nipah~☆\"", Line_Normal);
+		   NULL, "\"......Sem comentários, nipaa~☆\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1888,7 +1888,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 9, "org/takano6012", 256, TRUE);
 	OutputLine(NULL, "「私はそこは、おそらく食物連鎖で人間よりも優位にあることを自覚するためにやった、一種の儀式だと思っているわ。鬼ヶ淵村が外部との交流を禁ずる最大の建前が、自分たちは仙人で、村は聖地。",
-		   NULL, "\"Acredito que foi uma espécie de cerimônia para fazer com que todos percebessem que estavam no topo da cadeia alimentar. As maiores razões francas para Onigafuchi proibir a mistura com estranhos era que o vilarejo era uma terra sagrada e eles eram 'transcendentes', Seres maiores que os humanos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Acredito que foi uma espécie de cerimônia pra fazer com que todos percebessem que estavam no topo da cadeia alimentar. As maiores razões francas pra Onigafuchi proibir a mistura com estranhos era que o vilarejo era uma terra sagrada e eles eram 'transcendentes', Seres maiores que os humanos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano6013", 256, TRUE);
 	OutputLine(NULL, "汚らわしい人間と交流すると穢れを持ち込む……、",
@@ -2051,7 +2051,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano6047", 256, TRUE);
 	OutputLine(NULL, "「オヤシロさまという存在は結局、人間が生み出した偶像なの。",
-		   NULL, "\"Oyashiro-sama é apenas um ídolo criado por seres humanos.", Line_WaitForInput);
+		   NULL, "\"Oyashiro-sama só é um ídolo criado por seres humanos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6048", 256, TRUE);
 	OutputLine(NULL, "その偶像は、恐怖で祭り上げられることで神聖化した。",
 		   NULL, " Esse ídolo foi adorado com medo e feito divino. ", GetGlobalFlag(GLinemodeSp));
@@ -2134,12 +2134,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あらん限りの力で踵を力強く踏み鳴らし、届かぬ声に代わって、最大限の抗議を示していた。",
-		   NULL, "Ela estava batendo os pés no chão o mais forte que podia, fazendo um barulho alto em vez de gritar com sua voz não ouvida.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela estava batendo os pés no chão o mais forte que podia, fazendo um barulho alto em vez de gritar com a sua voz não ouvida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……もっとも、声でも音でも同じだ。",
-		   NULL, "No entanto, tudo resultou na mesma coisa...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Mas tudo resultou na mesma coisa...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2327,7 +2327,7 @@ void main()
 		   NULL, " Mas não vinha de fora da construção... Estava pulando bem atrás de mim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500376", 256, TRUE);
 	OutputLine(NULL, "富竹には遠くに聞こえたでしょうが、ボクにはすぐ後だったので、うるさいくらいでしたですよ。」",
-		   NULL, " Acho que você ouviu de longe, mas foi muito alto para mim.\"", Line_Normal);
+		   NULL, " Acho que você ouviu de longe, mas foi muito alto pra mim.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/saiguden_01", 400 );
@@ -2351,7 +2351,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、一番怖がってほしい肝心の鷹野は、こういう時に限って鈍感で、全然怖がってはくれなかった。",
-		   NULL, "No entanto, Takano não parecia nem um pouco assustada...", Line_Normal);
+		   NULL, "Porém, Takano não parecia nem um pouco assustada...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2521,10 +2521,10 @@ void main()
 		   NULL, "\"Certo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900141", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまのためにおいしいシュークリームを３つ買ってくるわね。",
-		   NULL, " Vou pegar três bolinhos de creme deliciosos para Oyashiro-sama.", Line_WaitForInput);
+		   NULL, " Vou comprar três bolinhos de creme deliciosos como oferenda a Oyashiro-sama.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900142", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃんや沙都子ちゃんの分もいくつか買った方がいいのかしら？」",
-		   NULL, " Devo comprar alguns para você e Satoko-chan também?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu deveria comprar alguns pra você e a Satoko-chan também?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2533,7 +2533,7 @@ void main()
 		   NULL, "\"Não, eu não preciso de nada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500386", 256, TRUE);
 	OutputLine(NULL, "……………その代わり、どうしても聞いてもらいたい話がありますのです。」",
-		   NULL, " .........Mas há algo que eu quero te contar...\"", Line_Normal);
+		   NULL, " .........Mas tem algo que eu quero te contar...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2554,7 +2554,7 @@ void main()
 		   NULL, " Por favor, não me pergunte por quê, nem tire sarro de mim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500389", 256, TRUE);
 	OutputLine(NULL, "だから、絶対に信じて、運命に打ち勝って、……私を助けてほしいのです。」",
-		   NULL, " Por favor, acredite em mim e mude o destino para me salvar...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Por favor, acredite em mim e mude o destino pra me salvar...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/jsa7_01", 2000 );

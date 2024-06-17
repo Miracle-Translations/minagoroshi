@@ -502,7 +502,7 @@ void main()
 		   NULL, "\"...Existem muitas pessoas vivendo na sociedade com traumas emocionais.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6058", 256, TRUE);
 	OutputLine(NULL, "その中の一人に混じれるだけでも、かつての沙都子ちゃんの症状を思えば、奇跡的な回復なんだしね…。」",
-		   NULL, " Mesmo que ela seja apenas mais uma na mistura, ainda é uma recuperação milagrosa, considerando o estado em que ela estava....\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mesmo que ela seja só mais uma dessas, ainda é uma recuperação milagrosa, considerando o estado em que ela estava....\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -840,7 +840,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900176", 256, TRUE);
 	OutputLine(NULL, "「………被害妄想だと思いたいけれど。",
-		   NULL, "\"......Eu quero acreditar que é apenas paranoia.", Line_WaitForInput);
+		   NULL, "\"......Eu quero acreditar que é só paranoia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900177", 256, TRUE);
 	OutputLine(NULL, "…本人だって明確な証拠は示せないって言ったわけだし。」",
 		   NULL, " ...Ela disse que também não há prova absoluta.\"", GetGlobalFlag(GLinemodeSp));
@@ -1074,7 +1074,7 @@ void main()
 		   NULL, "\"Isso é verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000147", 256, TRUE);
 	OutputLine(NULL, "……それについては、私ではなく皆さんの仕事ですね。",
-		   NULL, " ...Embora esse seja o seu trabalho, não o meu.", Line_WaitForInput);
+		   NULL, " ...Mas esse é o seu trabalho, não o meu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000148", 256, TRUE);
 	OutputLine(NULL, "どうかよろしくお願いいたします。」",
 		   NULL, " Então por favor, dê o seu melhor.\"", GetGlobalFlag(GLinemodeSp));
