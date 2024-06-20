@@ -451,7 +451,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200095", 256, TRUE);
 	OutputLine(NULL, "だから魅ぃちゃんに打ち明けて相談してみたの。」",
-		   NULL, "Então falei com Mii-chan sobre isso.\"", Line_Normal);
+		   NULL, "Então falei com a Mii-chan sobre isso.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/js4", 300 );
@@ -508,7 +508,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200097", 256, TRUE);
 	OutputLine(NULL, "私も魅ぃちゃんと話をするまでは、相手の女の人を闇討ちしようとか、物騒なことしか思いつかなかったもん。",
-		   NULL, "Antes de falar com Mii-chan, tudo o que pensei foi em como machucar aquela mulher.", Line_WaitForInput);
+		   NULL, "Antes de falar com a Mii-chan, tudo o que pensei foi em como machucar aquela mulher.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200098", 256, TRUE);
 	OutputLine(NULL, "でも、よくよく考えてみればそんなの全然最善の解決策じゃない。",
 		   NULL, " Mas percebi que não era uma boa solução.", GetGlobalFlag(GLinemodeSp));
@@ -1493,10 +1493,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200145", 256, TRUE);
 	OutputLine(NULL, "「あははは、レナは詩ぃちゃんが来るの賛成〜。",
-		   NULL, "\"Ahahaha. Eu acho que Shii-chan deveria vir.", Line_WaitForInput);
+		   NULL, "\"Ahahaha. Eu acho que a Shii-chan deveria vir.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200146", 256, TRUE);
 	OutputLine(NULL, "詩ぃちゃんが来ると、魅ぃちゃんが面白くなる〜！」",
-		   NULL, " Quando Shii-chan chega, Mii-chan fica mais interessante~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quando a Shii-chan chega, Mii-chan fica mais interessante~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
