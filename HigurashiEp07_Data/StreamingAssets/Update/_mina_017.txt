@@ -2315,7 +2315,7 @@ void main()
 		   NULL, " Não vou lutar como a próxima chefe da família.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300589", 256, TRUE);
 	OutputLine(NULL, "沙都子という部員を持つ我が部の部長として、クラスの委員長として、友人として戦います。」",
-		   NULL, " Lutarei como a presidente do meu clube, como a presidente de turma e como amiga.\"", Line_Normal);
+		   NULL, " Lutarei como a presidente do clube, como a líder da turma e como amiga.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/js4_02", 300 );
