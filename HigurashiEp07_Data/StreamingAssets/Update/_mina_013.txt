@@ -2249,7 +2249,7 @@ void main()
 		   NULL, " Pessoal, por favor, reverenciem-se.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s12/22/181400111", 256, TRUE);
 	OutputLine(NULL, "委員長、号令！」",
-		   NULL, " Presidente, você assumirá a liderança?\"", Line_Normal);
+		   NULL, " Líder, dê o comando!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>＆<color=#5ec69a>魅音</color>＆<color=#f0953d>レナ</color>", NULL, "<color=#956f6e>Keiichi</color> & <color=#5ec69a>Mion</color> & <color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
@@ -2303,7 +2303,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が委員長らしく解散の号令を出す。",
-		   NULL, "Como presidente de classe, Mion avisou a todos que fomos dispensados.", Line_Normal);
+		   NULL, "Como líder de classe, Mion avisou a todos que fomos dispensados.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
