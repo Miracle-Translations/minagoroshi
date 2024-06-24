@@ -14,7 +14,7 @@ void main()
 		   NULL, "              ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "緊急マニュアル第１号",
-		   NULL, "Manual de Emergência 1:", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Manual de Emergência N.º 1:", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -22,36 +22,36 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自然発生的末期発症者（以下Ｌ５と表記）が確認された場合、施設長はＬ５が異常的社会行為を起こす前に迅速に事態を収拾しなくてはならない。",
-		   NULL, "Caso seja confirmada a existência de um paciente terminal (N5), o diretor do instituto deverá resolver a situação antes que o N5 comece a se envolver em comportamentos antissociais. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Caso seja confirmada a existência de um paciente terminal (N5), o Diretor do Instituto deverá resolver a situação antes que o N5 comece a apresentar comportamentos antissociais. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ただし、機密保持に厳重に注意すること。",
-		   NULL, "No entanto, eles devem garantir que o segredo permaneça oculto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, deve-se garantir que o segredo permaneça oculto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その際、施設長は機密保持部隊に対し応援を要請できるものとする。",
-		   NULL, "Para tanto, o Diretor poderá também solicitar auxílio da Unidade de Preservação de Sigilo.", Line_Normal);
+		   NULL, "Para tal, o Diretor poderá também solicitar auxílio da Unidade de Preservação de Sigilo.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　機密保持部隊は、確保に当たり必要と判断した場合は発砲許可を施設長に対し申請することができる。",
-		   NULL, "Já a Unidade de Preservação de Sigilos poderá solicitar autorização de demissão ao Diretor do Instituto, se necessário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Já a Unidade de Preservação de Sigilo poderá solicitar autorização para disparar ao Diretor do Instituto, se necessário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　Ｌ５の確保は極力、生体であることが望ましいが、機密保持上の理由でそれが困難である場合、生死を問わないものとする。",
-		   NULL, "Todos os esforços devem ser feitos para garantir que o sujeito N5 esteja vivo, mas se isso for um obstáculo à manutenção do sigilo, sua vida poderá ser perdida.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Todos os esforços devem ser feitos para garantir que o sujeito N5 esteja vivo, mas se isso for um obstáculo à preservação do sigilo, sua vida poderá ser perdida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　全てにおいて機密保持と外部発覚阻止を最優先とすること。",
 		   NULL, "Em todos os momentos, manter o sigilo e prevenir a exposição será a mais alta prioridade.", Line_WaitForInput);
 	OutputLine(NULL, "ただし、機密保持は外部発覚阻止に優先するものとする。",
-		   NULL, " No entanto, a preservação do sigilo terá prioridade sobre a prevenção da exposição.", Line_Normal);
+		   NULL, " Entretanto, a preservação do sigilo terá prioridade sobre a prevenção da exposição.", Line_Normal);
 	ClearMessage();
 	FadeOutBGM( 0, 300, FALSE );
 	PlaySE( 0, "s_page", 56, 64 );
@@ -65,22 +65,22 @@ void main()
 		   NULL, "        ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "緊急マニュアル付録９　問答集",
-		   NULL, "Manual de Emergência Anexado 9: Perguntas Frequentes", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Manual de Emergência Apêndice 9: Perguntas Frequentes", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "問．Ｌ５が同時多発的に発生し機密保持部隊の処理能力を超えたと判断される場合、緊急マニュアル第３４号は適用されるのか。",
-		   NULL, "PER. O Manual de Emergência 34 pode ser administrado se ocorrer um surto de N5, colocando o assunto fora do controle da Unidade de Preservação de Sigilo? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "P: O Manual de Emergência N.º 34 pode ser aplicado se ocorrer um surto de N5, colocando o assunto fora do controle da Unidade de Preservação de Sigilo? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また処理能力超過の判断権限者は施設長と考えて良いのか。",
-		   NULL, "Além disso, o Diretor do Instituto é responsável por determinar o que constitui uma situação fora de controle?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, o Diretor do Instituto é o responsável por determinar o que constitui uma situação como fora de controle?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "RES. Sim.", Line_Normal);
+		   NULL, "R: Sim, conforme mencionado anteriormente.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -88,13 +88,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "問．研究施設の致命的な事故により外部に危険物（H170番台）が流出し、Ｌ５の大量発生が見込まれる場合、見込みのみで緊急マニュアル第３４号は適用されるのか。",
-		   NULL, "PER. Se ocorrer um acidente e um material perigoso (série H170) for exposto ao público, o Manual de Emergência 34 pode ser administrado?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "P: Se ocorrer um acidente e um material perigoso (série H170) for exposto ao público, o Manual de Emergência N.º 34 pode ser aplicado?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "RES. Sim.", Line_Normal);
+		   NULL, "R: Sim, conforme mencionado anteriormente.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -105,13 +105,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	OutputLine(NULL, "問．研究施設の致命的な事故により外部に秘匿施設が露呈した場合、通常は機密保持部隊が対処するが、露呈の規模により部隊の処理能力を超えたと判断される場合、機密保持のために、緊急マニュアル第３４号は適用してもよいのか。また処理能力超過の判断権限者は施設長と考えて良いのか。",
-		   NULL, "PER. Caso ocorra um acidente e a natureza do Instituto seja revelada ao público, a Unidade de Preservação do Sigilo tomará medidas para resolver a situação? No entanto, se esta informação for muito divulgada, o Manual de Emergência 34 ainda pode ser adminstrado? Além disso, o Diretor do Instituo é responsável por tomar essa decisão.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "P: Caso ocorra um acidente e os segredos do Instituto sejam revelados ao público, a Unidade de Preservação de Sigilo tomará medidas para resolver a situação. Contudo, se esta informação for muito divulgada, o Manual de Emergência N.º 34 ainda pode ser aplicado? Além disso, o Diretor do Instituo é responsável por tomar essa decisão?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "RES. Sim.", Line_Normal);
+		   NULL, "R: Sim, conforme mencionado anteriormente.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -122,15 +122,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "問．緊急マニュアル第３４号の適用には慎重な判断が必要で、最高決裁者の決裁が必須であると思われるが、著しく緊急性が求められると施設長が判断した場合、決裁手順は簡素化できるのか。",
-		   NULL, "PER. A decisão de executar o Manual de Emergência 34 deve ser cuidadosamente deliberada e sancionada por um oficial. Porém, em caso de emergência, o Diretor do Instituto tem o direito de tomar a decisão final?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "P: A decisão de executar o Manual de Emergência N.º 34 deve ser cuidadosamente deliberada e sancionada pela autoridade máxima. Porém, em caso de emergência, o Diretor do Instituto tem o direito de tomar a decisão final?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．如何なる場合においても緊急マニュアル第３４号の適用は最高決裁者の決裁を待つものとする。",
-		   NULL, "RES. A execução do Manual de Emergência 34 deve ser sempre sancionada por um oficial.", Line_WaitForInput);
+		   NULL, "R: A execução do Manual de Emergência N.º 34 deve ser sempre sancionada pela autoridade máxima.", Line_WaitForInput);
 	OutputLine(NULL, "ただし施設長は緊急性を決裁時に具申することができる。",
-		   NULL, " No entanto, o Diretor do Instituto poderá requerer a urgência de seu uso a um funcionário.", Line_Normal);
+		   NULL, " Todavia, o Diretor do Instituto poderá relatar a urgência de seu uso à autoridade máxima.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 300, FALSE );
@@ -145,7 +145,7 @@ void main()
 		   NULL, "             ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "緊急マニュアル第３４号",
-		   NULL, "Manual de Emergência 34", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Manual de Emergência N.º 34", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -154,13 +154,13 @@ void main()
 		   NULL, "     ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "複写厳禁・持出厳禁",
-		   NULL, "É proibida a reprodução ou remoção deste documento.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É proibida toda e qualquer forma de reprodução ou remoção deste documento.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本マニュアルの許可なき閲覧はこれを厳禁とする。",
-		   NULL, "Este manual só pode ser lido com as permissões apropriadas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A leitura deste manual sem as devidas permissões é estritamente proibida.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -168,10 +168,10 @@ void main()
 	OutputLine(NULL, "　本マニュアルは最高決裁者の決裁を以ってのみ適用される。",
 		   NULL, "Este manual só será aplicado mediante aprovação da autoridade máxima.", Line_WaitForInput);
 	OutputLine(NULL, "如何なる簡易決裁もこれを認めない。",
-		   NULL, " Nada menos que a autorização oficial contará como aprovação. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nada menos que uma autorização oficial contará como aprovação. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また決裁者は本マニュアル適用の決裁に当たっては可及的速やかに判断すること。",
-		   NULL, "Além disso, aqueles autorizados a aplicar este manual devem tomar a sua decisão o mais rapidamente possível quando for necessário.", Line_Normal);
+		   NULL, "Além disso, aqueles autorizados a aplicar este manual devem tomar a sua decisão o mais rapidamente possível, quando for necessário.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -180,7 +180,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　対処不能な事態が発生し最高決裁者がそれを認められる場合、機密保持と外部発覚阻止のため、入江機関（以下、機関と表記）は最終的解決をしなければならない。",
-		   NULL, "Se a situação ameaçar a sair do controle e o funcionário concordar que é esse o caso, o Instituto Irie deve tomar a decisão final para preservar o segredo e evitar a sua detecção por terceiros.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se a situação ameaçar a sair do controle e a autoridade máxima concordar que esse é o caso, o Instituto Irie deve tomar a decisão final para preservar o segredo e evitar a sua detecção por outrem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -191,7 +191,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・Ｌ２以上の潜在患者全員の処分。",
-		   NULL, "- Encerrar todos os pacientes acima de N2.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "- Eliminar todos os pacientes acima do N2.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -201,7 +201,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・本マニュアル適用の隠蔽。",
-		   NULL, "- Ocultar o fato de que este manual foi administrado.", Line_Normal);
+		   NULL, "- Ocultar o fato de que este manual foi aplicado.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -210,20 +210,20 @@ void main()
 	OutputLine(NULL, "　施設長は上記を事態発生から４８時間以内に遂行しなくてはならない。",
 		   NULL, "O conteúdo deste manual deve ser executado pelo Diretor do Instituto dentro de 48 horas após o incidente.", Line_WaitForInput);
 	OutputLine(NULL, "不測の事態により施設長の指揮が困難な場合、長官がこれを兼務する。",
-		   NULL, " Caso o Diretor não esteja disponível, o Oficial Chefe deverá executá-lo em seu lugar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Caso o Diretor não esteja disponível, o Diretor Geral deverá executá-lo em seu lugar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　遂行に当たり施設長は長官に対し応援を要請することができる。",
-		   NULL, "O Diretor do Instituto poderá exigir apoio do oficial chefe na execução deste manual.", Line_Normal);
+		   NULL, "O Diretor do Instituto poderá exigir apoio do Diretor Geral na execução deste manual.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　長官は本マニュアルの適用が見込まれると判断する場合、予備命令を発令することができる。",
-		   NULL, "Caso se pretenda que este manual seja executado, o diretor poderá emitir as ordens preliminares.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Caso se pretenda que este manual seja executado, o Diretor Geral poderá emitir as ordens preliminares.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -236,7 +236,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "■ガス災害偽装、及び交通遮断",
-		   NULL, "- Disfarce o incidente como um desastre de gás natural e coloque a área em quarentena -", GetGlobalFlag(GLinemodeSp));
+		   NULL, "- Disfarce a ocorrência como um desastre de gás natural e coloque a área em quarentena -", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
