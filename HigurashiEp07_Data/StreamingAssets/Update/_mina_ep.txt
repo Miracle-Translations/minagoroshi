@@ -31,14 +31,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その際、施設長は機密保持部隊に対し応援を要請できるものとする。",
-		   NULL, "Para tal, o Diretor poderá também solicitar auxílio da Unidade de Preservação de Sigilo.", Line_Normal);
+		   NULL, "Para tal, o Diretor poderá também solicitar auxílio da Unidade de Preservação do Sigilo.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　機密保持部隊は、確保に当たり必要と判断した場合は発砲許可を施設長に対し申請することができる。",
-		   NULL, "Já a Unidade de Preservação de Sigilo poderá solicitar autorização para disparar ao Diretor do Instituto, se necessário.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Já a Unidade de Preservação do Sigilo poderá solicitar autorização para disparar ao Diretor do Instituto, se necessário.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -71,7 +71,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "問．Ｌ５が同時多発的に発生し機密保持部隊の処理能力を超えたと判断される場合、緊急マニュアル第３４号は適用されるのか。",
-		   NULL, "P: O Manual de Emergência N.º 34 pode ser aplicado se ocorrer um surto de N5, colocando o assunto fora do controle da Unidade de Preservação de Sigilo? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "P: O Manual de Emergência N.º 34 pode ser aplicado se ocorrer um surto de N5, colocando o assunto fora do controle da Unidade de Preservação do Sigilo? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また処理能力超過の判断権限者は施設長と考えて良いのか。",
 		   NULL, "Além disso, o Diretor do Instituto é o responsável por determinar o que constitui uma situação como fora de controle?", GetGlobalFlag(GLinemodeSp));
@@ -105,7 +105,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	OutputLine(NULL, "問．研究施設の致命的な事故により外部に秘匿施設が露呈した場合、通常は機密保持部隊が対処するが、露呈の規模により部隊の処理能力を超えたと判断される場合、機密保持のために、緊急マニュアル第３４号は適用してもよいのか。また処理能力超過の判断権限者は施設長と考えて良いのか。",
-		   NULL, "P: Caso ocorra um acidente e os segredos do Instituto sejam revelados ao público, a Unidade de Preservação de Sigilo tomará medidas para resolver a situação. Contudo, se esta informação for muito divulgada, o Manual de Emergência N.º 34 ainda pode ser aplicado? Além disso, o Diretor do Instituo é responsável por tomar essa decisão?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "P: Caso ocorra um acidente e os segredos do Instituto sejam revelados ao público, a Unidade de Preservação do Sigilo tomará medidas para resolver a situação. Contudo, se esta informação for muito divulgada, o Manual de Emergência N.º 34 ainda pode ser aplicado? Além disso, o Diretor do Instituo é responsável por tomar essa decisão?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -236,13 +236,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "■ガス災害偽装、及び交通遮断",
-		   NULL, "- Disfarce a ocorrência como um desastre de gás natural e coloque a área em quarentena -", GetGlobalFlag(GLinemodeSp));
+		   NULL, "- Disfarçando a ocorrência como um desastre de gás natural e colocando a área em quarentena -", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　交通封鎖部隊は警察官に偽装し雛見沢地区を外部より遮断する。",
-		   NULL, "A unidade de quarentena deve se disfarçar de policial e isolar a região de Hinamizawa do mundo exterior.", Line_WaitForInput);
+		   NULL, "A unidade de quarentena deve se disfarçar como policiais e isolar a região de Hinamizawa do mundo exterior.", Line_WaitForInput);
 	OutputLine(NULL, "その際、自然ガス災害であるよう偽装すること。",
 		   NULL, " A explicação oficial deve ser que há um desastre de gás no vilarejo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -252,43 +252,43 @@ void main()
 	OutputLine(NULL, "　偽装のための装備は谷河内地区旧採石場跡に厳重に秘匿した上で備蓄するものとする。",
 		   NULL, "Os equipamentos para a operação ficarão armazenados em um terreno baldio, onde ficava a Pedreira Yagouchi.", Line_WaitForInput);
 	OutputLine(NULL, "また装備は常時使用に備え維持点検を行なうこと。",
-		   NULL, " O equipamento deve passar por manutenção de rotina.", Line_Normal);
+		   NULL, " O equipamento também deve ser preparado para uso regular.", Line_Normal);
 	ClearMessage();
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　外部からの侵入、内部からの脱出に対しては、偽装ガスもしくは退去命令を以ってしても応じない場合、発砲を許可するものとする。",
-		   NULL, "Em caso de violação externa ou fuga interna, se não responderem à notificação do desastre de gás ou às ordens de evacuação, é autorizado o uso de armas de fogo. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Em caso de invasão externa ou fuga interna, se não responderem à notificação do desastre de gás ou às ordens de evacuação, é autorizado o uso de armas de fogo. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "許可権限は機密保持部隊長が交通封鎖部隊長に委譲するものとする。",
-		   NULL, "A autorização para uso de armas de fogo é dada pelo chefe da Unidade de Preservação de Sigilo ao chefe da Unidade de Bloqueio de Trânsito.", Line_Normal);
+		   NULL, "A autorização para uso de armas de fogo é dada pelo diretor da Unidade de Preservação do Sigilo ao diretor da Unidade de Bloqueio de Trânsito.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "■通信手段の遮断",
-		   NULL, "- Desligando comunicações -", GetGlobalFlag(GLinemodeSp));
+		   NULL, "- Cortando os meios de comunicação -", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　通信工作部隊は雛見沢地区から外部へ発する有線無線を含む全ての通信手段を遮断すること。",
-		   NULL, "A Unidade de Sabotagem de Comunicação deve garantir que todas as formas de comunicação, incluindo rádio, foram desativadas na área de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Unidade de Sabotagem de Comunicações deve garantir que todas as formas de comunicação, incluindo rádio, foram desativadas na área de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　遮断に当たって外部に不信感を抱かれぬよう厳重に注意すると共に、作戦時の必要最低時間のみの運用とする。",
-		   NULL, "Eles devem tomar cuidado para não serem suspeitos e as comunicações devem ser interrompidas por um período mínimo de tempo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles devem interromper as comunicações por um período mínimo de tempo, tomando cuidado para não causar desconfiança.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　通信施設は交通遮断地域内にあるため、通信工作部隊は通信施設に接近する全ての民間人に対し発砲を許可するものとする。",
-		   NULL, "A instalação pertencente à companhia telefônica está dentro do bloqueio de trânsito, então qualquer civil dentro dela pode ser baleado e morto. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A instalação pertencente à companhia telefônica está dentro da área com o trânsito bloqueado, então qualquer civil dentro dela pode ser baleado e morto. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "許可権限は機密保持部隊長が通信工作部隊長に委譲するものとする。",
-		   NULL, "O chefe da Unidade de Preservação de Sigilo pode dar permissão para uso de força letal ao chefe da Unidade de Sabotagem de Comunicações.", Line_Normal);
+		   NULL, "O diretor da Unidade de Preservação do Sigilo pode dar permissão para uso de força letal ao diretor da Unidade de Sabotagem de Comunicações.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -307,14 +307,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　集合時手順は別紙参照のこと。",
-		   NULL, "Consulte os documentos anexos para procedimentos de coleta.", Line_WaitForInput);
+		   NULL, "Consulte os documentos anexos para encontrar os procedimentos relacionados ao agrupamento de pessoas.", Line_WaitForInput);
 	OutputLine(NULL, "集合後は厳重に点呼を行い全員の集合を確認すること。",
-		   NULL, " No momento da montagem, a unidade deverá contar o número de infectados e confirmar a presença de todos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Depois do agrupamento, deve-se contar o número de infectados e confirmar a presença de todos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この際、ガス災害偽装を潜在患者に疑われないよう厳重に注意すること。",
-		   NULL, "Certifique-se de não permitir que os infectados exponham a verdadeira natureza do desastre de gás.", Line_Normal);
+		   NULL, "Certifiquem-se de não permitir que os infectados duvidem da veracidade do desastre de gás.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -326,43 +326,43 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただし疑惑を招かないため、通帳、印鑑の類の貴重品持ち出しを認めること。",
-		   NULL, "No entanto, eles podem levar seus objetos de valor, incluindo cadernetas bancárias e dinheiro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "No entanto, a fim de evitar suspeitas, é permitido que levem seus objetos de valor, incluindo cadernetas bancárias e dinheiro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　集合命令に従わない者に対しては止むを得ない場合にのみ発砲を許可するが、機密保持部隊長はこの許可を容易に出してはならないものとする。",
-		   NULL, "Infectados que se recusarem a se reunir poderão ser baleados, mas o chefe da Unidade de Preservação de Sigilos deverá considerar cuidadosamente a decisão.", Line_Normal);
+		   NULL, "Infectados que desobedecerem a ordem de agrupamento poderão ser baleados. Porém, a decisão deverá ser cuidadosamente analisada pelo diretor da Unidade de Preservação do Sigilo.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "■潜在患者の処分",
-		   NULL, "- Eliminando os Infectados -", GetGlobalFlag(GLinemodeSp));
+		   NULL, "- Eliminando os infectados -", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　機密保持部隊本隊は集合させた潜在患者を速やかに完全処分すること。",
-		   NULL, "Uma vez montados, a Unidade de Preservação de Sigilo deve exterminar todos os infectados.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando todos estiverem reunidos, a Unidade de Preservação do Sigilo deve exterminar todos os infectados.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　処分にあたっては、ガス災害偽装を疑われないよう注意すること。",
-		   NULL, "Antes desse ponto, deve-se tomar cuidado para garantir que eles não suspeitem da história do desastre de gás.", Line_WaitForInput);
+		   NULL, "Antes desse ponto, deve-se tomar cuidado para garantir que eles não suspeitem do desastre de gás.", Line_WaitForInput);
 	OutputLine(NULL, "また、人道的な手段を以って対応するよう努力しなければならない。",
-		   NULL, " Certifique-se de que eles sejam tratados da forma mais humana possível.", Line_Normal);
+		   NULL, " Por isso, certifiquem-se de que eles sejam tratados da forma mais humana possível.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　処分時にトラブルが発生し、鎮圧上止むを得ない場合にのみ機密保持部隊には発砲が許可される。",
-		   NULL, "Se ocorrer algum problema, a unidade tem autorização para disparar suas armas.", Line_WaitForInput);
+		   NULL, "Se ocorrer algum problema, a Unidade de Preservação do Sigilo tem autorização para disparar suas armas.", Line_WaitForInput);
 	OutputLine(NULL, "許可権限は機密保持部隊長が持つものとする。",
-		   NULL, " O chefe da Unidade de Preservação de Sigilos também deve tomar essa decisão.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Essa decisão também é de responsabilidade do diretor da Unidade de Preservação do Sigilo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -384,7 +384,7 @@ void main()
 		   NULL, "A Unidade de Ocultação do Instituto deve coletar todos os itens classificados (consulte os 193 itens no anexo) no Instituto, a fim de suprimir as evidências. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "証拠隠滅に関しては別紙参照のこと。",
-		   NULL, "Consulte o anexo para obter instruções mais detalhadas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Em relação à eliminação das evidências, consulte o documento anexo para obter instruções mais detalhadas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -394,21 +394,21 @@ void main()
 	OutputLine(NULL, "　重要機密回収にあたっては機関研究員の指示を受けること。",
 		   NULL, "A equipe de pesquisa do Instituto deve auxiliar nesta operação.", Line_WaitForInput);
 	OutputLine(NULL, "危険物が含まれるため搬出には細心の注意を払うこと。",
-		   NULL, " Esta unidade deve ter extremo cuidado, pois irá manusear uma série de substâncias tóxicas.", Line_Normal);
+		   NULL, " Deve-se ter extremo cuidado ao transportar o material, pois trata-se de substâncias tóxicas.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　秘匿区画は厳重封鎖とする。",
-		   NULL, "Quarentena estrita deve ser mantida no bloco de ocultação.", Line_WaitForInput);
+		   NULL, "Quarentena estrita deve ser mantida na área oculta.", Line_WaitForInput);
 	OutputLine(NULL, "気密扉は溶接、地下区画は注水封鎖。",
-		   NULL, " A porta hermética deve ser solada e a área subterrânea deve ser inundada.", Line_WaitForInput);
+		   NULL, " A porta hermética deve ser fechada por soldagem e a parte subterrânea deve ser inundada.", Line_WaitForInput);
 	OutputLine(NULL, "区画入口は溶接の上、厳重に偽装すること。",
 		   NULL, " A entrada da área deve ser soldada e completamente ocultada. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なお、秘匿区画の完全撤去を３年以内に行なうものとする。",
-		   NULL, "Além disso, o bloco de ocultação será completamente removido dentro de três anos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, a remoção completa da área oculta deverá acontecer no prazo de três anos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -419,9 +419,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　原則として発砲を禁止するが、止むを得ない場合に限り発砲を許可する。",
-		   NULL, "Não é permitido o uso de armas de fogo, exceto em situações de emergências.", Line_WaitForInput);
+		   NULL, "Não é permitido o uso de armas de fogo, exceto em situações de emergência.", Line_WaitForInput);
 	OutputLine(NULL, "許可権限は機密保持部隊長が持つものとする。",
-		   NULL, " O chefe da Unidade de Preservação do Sigilo poderá dar ordem de demissão.", Line_Normal);
+		   NULL, " O diretor da Unidade de Preservação do Sigilo poderá dar a permissão para atirar.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -439,24 +439,24 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　特に潜在患者集合時の点呼で確認できなかった人間については要注意。",
-		   NULL, "Qualquer pessoa que não esteve presente durante a assembleia deverá ser encontrada.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Qualquer pessoa que não esteve presente durante o agrupamento deverá ser encontrada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なお、潜在患者の処分時刻以降に生存者を発見した場合には原則として即時射殺を許可する。",
-		   NULL, "Quaisquer sobreviventes encontrados após o término dos infectados podem ser baleados imediatamente.", Line_WaitForInput);
+		   NULL, "Quaisquer sobreviventes encontrados após a eliminação dos infectados podem ser baleados imediatamente.", Line_WaitForInput);
 	OutputLine(NULL, "ただし投降の意思のある場合のみ例外とする。",
-		   NULL, " No entanto, se o sobrevivente estiver disposto a se render, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Entretanto, se o sobrevivente estiver disposto a se render, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "他隊が投降者を得た場合には速やかに機密保持部隊に引き渡すこと。",
-		   NULL, "não atire, e em vez disso, leve-os sob custódia da Unidade de Preservação de Sigilos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "leve-o sob custódia da Unidade de Preservação do Sigilo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　機密保持部隊は投降者について、潜在患者処分と同じ方法にて処分すること。",
-		   NULL, "A unidade deve então exterminar o cativo, usando o mesmo método usado para os outros infectados.", Line_Normal);
+		   NULL, "A Unidade de Preservação do Sigilo deve então exterminá-lo com o mesmo método usado para os outros infectados.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
