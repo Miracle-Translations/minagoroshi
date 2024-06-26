@@ -3050,7 +3050,7 @@ void main()
 		   NULL, " Eu vou te matar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900322", 256, TRUE);
 	OutputLine(NULL, "女王感染者の死体が作戦の鍵なの。",
-		   NULL, " O cadáver da rainha transportadora é a chave para esta missão.", Line_WaitForInput);
+		   NULL, " O cadáver da portadora da rainha é a chave para esta missão.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900323", 256, TRUE);
 	OutputLine(NULL, "あなたはここから遠く離れた東京の地での醜い政治的勢力争いの具になるのよ。",
 		   NULL, " Você vai se tornar uma ferramenta política em Tóquio.", Line_WaitForInput);
