@@ -463,15 +463,15 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "■後続一般部隊への引継ぎ",
-		   NULL, "- Transferência pós-missão para forças gerais -", GetGlobalFlag(GLinemodeSp));
+		   NULL, "- Transferência pós-missão para as forças gerais -", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　災害派遣の一般部隊に現場を引き継ぐ。",
-		   NULL, "Transfira o trabalho para a equipe oficial de recuperação de desastres.", Line_WaitForInput);
+		   NULL, "Transfiram o trabalho para a equipe geral de ajuda humanitária.", Line_WaitForInput);
 	OutputLine(NULL, "不信惑を持たれないよう厳重に注意すること。",
-		   NULL, " Certifique-se de não levantar suspeitas.", Line_Normal);
+		   NULL, " Tenham muito cuidado para não levantar suspeitas.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -484,14 +484,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　全ての作戦を終了し、機密保持部隊は雛見沢地区から撤退する。",
-		   NULL, "Após a conclusão de todas as operações, a Unidade de Proteção ao Sigilo se retirará da área de Hinamizawa.", Line_WaitForInput);
+		   NULL, "Após a conclusão de todas as operações, a Unidade de Preservação do Sigilo se retirará da área de Hinamizawa.", Line_WaitForInput);
 	OutputLine(NULL, "後続の一般部隊に不信感を持たれないよう厳重に注意すること。",
-		   NULL, " Eles devem ter cuidado para não serem suspeitos pela equipe de recuperação de desastres.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eles devem ter cuidado para não criar um sentimento de desconfiança na equipe de ajuda humanitária.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なお、機関施設は秘匿区画の完全撤去が終了するまで継続警備とすること。",
-		   NULL, "Além disso, o Instituto continuará a proteger o bloco de ocultação até que a remoção completa seja concluída.", Line_Normal);
+		   NULL, "Além disso, o Instituto continuará a proteger a área oculta até que toda a remoção seja concluída.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -507,7 +507,7 @@ void main()
 		   NULL, "          ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "＜女王感染者ト一般感染者ニツイテ＞",
-		   NULL, "[A rainha e seus portadores]", Line_Normal);
+		   NULL, "[Sobre a rainha e os outros portadores]", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 0, "Nazo", 56, 0 );
@@ -519,13 +519,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　女王蟻ニ当タル女王感染者ガ常ニ１人オリ、ソレガ古手家代々ニ受ケ継ガレテイルモノト推定。",
-		   NULL, "Existe uma rainha dos portadores da doença, assim como existe uma formiga rainha, e essa posição foi transmitida pela família Furude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Existe uma rainha dos portadores da doença, assim como existe uma formiga rainha, e essa posição foi herdada entre gerações pela família Furude.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　此レラハ雛見沢村ニ関連スル古文書ノ数々カラ容易ニ推察サレル。",
-		   NULL, "Esta suposição é feita com base nas lendas e escritos antigos que foram transmitidos no vilarejo.", Line_Normal);
+		   NULL, "Esta suposição é feita com base nas lendas e escritos antigos relacionados ao vilarejo.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -537,7 +537,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　マタ、女王感染者ノ半径ニ束縛サレル一般感染者トハ違イ、女王感染者ハ土地ニ束縛サレルモノト推測。",
-		   NULL, "Além disso, a rainha transportadora só pode sobreviver dentro dos limites do vilarejo.", Line_Normal);
+		   NULL, "Além disso, a portadora da rainha só pode sobreviver dentro dos limites do vilarejo.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -546,23 +546,23 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜感染者ノ発症確率ニツイテ＞",
-		   NULL, "          [Probabilidade de epidemia]", Line_Normal);
+		   NULL, "          [Sobre a probabilidade de desenvolver sintomas]", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一般感染者ハ女王感染者カラ離サレタ距離ト日数ニ比例シテ高イ発症確率ヲ持ツト推測。",
-		   NULL, "Como os pacientes comuns ficam doentes quando viajam para longe da rainha, presume-se que quanto mais longe e por mais tempo estiverem longe dela, maior será a chance de ocorrência de sintomas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como os pacientes comuns ficam doentes quando viajam para longe da rainha, presume-se que quanto mais longe e por mais tempo estiverem longe dela, maior será a chance de desenvolver sintomas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　マタ、精神状態ニモ強イ影響ヲ受ケ、特ニ情緒不安定ヤ郷里ヘノ思慕ガ強イ場合ノ発症確率ハサラニ高マルモノト推定。",
-		   NULL, "Além disso, o estado mental também desempenha um fator importante, e estima-se que aqueles que são especialmente instáveis emocionalmente ou mostram forte desejo por casa têm maior probabilidade de apresentar sintomas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, o estado mental também desempenha um fator importante, e estima-se que aqueles que são especialmente instáveis emocionalmente ou mostram uma forte saudade de casa têm maior probabilidade de apresentar sintomas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　発症ヲ抑エルタメニハ高野式精神安定法ガモットモ効果的ト思ワレルガ、ソレデモ改善ガ認メラレナイ場合、女王感染者ノ許ヘノ帰郷ノミガ有効。",
-		   NULL, "Acredita-se que o método de relaxamento Takano seja o meio mais eficaz de suprimir os sintomas, mas se a paciente ainda não apresentar melhora, apenas devolvê-la para sua casa e a rainha será eficaz.", Line_Normal);
+		   NULL, "Acredita-se que o Método de Relaxamento Takano seja o meio mais eficaz de suprimir os sintomas, mas se ainda assim o paciente não apresentar melhora, somente trazê-lo de volta para perto da rainha será eficaz.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -571,14 +571,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜末期発症者ニツイテ＞",
-		   NULL, "        [Em relação aos pacientes terminais]", Line_Normal);
+		   NULL, "        [Sobre os pacientes terminais]", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　末期発症者ハ被害妄想ヲ著シク肥大サセル為、組織行動ヘノ従事ハ困難ヲ極メルモノト推定。",
-		   NULL, "Pacientes terminais, por sofrerem de um extremo complexo de perseguição, são incapazes de funcionar na sociedade.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pacientes terminais, por sofrerem de paranoia, são incapazes de se integrar à sociedade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -590,7 +590,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　雛見沢村文献デハ村内末期発症者ハ処刑サレタ記述ガアリ、末期発症者ハ帰郷ニヨッテモ改善シナイモノト推察。",
-		   NULL, "Os registros mostram que pacientes terminais aparecem até mesmo em Hinamizawa e não se recuperarão mesmo se forem realocados para perto da rainha.", Line_WaitForInput);
+		   NULL, "Os escritos de Hinamizawa descrevem execuções de pacientes terminais até mesmo em Hinamizawa, então presume-se que não se recuperarão mesmo se forem realocados para perto da rainha.", Line_WaitForInput);
 	OutputLine(NULL, "ヨッテ迅速ナ処分ガ求メラレル。",
 		   NULL, " Portanto, a decisão de resolver o problema deve ser tomada o mais rápido possível.", Line_Normal);
 	ClearMessage();
@@ -599,12 +599,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　未発症段階カラ感染者ヲ隔離スルコトモ極メテ有効。",
-		   NULL, "É recomendado que os infectados fiquem em quarentena antes de começarem a se comportar irregularmente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É recomendado que os infectados fiquem em quarentena antes de desenvolverem sintomas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢出身者ヲ追跡調査シ、専門医療機関付キトスルコトヲ提案ス。",
-		   NULL, "Sugerimos rastrear aqueles que vieram de Hinamizawa e colocá-los sob observação médica especial.", Line_Normal);
+		   NULL, "Sugerimos que aqueles que vieram de Hinamizawa sejam rastreados e colocados sob observação médica especial.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -614,34 +614,34 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "＜感染者集落ノ崩壊ニツイテ＞",
-		   NULL, "[O colapso da comunidade devido a transportadora]", Line_Normal);
+		   NULL, "[Sobre o colapso da comunidade infectada]", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前述ノ理由カラ、女王感染者ガ死亡スルヨウナコトガアッタ場合、感染者集落ハ集落単位デ末期症状ヲ引キ起コスモノト推定。",
-		   NULL, "Pelas razões acima mencionadas, prevemos que, caso a rainha portadora morra, os moradores infectados apresentarão sintomas terminais em toda o vilarejo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pelas razões mencionadas acima, prevemos que, caso a portadora da rainha morra, os moradores de todo o vilarejo infectados apresentarão sintomas terminais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　末期症状ハ急性発症ナラバ早クテ二十四時間以内、遅クトモ四十八時間デ発症スルタメ、",
-		   NULL, "Os sintomas terminais começarão a aparecer dentro de 24 horas, no mínimo, e 48, no máximo.", Line_WaitForInput);
+		   NULL, "Os sintomas terminais começarão a aparecer entre 24 e 48 horas.", Line_WaitForInput);
 	OutputLine(NULL, "四十八時間以内ニ最終的解決ヲ行ナワナカッタ場合、騒乱ハ極メテ甚大ニナルモノト推定。",
-		   NULL, " Por esse motivo, a decisão final deve ser tomada no prazo de 48 horas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Por esse motivo, a decisão final deve ser tomada em até 48 horas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　マタ、集落規模カラ見テ、警察、憲兵程度デハ此レノ鎮圧ハ容易ナラザルモノト推定。",
-		   NULL, "Com base no tamanho do vilarejo, nem os oficiais comuns nem a polícia militar poderão controlar o caos que podem trazer.", Line_Normal);
+		   NULL, "Com base no tamanho do vilarejo, a polícia civil e a polícia militar não conseguiriam controlar o caos com facilidade.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　反国家的武装蜂起ト位置付ケ、緊急ニ軍ヲ以ッテ鎮圧スルノガ最モ適当ト思ワレル。",
-		   NULL, "Acreditamos que a melhor resposta é tratá-los como uma revolta armada e antinacional, e suprimi-los imediatamente com os militares.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Acreditamos que a melhor solução é tratá-los como uma revolta armada e antinacional, e suprimi-los imediatamente com as forças armadas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -664,7 +664,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "宛最高戦争指導会議　小泉大佐殿",
-		   NULL, "Para: Coronel Koizumi do Conselho Supremo para a Direção da Guerra", Line_ContinueAfterTyping);
+		   NULL, "Para: Coronel Koizumi do Conselho Supremo de Liderança de Guerra", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -697,7 +697,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５８年６月２３日",
-		   NULL, "23 de Junho, 1983", GetGlobalFlag(GLinemodeSp));
+		   NULL, "23 de junho de 1983", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -714,30 +714,30 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "第７３３装備実験中隊長",
-		   NULL, "e Comandante TECOM 733.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "e o Comandante da 733ª TECOM.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　第７３３装備実験中隊は２４時間以内に都市沈黙戦装備にて待機することをここに命ずる。",
-		   NULL, "TECOM 733 é ordenado que fique se prontidão de 24 horas, armado para supressão urbana.", Line_Normal);
+		   NULL, "A 733ª TECOM é ordenada que fique de prontidão em até 24 horas, armada para supressão urbana.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中隊長は添付の緊急マニュアル３４号を熟知すること。",
-		   NULL, "O comandante da companhia também deve estudar minunciosamente o Manual de Emergência 34.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O comandante também deve estudar minunciosamente o Manual de Emergência N.º 34.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　作戦参加人員は機密保持に最も重視を置いて選抜すること。",
-		   NULL, "Selecione o pessoal com a preservação do sigilo em mente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Selecione o pessoal cuidadosamente, com a preservação do sigilo em mente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、国立感染症研究所出向職員の指示に従って予防薬適性検査を実施し、適合者のみで編制すること。",
-		   NULL, "Além disso, teste a eficácia da vacina com o apoio do Centro Nacional de Pesquisa de Doenças Infecciosas. Teste naqueles com imunidade positiva.", Line_Normal);
+		   NULL, "Além disso, teste a eficácia da vacina com o apoio do Instituto Nacional de Doenças Infecciosas. Teste naqueles com imunidade positiva.", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -746,7 +746,7 @@ void main()
 		   NULL, "    ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "昭和５８年６月２３日",
-		   NULL, "23 de Junho, 1983", GetGlobalFlag(GLinemodeSp));
+		   NULL, "23 de junho de 1983", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -755,7 +755,7 @@ void main()
 		   NULL, "                              ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "58衛研総エ７−１１号",
-		   NULL, "Documento E7-11 para o 58° Diretor do NIHS", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Documento E7-11 para o 58° Diretor do INCS", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -763,7 +763,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "第７３３装備実験中隊長殿",
-		   NULL, "Atenção comandante da empresa de teste de equipamento 733", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Comandante da 733ª TECOM", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -773,7 +773,7 @@ void main()
 		   NULL, "                  ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "国立感染症研究所",
-		   NULL, "O Centro Nacional de Pesquisa de Doenças Infecciosas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Instituto Nacional de Doenças Infecciosas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -782,7 +782,7 @@ void main()
 		   NULL, "     ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "感染病理部第13室",
-		   NULL, "Departamento de Patógenos Infecciosos, Suíte 13.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Departamento de Patógenos Infecciosos, Sala 13.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -791,7 +791,7 @@ void main()
 		   NULL, "                      ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "（公印省略）",
-		   NULL, "(Selo oficial emitido)", Line_Normal);
+		   NULL, "(Selo oficial omitido)", Line_Normal);
 	ClearMessage();
 
 	ModFadeOutBGM( 2, 0, FALSE, 0 );
@@ -811,7 +811,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　滅菌作戦の遂行に当たり、雛見沢症候群について申し送るものである。",
-		   NULL, "Esta é uma informação sobre a Síndrome de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Estas são informações sobre a Síndrome de Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -821,42 +821,42 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　基本的に自覚症状はないが、極度の精神不安定による回避可能な理由の他、女王感染者の死亡による不可避な理由によって劇的に発症する。",
-		   NULL, "Não há sintomas iniciais. Em vez disso, seu início começa quando o estado emocional do paciente se torna instável ou se a rainha portadora morre.", Line_Normal);
+		   NULL, "Não há sintomas iniciais. Em vez disso, seu início começa quando o estado emocional do paciente se torna instável ou se a portadora da rainha morre.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　主な症例は妄想と精神異常で、特に被害妄想の肥大が著しい。",
-		   NULL, "Os principais sintomas da doença são alucinações e instabilidade emocional, aliadas a um extremo complexo de perseguição.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os principais sintomas da doença são alucinações e instabilidade emocional, acompanhadas de paranoia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また自身の精神異常を自覚しないことが多く、その識別は検査以外ではほぼ不可能。",
-		   NULL, "Além disso, os pacientes frequentemente desconhecem suas próprias anormalidades mentais, tornando quase impossível a identificação fora do exame. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ademais, os pacientes frequentemente desconhecem suas próprias anormalidades mentais, tornando quase impossível a identificação sem exames. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "末期の異常行為から発症を類推することしかできない。",
-		   NULL, "A única maneira de fazer isso é observando sintomas indicativos de comportamento terminal e anormal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A única maneira de fazê-lo é observar sintomas indicativos de anormalidade e caso terminal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、多くの場合、被害妄想の肥大から何らかの反社会行動に訴えることが多く、この点が雛見沢症候群の最大の問題点と言える。",
-		   NULL, "Em muitos casos, os pacientes apresentam comportamento anti-social, que é o maior problema criado pela síndrome.", Line_Normal);
+		   NULL, "Em muitos casos, os pacientes apresentam comportamento antissocial, que é o maior problema criado pela Síndrome.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ホルモンの分泌などに影響を与えるものと思われ、肉体でなく精神に主に作用する感染症のため、感染症型精神病とも言える。",
-		   NULL, "Esse comportamento é causado por fatores hormonais, já que essa doença afeta principalmente mente, e não o corpo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Esse comportamento é causado por fatores hormonais, já que essa doença afeta principalmente a mente, e não o corpo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　末期にはリンパ腺に強い痒みを訴えることがあり首筋、もしくは手首を掻き毟る可能性がある。",
 		   NULL, "No final, os pacientes sentirão extrema irritação nos gânglios linfáticos e arranharão a garganta ou os pulsos.", Line_WaitForInput);
 	OutputLine(NULL, "これのみが唯一の自覚症状である。",
-		   NULL, " Este é o único sintoma reconhecido pelo paciente.", Line_Normal);
+		   NULL, " Este é o único sintoma que é reconhecido pelo paciente.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -865,14 +865,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "滅菌作戦注意事項について",
-		   NULL, "Pontos Importantes Relativos à Operação de Esterilização", Line_Normal);
+		   NULL, "Pontos Importantes em Relação à Operação da Esterilização", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　滅菌作戦の遂行に当たり、諸注意を申し送るものである。",
-		   NULL, "Este é um aviso consultivo para controle para vírus.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Este é um aviso sobre vários cuidados ao realizar a esterilização.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -888,14 +888,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、作戦終了後は感染検査を行ない、陽性反応者は直ちに申告し治療を受けること。",
-		   NULL, "Após a conclusão da missão, todos os funcionários devem fazer um exame médico e aqueles com resultados positivos nos testes devem se apresentar.", Line_Normal);
+		   NULL, "Após a conclusão da missão, todos os funcionários devem fazer um exame médico e aqueles com resultados positivos nos testes devem se apresentar imediatamente e receber tratamento.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　特に注意を要するのは高度感染者（住民）との接触である。",
-		   NULL, "Tenha cuidado ao interagir com os portadores (moradores).", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tenha cuidado ao interagir com os portadores (moradores do vilarejo).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -906,19 +906,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　高度感染者とは直接接触しないよう厳重に注意すること。",
-		   NULL, "Não entre em contato direto com eles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Evite o contato direto com pessoas infectadas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　接触を疑う者は直ちに検査用自動注射器を使用して別添に従い自己検査を行なうこと。",
-		   NULL, "Se for considerado infectado, os indivíduos devem usar a seringa de teste e testar a si mesmo para a doença.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se houver suspeita de infecção por contato, é necessário fazer uma verificação imediata com a seringa de teste, conforme as instruções anexas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　特にリンパ腺に理不尽な痒みを覚えた場合は急性発症である可能性が極めて高い。",
-		   NULL, "Se você sentir uma irritação extrema nos gânglios linfáticos, é provável que tenha sintomas terminais.", Line_WaitForInput);
+		   NULL, "Principalmente se houver irritação extrema nos gânglios linfáticos, provavelmente se tratando de um sintoma de caso terminal.", Line_WaitForInput);
 	OutputLine(NULL, "ただちに検査を行なうこと。",
-		   NULL, " Nesse caso, você deve fazer o teste imediatamente.", Line_Normal);
+		   NULL, " Nesse caso, é necessário fazer o teste imediatamente.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
@@ -930,7 +930,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　注射後１０分を経過しても痒みが引かない場合には２本目を使用する。",
-		   NULL, "Se a irritação persistir após 10 minutos, aplique uma segunda injeção.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se a irritação persistir após 10 minutos, aplique uma segunda dose.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -942,13 +942,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、C120は健常な人体には悪影響を及ぼすため、陽性反応を確認しない使用はこれを厳禁とする。",
-		   NULL, "Além disso, como o C120 tem efeitos adversos em seres humanos saudáveis, seu uso sem um teste positivo confirmado é estritamente proibido.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, o C120 tem efeitos colaterais em pessoas saudáveis, então o seu uso sem um teste positivo confirmado é estritamente proibido.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　健常な人体に使用した場合、１０分以内に全身の発疹、発熱、瞳孔の拡大、妄想を引き起こす。",
-		   NULL, "Se usado em um corpo saudável, os sintomas de febre alta, erupções cutâneas, pupilas dilatadas e alucinações serão observáveis em 10 minutos.", Line_WaitForInput);
+		   NULL, "Se usado em um corpo saudável, sintomas de febre alta, erupções cutâneas, pupilas dilatadas e alucinações poderão acontecer durante 10 minutos.", Line_WaitForInput);
 	OutputLine(NULL, "これらを自覚した場合、本部にて治療を受けること。",
 		   NULL, " Se isso ocorrer, deve-se procurar tratamento na sede.", Line_Normal);
 	ClearMessage();
