@@ -1,6 +1,6 @@
 # Higurashi no Naku Koro ni Hou - Cap. 7 Minagoroshi
 
-Tradução de _Higurashi no Naku Koro ni Hou_ da _Miracle Translations_ compatível com o [_07th-Mod_](https://07th-mod.com).
+Tradução em Português Brasileiro de _Higurashi no Naku Koro ni Hou_ da _Miracle Translations_ compatível com o [_07th-Mod_](https://07th-mod.com).
 
 Veja o progresso da tradução [aqui](https://docs.google.com/spreadsheets/d/1DJBlp_bFBwAQXBYrzT40BAT_f6Fqlx79bGgSV1eawLs).
 
