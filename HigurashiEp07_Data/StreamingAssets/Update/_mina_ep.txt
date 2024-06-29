@@ -1200,99 +1200,99 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6021", 256, TRUE);
 	OutputLine(NULL, "「…シミュレートの結果では、第２党第３党が連立した場合、与野党の勢力は完全に反転します。",
-		   NULL, "\"De acordo com as nossas simulações, o equilíbrio de poder mudará drasticamente se o segundo e o terceiro partidos formarem um governo de coligação.", Line_WaitForInput);
+		   NULL, "\"De acordo com as nossas simulações, o equilíbrio de poder mudaria drasticamente se o segundo e o terceiro partidos formassem um governo de coligação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6022", 256, TRUE);
 	OutputLine(NULL, "国際世論は我が国を一斉に非難。",
-		   NULL, " O mundo inteiro nos responsabilizará. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O mundo inteiro nos responsabilizaria. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6023", 256, TRUE);
 	OutputLine(NULL, "国連に対しＮＢＣ兵器開発疑惑の査察を要求するでしょう。",
-		   NULL, "As Nações Unidas vão acusar-nos de desenvolver armas de destruição maciça.", Line_WaitForInput);
+		   NULL, "As Nações Unidas nos acusariam de desenvolver armas de destruição em massa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6024", 256, TRUE);
 	OutputLine(NULL, "近隣国は政府主導でバッシングキャンペーンを展開、高支持率を背景に対日外交を強硬路線に転換します。",
-		   NULL, " Os governos dos países vizinhos liderarão campanhas difamatórios contra nós, traçando uma linha dura de políticas diplomáticas anti-Japão com altos índices de aprovação. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Os governos dos países vizinhos liderariam campanhas difamatórias contra nós, traçando uma linha dura de políticas diplomáticas anti-Japão com altos índices de aprovação. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6025", 256, TRUE);
 	OutputLine(NULL, "我が国は政治的焦土と化すでしょう。」",
-		   NULL, "De todas as maneiras possíveis, o governo deste país será totalmente queimado.\"", Line_Normal);
+		   NULL, "De todas as maneiras possíveis, o governo deste país seria transformado em cinzas.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7i6018", 256, TRUE);
 	OutputLine(NULL, "「国際信用はぺんぺん草一本残らんということかね。",
-		   NULL, "\"Então perderemos a confiança de todos os nossos aliados, huh.", Line_WaitForInput);
+		   NULL, "\"Então perderíamos a confiança de todos os nossos aliados, não é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6019", 256, TRUE);
 	OutputLine(NULL, "……くそ。",
 		   NULL, " ...Merda.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6020", 256, TRUE);
 	OutputLine(NULL, "つまり雛見沢地区と周辺自治体の数十万人だけの問題では済まんということだな。",
-		   NULL, " Portanto, este não é apenas o problema das centenas de milhares de pessoas que vivem na área de Hinamizawa, é...?", Line_WaitForInput);
+		   NULL, " Isso significa que esse não é só um problema das centenas de milhares de pessoas de Hinamizawa e dos arredores...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6021", 256, TRUE);
 	OutputLine(NULL, "…………しかし！！",
 		   NULL, " .........Mas!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7i6022", 256, TRUE);
 	OutputLine(NULL, "　全てを闇に葬るための犠牲が二千人とは多過ぎる！」",
-		   NULL, "É muito difícil encobrir duas mil vítimas!\"", Line_Normal);
+		   NULL, "É difícil demais conseguir encobrir duas mil vítimas!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6003", 256, TRUE);
 	OutputLine(NULL, "「…………日本国内において、生物兵器研究が行なわれていたことが露呈することだけは避けなければなりません。」",
-		   NULL, "\".........O mais importante é evitar que o público saiba que este país estava pesquisando secretamente armas biológicas.\"", Line_Normal);
+		   NULL, "\".........O mais importante é evitar que o público saiba que este país estava pesquisando armas biológicas em segredo.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6004", 256, TRUE);
 	OutputLine(NULL, "「……私は、どうやら大戦の亡霊の尻を拭くはめになりそうですね…。」",
-		   NULL, "\"...Acho que estaremos limpando a bunda do fantasma da guerra...\"", Line_Normal);
+		   NULL, "\"...Parece que vamos precisar limpar a bunda do fantasma da guerra...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7i6023", 256, TRUE);
 	OutputLine(NULL, "「滅菌作戦は計画通りに隠密で実行できるのかね？！",
-		   NULL, "\"Tem certeza de que esta operação pode ser realizada secretamente?", Line_WaitForInput);
+		   NULL, "\"Você tem certeza de que essa operação pode ser realizada secretamente?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6024", 256, TRUE);
 	OutputLine(NULL, "　滅菌作戦が発覚すれば奇病研究以上の大スキャンダルになるぞ？！」",
-		   NULL, " Se esta missão se tornar público, isto se tornará um escândalo maior do que a própria pesquisa!\"", Line_Normal);
+		   NULL, " Se a missão de esterilização for descoberta, se tornararia em um escândalo ainda maior do que a própria pesquisa!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6026", 256, TRUE);
 	OutputLine(NULL, "「はい、ご安心ください。",
-		   NULL, "\"Sim, será mantido em segredo.", Line_WaitForInput);
+		   NULL, "\"Ela será mantida em segredo, então não se preocupe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6027", 256, TRUE);
 	OutputLine(NULL, "それにつきましては自衛隊内の機密保持に特化した専門部隊が当たります。",
-		   NULL, " Existem unidades especiais trabalhando neste caso.", Line_WaitForInput);
+		   NULL, " As Forças de Autodefesa estão trabalhando neste caso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6028", 256, TRUE);
 	OutputLine(NULL, "このような事態を想定し研究と訓練を重ねた部隊です。",
-		   NULL, " Eles são treinados especificamente para situações como esta.", Line_WaitForInput);
+		   NULL, " Elas são treinadas especificamente para situações como esta.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6029", 256, TRUE);
 	OutputLine(NULL, "万一の失敗はありえません。」",
-		   NULL, " Você não tem nada com o que se preocupar.\"", Line_Normal);
+		   NULL, " Então é impossível que eles falhem a missão.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6005", 256, TRUE);
 	OutputLine(NULL, "「都市沈黙戦という言葉は初めて聞きましたが、これはガスによる虐殺のことですね？",
-		   NULL, "\"Nunca ouvi falar de nenhuma missão como essa, mas é basicamente um assassinato em massa via gás, correto?", Line_WaitForInput);
+		   NULL, "\"É a primeira vez que eu ouço falar nessa missão. Ela se trata de um massacre usando gás, correto?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6006", 256, TRUE);
 	OutputLine(NULL, "　自衛隊にガス戦を習熟した部隊があったとは驚きました。」",
-		   NULL, " Eu não tinha ideia de que havia unidades treinadas especificamente para isso.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Me surpreende que existam unidades treinadas especificamente para isso nas Forças de Autodefesa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6030", 256, TRUE);
 	OutputLine(NULL, "「ガス防護を知るにはガス戦を知らなければなりません。",
-		   NULL, "\"Para saberem como se protegerem de um ataque de gás, devem saber do que se trata a guerra do gás.", Line_WaitForInput);
+		   NULL, "\"Para saber como se proteger de um ataque com gás, eles devem saber como funciona uma guerra com gás.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6031", 256, TRUE);
 	OutputLine(NULL, "ガス虐殺に備えるにはガス虐殺を知らねばなりません。",
 		   NULL, " Para saber como lutar contra um inimigo usando gás, eles também devem saber como matar com ele. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6032", 256, TRUE);
 	OutputLine(NULL, "装備実験隊は日本国が受ける可能性のある全ての攻撃に対し、日夜、研究を重ねています。」",
-		   NULL, "A Unidade de Pesquisa de Equipamentos está preparada para qualquer tipo de ataque.\"", Line_Normal);
+		   NULL, "A Unidade de Pesquisa de Equipamentos está trabalhando dia e noite para se preparar contra qualquer tipo de ataque que o Japão possa receber.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1307,13 +1307,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悪意に備えるという詭弁がまかり通るなら、あらゆる研究が許されるというのか。",
-		   NULL, "Qualquer pesquisa pode ser justificada pela desculpa de se preparar contra as hostilidades?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se era tudo para se preparar contra as hostilidades, então qualquer pesquisa é justificada?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、それこそが備えるということでもある…。",
-		   NULL, "Mas também era disso que se tratava a preparação...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas isso também é o que significa estar preparado...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1321,19 +1321,19 @@ void main()
 	OutputLine(NULL, "　必要悪として認めてきたことでもあった。",
 		   NULL, "Alguns males devem ser aceitos como necessários.", Line_WaitForInput);
 	OutputLine(NULL, "……それは、入江機関の研究もまったく同じだ。",
-		   NULL, " O Instituto Irie era um desses males...", Line_Normal);
+		   NULL, " A pesquisa do Instituto Irie era um desses males...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6007", 256, TRUE);
 	OutputLine(NULL, "「………………明かせぬ研究を葬るために、明かせぬ方法を取るか……。」",
-		   NULL, "\".........Portanto, temos que tomar uma decisão secreta para manter esta pesquisa em sigilo.\"", Line_Normal);
+		   NULL, "\".........Então, para manter essa pesquisa em segredo, nós precisamos tomar uma decisão secreta...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7i6025", 256, TRUE);
 	OutputLine(NULL, "「罪悪感の伴う任務だが、隊員から事実が漏れ出すことはないのかね？」",
-		   NULL, "\"Aprovar isso nos tornará culpados. Você tem certeza de que as informações não vazarão dos membros desta unidade?\"", Line_Normal);
+		   NULL, "\"Aprovar isso nos tornaria culpados. Você tem certeza de que as informações não vão acabar vazando por algum dos membros dessa unidade?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
@@ -1342,17 +1342,17 @@ void main()
 		   NULL, "\"Isso não vai acontecer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6034", 256, TRUE);
 	OutputLine(NULL, "隊員は第一空挺から精鋭を選抜し、さらに高い忠誠心を持つ者のみで構成しております。",
-		   NULL, " Os membros foram cuidadosamente selecionados de um grupo de homens extremamente leais. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Os membros foram cuidadosamente selecionados entre um grupo de homens extremamente leais. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6035", 256, TRUE);
 	OutputLine(NULL, "実戦はこれが初めてになりますが、練度は極めて高く、内部の機密保持も問題ありません。」",
-		   NULL, "Nunca realizamos uma operação como essa, mas eles são muito experientes e não vazarão nenhuma informação.\"", Line_Normal);
+		   NULL, "Seria a primeira vez realizando uma operação como essa, mas eles são muito experientes e não vazarão nenhuma informação.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6008", 256, TRUE);
 	OutputLine(NULL, "「……………まさに暗殺の専門部隊ですね。」",
-		   NULL, "\".........Eles são uma unidade de assassinato, huh.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\".........Eles são uma unidade especializada em assassinato, né?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
@@ -1361,7 +1361,7 @@ void main()
 		   NULL, "\"Primeiro-Ministro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6037", 256, TRUE);
 	OutputLine(NULL, "どうか緊急マニュアル第３４号の執行にご決裁をお願いいたします。」",
-		   NULL, " Por favor, dê-nos a aprovação para gerir o Manual de Emergência 34.\"", Line_Normal);
+		   NULL, " Por favor, dê-nos a aprovação para aplicar o Manual de Emergência N.º 34.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
@@ -1373,22 +1373,22 @@ void main()
 		   NULL, " Você tem certeza de que esta operação será bem-sucedida?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6011", 256, TRUE);
 	OutputLine(NULL, "　事件が大騒ぎになる前に食い止められますか？",
-		   NULL, " Tem certeza que podemos impedir que isso se torne público?", Line_WaitForInput);
+		   NULL, " Podemos mesmo impedir que isso se torne público?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6012", 256, TRUE);
 	OutputLine(NULL, "　いえ、……犠牲者を最小限に抑えられますか？」",
-		   NULL, " Não... Você pode reduzir ao mínimo as baixas?\"", Line_Normal);
+		   NULL, " Não... Vocês conseguem reduzir as baixas ao mínimo possível?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6038", 256, TRUE);
 	OutputLine(NULL, "「はい総理。",
-		   NULL, "\"Sim senhor.", Line_WaitForInput);
+		   NULL, "\"Sim, senhor.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6039", 256, TRUE);
 	OutputLine(NULL, "すでに予備命令を発し作戦準備に入っております。",
-		   NULL, " As ordens preliminares foram enviadas e os preparativos estão completos.", Line_WaitForInput);
+		   NULL, " As ordens preliminares já foram emitidas e os preparativos já estão concluídos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6040", 256, TRUE);
 	OutputLine(NULL, "ご決裁がいただければ直ちに出動して作戦に入ります。」",
-		   NULL, " Executaremos a missão assim que recebermos sua aprovação.\"", Line_Normal);
+		   NULL, " Assim que recebermos a sua aprovação, começaremos a missão.\"", Line_Normal);
 	ClearMessage();
 	ModFadeOutBGM( 1, 400, FALSE, 1 );
 
