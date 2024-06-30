@@ -1399,37 +1399,37 @@ void main()
 		   NULL, "\".........Não posso dar aprovação para massacrar duas mil pessoas inocentes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6027", 256, TRUE);
 	OutputLine(NULL, "……ですが、内閣総理大臣として犠牲者を最小に抑える義務もあります。」",
-		   NULL, " ...No entanto, como Primeiro-Ministro, tenho a obrigação de minimizar o número de vítimas.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Porém, como Primeiro-Ministro, eu tenho a obrigação de minimizar o número de vítimas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6041", 256, TRUE);
 	OutputLine(NULL, "「総理、…胸中をお察しします。」",
-		   NULL, "\"Primeiro Ministro... Eu entendo o seu dilema.\"", Line_Normal);
+		   NULL, "\"Primeiro-Ministro... Eu entendo o seu dilema.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6013", 256, TRUE);
 	OutputLine(NULL, "「…………………長官。",
-		   NULL, "\"............Diretor geral.", Line_WaitForInput);
+		   NULL, "\"............Diretor-Geral.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6014", 256, TRUE);
 	OutputLine(NULL, "どうか、犠牲者が一番少なくて済む方法を選択してください。",
-		   NULL, " Por favor faça um esforço conjunto para minimizar o número de vítimas.", Line_WaitForInput);
+		   NULL, " Por favor, escolha o método que cause o menor número de vítimas possível.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6015", 256, TRUE);
 	OutputLine(NULL, "…二千人がどうしても治療できないなら、……不必要な犠牲者が出ないよう、迅速な対応をお願いいたします。」",
-		   NULL, " Se essas duas mil pessoas não puderem ser tratadas, por favor, faça o que for melhor para evitar vítimas adicionais.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se essas duas mil pessoas não podem ser tratadas, então, por favor, faça o que for melhor para evitar mais vítimas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6042", 256, TRUE);
 	OutputLine(NULL, "「はい！",
-		   NULL, "\"Sim senhor!", Line_WaitForInput);
+		   NULL, "\"Sim, senhor!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6043", 256, TRUE);
 	OutputLine(NULL, "　ご決裁を感謝いたします！",
-		   NULL, " Obrigado pela sua aprovação!", Line_WaitForInput);
+		   NULL, " Agradeçemos pela aprovação!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7j6044", 256, TRUE);
 	OutputLine(NULL, "　必ずや朗報をお持ちいたします！」",
-		   NULL, " Voltaremos com resultados positivos!\"", Line_Normal);
+		   NULL, " Certamente voltaremos com boas notícias!\"", Line_Normal);
 	ClearMessage();
 
 	ModFadeOutBGM( 1, 400, FALSE, 0 );
@@ -1438,16 +1438,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6016", 256, TRUE);
 	OutputLine(NULL, "「…………二千人の犠牲が朗報と呼べるならですがね。",
-		   NULL, "\".........Isso se você puder considerar duas mil vítimas de um resultado positivo.", Line_WaitForInput);
+		   NULL, "\".........Isso se o sacrifício de duas mil pessoas puder ser considerado uma boa notícia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6017", 256, TRUE);
 	OutputLine(NULL, "…奥野くん。",
 		   NULL, " Okuno-kun...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6018", 256, TRUE);
 	OutputLine(NULL, "東京の皆さんに近日中にお会いできる席を設けてください。",
-		   NULL, " Por favor, marque uma reunião com 'Tóquio' o mais rápido possível.", Line_WaitForInput);
+		   NULL, " Por favor, marque uma reunião com a 'Tóquio' o mais rápido possível.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7k6019", 256, TRUE);
 	OutputLine(NULL, "今回の件について、釈明を直接聞かせていただきたいと思います。」",
-		   NULL, " Eu tenho que ouvir uma explicação diretamente deles.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu gostaria de ouvir uma explicação diretamente deles.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
@@ -1468,13 +1468,13 @@ void main()
 		   NULL, "\"Não, ele cometeu suícidio tomando veneno.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6030", 256, TRUE);
 	OutputLine(NULL, "研究の終了が自身の人生を否定されたものと悲観しての発作的犯行と思われていますが、…何が目的だったやら。」",
-		   NULL, " Ele estava com tanta raiva que sua pesquisa estava sendo encerrada... que ele sentiu como se sua própria vida estivesse sendo negada.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Parece que ele ficou com tanta raiva porque sua pesquisa estava sendo encerrada... que ele sentiu como se sua própria vida estivesse sendo negada.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>総理大臣</color>", NULL, "<color=#f5e6d3>Primeiro-Ministro</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7k6021", 256, TRUE);
 	OutputLine(NULL, "「………彼を狂気に駆り立てた理由は永遠に闇の中ということですか。」",
-		   NULL, "\"......Então, ninguém jamais saberá realmente o que o fez cometer um crime tão horrível.\"", Line_Normal);
+		   NULL, "\"......Então, isso significa que ninguém jamais saberá o que o fez cometer um crime tão horrível?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1488,7 +1488,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　緊急マニュアル第３４号の適用をここに認める。",
-		   NULL, "A execução do Manual de Emergência 34 foi aprovada.", Line_ContinueAfterTyping);
+		   NULL, "A aplicação do Manual de Emergência N.º 34 foi\naprovada.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 1, 0, FALSE );
 	Wait( 2000 );
