@@ -1536,32 +1536,32 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcea28001", 256, TRUE);
 	OutputLine(NULL, "「皆さん、輸送の都合で荷物を持つことはできません！",
-		   NULL, "\"Por razões logítisticas, você não pode trazer itens grandes com você!", Line_WaitForInput);
+		   NULL, "\"Por razões logítisticas, vocês não podem trazer nenhuma bagagem!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcea28002", 256, TRUE);
 	OutputLine(NULL, "　手荷物は禁じます。",
-		   NULL, " Você não pode carregar nenhuma bagagem.", Line_WaitForInput);
+		   NULL, " Bagagens estão proibidas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcea28003", 256, TRUE);
 	OutputLine(NULL, "繰り返します、手荷物は禁じます！",
-		   NULL, " Repito, você não pode carregar nenhuma bagagem!", Line_WaitForInput);
+		   NULL, " Eu repito, bagagens estão proibidas!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcea28004", 256, TRUE);
 	OutputLine(NULL, "　現金、通帳、印鑑の類だけを携帯してください！",
-		   NULL, " Você pode carregar apenas itens valiosos, como cadernetas bancárias e dinheiro! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vocês podem carregar apenas itens valiosos, como cadernetas bancárias e dinheiro! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcea28005", 256, TRUE);
 	OutputLine(NULL, "　混乱防止のため車両避難は禁じています！」",
-		   NULL, "Por favor, não use seu próprio veículo para evacuar. Isso causará confusão!\"", Line_Normal);
+		   NULL, "Por favor, não usem os seus próprios veículos para evacuar. Isso causará confusão!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　深夜。",
-		   NULL, "Era meia noite.", Line_WaitForInput);
+		   NULL, "Já era tarde da noite.", Line_WaitForInput);
 	OutputLine(NULL, "大勢の村人たちがぞろぞろと戸外に出ていた。",
-		   NULL, " E ainda assim, inúmeros moradores estavam por aí.", Line_Normal);
+		   NULL, " Ainda assim, inúmeros moradores do vilarejo estavam fora de casa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ある者は戸締りをし、ある者は庭木に水をやり飼い犬の前にエサを山積みにしていた。",
-		   NULL, "Alguns deles estavam trancando as portas, alguns deles regando as plantas e alguns deles empilhando comida nas tigelas de seus cachorros.", Line_Normal);
+		   NULL, "Alguns deles estavam trancando as portas, outros estavam regando as plantas e empilhando comida nas tigelas de seus cachorros.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1571,7 +1571,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　怒鳴り声で点呼する町会の老人たち。",
-		   NULL, "Membros do conselho municipal gritavam com raiva enquanto contavam os moradores.", Line_Normal);
+		   NULL, "Membros do conselho do vilarejo gritavam com raiva enquanto contavam os moradores.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 300 );
@@ -1579,23 +1579,23 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山中の数箇所から危険な火山ガスが噴出し、ガス流によって外部と寸断され、村が孤立したというのだ。",
-		   NULL, "Alegadamente, o vilarejo foi isolado do resto do mundo depois que o gás vulcânico jorrou das montanhas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles ouviram que o vilarejo foi isolado do resto do mundo depois que o gás vulcânico jorrou das montanhas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　戸外に漂う強い硫黄臭と、いつの間にやら村中にいた警察と自衛隊員の姿に、人々は疑う術を持たなかった。",
-		   NULL, "A quantidade de policiais e unidades militares no vilarejo, somada ao forte cheiro de enxofre no ar, dissipou quaisquer dúvidas que os moradores pudessem ter.", Line_Normal);
+		   NULL, "O forte cheiro de enxofre no ar e a quantidade de policiais e agentes das Forças de Autodefesa no vilarejo dissiparam quaisquer dúvidas que os moradores pudessem ter.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　信心深い老人たちは、先日死んだ古手梨花の死による祟りだと信じ、ひたすら数珠を揉み続けていた。",
-		   NULL, "Os mais religiosos entre os idosos estavam convencidos de que se tratava da maldição de Rika Furude, falecida na véspera.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os mais religiosos entre os idosos continuaram esfregando seus Juzu, acreditando que se tratava da maldição de Rika Furude, que faleceu no dia anterior.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまの怒りに触れ、地獄の釜が開き、瘴気が村を飲み込む日が来たのだと信じた。",
-		   NULL, "Eles tinham certeza de que Oyashiro-sama estava furioso e que a porta para o inferno havia sido aberto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles acreditavam que Oyashiro-sama estava furioso e que a porta para o inferno havia sido aberta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
