@@ -1608,35 +1608,35 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7l6000", 256, TRUE);
 	OutputLine(NULL, "「…何で兵隊さんは災害なのに鉄砲持ってきとるんしゃあ。」",
-		   NULL, "\"...Por que todos vocês tem armas?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Por que vocês trouxeram armas?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7p6000", 256, TRUE);
 	OutputLine(NULL, "「皆さんが避難した後の家屋を守るためです。",
-		   NULL, "\"Elas são para proteger suas casas pós a evacuação.", Line_WaitForInput);
+		   NULL, "\"Elas são para proteger as suas casas depois da evacuação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6001", 256, TRUE);
 	OutputLine(NULL, "また、災害に便乗して商店を襲撃する暴徒に対してです。」",
-		   NULL, " Estamos esperando saqueadores.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E também para caso alguém aproveite a oportunidade e tente roubar alguma loja.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7l6001", 256, TRUE);
 	OutputLine(NULL, "「………雛見沢にそんな輩はおらんのしゃ…。」",
-		   NULL, "\"......Ninguém em Hinamizawa faria algo assim...\"", Line_Normal);
+		   NULL, "\"......Ninguém em Hinamizawa faria isso...\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7p6002", 256, TRUE);
 	OutputLine(NULL, "「第１小隊、避難誘導順調。",
-		   NULL, "\"Aqui é o 1° Pelotão. A evacuação está dentro do prazo.", Line_WaitForInput);
+		   NULL, "\"Aqui é o 1° Pelotão. A evacuação está progredindo sem problemas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6003", 256, TRUE);
 	OutputLine(NULL, "……了解！",
 		   NULL, " ...Entendido!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6004", 256, TRUE);
 	OutputLine(NULL, "　一個分隊を応援に向わせます。」",
-		   NULL, " Enviaremos nosso pelotão.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Enviaremos nosso pelotão para ajudar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>老婆</color>", NULL, "<color=#f5e6d3>Senhora</color>", NULL, Line_ContinueAfterTyping); }
@@ -1648,19 +1648,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7p6005", 256, TRUE);
 	OutputLine(NULL, "「位牌は構いません！",
-		   NULL, "\"Você pode levar isso com você!", Line_WaitForInput);
+		   NULL, "\"Você pode trazer!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6006", 256, TRUE);
 	OutputLine(NULL, "　急いでください！！",
-		   NULL, " Por favor se apresse!", Line_WaitForInput);
+		   NULL, " Mas, por favor, se apresse!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6007", 256, TRUE);
 	OutputLine(NULL, "　町会の方は点呼を怠らないように！！",
-		   NULL, " Certifique-se de que todos no vilarejo estejam aqui!", Line_WaitForInput);
+		   NULL, " Quem for do conselho do vilarejo, verifique se todos estão aqui!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6008", 256, TRUE);
 	OutputLine(NULL, "　歩行困難な方は申し出てください。",
-		   NULL, " Por favor, avance se você não conseguir andar.", Line_WaitForInput);
+		   NULL, " Por favor, nos avise se você não conseguir andar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6009", 256, TRUE);
 	OutputLine(NULL, "隊員が補助します！」",
-		   NULL, " Um soldado virá e te ajudará!\"", Line_Normal);
+		   NULL, " Um soldado virá te ajudar!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
@@ -1672,16 +1672,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7l6002", 256, TRUE);
 	OutputLine(NULL, "「オヤシロさまオヤシロさまオヤシロさま…、どうか怒りをお鎮めください…。」",
-		   NULL, "\"Oyashiro-sama... Oyashiro-sama... Por favor perdoe nossos pecados....\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Oyashiro-sama... Oyashiro-sama... Por favor, perdoe nossos pecados....\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7o6000", 256, TRUE);
 	OutputLine(NULL, "「防災訓練どおりに避難すちゃれー！",
-		   NULL, "\"Lembre-se de nossos exercícios de emergência!", Line_WaitForInput);
+		   NULL, "\"Lembrem-se dos nossos treinamentos de emergência!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7o6001", 256, TRUE);
 	OutputLine(NULL, "　班長は点呼終わったら町会役員に連絡せんかいねー！」",
-		   NULL, " Os líderes do grupo devem entrar em contato com um membro do conselho municipal quando todos do grupo comparecerem!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Os líderes de cada grupo devem entrar em contato com um membro do conselho quando todos do grupo comparecerem!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
@@ -1696,10 +1696,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7n6000", 256, TRUE);
 	OutputLine(NULL, "「こんなに大勢いるんじゃ、助かる方法なんかなかとよぉ。",
-		   NULL, "\"Há muitos de nós aqui!", Line_WaitForInput);
+		   NULL, "\"Tem mesmo como ajudar tanta gente? Não vamos conseguir sobreviver!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7n6001", 256, TRUE);
 	OutputLine(NULL, "村で死なせてくれなぁ！」",
-		   NULL, " Deixe-me morrer neste vilarejo!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Por favor, me deixe morrer nesse vilarejo!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
@@ -1708,47 +1708,47 @@ void main()
 		   NULL, "\"Não se preocupe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6011", 256, TRUE);
 	OutputLine(NULL, "輸送ヘリと防ガス仕様のバスが回されます。",
-		   NULL, " Os helicópteros e ônibus estão a caminho para transportar todos para um local seguro.", Line_WaitForInput);
+		   NULL, " Os helicópteros e os ônibus são à prova de gás e estão a caminho para transportar todos para um lugar seguro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6012", 256, TRUE);
 	OutputLine(NULL, "必ず助かりますから！」",
-		   NULL, " Vocês todos vão conseguir ir embora bem!\"", Line_Normal);
+		   NULL, " Vocês todos vão conseguir ir embora com segurança!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homem</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7o6002", 256, TRUE);
 	OutputLine(NULL, "「みんな営林署へ集まれぇぇ！！",
-		   NULL, "\"Todos reunidos no serviço florestal!", Line_WaitForInput);
+		   NULL, "\"Todo mundo deve se reunir na propriedade do serviço florestal!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7o6003", 256, TRUE);
 	OutputLine(NULL, "　４丁目は違うだろ、郵便局裏の公民館だぞ！！」",
-		   NULL, " Não, não o povo do Distrito 4! Você deveria ir ao centro comunitário atrás dos correios!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mas não as pessoas do Distrito 4! Vocês tem que ir ao centro comunitário atrás dos correios!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7p6013", 256, TRUE);
 	OutputLine(NULL, "「皆さん、防災訓練と同じです。",
-		   NULL, "\"É exatamente igual aos exercícios de emergência.", Line_WaitForInput);
+		   NULL, "\"Pessoal, é como nos treinamentos de emergência.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6014", 256, TRUE);
 	OutputLine(NULL, "落ち着いて災害時避難場所に集合してください。",
-		   NULL, " Por favor, acalme-se e vá para o seu ponto de evacuação.", Line_WaitForInput);
+		   NULL, " Por favor, acalmem-se e reúnam-se no ponto de evacuação.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6015", 256, TRUE);
 	OutputLine(NULL, "団体行動をお願いします。",
-		   NULL, " Mova-se em grupo.", Line_WaitForInput);
+		   NULL, " Por favor, movam-se todas juntas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6016", 256, TRUE);
 	OutputLine(NULL, "一人の乱れが全体の足を引きます！",
 		   NULL, " Cada pessoa importa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6017", 256, TRUE);
 	OutputLine(NULL, "　どうか団体行動を！",
-		   NULL, " Todos precisam ficar juntos!", Line_WaitForInput);
+		   NULL, " Por isso, todos precisam ficar juntos!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6018", 256, TRUE);
 	OutputLine(NULL, "　家には必ず戻れます！」",
-		   NULL, " Você voltará para casa em segurança!\"", Line_Normal);
+		   NULL, " Vocês vão voltar para casa em segurança!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　隊員たちの表情はマスクを被っているから村人にはわからなかったが、",
-		   NULL, "Os moradores não conseguiam ver as expressões sob as máscaras de gás dos soldados.", Line_WaitForInput);
+		   NULL, "Os moradores não conseguiam ver por trás das máscaras de gás dos soldados,", Line_WaitForInput);
 	OutputLine(NULL, "……もしも見ることができたならどんな表情をしていたのだろう。",
-		   NULL, " Eles se perguntaram que tipo de expressões eles estavam escondendo ali...", Line_Normal);
+		   NULL, " mas eles não podiam evitar de pensar que tipo de expressões eles estavam escondendo...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1758,7 +1758,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　隊員の一人が涙を流したが、その気持ちは村人の誰にも伝わることはなかった…。",
-		   NULL, "Um desses soldados chorou sob a máscara, mas os moradores nunca viram suas lágrimas...", Line_Normal);
+		   NULL, "Um desses soldados chorou, mas os moradores nunca viram as suas lágrimas...", Line_Normal);
 	ClearMessage();
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 300 );
 	DrawSceneWithMask( "background/m_y7", "maskleft", 1, 0, 300 );
