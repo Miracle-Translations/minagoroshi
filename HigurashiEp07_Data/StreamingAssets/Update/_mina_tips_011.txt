@@ -72,12 +72,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　報われる日は神でも知り得ないが、その日は約束されているのだ。",
-		   NULL, "Você nunca sabe quando será recompensada, mas esse dia chegará com certeza.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O dia em que você será recompensada é desconhecido até mesmo para Deus, mas esse dia certamente chegará.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　約束の日まで、私は自らの情熱の炎を潰えさせることはない。",
-		   NULL, "Até então, você deve deixar o fogo da sua paixão brilhar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Até que esse dia chegue, você deve deixar o fogo da sua paixão brilhar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
