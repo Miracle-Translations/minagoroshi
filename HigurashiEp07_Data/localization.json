@@ -444,7 +444,7 @@
 			"text": "Definir"
 		},
 		"MODMenuNormal_125": {
-			"text": "Tenta definir as thresholds de lipsync na esquerda\n\n"
+			"text": "Tenta definir as thresholds de lipsync à esquerda\n\n"
 		},
 		"MODMenuNormal_126": {
 			"text": "Thresholds inválidas - cada threshold deve ser um valor entre 0 e 1"
@@ -453,7 +453,7 @@
 			"text": "Menu de Opções do Mod"
 		},
 		"MODMenuNormal_128": {
-			"text": "\n\nDefine o nível de censura do script\n- Esta configuração existe porque as vocês foram retiradas da versão de Console do jogo que contém censura, então, não existem vozes do diálogo sem censura da versão de PC.\n- Nós recomendamos o nível padrão (2), a opção mais equilibrada. Usando esta oção, apenas mudanças de copyright, insinuações, e poucas palavras serão alteradas.\n  - 5: Usa as vozes do script de PS3 o tanto quanto for possível (com censura em algumas partes).\n  - 2: Padrão - opção mais equilibrada.\n  - 0: Script original de PC com vozes onde encaixam (sem censura alguma), mas cenas sem a censura podem ficar sem vozes."
+			"text": "\n\nDefine o nível de censura do script\n- Esta configuração existe porque as vozes foram retiradas da versão de Console do jogo que contém censura, então, não existem vozes do diálogo sem censura da versão de PC.\n- Nós recomendamos o nível padrão (2), a opção mais equilibrada. Usando esta oção, apenas mudanças de copyright, insinuações, e poucas palavras serão alteradas.\n  - 5: Usa as vozes do script de PS3 o tanto quanto for possível (com censura em algumas partes).\n  - 2: Padrão - opção mais equilibrada.\n  - 0: Script original de PC com vozes onde encaixam (sem censura alguma), mas cenas sem a censura podem ficar sem vozes."
 		},
 		"MODMenuNormal_129": {
 			"text": "Passe o mouse sobre um botão na esquerda para ver sua descrição.\n\n[Atalhos Vanilla]\nEnter,Return,RightArrow,PageDown : Avançar Texto\nLeftArrow,Pageup : Ver Histórico\nESC : Abrir Menu\nSegurar Ctrl : Pular Texto\nA : Modo Automático\nS : Alternar Pulo de Texto\nF, Alt + Enter : Alternar Tela Cheia\nEspaço : Esconder Texto\nL : Trocar Idioma\n\n[Atalhos do MOD]\nF1 : Modo ADV-NVL\nF2 : Nível de Voice Matching\nF3 : Nível de Efeito (Não usado)\nF5 : Salvamento Rápido\nF7 : Carregamento Rápido\nF10 : Menu do Mod\nM : Aumentar Volume da Voz\nN : Diminuir Volume da Voz\nP : Alternar Estilo de Sprite\n2 : Alternar BGM/SE\n7 : Ligar/Desligar Lip-Sync\nLShift + M : Volume da Voz Máximo\nLShift + N : Volume da Voz Mínimo"
@@ -496,10 +496,10 @@
 			"text": "Define uma resolução personalizada para o modo janela.\n\nA altura será definida automaticamente para manter a proporção de tela 16:9."
 		},
 		"MODMenuResolution_12": {
-			"text": "Altura muito pequena - deve ser ao menos 480 pixels"
+			"text": "Altura muito pequena - deve ser mais que 480 pixels"
 		},
 		"MODMenuResolution_13": {
-			"text": "Altura muito grande - deve ser menos de 15360 pixels"
+			"text": "Altura muito grande - deve ser menos que 15360 pixels"
 		},
 		"MODMenuResolution_14": {
 			"text": "Clique para voltar ao modo janela"
@@ -544,10 +544,10 @@
 			"text": "Limpar"
 		},
 		"MODMenuResolution_28": {
-			"text": "Altura muito pequena - deve ser ao menos 480 pixels"
+			"text": "Altura muito pequena - deve ser mais que 480 pixels"
 		},
 		"MODMenuResolution_29": {
-			"text": "Altura muito grande - deve ser menos de 15360 pixels"
+			"text": "Altura muito grande - deve ser menos que 15360 pixels"
 		},
 		"MODMenuAudioOptions_0": {
 			"comment": "The below entries are for the audio options section of the F10 mod menu, in the file MOD.Scripts.UI/MODMenuAudioOptions.cs",
@@ -631,7 +631,7 @@
 			"text": "Mostrar Pasta StreamingAssets"
 		},
 		"MODMenuSupport_10": {
-			"text": "Clique para abrir a Pasta StreamingAssets, que contém a maioria dos assets do jogo.\n\n- Maior parte da Imagens/Texturas, incluindo Sprites, Backgrounds, Imagens de Texto, e efeitos de Filtro\n- Vozes, Música de Fundo (BGM), e Efeitos Sonoros (SE)\n- Scripts do Jogo e Scripts Compilados do Jogo\n- Aberturas\n- E Outros Arquivos Relacionados ao Jogo"
+			"text": "Clique para abrir a Pasta StreamingAssets, que contém a maioria dos assets do jogo.\n\n- Maior parte da Imagens/Texturas, incluindo Sprites, Backgrounds, Imagens de Texto, e efeitos de Filtro\n- Vozes, Músicas de Fundo (BGM), e Efeitos Sonoros (SE)\n- Scripts do Jogo e Scripts Compilados do Jogo\n- Aberturas\n- E Outros Arquivos Relacionados ao Jogo"
 		},
 		"MODMenuSupport_11": {
 			"text": "Mostrar Pasta DLL"
