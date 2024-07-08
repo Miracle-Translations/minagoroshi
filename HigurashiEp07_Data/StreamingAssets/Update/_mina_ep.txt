@@ -1766,13 +1766,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forceg28001", 256, TRUE);
 	OutputLine(NULL, "「引き返してください！！",
-		   NULL, "\"Por favor, volte!", Line_WaitForInput);
+		   NULL, "\"Por favor, volte!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forceg28002", 256, TRUE);
 	OutputLine(NULL, "　車両での避難は禁止されています！",
-		   NULL, " Você não pode levar seu próprio veículo para evacuar!", Line_WaitForInput);
+		   NULL, " Você não pode usar o seu próprio veículo para evacuar!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forceg28003", 256, TRUE);
 	OutputLine(NULL, "　この先はガス流で寸断されており危険です！！",
-		   NULL, " A estrada à frente está cortada por um fluxo de gás e é perigosa!!", Line_WaitForInput);
+		   NULL, " A estrada à frente foi tomada pelo fluxo de gás, é perigoso ir por lá!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forceg28004", 256, TRUE);
 	OutputLine(NULL, "　あんたにも硫黄の臭いがわかるでしょ！」",
 		   NULL, " Você não consegue sentir o cheiro do enxofre?\"", Line_Normal);
@@ -1780,12 +1780,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　徒歩の避難では家財を運べないので、指示を無視して自家用車で避難しようとする人もいた。",
-		   NULL, "Algumas pessoas tentaram sair em seus carros, para levar consigo itens grandes.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Algumas pessoas ignoraram as instruções e tentaram evacuar em seus carros, levando consigo os pertences que não conseguiam carregar a pé.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、外部へ通じる車道は全て交通封鎖部隊が封鎖していた。",
-		   NULL, "No entanto, a unidade de quarentena bloqueou todas as estradas que conduziam ao exterior.", Line_Normal);
+		   NULL, "No entanto, a Unidade de Bloqueio de Trânsito fechou todas as estradas que conduziam ao exterior.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1798,18 +1798,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、ある者は興宮の親戚に電話をしようとしたが、電話は繋がらなかった。",
-		   NULL, "Alguns deles tentaram entrar em contato com Okinomiya, mas seus telefones não conectavam.", Line_Normal);
+		   NULL, "Outras pessoas tentaram entrar em contato com Okinomiya, mas seus telefones não conectavam.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いくら掛けても全て話し中だった。",
-		   NULL, "As linhas estavam ocupadas, não importa o quanto tentassem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As linhas estavam ocupadas, não importa o quanto tentassem ligar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大災害で回線がパンクしてるんだろうと自分を納得させるほかなかった。",
-		   NULL, "Eles simplesmente presumiram que as linhas telefônicas estavam sobrecarregadas por causa do desastre.", Line_Normal);
+		   NULL, "Elas simplesmente presumiram que as linhas telefônicas estavam sobrecarregadas por causa do desastre.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );
@@ -1821,12 +1821,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村の外の被害状況を知ろうとしたのだが、ものすごいノイズが聞こえてくるだけでまったく役に立たなかった。",
-		   NULL, "Eles tentaram descobrir como era a situação lá fora, mas tudo o que conseguiam ouvir no rádio era uma forte estática.", Line_Normal);
+		   NULL, "Eles tentaram descobrir como estava a situação fora do vilarejo, mas tudo o que conseguiam ouvir no rádio era uma forte estática.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはテレビやラジオも同じだった。",
-		   NULL, "Foi o mesmo com a televisão.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O mesmo aconteceu com a televisão.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1842,9 +1842,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……暗闇に灯りが１粒だけあったら誰でもそっちへ向うのだ。",
-		   NULL, "...Eles eram todos como mariposas indo em direção à luz,", Line_WaitForInput);
+		   NULL, "...Eles eram como mariposas, indo em direção à luz,", Line_WaitForInput);
 	OutputLine(NULL, "疑いもせず。",
-		   NULL, " nunca duvidando que eles estariam seguros lá.", Line_Normal);
+		   NULL, " sem sequer duvidar que estariam seguros ao redor dela.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1855,17 +1855,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7l6003", 256, TRUE);
 	OutputLine(NULL, "「………アメさんの妨害電波食らった時もこんな音がしたんね…。」",
-		   NULL, "\"......Foi exatamente assim que soou quando os americanos bloquearam as ondas de rádio durante a guerra...\"", Line_Normal);
+		   NULL, "\"......Foi desse mesmo jeito quando os americanos bloquearam as ondas de rádio durante a guerra...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは正しかった。",
-		   NULL, "No final das contas, ele estava absolutamente certo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele estava certo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、彼自身それを信じることができず、避難を促す息子夫婦に急かされ、慌てて無線のスイッチを切るのだった…。",
-		   NULL, "No entanto, ele desligou o rádio quando seu filho o incentivou a evacuar...", Line_Normal);
+		   NULL, "Porém, até mesmo ele desligou o rádio às pressas quando seu filho insistiu para que ele evacuasse...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/ygk3", 400 );
@@ -1878,17 +1878,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは学校であったり、公民館であったりした。",
-		   NULL, "Alguns deles estavam na escola e outros no centro comunitário.", Line_Normal);
+		   NULL, "Alguns estavam na escola, enquanto outros estavam no centro comunitário.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　避難するための移動手段がやってくるまでということで、彼らは室内に集められていた。",
-		   NULL, "Eles deveriam permanecer no prédio até a chegada dos veículos de evacuação.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles deveriam permanecer até a chegada dos veículos de evacuação.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは点呼上の都合ということになっていた。",
-		   NULL, "Os soldados disseram-lhes para ficarem dentro de casa para que pudessem acompanhar o número de evacuados.", Line_Normal);
+		   NULL, "Os soldados lhes disseram que isso era para que pudessem acompanhar o número de evacuados.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ygk1", "maskright", 1, 0, 300 );
@@ -1896,13 +1896,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7p6019", 256, TRUE);
 	OutputLine(NULL, "「万一のガス流に備えて窓は全て閉めてください。",
-		   NULL, "\"Por favor feche todas as janelas para evitar a entrada de gás.", Line_WaitForInput);
+		   NULL, "\"Por favor fechem todas as janelas para evitar a entrada de gás.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6020", 256, TRUE);
 	OutputLine(NULL, "念のため窓ガラスはテープで目張りします。",
-		   NULL, " Estaremos selando as janelas para garantir a segurança.", Line_WaitForInput);
+		   NULL, " Por precaução, também vamos vedar as janelas com fita adesiva.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6021", 256, TRUE);
 	OutputLine(NULL, "申し訳ございませんがご協力をお願いいたします！」",
-		   NULL, " Sua colaboração seria apreciada.\"", Line_Normal);
+		   NULL, " Agradeceríamos se pudessem colaborar.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homem</color>", NULL, Line_ContinueAfterTyping); }
@@ -1911,36 +1911,36 @@ void main()
 		   NULL, "\"Certo!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7o6005", 256, TRUE);
 	OutputLine(NULL, "　若いのは率先して手伝えー！！」",
-		   NULL, " Vamos ajudá-los!\"", Line_Normal);
+		   NULL, " Vamos ajudá-los!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人々は隊員たちが持ってきたガムテープの箱から次々に取り出し、窓や換気口を塞いでいく。",
-		   NULL, "As pessoas começaram a selar todas as janelas e aberturas de ventilação com a fita adesiva que lhes foi entregue.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As pessoas começaram a vedar todas as janelas e aberturas de ventilação com a fita adesiva que lhes foi entregue.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時折、隊員たちが不穏そうな無線のやり取りをしているのが聞こえると、人々は余計に危機感を持ち、熱心にわずかの隙間も塞ぐのだった……。",
-		   NULL, "Eles selaram completamente as aberturas, mesmo enquanto ouviam a conversa inquietante dos soldados...", Line_Normal);
+		   NULL, "Eles vedaram completamente as aberturas, mesmo enquanto ouviam a conversa inquietante dos soldados...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうする内に、時計は午前の３時を過ぎようとしていたが、誰もが緊張していて眠気を覚えなかった。",
-		   NULL, "Já passava das 3 da manhã, mas todos estavam bem acordados de medo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Já passavam das 3 da manhã, mas todos estavam acordados por causa do medo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その雰囲気に、誰もが長い夜になることを疑わなかった。",
-		   NULL, "Eles estavam tendo uma noite extremamente longa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles sabiam que essa seria uma noite extremamente longa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、…そうだと信じる彼らが皮肉なくらいに、彼らの終焉はすぐそこまで迫っていたのだ……。",
-		   NULL, "Coincidentemente, o fim da noite estava quase chegando...", Line_Normal);
+		   NULL, "Porém, indo contra o que eles acreditavam, o fim da noite se aproximava cada vez mais...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ygk3", "maskright", 1, 0, 300 );
@@ -1948,7 +1948,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7l6004", 256, TRUE);
 	OutputLine(NULL, "「…ぜぇんぶ、",
-		   NULL, "\"...Isso é tudo", Line_WaitForInput);
+		   NULL, "\"...Isso tudo é", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7l6005", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまの祟りなんしゃあ、",
 		   NULL, " a maldição de Oyashiro-sama!", Line_WaitForInput);
@@ -1963,32 +1963,32 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7m6003", 256, TRUE);
 	OutputLine(NULL, "「やっぱり、古手神社の鬼隠しはオヤシロさまのお怒りの先触れだったんだ。」",
-		   NULL, "\"Oyashiro-sama demonizou aquelas crianças no Santuário Furude em sua fúria...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Oyashiro-sama fez aquelas crianças serem levadas pelos demônios no Santuário Furude em sua fúria...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>年寄り</color>", NULL, "<color=#f5e6d3>Sênior</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7n6002", 256, TRUE);
 	OutputLine(NULL, "「あの日、古手神社は鬼の国に飲み込まれたんよ…。",
-		   NULL, "\"O Santuário foi engolido pelo mundo dos demônios naquele dia...", Line_WaitForInput);
+		   NULL, "\"Naquele dia, o Santuário foi engolido pelo mundo dos demônios...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7n6003", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃまは鬼たちに腸を食らわれたんじゃ…。」",
-		   NULL, " Os demônios mastigaram suas entranhas enquanto ela ainda estava viva...\"", Line_Normal);
+		   NULL, " Eles mastigaram as entranhas da Rika-chama enquanto ela ainda estava viva...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人々はこのガス災害がオヤシロさまの祟りで、その前夜にあった梨花の変死体とその友人たちと刑事の謎の失踪を、オカルト的な何かの仕業だと囁きあった。",
-		   NULL, "Todos começaram a dizer que o desastre de gás foi causado pela maldição de Oyashiro-sama, e a morte de Rika e o misterioso desaparecimento de seus amigos e dois detetives também foram resultado da maldição.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Todos começaram a dizer que o desastre de gás foi causado pela maldição de Oyashiro-sama, e que a morte de Rika, o misterioso desaparecimento de seus amigos e de dois detetives também foram por causa da maldição.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「鬼隠し」という言葉があちこちで飛び交った。",
-		   NULL, "As pessoas começaram a falar sobre serem \"demonizadas.\"", Line_Normal);
+		   NULL, "A expressão \"levado por demônios\" começou a se espalhar por todos os lados.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、圭一たちの一夜の短い戦いが雛見沢の命運を分けたなど、誰も気付くことはなかった。",
-		   NULL, "Eles não tinham ideia de que a curta batalha de Keiichi e seus amigos selou seu destino naquela noite.", Line_Normal);
+		   NULL, "Eles não tinham ideia de que a curta batalha de Keiichi e seus amigos havia decidido o destino de Hinamizawa.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -1999,7 +1999,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　迷信に盲目とされた人々は、圭一たちと刑事は梨花の死によるオヤシロさまの怒りを鎮めるため、",
-		   NULL, "Os moradores mais religiosos ficaram convencidos de que as crianças e os detetives desapareceram", Line_WaitForInput);
+		   NULL, "Os moradores mais supersticiosos começaram a pensar que as crianças e os detetives desapareceram", Line_WaitForInput);
 	OutputLine(NULL, "率先して生贄になったに違いないと大真面目に語った。",
 		   NULL, " porque eles se voluntariaram para se tornar um sacrifício para acalmar a raiva de Oyashiro-sama após a morte de Rika.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2007,20 +2007,20 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　気付かない。",
-		   NULL, "Eles não conheciam a verdade.", Line_WaitForInput);
+		   NULL, "Eles não sabiam a verdade.", Line_WaitForInput);
 	OutputLine(NULL, "気付けない…。",
-		   NULL, " Eles não poderiam saber...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Era impossível que eles soubessem...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰も、圭一たちの努力が迷信に埋もれていくことに、気付けない。",
-		   NULL, "Ninguém percebeu que os esforços de Keiichi e seus amigos foram todos em vão...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ninguém percebeu que os esforços de Keiichi e seus amigos foram em vão...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう。",
-		   NULL, "Realmente.", Line_WaitForInput);
+		   NULL, "Sim.", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢では、何が起こってもオヤシロさまの祟りになってしまうのだ。",
 		   NULL, " Em Hinamizawa, tudo o que acontece é a vontade de Oyashiro-sama.", Line_Normal);
 	ClearMessage();
@@ -2035,14 +2035,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそも、オヤシロさまの祟りと呼ばれる連続怪死事件が起こるまで、",
-		   NULL, "Antes da série de mortes misteriosas ocorrer,", Line_WaitForInput);
+		   NULL, "Antes da série de mortes misteriosas,", Line_WaitForInput);
 	OutputLine(NULL, "オヤシロさまの祟りなどという単語は信仰の中とダム戦争のスローガンに登場するだけで、口にする者が多いような言葉ではなかったはずなのに。",
-		   NULL, " ninguém realmente usava o termo \"a maldição de Oyashiro-sama\" tão frequentemente.", Line_Normal);
+		   NULL, " ninguém usava o termo \"a maldição de Oyashiro-sama\" tão frequentemente.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰かが、そういう風にした。",
-		   NULL, "Em outras palavras, quem os criou?", Line_Normal);
+		   NULL, "Alguém planejou que fosse dessa forma.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2053,7 +2053,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、それに気付くには、あまりに彼らは迷信深すぎた。",
-		   NULL, "Eles realmente são muito supersticiosos.", Line_Normal);
+		   NULL, "Mas eles eram supersticiosos demais para perceber isso.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/torakku2", 1000 );
@@ -2064,7 +2064,7 @@ void main()
 		   NULL, "\"Major, terminamos de reunir os moradores.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcei28002", 256, TRUE);
 	OutputLine(NULL, "遅れていた自主避難者もさっき、最後の家族が合流したようです。",
-		   NULL, " A última família finalmente chegou ao ponto de encontro.", Line_WaitForInput);
+		   NULL, " A última família finalmente chegou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcei28003", 256, TRUE);
 	OutputLine(NULL, "全員揃いました。」",
 		   NULL, " Nós pegamos todo mundo.\"", Line_Normal);
@@ -2094,14 +2094,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900344", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまの生まれ変わりである古手梨花を綿流しにするという冒涜によって、オヤシロさまの怒りが村に下される。",
-		   NULL, "Por promulgar o Watanagashi em Rika Furude, Oyashiro-sama está punindo este vilarejo. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Oyashiro-sama punirá este vilarejo por causa da profanação de realizar o Watanagashi na sua reencarnação, Rika Furude. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900345", 256, TRUE);
 	OutputLine(NULL, "それで、この５年間の連続した祟りは本当の神罰に昇格される。",
 		   NULL, "A maldição dos últimos cinco anos estão culminando na maior maldição de todas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900346", 256, TRUE);
 	OutputLine(NULL, "もう誰にも事件なんて呼ばせない。",
-		   NULL, " Esta não é apenas uma misteriosa cadeia de assassinatos.", Line_WaitForInput);
+		   NULL, " Esta não é mais só uma série de assassinatos misteriosa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900347", 256, TRUE);
 	OutputLine(NULL, "これは、荒ぶる神の怒りなのだから。",
 		   NULL, " Este é o castigo divino de um deus enfurecido.", Line_WaitForInput);
@@ -2120,13 +2120,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7t6000", 256, TRUE);
 	OutputLine(NULL, "「………中隊長より全隊員へ。",
-		   NULL, "\"...Aqui é o comandante da companhia.", Line_WaitForInput);
+		   NULL, "\"...Comandante falando.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7t6001", 256, TRUE);
 	OutputLine(NULL, "………彼らのために１分間の黙祷を捧げよう。",
-		   NULL, " Os homens estão pedindo um minuto de silêncio.", Line_WaitForInput);
+		   NULL, " Vamos fazer um minuto de silêncio por eles.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7t6002", 256, TRUE);
 	OutputLine(NULL, "三佐、１分だけご許可を。」",
-		   NULL, " Você pode deixá-los ficar com isso, Major?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você nos permite dá-los um minuto, Major?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2137,12 +2137,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野は小馬鹿にするように笑う。",
-		   NULL, "Takano deu-lhe uma risada depreciativa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Takano o menosprezou com uma risada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中隊長は胸元で十字を切り、全体に言った。",
-		   NULL, "O comandante da companhia cruzou o coração e começou a falar.", Line_Normal);
+		   NULL, "O comandante fez o sinal da cruz no peito e começou a falar para toda a equipe.", Line_Normal);
 	ClearMessage();
 	ModPlayBGM( 0, "T1_Requiem", 56, 0, 1 );
 
@@ -2156,7 +2156,7 @@ void main()
 		   NULL, " Por favor, guie essas pessoas inocentes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7t6005", 256, TRUE);
 	OutputLine(NULL, "彼らの尊き犠牲がそれ以上の犠牲を防ぐことをどうか報いてください。",
-		   NULL, " O sacrifício deles salvará a vida de muitos que virão.", Line_WaitForInput);
+		   NULL, " Por favor, recompense o seus sacrifícios que salvarão a vida de muitos que virão.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7t6006", 256, TRUE);
 	OutputLine(NULL, "そして願わくば罪深き我らをお赦しください。",
 		   NULL, " Por favor, nos perdoe por cometer esse pecado.", Line_WaitForInput);
@@ -2167,7 +2167,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　中隊長は別に敬虔な信者でも何でもない。",
-		   NULL, "O comandante da companhia não é cristão.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O comandante não é cristão.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2188,22 +2188,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　うろ覚えでも、",
-		   NULL, "Ele nem tinha certeza se estava dizendo isso corretamente,", Line_ContinueAfterTyping);
+		   NULL, "Mesmo não sabendo se estava dizendo do jeito certo,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 600 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "神に祈った。",
-		   NULL, " mas ele ainda orou a Deus.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ele orou a Deus.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　虐殺に手を汚す罪の赦しを求めて、",
-		   NULL, "Ele pediu perdão por cometer seu pecado", Line_ContinueAfterTyping);
+		   NULL, "Ele pediu perdão pelo pecado que estava prestes a cometer,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "祈った。",
-		   NULL, " e continuou rezando.", Line_Normal);
+		   NULL, " o pecado de fazer um genocídio.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2222,17 +2222,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900351", 256, TRUE);
 	OutputLine(NULL, "「……神がいつ降臨されるのかは誰も知らない。",
-		   NULL, "\"'...porque não sabeis a que hora virá o vosso senhor.", Line_WaitForInput);
+		   NULL, "\"'...porque não sabeis a que hora virá o vosso Senhor.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900352", 256, TRUE);
 	OutputLine(NULL, "それは例えるなら、泥棒がいつ訪れるのかわからないように。",
-		   NULL, " Mas sabei isto: se o dono da casa soubesse a que horas o ladrão viria,  ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mas considerai isto: se o dono da casa soubesse a que horas viria o ladrão,  ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900353", 256, TRUE);
 	OutputLine(NULL, "だから予期せずしてその時を迎えて、不信心であったことに歯軋りすることがないよう、常に目を醒ましていなさい。",
 		   NULL, "ele teria vigiado e não teria permitido que sua casa fosse destruída.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900354", 256, TRUE);
 	OutputLine(NULL, "似非預言者たちは神の降臨を声高に叫ぶであろうが、それに惑わされてはなりません、か。",
-		   NULL, " Portanto, estai vós também preparados: porque na hora em que não imaginais, o Filho do Homem virá.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Portanto, estai vós também preparados; porque na hora em que não imaginais, o Filho do Homem virá.'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900355", 256, TRUE);
@@ -2254,13 +2254,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900356", 256, TRUE);
 	OutputLine(NULL, "「そうなの？",
-		   NULL, "\"Não é?", Line_WaitForInput);
+		   NULL, "\"É?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900357", 256, TRUE);
 	OutputLine(NULL, "　祖父の好きだった言葉よ。",
 		   NULL, " Meu avô sempre me dizia isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900358", 256, TRUE);
 	OutputLine(NULL, "報われる日がいつ訪れるかわからないから、常に勤勉であれって言葉だと思っていたけど。」",
-		   NULL, " Ele estava me dizendo para trabalhar duro todos os dias, porque você nunca saberá quando será recompensado.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ele estava me dizendo para me esforçar todos os dias, porque nunca se sabe quando virá a recompensa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
@@ -2278,7 +2278,7 @@ void main()
 		   NULL, "\"Sim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900360", 256, TRUE);
 	OutputLine(NULL, "あなたにはわからないでしょうけどね。",
-		   NULL, " Embora você possa nunca entender isso.", Line_WaitForInput);
+		   NULL, " Mas você nunca entenderia isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900361", 256, TRUE);
 	OutputLine(NULL, "くすくすくす。」",
 		   NULL, " Hihihi.\"", Line_Normal);
@@ -2287,21 +2287,21 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcek28003", 256, TRUE);
 	OutputLine(NULL, "「……失礼ながら、主の降臨は慈悲深いものであるべきだと信じています。",
-		   NULL, "\"Desculpe minha grosseria, mas acredito que a descida de Deus é uma coisa misericordiosa.", Line_WaitForInput);
+		   NULL, "\"Desculpe minha grosseria, mas acredito que a vinda de Deus é uma coisa misericordiosa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcek28004", 256, TRUE);
 	OutputLine(NULL, "このような日にそれを喩えられることは冒涜かと思います。」",
-		   NULL, " Acho que o que você está dizendo é inapropriado para um momento como este.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Acho que dizer isso é inapropriado para um momento como este.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　虐殺作戦の開始命令前に、神の赦しを請うこの瞬間には、鷹野の引用は不適切だと通信士は言いたかったのだろう。",
-		   NULL, "Ele estava tentando dizer a ela que usar aquele versículo da Bíblia não era apropriado para a ocasião.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele estava tentando dizer a ela que não era apropriado usar aquele versículo da Bíblia antes de iniciar um massacre.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが鷹野は滑稽そうに笑う。",
-		   NULL, "No entanto, Takano simplesmente riu como se tivesse ouvido algo muito engraçado.", Line_Normal);
+		   NULL, "Contudo, Takano simplesmente riu como se tivesse ouvido algo muito engraçado.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
@@ -2316,7 +2316,7 @@ void main()
 		   NULL, " ...Mas você não tem o direito de julgar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900365", 256, TRUE);
 	OutputLine(NULL, "私は今日を境に試す側となるのよ。」",
-		   NULL, " Esta noite é a noite em que me torno um deus.\"", Line_Normal);
+		   NULL, " Esta noite eu que possuirei esse direito.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2330,18 +2330,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、…全ての隊員が終わってほしくないと思った黙祷の時間が、終わりを告げた…。",
-		   NULL, "E com o fim do silêncio...", Line_Normal);
+		   NULL, "Então... o silêncio que os soldados não queriam que acabasse chegou ao fim...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7t6009", 256, TRUE);
 	OutputLine(NULL, "「全小隊、滅菌を開始せよ。」",
-		   NULL, "\"Execute a operação agora.\"", Line_Normal);
+		   NULL, "\"Todos os pelotões, comecem a operação.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これほど覇気のない合図は誰も聞いたことがなかっただろう…。",
-		   NULL, "A ordem foi dada da maneira mais vazia e relutante que uma ordem ser...", Line_Normal);
+		   NULL, "A ordem foi dada da maneira mais vazia e relutante possível...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskright", 1, 0, 300 );
