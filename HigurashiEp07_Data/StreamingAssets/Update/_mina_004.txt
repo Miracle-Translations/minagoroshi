@@ -1924,13 +1924,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100303", 256, TRUE);
 	OutputLine(NULL, "「へー、梨花ちゃんも出番があるのか。",
-		   NULL, "\"Você também estará no show, Rika-chan?", Line_WaitForInput);
+		   NULL, "\"Ah, você também vai participar, Rika-chan?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100304", 256, TRUE);
 	OutputLine(NULL, "演舞って何だ？",
 		   NULL, " O que é essa dança?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100305", 256, TRUE);
 	OutputLine(NULL, "　やっぱり古手神社の巫女さんだから、何か神事でもやるわけか？」",
-		   NULL, " Você vai fazer algo tradicional porque você é a sacerdotisa do Santuário?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você vai fazer algum tipo de ritual tradicional por ser a miko do Santuário Furude?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1955,7 +1955,7 @@ void main()
 		   NULL, "E então, e então...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200159", 256, TRUE);
 	OutputLine(NULL, "　梨花ちゃんが巫女さん装束で、重い祭具をふらふらしながら振るうのがね、とってもとってもかぁいいんだよぅ！！",
-		   NULL, " Quando Rika-chan dança com sua roupa de sacerdotisa, é tão fofu~!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quando a Rika-chan dança com a roupa de miko, é tão fofu~!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1970,7 +1970,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう言えば俺、生の巫女さんって見たことないなぁ！",
-		   NULL, "Eu nunca vi uma sacerdotisa de verdade antes...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu nunca vi uma miko de verdade antes...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

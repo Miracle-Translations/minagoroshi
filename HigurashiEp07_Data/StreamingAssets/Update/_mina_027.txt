@@ -1350,7 +1350,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900243", 256, TRUE);
 	OutputLine(NULL, "雛見沢の超常存在の頂点に立つ女王で巫女で降臨したるオヤシロさまの血脈に連なる正当な末裔。",
-		   NULL, "Ela é a verdadeira herdeira de sangue de Oyashiro-sama, sua sacerdotisa e a rainha posicionada no topo dos fenômenos sobrenaturais de Hinamizawa.", Line_WaitForInput);
+		   NULL, "Ela é a verdadeira herdeira de sangue de Oyashiro-sama, sua miko e a rainha posicionada no topo dos fenômenos sobrenaturais de Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900244", 256, TRUE);
 	OutputLine(NULL, "神を欺くことなどできない、知られるのは宿命だったのよ。",
 		   NULL, " É impossível esconder as coisas de Deus. ", GetGlobalFlag(GLinemodeSp));

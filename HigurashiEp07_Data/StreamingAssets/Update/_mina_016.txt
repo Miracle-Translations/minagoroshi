@@ -3664,7 +3664,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまの巫女で、生まれ変わりでもある梨花ちゃんとしては、もっともな意見だ。",
-		   NULL, "Ela é a sacerdotisa de Oyashiro-sama e a reencarnação de Oyashiro-sama.", Line_Normal);
+		   NULL, "Ela é a miko e a reencarnação de Oyashiro-sama.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/jys1", 300 );

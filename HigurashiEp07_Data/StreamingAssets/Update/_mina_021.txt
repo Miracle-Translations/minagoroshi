@@ -477,7 +477,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500042", 256, TRUE);
 	OutputLine(NULL, "「……オヤシロさまの巫女のボクが嫌な予感がするから、では理由になりませんですか？」",
-		   NULL, "\"Eu sou a sacerdotisa do Santuário de Oyashiro-sama e tenho um mau pressentimento sobre isso... Essa não é uma razão boa o suficiente?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Eu sou a miko do Santuário de Oyashiro-sama e tenho um mau pressentimento sobre isso... Essa não é uma razão boa o suficiente?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

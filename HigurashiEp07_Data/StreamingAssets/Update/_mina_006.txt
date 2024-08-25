@@ -2381,7 +2381,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そもそも、オヤシロさまの怒りを、人間にもわかるように伝えるのが、オヤシロさまの巫女の役目だ。",
-		   NULL, "Para começar, meu trabalho como sacerdotisa é contar aos humanos o que Oyashiro-sama está sentindo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Para começar, meu trabalho como miko é contar aos humanos o que Oyashiro-sama está sentindo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2472,7 +2472,7 @@ void main()
 	OutputLine(NULL, "　…それも伝えろというのか。",
 		   NULL, "Ela estava me dizendo para pedir isso a Takano também...?", Line_WaitForInput);
 	OutputLine(NULL, "………巫女っていうのはつくづく因果な役目だ。",
-		   NULL, " Ser sua sacerdotisa não é uma coisa fácil...", Line_Normal);
+		   NULL, " Ser sua miko não é uma coisa fácil...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
