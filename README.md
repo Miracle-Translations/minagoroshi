@@ -30,10 +30,10 @@ Veja o progresso da tradução [aqui](https://docs.google.com/spreadsheets/d/1DJ
 
 [Cap. 6 - Tsumihoroboshi](https://github.com/0Mateus/tsumihoroboshi)
 
-Cap. 7 - Minagoroshi
+*Cap. 7 - Minagoroshi*
 
-Cap. 8 - Matsuribayashi (em breve)
+Cap. 8 - Matsuribayashi ***(em breve)***
 
 ### Gratidão ( 礼 / Rei )
 
-Epílogo - Saikoroshi (em breve)
+Epílogo - Saikoroshi ***(em breve)***
