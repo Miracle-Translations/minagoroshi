@@ -77,7 +77,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400008", 256, TRUE);
 	OutputLine(NULL, "「大丈夫ですよ梨花さん。",
-		   NULL, "\"Não se preocupe, Rika-san., Line_WaitForInput);
+		   NULL, "\"Não se preocupe, Rika-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400009", 256, TRUE);
 	OutputLine(NULL, "我々が今後も厳重に警護してますんね。",
 		   NULL, " Ainda manteremos a segurança rígida ao seu redor.", Line_WaitForInput);

@@ -1755,7 +1755,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　平和に慣れきった日本人は特殊部隊という言葉を聞くと、まるで漫画か映画の中のような気分になるかもしれない。",
-		   NULL, "Quando os japoneses, que estão acostumados com a paz, ouvem um nome como \"forças especiais"\, tendem a pensar que são coisas de filmes e mangás.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quando os japoneses, que estão acostumados com a paz, ouvem um nome como \"forças especiais\", tendem a pensar que são coisas de filmes e mangás.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
