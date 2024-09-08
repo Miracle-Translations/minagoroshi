@@ -1603,7 +1603,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　まぁ、単一世界でもこの考えには至れるんだけど、",
 		   NULL, "Claro, é possível chegar a essa ideia mesmo sendo uma pessoa que vive em um único mundo,", Line_WaitForInput);
 	OutputLine(NULL, "生贄主義が横行してるから、Ａに対して社会的リンチを加えるだけで、Ａを生み出した「環境」は見て見ぬふりをするのが通例ね。",

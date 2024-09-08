@@ -280,7 +280,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100067", 256, TRUE);
 	OutputLine(NULL, "「うーうーうー！！」",
-		   NULL, "\"Umm... umm...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Uh... Uh... Uh...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -491,7 +491,7 @@ void main()
 		   NULL, "\"Bom. Estarei bebendo isso esta noite.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500253", 256, TRUE);
 	OutputLine(NULL, "……もう怖がらないで、辛いのはしまうわ。」",
-		   NULL, " Não há mais o que ter medo, tudo bem?\"", Line_Normal);
+		   NULL, " Não precisa mais ter medo, tudo bem?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -720,7 +720,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私がふて腐れなければならない理由がどこにもない。",
-		   NULL, "Não há razão para eu ficar deprimida...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não tem razão para eu ficar deprimida...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1708,7 +1708,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よって、園崎家の因縁とか、そういう根深いところとは関係がない。",
-		   NULL, "É claro que não há nada acontecendo entre a família Sonozaki e a minha.", Line_Normal);
+		   NULL, "É claro que não tem nada acontecendo entre a família Sonozaki e a minha.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

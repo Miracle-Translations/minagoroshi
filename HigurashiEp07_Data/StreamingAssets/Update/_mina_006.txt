@@ -1158,7 +1158,7 @@ void main()
 		   NULL, "\"......Está tudo bem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800010", 256, TRUE);
 	OutputLine(NULL, "誰もいないよ。」",
-		   NULL, " Não há ninguém por perto.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não tem ninguém por perto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1432,7 +1432,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800017", 256, TRUE);
 	OutputLine(NULL, "「あ、……あのぅ、鷹野さん。",
-		   NULL, "\"Ah... Umm, Takano-san?", Line_WaitForInput);
+		   NULL, "\"Ah... Hmm, Takano-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800018", 256, TRUE);
 	OutputLine(NULL, "そもそもこの扉、鍵なんかないよ…？",
 		   NULL, " Essa porta nem está trancada...", Line_WaitForInput);
@@ -2001,7 +2001,7 @@ void main()
 		   NULL, "Vidas humanas são tiradas como se estivessem em uma esteira rolante.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6037", 256, TRUE);
 	OutputLine(NULL, "神父のお祈りも最期に言い残す言葉も何もなしよ？",
-		   NULL, " Não há últimas palavras ou orações ou qualquer coisa!", Line_WaitForInput);
+		   NULL, " Sem últimas palavras, orações, nem nada!", Line_WaitForInput);
 	OutputLineAll(NULL, "", Line_ContinueAfterTyping);
 	ModPlayVoiceLS(4, 9, "org/takano6038", 256, TRUE);
 	SetSpeedOfMessage( TRUE, 128 );
@@ -2299,7 +2299,7 @@ void main()
 		   NULL, "\"......Tomitake.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500373", 256, TRUE);
 	OutputLine(NULL, "周りに子どもなんて居ませんですよ。」",
-		   NULL, " Não há crianças perto deste lugar.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não tem crianças perto deste lugar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

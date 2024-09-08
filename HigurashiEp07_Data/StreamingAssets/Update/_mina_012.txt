@@ -2126,7 +2126,7 @@ void main()
 		   NULL, " Você achou que acabaram nossas opções?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100722", 256, TRUE);
 	OutputLine(NULL, "　お前らこれが部活なら、全員ビリだぜ！！",
-		   NULL, " Você realmente acha que não há mais nada que podemos fazer?!", Line_WaitForInput);
+		   NULL, " Você acha mesmo que não tem mais nada que a gente pode fazer?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100723", 256, TRUE);
 	OutputLine(NULL, "　へっへっへ！！」",
 		   NULL, " Hehehe!\"", GetGlobalFlag(GLinemodeSp));

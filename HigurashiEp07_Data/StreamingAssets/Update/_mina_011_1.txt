@@ -96,7 +96,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6015", 256, TRUE);
 	OutputLine(NULL, "「で、沙都子も一緒に虐待なんかありません、助けなんか必要ありませんって答えたわけか…。」",
-		   NULL, "\"Então ela disse que não há abuso e que não precisa de ajuda...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Então ela disse que não tem abuso e que não precisa de ajuda...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
@@ -827,7 +827,7 @@ void main()
 		   NULL, " Eu também ouvi de vocês como foi terrível o ano passado.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100534", 256, TRUE);
 	OutputLine(NULL, "それから考えれば、一刻の猶予もないことなんて簡単に想像がつくよ。」",
-		   NULL, " Não há dúvida de que este caso precisa de atenção imediata.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É óbvio que esse caso precisa de atenção imediata.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }

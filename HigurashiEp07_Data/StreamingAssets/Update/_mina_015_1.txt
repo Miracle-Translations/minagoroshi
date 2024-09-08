@@ -623,7 +623,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　訪問の結果、沙都子が虐待を受けているとは言えない。",
-		   NULL, "Eles também nos diriam que não há provas de qualquer abuso acontecendo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles também nos diriam que não existem provas de qualquer abuso acontecendo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -697,7 +697,7 @@ void main()
 		   NULL, " Não importa o que digamos ao centro,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6220", 256, TRUE);
 	OutputLine(NULL, "……沙都子本人が虐待を否定するから虐待はないの一点張りなんだ。",
-		   NULL, " eles vão nos dizer que não há abuso porque você está negando que isso esteja acontecendo.", Line_WaitForInput);
+		   NULL, " eles vão nos dizer que não tem abuso porque você está negando que isso esteja acontecendo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6221", 256, TRUE);
 	OutputLine(NULL, "俺たち全員が沙都子を救いたいと思っても、」",
 		   NULL, " Todos nós queremos ajudar você,", Line_WaitForInput);

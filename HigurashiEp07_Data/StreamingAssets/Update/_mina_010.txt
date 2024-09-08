@@ -325,7 +325,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子を飲み込んだ運命にとって、それは沙都子を腹中に収めたまま、仰向けに寝転ぶかうつ伏せに寝転ぶかを選ぶ程度でしかないのだ。",
-		   NULL, "Não há nada que possa ser feito uma vez que este infeliz destino se apodere da Satoko.", Line_Normal);
+		   NULL, "Não há nada que possa ser feito assim que este infeliz destino se apoderar da Satoko.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ke5", "maskc", 0, 0, 1300 );
@@ -613,7 +613,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200229", 256, TRUE);
 	OutputLine(NULL, "「……みんな落ち着いて。",
-		   NULL, "\"Se acalme, vocês dois...", Line_WaitForInput);
+		   NULL, "\"Se acalmem, vocês dois...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200230", 256, TRUE);
 	OutputLine(NULL, "私も詩ぃちゃんや圭一くんと同じ意見。",
 		   NULL, " Eu sinto o mesmo que Shii-chan e Keiichi-kun.", Line_WaitForInput);

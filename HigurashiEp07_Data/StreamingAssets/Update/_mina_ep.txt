@@ -555,6 +555,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　マタ、精神状態ニモ強イ影響ヲ受ケ、特ニ情緒不安定ヤ郷里ヘノ思慕ガ強イ場合ノ発症確率ハサラニ高マルモノト推定。",
 		   NULL, "Além disso, o estado mental também desempenha um fator importante, e estima-se que aqueles que são especialmente instáveis emocionalmente ou mostram uma forte saudade de casa têm maior probabilidade de apresentar sintomas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -1000,6 +1001,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6000", 256, TRUE);
 	OutputLine(NULL, "「はい。",
 		   NULL, "\"Não.", Line_WaitForInput);
@@ -1037,6 +1039,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/mob7i6002", 256, TRUE);
 	OutputLine(NULL, "「そりゃ大変なことになるのはわかるけど、住民を皆殺しにするなんて、そんなの許可できるわけないだろう！！",
 		   NULL, "\"Entendo a urgência, mas de jeito nenhum que eu aprovaria o massacre de um vilarejo inteiro!!", Line_WaitForInput);
@@ -1724,6 +1727,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/mob7p6013", 256, TRUE);
 	OutputLine(NULL, "「皆さん、防災訓練と同じです。",
 		   NULL, "\"Pessoal, é como nos treinamentos de emergência.", Line_WaitForInput);
@@ -2148,6 +2152,7 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/mob7t6003", 256, TRUE);
 	OutputLine(NULL, "「…………天に召します我らの父よ。",
 		   NULL, "\".........Querido Pai Celestial.", Line_WaitForInput);
@@ -3300,6 +3305,7 @@ void main()
 	OutputLine(NULL, "それこそが神の真実！",
 		   NULL, " Essa é a verdade sobre os deuses! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900389", 256, TRUE);
 	OutputLine(NULL, "　神が信仰を生み出すのではなく、信仰が神を生み出すのなら、神に祟りなど必要ないッ！！",
 		   NULL, "Se somente a fé é o que cria um deus, não haveria necessidade de maldições!", Line_WaitForInput);
@@ -3357,6 +3363,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900405", 256, TRUE);
 	OutputLine(NULL, "　あなたたちは今はわからなくてもやがて知る。",
 		   NULL, "Você pode não entender agora, mas conseguirá algum dia.", Line_WaitForInput);
@@ -3398,6 +3405,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900416", 256, TRUE);
 	OutputLine(NULL, "　我が身を呪えよ人間たち、身が朽ちれば後には何も残せぬ無力さを呪い悔やみ恐れるがいい！",
 		   NULL, "Amaldiçoem a si mesmos, seres humanos, e amaldiçoem a sua incapacidade de viver além da vida mortal!", Line_WaitForInput);

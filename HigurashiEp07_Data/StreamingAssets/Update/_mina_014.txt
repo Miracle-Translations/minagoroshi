@@ -709,7 +709,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6191", 256, TRUE);
 	OutputLine(NULL, "「じゃあ…大石さんも何かあるまで沙都子を救う方法はないと仰るんですか？！」",
-		   NULL, "\"Então... você também está dizendo que não há como salvá-la antes que algo aconteça?!\"", Line_Normal);
+		   NULL, "\"Então... você também está dizendo que não tem como salvar ela antes que algo aconteça?!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1040,7 +1040,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6106", 256, TRUE);
 	OutputLine(NULL, "…じゃあ、大石のおじさま的には、児童相談所に任せて様子見する他ないって見解ですか？」",
-		   NULL, "Então Ooishi-san... Você acha que não há escolha a não ser deixar o centro de consulta infantil cuidar disso?\"", Line_Normal);
+		   NULL, "Então Ooishi-san... Você acha que não tem escolha a não ser deixar o centro de consulta infantil cuidar disso?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1987,7 +1987,7 @@ void main()
 		   NULL, "Não é como se um pai sem custódia obrigasse seu filho a morar com ele.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6047", 256, TRUE);
 	OutputLine(NULL, "唯一の肉親がよりを戻し、慎ましやかに生活している現在の状況は、特 別異常なことではないんです。」",
-		   NULL, " Afinal, ele é o único parente de sangue dela. Não há nada, legalmente falando, que os impeça de viverem juntos.\"", Line_Normal);
+		   NULL, " Afinal, ele é o único parente de sangue dela. Nada os impede, legalmente falando, de viverem juntos.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

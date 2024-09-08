@@ -107,6 +107,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400011", 256, TRUE);
 	OutputLine(NULL, "「まさか。",
 		   NULL, "\"Isso não pode ser verdade.", Line_WaitForInput);

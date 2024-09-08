@@ -2009,7 +2009,7 @@ void main()
 		   NULL, " Vocês todos nos disseram há alguns minutos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6280", 256, TRUE);
 	OutputLine(NULL, "そして、終結と同時に、北条家に対する村八分も終わってもいいと思ってる。",
-		   NULL, " Vocês também acham que não há necessidade de discriminar a família Houjou, agora que tudo está acabado. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vocês também acham que não tem necessidade de discriminar a família Houjou, agora que tudo está acabado. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6281", 256, TRUE);
 	OutputLine(NULL, "ところが、それだけがだらだらと続いちゃってるところがあるんじゃないですか？」",

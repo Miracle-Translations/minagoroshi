@@ -1591,7 +1591,7 @@ void main()
 		   NULL, " Bom, pelo menos com o ohagi que eu trouxe...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300089", 256, TRUE);
 	OutputLine(NULL, "　中に何の細工もないってのは確かに無用心だよねぇ…？",
-		   NULL, " Você realmente não pode ter certeza de que não há mais nada dentro...", Line_WaitForInput);
+		   NULL, " Não dá pra você ter certeza de que não tem nada dentro... né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300090", 256, TRUE);
 	OutputLine(NULL, "　くっくっく！」",
 		   NULL, " Hihihi...\"", Line_Normal);
@@ -1866,7 +1866,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　第一、思い出しようもないのだ。",
-		   NULL, "Não há como eu lembrar disso.", Line_WaitForInput);
+		   NULL, "Não tem como eu lembrar disso.", Line_WaitForInput);
 	OutputLine(NULL, "　…だって",
 		   NULL, " Porque eu", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
@@ -1993,7 +1993,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100208", 256, TRUE);
 	OutputLine(NULL, "「…………えっと、",
-		   NULL, "\"Umm...", Line_Continue);
+		   NULL, "\"Hmm...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1700 );
 	// (backup) SetValidityOfInput( TRUE );

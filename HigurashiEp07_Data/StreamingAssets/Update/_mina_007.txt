@@ -843,7 +843,7 @@ void main()
 		   NULL, "\"......Eu quero acreditar que é só paranoia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900177", 256, TRUE);
 	OutputLine(NULL, "…本人だって明確な証拠は示せないって言ったわけだし。」",
-		   NULL, " ...Ela disse que também não há prova absoluta.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Ela mesmo disse que não tinha nenhuma prova absoluta.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

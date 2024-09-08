@@ -518,7 +518,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6291", 256, TRUE);
 	OutputLine(NULL, "　しかも一ヵ月後には絶対に救われる保証もない。",
-		   NULL, "Também não há garantia de que ela será salva depois disso.", Line_WaitForInput);
+		   NULL, "Também não tem garantia de que ela será salva depois disso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6292", 256, TRUE);
 	OutputLine(NULL, "その時点で様子見と相談所は判断するかもしれません。",
 		   NULL, " Nesse ponto, eles podem decidir suspender o caso novamente. ", GetGlobalFlag(GLinemodeSp));
@@ -987,7 +987,7 @@ void main()
 		   NULL, " No entanto, os pais morreram em um acidente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200039", 256, TRUE);
 	OutputLine(NULL, "それにあれだけのことをしてくれたケジメだ。",
-		   NULL, " Não há mais ninguém que possa nos desculpar.", Line_WaitForInput);
+		   NULL, " Não tem mais ninguém que possa pedir desculpa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200040", 256, TRUE);
 	OutputLine(NULL, "安くはつかないよ。」",
 		   NULL, " O perdão não será barato.\"", GetGlobalFlag(GLinemodeSp));
@@ -2129,7 +2129,7 @@ void main()
 		   NULL, " Agora você tem os Guardiões Onigafuchi ao seu lado.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200068", 256, TRUE);
 	OutputLine(NULL, "ってことは、絶対に負けられないってことさ。",
-		   NULL, " Com eles não há como perder.", Line_WaitForInput);
+		   NULL, " Com eles não tem como perder.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200069", 256, TRUE);
 	OutputLine(NULL, "そして見っとも無い戦いもできない。",
 		   NULL, " Mas você também não pode travar uma luta vergonhosa. ", GetGlobalFlag(GLinemodeSp));

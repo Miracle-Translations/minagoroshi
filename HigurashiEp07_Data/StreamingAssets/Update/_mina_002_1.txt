@@ -1043,14 +1043,14 @@ void main()
 	OutputLine(NULL, "…",
 		   NULL, "...", Line_Continue);
 	OutputLine(NULL, "ぇっと、",
-		   NULL, " Umm", Line_Continue);
+		   NULL, " Hmm", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "………",
 		   NULL, "......", Line_Continue);
 	OutputLine(NULL, "ぇっと",
-		   NULL, " umm", Line_Continue);
+		   NULL, " hmm", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 600 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -2037,7 +2037,7 @@ void main()
 		   NULL, "\"......Já esperava isso do Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500071", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/mati_o1", 300 );
@@ -2474,7 +2474,7 @@ void main()
 		   NULL, "\"Porque uma certa pessoa sempre me olha feio quando peço pra ela ir comprar molho de soja na loja...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500081", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2725,7 +2725,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500087", 256, TRUE);
 	OutputLine(NULL, "「ふーーーーー………。",
-		   NULL, "\"Huh...", Line_WaitForInput);
+		   NULL, "\"Hmmm...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500088", 256, TRUE);
 	OutputLine(NULL, "よし。",
 		   NULL, " Certo.", Line_WaitForInput);
@@ -2766,7 +2766,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "org/rena6000", 256, TRUE);
 	OutputLine(NULL, "「うーん！！",
-		   NULL, "\"Ummm...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Hmmm...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3521,13 +3521,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100064", 256, TRUE);
 	OutputLine(NULL, "「何だよそれ。",
-		   NULL, "\"Que diabos?", Line_WaitForInput);
+		   NULL, "\"É o quê?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100065", 256, TRUE);
 	OutputLine(NULL, "予言かぁ？",
-		   NULL, " Isso é como uma premonição?", Line_WaitForInput);
+		   NULL, " Isso é uma premonição?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100066", 256, TRUE);
 	OutputLine(NULL, "　よくそこまで言い切れるじゃねぇか。」",
-		   NULL, " Como você pode ter tanta certeza?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Como você tem tanta certeza?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3721,7 +3721,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100076", 256, TRUE);
 	OutputLine(NULL, "「えっと、……２０％の２０％だから、４％だな。",
-		   NULL, "\"Umm... são vinte de vinte, então... quatro por cento.", Line_WaitForInput);
+		   NULL, "\"Hmm... são vinte de vinte, então... quatro por cento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100077", 256, TRUE);
 	OutputLine(NULL, "さすがにこの確率だったら信じてもいいぜー？」",
 		   NULL, " Eu vou acreditar em você se você acertar com uma porcentagem tão baixa.\"", GetGlobalFlag(GLinemodeSp));
@@ -4382,15 +4382,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500141", 256, TRUE);
 	OutputLine(NULL, "「……………………はぁ、",
-		   NULL, "\"Huh.........", Line_Continue);
+		   NULL, "\"Hã.........", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 2100 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……はぁ…。",
-		   NULL, " huh...", Line_WaitForInput);
+		   NULL, " hã...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500142", 256, TRUE);
 	OutputLine(NULL, "………ん。」",
-		   NULL, " Ummm...\"", Line_Normal);
+		   NULL, " Hmmm...\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4699,7 +4699,7 @@ void main()
 		   NULL, "\"......Eu sou muito boa em prever coisas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500145", 256, TRUE);
 	OutputLine(NULL, "にぱ〜。」",
-		   NULL, " Nipah~.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipaa~.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4883,7 +4883,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500151", 256, TRUE);
 	OutputLine(NULL, "「……にぱ〜☆」",
-		   NULL, "\"...Nipah~☆\"", Line_Normal);
+		   NULL, "\"...Nipaa~☆\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4968,7 +4968,7 @@ void main()
 	OutputLine(NULL, "　………………また、期待を裏切られてる。",
 		   NULL, "Mas me senti traída novamente......", Line_WaitForInput);
 	OutputLine(NULL, "…………ん…、",
-		   NULL, " Huh......", Line_ContinueAfterTyping);
+		   NULL, " Hmm......", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
@@ -5799,7 +5799,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200021", 256, TRUE);
 	OutputLine(NULL, "これ…かぁいい〜…！！",
-		   NULL, "Isso é tão fofu~!", Line_WaitForInput);
+		   NULL, "Tão fofu~!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200022", 256, TRUE);
 	OutputLine(NULL, "　お持ち帰りしていいの？！",
 		   NULL, " Eu posso levar pra casa comigo~?", Line_WaitForInput);
@@ -5814,7 +5814,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100120", 256, TRUE);
 	OutputLine(NULL, "「ってことは俺のもかな？",
-		   NULL, "\"Eu ganhei um também...?", Line_WaitForInput);
+		   NULL, "\"Eu ganhei uma também...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100121", 256, TRUE);
 	OutputLine(NULL, "　……ぅお。",
 		   NULL, " Uau...", Line_WaitForInput);

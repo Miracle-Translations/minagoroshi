@@ -626,12 +626,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　特売日だったら沙都子は絶対に来るだろうって？",
-		   NULL, "Não há como Satoko perder aquela venda?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E a Satoko não perderia aquela venda por nada?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それで会わなかったって？",
-		   NULL, "Mas ela ainda não a viu lá?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E, ainda assim, ela não a viu lá?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1554,7 +1554,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……はるばる温泉まで夫婦で出掛けているのに、沙都子の危機だから助けてくれの一言だけで呼び戻せるわけがない。",
-		   NULL, "Não há como eu conseguir que ele venha aqui enquanto está aproveitando sua viagem com sua esposa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Não tem como eu conseguir que ele venha aqui enquanto está aproveitando sua viagem com sua esposa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3483,7 +3483,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500550", 256, TRUE);
 	OutputLine(NULL, "「……期待するななんて、………酷な話よ。",
-		   NULL, "\"......Não há como eu não ter muitas esperanças...", Line_WaitForInput);
+		   NULL, "\"......Não posso ter muitas expectativas...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500551", 256, TRUE);
 	OutputLine(NULL, "……あれだけ全てに恵まれた、サイコロを振る前から６が出ると確信できる世界なんて初めてだった。",
 		   NULL, " sendo a primeira vez que fui abençoada com tantas circunstâncias afortunadas.", Line_WaitForInput);

@@ -109,6 +109,7 @@ void main()
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 400 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　古手家に伝わる古い古文書に出て来る奇跡の話が、全て事実でそれが羽入を指すなら、",
 		   NULL, "Se todas as histórias de milagres escritas nas antigas escrituras passadas pela família Furude forem verdadeiras, e se elas se referem a Hanyuu, então...", Line_WaitForInput);
 	OutputLine(NULL, "羽入は太古の昔、少なくない人々と交流しその力を示せた。",

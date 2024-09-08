@@ -196,7 +196,7 @@ void main()
 		   NULL, " ok...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300043", 256, TRUE);
 	OutputLine(NULL, "あ、あの！",
-		   NULL, " Umm...", Line_WaitForInput);
+		   NULL, " E-Eu...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300044", 256, TRUE);
 	OutputLine(NULL, "　おじさんがこの人形が欲しいからもらうんじゃないよ？！",
 		   NULL, " Eu só queria deixar claro que essa velha só aceitou a boneca porque ele não quis!", GetGlobalFlag(GLinemodeSp));

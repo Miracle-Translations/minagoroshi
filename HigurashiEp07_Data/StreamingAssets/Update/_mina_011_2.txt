@@ -2030,6 +2030,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500604", 256, TRUE);
 	OutputLine(NULL, "「……どうせ賭けるコインは一枚も残ってない。",
 		   NULL, "\"Não tenho mais moedas pra apostar...", Line_WaitForInput);
@@ -2208,7 +2209,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100644", 256, TRUE);
 	OutputLine(NULL, "「諦める必要なんかねぇぞ。",
-		   NULL, "\"Não há necessidade de desistirmos!", Line_WaitForInput);
+		   NULL, "\"A gente não precisa desistir!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100645", 256, TRUE);
 	OutputLine(NULL, "絶対に沙都子は救い出せるんだからな！",
 		   NULL, " Satoko vai ser salva!", Line_WaitForInput);

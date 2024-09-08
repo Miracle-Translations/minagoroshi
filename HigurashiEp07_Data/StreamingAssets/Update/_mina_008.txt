@@ -1689,7 +1689,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/180400140", 256, TRUE);
 	OutputLine(NULL, "「ふぅ、……………えーーーーい！！！」",
-		   NULL, "\"Hnn............Vamos nessa!!\"", Line_Normal);
+		   NULL, "\"Hmm............Aí!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2635,7 +2635,7 @@ void main()
 		   NULL, "\"Ah, desculpa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100367", 256, TRUE);
 	OutputLine(NULL, "ハイそうです。",
-		   NULL, " Sim, eu sou.", Line_WaitForInput);
+		   NULL, " Sim, sou eu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100368", 256, TRUE);
 	OutputLine(NULL, "引っ越してきたばかりの前原圭一です。",
 		   NULL, " Sou Keiichi Maebara. Me mudei pra cá recentemente.", Line_WaitForInput);
@@ -2806,12 +2806,12 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　パタ、",
-		   NULL, "Thud,", Line_ContinueAfterTyping);
+		   NULL, "Páá,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "スイ、",
-		   NULL, " swoosh,", Line_ContinueAfterTyping);
+		   NULL, " vup,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );

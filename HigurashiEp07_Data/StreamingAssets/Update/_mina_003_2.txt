@@ -210,7 +210,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100235", 256, TRUE);
 	OutputLine(NULL, "「いや、はっきり断言できるぜ、ここにある魅音のおはぎには針なんて絶対に入っていねえ。」",
-		   NULL, "\"Não, eu tenho certeza que não há agulha de costura dentro deste ohagi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Não, eu tenho certeza que não tem nenhuma agulha de costura dentro desse ohagi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

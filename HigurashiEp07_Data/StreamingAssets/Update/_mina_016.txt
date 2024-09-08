@@ -2395,7 +2395,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　二日目にはクラス全体を率いて相談所まで来てくれた。",
-		   NULL, "Ela até veio conosco ao centro de consulta infantil no segundo dia.", Line_Normal);
+		   NULL, "Ela até veio com a gente ao centro de consulta infantil no segundo dia.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2513,7 +2513,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知恵先生は昨日のクラス全体での陳情を引率してくれている。",
-		   NULL, "Chie-sensei veio conosco em nosso apelo ontem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Chie-sensei veio com a gente em nosso apelo ontem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2627,7 +2627,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/kei082001", 256, TRUE);
 	OutputLine(NULL, "「…大体、お前、さっきのさっきまで俺たちと一緒に相談所に押し掛けてたじゃないかよ！",
-		   NULL, "\"...Você estava no centro de consulta infantil conosco!", Line_WaitForInput);
+		   NULL, "\"...Você estava no centro de consulta infantil com a gente!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101205", 256, TRUE);
 	OutputLine(NULL, "　そして明日も来れる人は来てくれってみんなに言ったじゃないか！",
 		   NULL, " Você disse a todos pra voltarem amanhã!", Line_WaitForInput);
@@ -3288,7 +3288,7 @@ void main()
 	OutputLine(NULL, "　………なるほどな。",
 		   NULL, "......Finalmente faz sentido.", Line_WaitForInput);
 	OutputLine(NULL, "……ようやく全てがわかってきたぜ…。",
-		   NULL, " ...Eu posso entender tudo agora...", Line_Normal);
+		   NULL, " ...Eu entendi tudo agora...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/jys1", 300 );
@@ -3354,6 +3354,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101230", 256, TRUE);
 	OutputLine(NULL, "「話をちょいと戻すぜ。",
 		   NULL, "\"Me deixe fazer uma pergunta.", Line_WaitForInput);
