@@ -70,7 +70,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6252", 256, TRUE);
 	OutputLine(NULL, "「ここにいる誰もが、北条沙都子が今、叔父に監禁に近い状態におかれ、辛い目にあっていることを知っている。",
-		   NULL, "\"Todos aqui sabem que Satoko Houjou está praticamente confinada pelo tio e sofrendo nas mãos dele.", Line_WaitForInput);
+		   NULL, "\"Todos aqui sabem que Houjou Satoko está praticamente confinada pelo tio e sofrendo nas mãos dele.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6253", 256, TRUE);
 	OutputLine(NULL, "まぁ、積極的に助けないのはいいです。",
 		   NULL, " Bem, eu não me importo se vocês não forem proativos em ajudá-la. ", GetGlobalFlag(GLinemodeSp));
@@ -305,7 +305,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Pai do Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600056", 256, TRUE);
 	OutputLine(NULL, "「ただ、前原圭一というひとりの男が、どうしても腑に落ちないことがあると言ってこれだけの面々を相手に訴えている。",
-		   NULL, "\"Porém, um homem conhecido como Keiichi Maebara está aqui diante de todos vocês, para expressar seu apelo de que algo não faz o menor sentido.", Line_WaitForInput);
+		   NULL, "\"Porém, um homem conhecido como Maebara Keiichi está aqui diante de todos vocês, para expressar seu apelo de que algo não faz o menor sentido.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/182600057", 256, TRUE);
 	OutputLine(NULL, "そこには親子関係などない。",
 		   NULL, " Eu não me importo se ele é meu filho ou não. ", GetGlobalFlag(GLinemodeSp));
@@ -349,7 +349,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "org/rena6077", 256, TRUE);
 	OutputLine(NULL, "「…えっと、…すみません竜宮レナです。",
-		   NULL, "\"...Hmm... meu nome é Rena Ryuugu.", Line_WaitForInput);
+		   NULL, "\"...Hmm... meu nome é Ryuugu Rena.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "org/rena6078", 256, TRUE);
 	OutputLine(NULL, "質問していいですか？",
 		   NULL, " Posso perguntar algo?", GetGlobalFlag(GLinemodeSp));
@@ -1165,7 +1165,7 @@ void main()
 		   NULL, "Essa é a união dos Guardiões!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101361", 256, TRUE);
 	OutputLine(NULL, "　北条沙都子は村の一員だ！！",
-		   NULL, " Satoko Houjou é uma de nós!!", Line_Normal);
+		   NULL, " Houjou Satoko é uma de nós!!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

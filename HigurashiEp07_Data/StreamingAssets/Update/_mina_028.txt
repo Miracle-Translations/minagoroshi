@@ -3330,7 +3330,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花という名の、鷹野を楽しませるためだけの物扱いなのだ。",
-		   NULL, "Eu sou apenas um brinquedo chamado Rika Furude, cujo único propósito é entreter a Takano.", Line_Normal);
+		   NULL, "Eu sou apenas um brinquedo chamado Furude Rika, cujo único propósito é entreter a Takano.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

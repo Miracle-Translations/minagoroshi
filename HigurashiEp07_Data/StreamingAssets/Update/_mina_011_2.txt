@@ -1357,7 +1357,7 @@ void main()
 		   NULL, "\"Hihihi!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300307_1", 256, TRUE);
 	OutputLine(NULL, "　私は誰だと思ってんの。市長懇親会メンバーにして市政モニター会員、園崎お魎の代理だよ？",
-		   NULL, " Quem você acha que eu sou? Represento Oryou Sonozaki, membro da reunião social do prefeito e do comitê de monitoramento do governo local.", Line_WaitForInput);
+		   NULL, " Quem você acha que eu sou? Represento Sonozaki Oryou, membro da reunião social do prefeito e do comitê de monitoramento do governo local.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300308", 256, TRUE);
 	OutputLine(NULL, "　お役所の人と話をすることなんてしょっちゅうだって！」",
 		   NULL, " Falo com funcionários do governo o tempo todo!\"", Line_Normal);
@@ -1464,7 +1464,7 @@ void main()
 		   NULL, " Não posso perdoar o tio de Satoko por abusar agressivamente dela, mas também não vou perdoar outras pessoas por abusarem dela discretamente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6057", 256, TRUE);
 	OutputLine(NULL, "その年寄り連中に、畳の上で死にたかったら前原圭一をあまり怒らせるなって伝えとけ！」",
-		   NULL, " Diga a essas pessoas pra não irritarem Keiichi Maebara!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Diga a essas pessoas pra não irritarem Maebara Keiichi!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

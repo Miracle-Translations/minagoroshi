@@ -17,7 +17,7 @@ void main()
 		   NULL, "\"Entendo... Estamos bem, desde que saibamos que o conselho de Hinamizawa e os Guardiões de Onigafuchi não estão envolvidos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100002", 256, TRUE);
 	OutputLine(NULL, "北条沙都子さんの件は、特別扱いせずに慎重に対応してください。」",
-		   NULL, " Por favor, cuide do caso de Satoko Houjou-san sem se preocupar muito com isso.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Por favor, cuide do caso de Houjou Satoko-san sem se preocupar muito com isso.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
@@ -64,7 +64,7 @@ void main()
 		   NULL, "\"Você deve agir da mesma forma, mesmo que o vilarejo os apoie. Não tenha pressa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100008", 256, TRUE);
 	OutputLine(NULL, "　北条沙都子さんの件は慎重に対応してください。",
-		   NULL, " Por favor, trate o caso de Satoko Houjou com muito cuidado.", Line_WaitForInput);
+		   NULL, " Por favor, trate o caso de Houjou Satoko com muito cuidado.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/442100009", 256, TRUE);
 	OutputLine(NULL, "くれぐれも異例の措置は取らないよう、担当に念を押しておいてくださいよ。」",
 		   NULL, " Não dê nenhum tratamento especial a ela, entendeu?\"", Line_Normal);

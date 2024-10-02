@@ -127,13 +127,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　相談票には、北条沙都子の件でとしか書かなかったから、もっと詳しくということなのだろう。",
-		   NULL, "A única coisa que escrevi na inscrição foi que queria falar sobre Satoko Houjou.", Line_Normal);
+		   NULL, "A única coisa que escrevi na inscrição foi que queria falar sobre Houjou Satoko.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100654", 256, TRUE);
 	OutputLine(NULL, "「えっと、昨日、雛見沢分校の知恵先生から通報があった、北条沙都子の保護についての件です。",
-		   NULL, "\"Bem, estamos aqui para falar sobre o caso de Satoko Houjou. Chie-sensei da escola filial de Hinamizawa ligou e fez um relatório ontem.", Line_WaitForInput);
+		   NULL, "\"Bem, estamos aqui para falar sobre o caso de Houjou Satoko. Chie-sensei da escola filial de Hinamizawa ligou e fez um relatório ontem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100655", 256, TRUE);
 	OutputLine(NULL, "それでちょっとお話したいことがありまして…。」",
 		   NULL, " Gostaríamos de discutir o caso.\"", Line_Normal);
@@ -473,7 +473,7 @@ void main()
 		   NULL, "\"Eu deveria falar?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6068", 256, TRUE);
 	OutputLine(NULL, "　………えっと、俺たちは雛見沢分校に通ってる者で、北条沙都子の友人です。",
-		   NULL, " Bem... Somos estudantes da Escola Secundária de Hinamizawa e somos amigos de Satoko Houjou. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Bem... Somos estudantes da Escola Secundária de Hinamizawa e somos amigos de Houjou Satoko. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6069", 256, TRUE);
 	OutputLine(NULL, "昨日、学校から通報があって、相談所の人が沙都子のところへ行ったと思います。",
@@ -1317,7 +1317,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "org/rena6042", 256, TRUE);
 	OutputLine(NULL, "北条沙都子の友人５人が保護を求めて本日夕方陳情アリって程度には伝えてくれると思う…。」",
-		   NULL, "Ela apenas dirá a eles que os cinco amigos de Satoko Houjou vieram e pediram que eles a levassem sob sua custódia...\"", Line_Normal);
+		   NULL, "Ela apenas dirá a eles que os cinco amigos de Houjou Satoko vieram e pediram que eles a levassem sob sua custódia...\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1390,7 +1390,7 @@ void main()
 		   NULL, "\"Não é que ela seja boa em falar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600224", 256, TRUE);
 	OutputLine(NULL, "お姉が園崎家の魅音だから相手が平伏してくれるだけです。",
-		   NULL, " Eles apenas a ouvem porque ela é Mion Sonozaki.", Line_WaitForInput);
+		   NULL, " Eles apenas a ouvem porque ela é Sonozaki Mion.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600225", 256, TRUE);
 	OutputLine(NULL, "今日の対応を見ましたよね？",
 		   NULL, " Você viu como eles nos trataram hoje...", GetGlobalFlag(GLinemodeSp));
@@ -1949,7 +1949,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………そうさ、俺は前原圭一。",
-		   NULL, "......Isso mesmo... Eu sou Keiichi Maebara...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Isso mesmo... Eu sou Maebara Keiichi...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2068,7 +2068,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……これが、我が部における前原圭一の役割だ！！",
-		   NULL, "...Este foi o papel de Keiichi Maebara neste clube!", Line_Normal);
+		   NULL, "...Este foi o papel de Maebara Keiichi neste clube!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

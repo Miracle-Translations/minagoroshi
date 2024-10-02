@@ -1441,7 +1441,7 @@ void main()
 		   NULL, " Mantenha seus olhos no Dr. Irie.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900162", 256, TRUE);
 	OutputLine(NULL, "……あと、古手梨花にも注意してね。",
-		   NULL, " Além disso, fique de olho na Rika Furude também.", Line_WaitForInput);
+		   NULL, " Além disso, fique de olho na Furude Rika também.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900163", 256, TRUE);
 	OutputLine(NULL, "どんな第六感か知らないけど、…少なくとも彼の死に方だけは当てたわ、あの子。",
 		   NULL, " Não sei que tipo de poder ela tem... mas ela previu como Tomitake iria morrer.", GetGlobalFlag(GLinemodeSp));

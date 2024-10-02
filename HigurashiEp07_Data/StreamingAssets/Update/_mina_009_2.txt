@@ -740,7 +740,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、わからなくてはならないのだ…。",
-		   NULL, "Rika Furude tem que saber o que está acontecendo...", Line_Normal);
+		   NULL, "Furude Rika tem que saber o que está acontecendo...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1828,7 +1828,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の緊急とあれば、彼らはいかなる仕事も放り出すだろう。",
-		   NULL, "Se Rika Furude tiver uma emergência, então será uma prioridade para essas duas pessoas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se Furude Rika tiver uma emergência, então será uma prioridade para essas duas pessoas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -256,7 +256,7 @@ void main()
 		   NULL, "\"Meu nome é Chie e eu sou a professora da Escola Secundária de Hinamizawa!", Line_Continue);
 	Wait( 5000 );
 	OutputLine(NULL, "　北条沙都子さんはいらっしゃいますか。」",
-		   NULL, " Satoko Houjou-san está aqui?\"", Line_Normal);
+		   NULL, " Houjou Satoko-san está aqui?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

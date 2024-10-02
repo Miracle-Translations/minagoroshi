@@ -111,7 +111,7 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…いや、…崖から落ちる直前までの「古手梨花」が繋がらない。",
-		   NULL, " Não... foi mais porque eu não conseguia lembrar quem era \"Rika Furude\" antes de cair do penhasco.", Line_Normal);
+		   NULL, " Não... foi mais porque eu não conseguia lembrar quem era \"Furude Rika\" antes de cair do penhasco.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/mo2", "maskup", 1, 0, 1000 );
@@ -385,7 +385,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私の名は、古手梨花。",
-		   NULL, "Meu nome é Rika Furude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Meu nome é Furude Rika.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

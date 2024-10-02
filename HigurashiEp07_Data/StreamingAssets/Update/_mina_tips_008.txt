@@ -105,13 +105,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/443000010", 256, TRUE);
 	OutputLine(NULL, "「実はですね、雛見沢にお住まいの北条沙都子さんの件で顧問のお耳に入っておりますかどうかと思いましてお電話させていただいたんです。」",
-		   NULL, "\"Gostaríamos de saber se você ficou sabendo sobre o caso de Satoko Houjou-san em Hinamizawa.\"", Line_Normal);
+		   NULL, "\"Gostaríamos de saber se você ficou sabendo sobre o caso de Houjou Satoko-san em Hinamizawa.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#d7e6de>お魎</color>", NULL, "<color=#d7e6de>Oryou</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300052", 256, TRUE);
 	OutputLine(NULL, "「……北条沙都子ぉ？　あぁん！",
-		   NULL, "\"...Satoko Houjou? Hããã?", Line_WaitForInput);
+		   NULL, "\"...Houjou Satoko? Hããã?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/442300053", 256, TRUE);
 	OutputLine(NULL, "　バチ当たり北条のとこの娘かぁ。",
 		   NULL, " Aquela maldita filha dos Houjou?", Line_WaitForInput);
@@ -220,7 +220,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「前原圭一くんか。",
-		   NULL, "\"Keiichi Maebara-kun, não é?", Line_WaitForInput);
+		   NULL, "\"Maebara Keiichi-kun, não é?", Line_WaitForInput);
 	OutputLine(NULL, "こういう子が将来、行政専門のクレーマーになるんだろうなぁ！」",
 		   NULL, " Acho que um garoto assim vai se tornar um defensor político quando crescer!\"", Line_Normal);
 	ClearMessage();

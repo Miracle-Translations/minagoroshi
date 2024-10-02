@@ -2515,7 +2515,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当なら、古手梨花と言う少女は、親友の沙都子から優勝賞金が何と５万円もあると知らされて、その大きな額にびっくりするはずなのだ。",
-		   NULL, "Em um mundo perfeito, Rika Furude deveria ter ficado surpresa ao ouvir de sua melhor amiga que o prêmio era de 50 mil ienes.", Line_Normal);
+		   NULL, "Em um mundo perfeito, Furude Rika deveria ter ficado surpresa ao ouvir de sua melhor amiga que o prêmio era de 50 mil ienes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2577,18 +2577,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………全てを覚えている私と、そんなのは知らない、ただの古手梨花を分けるように気をつけてる。",
-		   NULL, "...Eu me certifico de agir como a Rika Furude que não sabe de nada.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Eu me certifico de agir como a Furude Rika que não sabe de nada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私にとって感動がないことであっても、古手梨花という歳相応の少女には感動的なことなどたくさんある。",
-		   NULL, "Mesmo que eu não esteja impressionada, quando jovem, Rika Furude deveria ficar impressionada com muitas coisas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo que eu não esteja impressionada, quando jovem, Furude Rika deveria ficar impressionada com muitas coisas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、古手梨花は「初めての感動」に大はしゃぎする。",
-		   NULL, "Rika Furude deveria parecer animada quando encontra algo pela primeira vez.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika deveria parecer animada quando encontra algo pela primeira vez.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2600,7 +2600,7 @@ void main()
 	OutputLine(NULL, "　この努力をすればするほど、",
 		   NULL, "Mas quanto mais e mais eu tento,", Line_WaitForInput);
 	OutputLine(NULL, "古手梨花という、まるでブラウン管の向こうにいるようなもう一人の自分がどんどん希薄になって遠のいていくのだ…。",
-		   NULL, " mais eu sinto que Rika Furude é alguém muito distante...", Line_Normal);
+		   NULL, " mais eu sinto que Furude Rika é alguém muito distante...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2675,7 +2675,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……古手梨花という少女は、ただ息をするだけで、自らの意思では指一本動かせない生き人形となるのだろう……。",
-		   NULL, "Rika Furude vai virar uma boneca que não consegue nem mexer um dedo por vontade própria...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika vai virar uma boneca que não consegue nem mexer um dedo por vontade própria...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2734,18 +2734,18 @@ void main()
 		   NULL, " Estou bem...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500090", 256, TRUE);
 	OutputLine(NULL, "私は古手梨花、…私は古手梨花…。」",
-		   NULL, " Sou Rika Furude...  Sou Rika Furude...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sou Furude Rika...  Sou Furude Rika...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自分が古手梨花であることを意識して思い出さないと、……「この」自分の地が古手梨花に出てしまう。",
-		   NULL, "Se eu não continuar focada em ser Rika Furude, tenho medo de acabar mostrando meu verdadeiro eu dentro daquela concha.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se eu não continuar focada em ser Furude Rika, tenho medo de acabar mostrando meu verdadeiro eu dentro daquela concha.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花はごく普通の可愛らしくて憎めない女の子だ…。",
-		   NULL, "Afinal, Rika Furude deveria ser uma garotinha fofa e inocente...", Line_Normal);
+		   NULL, "Afinal, Furude Rika deveria ser uma garotinha fofa e inocente...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/mati_o2", 400 );
@@ -2829,13 +2829,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……流れにうまく入れれば、古手梨花で居続けるのはそう難しくない。",
-		   NULL, "...Depois de entrar nesse fluxo, não será difícil continuar como Rika Furude.", Line_Normal);
+		   NULL, "...Depois de entrar nesse fluxo, não será difícil continuar como Furude Rika.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう、古手梨花で居るのは、今の私にとって凧を揚げるのに似ていた。",
-		   NULL, "Agora, ser Rika Furude é como soltar pipa para mim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Agora, ser Furude Rika é como soltar pipa para mim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3139,7 +3139,7 @@ void main()
 	OutputLine(NULL, "　結局願いを裏切られ、心を疲れさせるだけ…。",
 		   NULL, "No final, minhas esperanças foram traídas, deixando apenas um coração desgastado...", Line_WaitForInput);
 	OutputLine(NULL, "そしてそれは「私」を一層、古手梨花から乖離させてゆくだろう。",
-		   NULL, " E coisas assim fazem com que 'eu' me separe ainda mais de Rika Furude.", Line_WaitForInput);
+		   NULL, " E coisas assim fazem com que 'eu' me separe ainda mais de Furude Rika.", Line_WaitForInput);
 	OutputLine(NULL, "最後には全てに疲れて関心を失い、………死ぬ。",
 		   NULL, " Algum dia vou me cansar de tudo, perder todo o interesse... e morrer.", Line_Normal);
 	ClearMessage();
@@ -3334,7 +3334,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は学校を楽しく過ごす。",
-		   NULL, "Rika Furude deveria estar feliz na escola.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika deveria estar feliz na escola.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

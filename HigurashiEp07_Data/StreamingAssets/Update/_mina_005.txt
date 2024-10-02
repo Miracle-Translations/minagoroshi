@@ -864,7 +864,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500271", 256, TRUE);
 	OutputLine(NULL, "「古手梨花を殺して、誰がどんな得をするのかしら。」",
-		   NULL, "\"Quem se beneficiaria matando Rika Furude...?\"", Line_Normal);
+		   NULL, "\"Quem se beneficiaria matando Furude Rika...?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -879,7 +879,7 @@ void main()
 		   NULL, "\"Pode soar estranho vindo de mim...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500273", 256, TRUE);
 	OutputLine(NULL, "古手梨花は村人みんなに好かれていると思う。",
-		   NULL, " mas acho que a maioria das pessoas gostam de Rika Furude.", Line_WaitForInput);
+		   NULL, " mas acho que a maioria das pessoas gostam de Furude Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500274", 256, TRUE);
 	OutputLine(NULL, "一般的な村人に殺害動機があるとは思えない。」",
 		   NULL, " Eu acho que nenhum morador teria motivos pra me matar.\"", GetGlobalFlag(GLinemodeSp));
