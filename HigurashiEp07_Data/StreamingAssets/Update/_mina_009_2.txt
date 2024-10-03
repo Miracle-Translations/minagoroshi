@@ -740,7 +740,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、わからなくてはならないのだ…。",
-		   NULL, "Rika Furude tem que saber o que está acontecendo...", Line_Normal);
+		   NULL, "Furude Rika tem que saber o que está acontecendo...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1828,7 +1828,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の緊急とあれば、彼らはいかなる仕事も放り出すだろう。",
-		   NULL, "Se Rika Furude tiver uma emergência, então será uma prioridade para essas duas pessoas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se Furude Rika tiver uma emergência, então será uma prioridade para essas duas pessoas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1928,7 +1928,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000157", 256, TRUE);
 	OutputLine(NULL, "「…………あの北条鉄平さんがですか…。",
-		   NULL, "\".........Teppei Houjou-san voltou...?", Line_WaitForInput);
+		   NULL, "\".........Houjou Teppei-san voltou...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000158", 256, TRUE);
 	OutputLine(NULL, "……………なんてことでしょう…。」",
 		   NULL, " Que terrível...\"", GetGlobalFlag(GLinemodeSp));
@@ -2379,7 +2379,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000179", 256, TRUE);
 	OutputLine(NULL, "「所長、入江京介としてお願いいたします。",
-		   NULL, "\"Kyousuke Irie está pedindo a você, como seu chefe.", Line_WaitForInput);
+		   NULL, "\"Irie Kyousuke está pedindo a você, como seu chefe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000180", 256, TRUE);
 	OutputLine(NULL, "鷹野さん、どうか沙都子ちゃんを救ってください。」",
 		   NULL, " Por favor, salve Satoko-chan.\"", GetGlobalFlag(GLinemodeSp));
@@ -2817,7 +2817,7 @@ void main()
 		   NULL, "\"Houve um caso de assassinato em Okinomiya não faz muito tempo atrás.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900238", 256, TRUE);
 	OutputLine(NULL, "その事件に何らかの関与があると疑って、北条鉄平を警察がマークしてるらしいわね。」",
-		   NULL, " A polícia suspeita que Teppei Houjou esteja envolvido no crime e o marcou.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A polícia suspeita que Houjou Teppei esteja envolvido no crime e o marcou.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2845,14 +2845,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900241", 256, TRUE);
 	OutputLine(NULL, "その女はどうも北条鉄平の愛人らしい。",
-		   NULL, "Acontece que aquela mulher era amante do Teppei Houjou.", Line_WaitForInput);
+		   NULL, "Acontece que aquela mulher era amante do Houjou Teppei.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900242", 256, TRUE);
 	OutputLine(NULL, "綿流しも近いしね。",
 		   NULL, " O Watanagashi também está se aproximando... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900243", 256, TRUE);
 	OutputLine(NULL, "『オヤシロさまの祟り』の５年目を何とか阻止したい警察が、北条鉄平が今年の犠牲者じゃないかとマークして、釣り糸を垂らしてるって話みたい。」",
-		   NULL, "A polícia quer evitar a quinta maldição de Oyashiro-sama este ano, então eles marcaram Teppei Houjou como o candidato a vítima deste ano e começaram a ficar de olho nele.\"", Line_Normal);
+		   NULL, "A polícia quer evitar a quinta maldição de Oyashiro-sama este ano, então eles marcaram Houjou Teppei como o candidato a vítima deste ano e começaram a ficar de olho nele.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
@@ -2864,7 +2864,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900244", 256, TRUE);
 	OutputLine(NULL, "「北条鉄平をマークしてれば、『オヤシロさまの祟り』の真犯人を吊り上げられると睨んでるのよ。」",
-		   NULL, "\"Eles suspeitam que podem descobrir o verdadeiro culpado por trás da maldição de Oyashiro-sama se mantiverem os olhos no Teppei Houjou.\"", Line_Normal);
+		   NULL, "\"Eles suspeitam que podem descobrir o verdadeiro culpado por trás da maldição de Oyashiro-sama se mantiverem os olhos no Houjou Teppei.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 9, "sprite/ta2_def_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );

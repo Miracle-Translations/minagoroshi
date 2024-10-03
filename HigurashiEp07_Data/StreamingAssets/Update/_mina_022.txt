@@ -1441,7 +1441,7 @@ void main()
 		   NULL, " Mantenha seus olhos no Dr. Irie.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900162", 256, TRUE);
 	OutputLine(NULL, "……あと、古手梨花にも注意してね。",
-		   NULL, " Além disso, fique de olho na Rika Furude também.", Line_WaitForInput);
+		   NULL, " Além disso, fique de olho na Furude Rika também.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900163", 256, TRUE);
 	OutputLine(NULL, "どんな第六感か知らないけど、…少なくとも彼の死に方だけは当てたわ、あの子。",
 		   NULL, " Não sei que tipo de poder ela tem... mas ela previu como Tomitake iria morrer.", GetGlobalFlag(GLinemodeSp));
@@ -2319,7 +2319,7 @@ void main()
 		   NULL, "\"Não se preocupe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900213", 256, TRUE);
 	OutputLine(NULL, "…だって、鷹野三四は現に今日、綿流しのお祭りの会場を闊歩していたのよ？",
-		   NULL, " Todo mundo viu Miyo Takano andando no festival do Watanagashi. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Todo mundo viu Takano Miyo andando no festival do Watanagashi. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900214", 256, TRUE);
 	OutputLine(NULL, "　例え検死の結果、死後２４時間以上経ってると出たって、御目出度い連中は検死結果の方が間違ってると思ってくれるわよ。",
@@ -2482,7 +2482,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹ジロウの遺体の脇に屈んでいた入江が立ち上がった。",
-		   NULL, "Irie estava agachado ao lado do cadáver de Jirou Tomitake.", Line_WaitForInput);
+		   NULL, "Irie estava agachado ao lado do cadáver de Tomitake Jirou.", Line_WaitForInput);
 	OutputLine(NULL, "……その顔面は蒼白だった。",
 		   NULL, " ...Quando ele se levantou, ele estava branco como um lençol.", Line_Normal);
 	ClearMessage();
@@ -2662,7 +2662,7 @@ void main()
 		   NULL, "\"Com licença, Ooishi-san!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s12/19/283100003", 256, TRUE);
 	OutputLine(NULL, "　ここから数百メートルのところに、富竹ジロウのものと思われる自転車が見付かりました。」",
-		   NULL, " Encontramos uma bicicleta que se acredita pertencer a Jirou Tomitake a algumas centenas de metros daqui.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Encontramos uma bicicleta que se acredita pertencer a Tomitake Jirou a algumas centenas de metros daqui.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

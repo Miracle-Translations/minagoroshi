@@ -76,7 +76,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、園崎家の魅音だ。",
-		   NULL, "Além disso, ela é Mion Sonozaki.", Line_WaitForInput);
+		   NULL, "Além disso, ela é Sonozaki Mion.", Line_WaitForInput);
 	OutputLine(NULL, "警察が伏せていても、昨日にはもう知っていただろう。",
 		   NULL, " Ela teria descoberto isso ontem, mesmo que a polícia estivesse tentando esconder.", Line_Normal);
 	ClearMessage();

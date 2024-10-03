@@ -61,7 +61,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s12/19/283100023", 256, TRUE);
 	OutputLine(NULL, "「…古手梨花の、全てを話そうって言うのはとても気になるっすよね。」",
-		   NULL, "\"...Por que será que a Rika Furude quer tanto falar com você?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Por que será que a Furude Rika quer tanto falar com você?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
@@ -107,7 +107,7 @@ void main()
 		   NULL, "\"A chefe da família Furude está em perigo e a próxima chefe da família Sonozaki quer protegê-la.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s12/19/283100027", 256, TRUE);
 	OutputLine(NULL, "……そんな状況下で誰が古手梨花を？",
-		   NULL, " ...Quem seria capaz de matar a Rika Furude nessas circunstâncias? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...Quem seria capaz de matar a Furude Rika nessas circunstâncias? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s12/19/283100028", 256, TRUE);
 	OutputLine(NULL, "　あとは公由家くらいしか勢力が思いつかないです。」",
@@ -135,7 +135,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……富竹ジロウの死亡場所があっという間にバックミラーに消えていった。",
-		   NULL, "...No caminho estava o local onde Jirou Tomitake morreu.", Line_Normal);
+		   NULL, "...No caminho estava o local onde Tomitake Jirou morreu.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask("background/kuruma5", "maskleft", 0, 0, 300 );
@@ -182,7 +182,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700232", 256, TRUE);
 	OutputLine(NULL, "あるいは、古手梨花が話してくれると一番うれしいんですがね、なっはっは。",
-		   NULL, "Claro, seria bem mais fácil se for exatamente isso o que a Rika Furude quer me dizer. Na ha ha!", Line_WaitForInput);
+		   NULL, "Claro, seria bem mais fácil se for exatamente isso o que a Furude Rika quer me dizer. Na ha ha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6175", 256, TRUE);
 	OutputLine(NULL, "……熊ちゃんも今回の岐阜の件で、決め付ける捜査がどれだけ冤罪を生み出してきたか、よくわかったでしょう。」",
 		   NULL, " ...Kuma-chan, agora você deve entender porque existem acusações falsas, vendo o que aconteceu hoje em Gifu.\"", Line_Normal);
@@ -204,7 +204,7 @@ void main()
 		   NULL, "\"Ele insistiu que não cometeu um erro até o fim.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6177", 256, TRUE);
 	OutputLine(NULL, "岐阜県警はあくまでもあの死体は鷹野三四だったで通すつもりのようです。",
-		   NULL, " O departamento de polícia de Gifu, no geral, ainda está convencido de que o corpo pertence a Miyo Takano.", Line_WaitForInput);
+		   NULL, " O departamento de polícia de Gifu, no geral, ainda está convencido de que o corpo pertence a Takano Miyo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6178", 256, TRUE);
 	OutputLine(NULL, "でもうちは鷹野三四生存で行きますよ。",
 		   NULL, " Mas vamos seguir com a suposição de que ela está viva. ", GetGlobalFlag(GLinemodeSp));
@@ -1357,7 +1357,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/s12/09/280900245a_org", 256, TRUE);
 	OutputLine(NULL, "古手梨花をあっさり暗殺などできるわけがなかった。",
-		   NULL, "Assassinar Rika Furude não será tão fácil.", Line_WaitForInput);
+		   NULL, "Assassinar Furude Rika não será tão fácil.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/s12/09/280900245b_org", 256, TRUE);
 	OutputLine(NULL, "　…くすくす、いいわよ梨花ちゃん。",
 		   NULL, " ...Hihi. Tudo bem, Rika-chan.", Line_Normal);

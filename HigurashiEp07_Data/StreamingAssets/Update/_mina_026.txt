@@ -1575,7 +1575,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこで送り込まれた研究者が、入江京介である。",
-		   NULL, "Então, eles recrutaram um jovem pesquisador, Kyousuke Irie.", Line_Normal);
+		   NULL, "Então, eles recrutaram um jovem pesquisador, Irie Kyousuke.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1664,7 +1664,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが鷹野三四だった。",
-		   NULL, "Essa supervisora era Miyo Takano.", Line_Normal);
+		   NULL, "Essa supervisora era Takano Miyo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1896,7 +1896,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、最後に富竹ジロウ。",
-		   NULL, "A última pessoa importante foi Jirou Tomitake.", Line_WaitForInput);
+		   NULL, "A última pessoa importante foi Tomitake Jirou.", Line_WaitForInput);
 	OutputLine(NULL, "本名は知らない。",
 		   NULL, " Eu não sei o seu verdadeiro nome.", Line_Normal);
 	ClearMessage();
@@ -2145,7 +2145,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江が「東京」と対立し、悪意ある切り札として古手梨花を暗殺しようとしている話。",
-		   NULL, "Uma teoria diz que o Irie está em oposição à Tóquio e, como trunfo, ele está planejando matar Rika Furude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Uma teoria diz que o Irie está em oposição à Tóquio e, como trunfo, ele está planejando matar Furude Rika.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/aka1", 300 );
@@ -2153,7 +2153,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もしくは、鷹野が富竹を殺し、さらに何らかの切り札として古手梨花を暗殺しようとしている話に戻る。",
-		   NULL, "A outra teoria é que a Takano matou o Tomitake e, como trunfo, matará Rika Furude.", Line_Normal);
+		   NULL, "A outra teoria é que a Takano matou o Tomitake e, como trunfo, matará Furude Rika.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1000, FALSE );
@@ -2161,7 +2161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そもそも古手梨花がどうして切り札なのかの説明がいる。",
-		   NULL, "Acho que preciso explicar por que Rika Furude poderia ser um trunfo.", Line_Normal);
+		   NULL, "Acho que preciso explicar por que Furude Rika poderia ser um trunfo.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/file", 1000 );
@@ -2233,7 +2233,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の母も、小さい頃には村中から猫可愛がりだったという。",
-		   NULL, "A mãe da Rika Furude também era adorada por muitos desde criança.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A mãe da Furude Rika também era adorada por muitos desde criança.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2332,7 +2332,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花がもし間違って死ねば、雛見沢二千人は全員が“鬼の血を目覚めさせることになる”。",
-		   NULL, "Se Rika Furude morrer, as duas mil pessoas em Hinamizawa se transformarão em demônios.", Line_Normal);
+		   NULL, "Se Furude Rika morrer, as duas mil pessoas em Hinamizawa se transformarão em demônios.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2348,7 +2348,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのため、山狗は女王である古手梨花の警護を最優先任務としていた。",
-		   NULL, "É por isso que a Yamainu está protegendo a rainha, Rika Furude.", Line_WaitForInput);
+		   NULL, "É por isso que a Yamainu está protegendo a rainha, Furude Rika.", Line_WaitForInput);
 	OutputLine(NULL, "彼女の死は村の死なのだから。",
 		   NULL, " A morte dela significa o fim de todo o vilarejo.", Line_Normal);
 	ClearMessage();
@@ -2357,7 +2357,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、古手梨花が女王であることを知る者にとって、古手梨花を殺すぞと脅迫することは「切り札」になり得るのだ……。",
-		   NULL, "É por isso que Rika Furude é o trunfo para quem sabe que ela é o centro de toda a endemia...", Line_Normal);
+		   NULL, "É por isso que Furude Rika é o trunfo para quem sabe que ela é o centro de toda a endemia...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 1300 );
@@ -2395,7 +2395,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この状況下で古手梨花は殺される。",
-		   NULL, "Rika Furude também será assassinada em breve.", Line_Normal);
+		   NULL, "Furude Rika também será assassinada em breve.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );

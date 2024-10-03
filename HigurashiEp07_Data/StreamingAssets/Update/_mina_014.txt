@@ -81,7 +81,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100957", 256, TRUE);
 	OutputLine(NULL, "「どうも、推薦をいただきました前原圭一です…。",
-		   NULL, "\"Olá. Eu sou Keiichi Maebara...", Line_WaitForInput);
+		   NULL, "\"Olá. Eu sou Maebara Keiichi...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100958", 256, TRUE);
 	OutputLine(NULL, "初めての経験ですから緊張してますけど、がんばります。",
 		   NULL, " Esta é a primeira vez que faço algo assim então estou muito nervoso...", Line_WaitForInput);
@@ -2163,7 +2163,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi6062", 256, TRUE);
 	OutputLine(NULL, "前原さんは、北条鉄平を私的に嫌っていて、悪意で親権喪失のための活動をしているようにも見えちゃうんですなぁ。",
-		   NULL, "Parece que você está agindo assim porque odeia Teppei Houjou.", Line_Normal);
+		   NULL, "Parece que você está agindo assim porque odeia Houjou Teppei.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2400,7 +2400,7 @@ void main()
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "………もしこれが園崎本家のお魎さんの意思だったら、話は変わってきます。",
-		   NULL, " as coisas seriam diferentes se isso fosse ideia de Oryou Sonozaki-san. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " as coisas seriam diferentes se isso fosse ideia de Sonozaki Oryou-san. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700243", 256, TRUE);
 	OutputLine(NULL, "お魎さんは市長との個人的交流だけでなく、市政にも強い影響力を持つ重要人物ですからね。",

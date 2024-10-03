@@ -53,7 +53,7 @@ void main()
 		   NULL, "\"Vocês pode ouvir enquanto comem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100734", 256, TRUE);
 	OutputLine(NULL, "俺が話したいのはクラスメートの北条沙都子の件だ！！」",
-		   NULL, " Eu quero falar sobre a nossa colega de classe, Satoko Houjou!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu quero falar sobre a nossa colega de classe, Houjou Satoko!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -789,7 +789,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6162", 256, TRUE);
 	OutputLine(NULL, "　そして連中は記録にこう書いた。北条沙都子の件についてクラスメート５人から陳情あり、ってな。",
-		   NULL, "Isso é o que eles escreveram depois de nós: cingo colegas de Satoko Houjou fizeram uma visita para solicitar sua proteção.", Line_WaitForInput);
+		   NULL, "Isso é o que eles escreveram depois de nós: cingo colegas de Houjou Satoko fizeram uma visita para solicitar sua proteção.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6163", 256, TRUE);
 	OutputLine(NULL, "どういうことかわかるか！！",
 		   NULL, " Você sabe o que isso significa?!", Line_WaitForInput);
@@ -1246,7 +1246,7 @@ void main()
 		   NULL, "\"Como escrevi no formulário de inscrição,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6174", 256, TRUE);
 	OutputLine(NULL, "北条沙都子の保護に緊急性があることを陳情に来ました。」",
-		   NULL, " viemos falar sobre o perigo que Satoko Houjou corre.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " viemos falar sobre o perigo que Houjou Satoko corre.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>事務員</color>", NULL, "<color=#f5e6d3>Funcionária do Escritório</color>", NULL, Line_ContinueAfterTyping); }
@@ -1421,7 +1421,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100842", 256, TRUE);
 	OutputLine(NULL, "「代表の前原圭一です。",
-		   NULL, "\"Eu sou Keiichi Maebara.", Line_WaitForInput);
+		   NULL, "\"Eu sou Maebara Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100843", 256, TRUE);
 	OutputLine(NULL, "よろしくお願いします。」",
 		   NULL, " Prazer em conhecê-lo.\"", GetGlobalFlag(GLinemodeSp));
@@ -1430,7 +1430,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6002", 256, TRUE);
 	OutputLine(NULL, "「えぇとですね、昨日、前原さんとお友達の方５人がお見えになって、北条沙都子さんの件で貴重なご意見を賜ったとのお話は聞かせていただいております。",
-		   NULL, "\"Bem, ouvi dizer que ontem você nos visitou com cinco de seus amigos para nos apresentar suas valiosas idéias sobre o caso de Satoko Houjou-san.", Line_WaitForInput);
+		   NULL, "\"Bem, ouvi dizer que ontem você nos visitou com cinco de seus amigos para nos apresentar suas valiosas idéias sobre o caso de Houjou Satoko-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6003", 256, TRUE);
 	OutputLine(NULL, "本日はそれとは別のお話でしょうか？」",
 		   NULL, " Você está aqui para um assunto diferente?\"", GetGlobalFlag(GLinemodeSp));
@@ -1570,7 +1570,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6004", 256, TRUE);
 	OutputLine(NULL, "「…………私どもの方では、北条沙都子さんが一時保護等を受けるべき辛い事情にあり、その対応を急ぐべきであるとの訴えがあったものと認識しております。",
-		   NULL, "\"...Pelo que entendi, reconhecemos que você veio apelar que Satoko Houjou-san está em uma situação extrema que merece proteção temporária de nossa agência, e que devemos agilizar nossa resposta. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...Pelo que entendi, reconhecemos que você veio apelar que Houjou Satoko-san está em uma situação extrema que merece proteção temporária de nossa agência, e que devemos agilizar nossa resposta. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6005", 256, TRUE);
 	OutputLine(NULL, "その際、当方の職員から、決して傍観ではなく、現在対応を協議中である旨を説明させていただいたと思います。」",
@@ -1580,13 +1580,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6180", 256, TRUE);
 	OutputLine(NULL, "「北条沙都子の叔父が、去年の時点でも虐待をしていたという事実を加味した上でも、緊急に対応する必要がないとお考えですか？」",
-		   NULL, "\"Então, levando em consideração o fato do que Satoko Houjou estava sofrendo abusos por parte de seu tio nesta época do ano passado, você ainda acredita que uma resposta urgente é desnecessária?\"", Line_Normal);
+		   NULL, "\"Então, levando em consideração o fato do que Houjou Satoko estava sofrendo abusos por parte de seu tio nesta época do ano passado, você ainda acredita que uma resposta urgente é desnecessária?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6006", 256, TRUE);
 	OutputLine(NULL, "「えーとですね、去年の時点では北条鉄平氏が虐待を行なっていたという情報は当方では確認しておりません。」",
-		   NULL, "\"Bem, nossa organização não tem registros confirmados de que Teppei Houjou-san estava administrando abusos nesta época do ano passado.\"", Line_Normal);
+		   NULL, "\"Bem, nossa organização não tem registros confirmados de que Houjou Teppei-san estava administrando abusos nesta época do ano passado.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -2964,7 +2964,7 @@ void main()
 		   NULL, "\"Hehe... Você não tem ideia...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100886", 256, TRUE);
 	OutputLine(NULL, "　俺の名前は前原圭一！！",
-		   NULL, " Meu nome é Keiichi Maebara!!", Line_WaitForInput);
+		   NULL, " Meu nome é Maebara Keiichi!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100887", 256, TRUE);
 	OutputLine(NULL, "　俺がやると言ったら必ずやるッ！」",
 		   NULL, " Se eu prometi que vou fazer, eu cumpro!\"", Line_Normal);

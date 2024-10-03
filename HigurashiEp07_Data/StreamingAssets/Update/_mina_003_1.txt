@@ -777,7 +777,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/180400083", 256, TRUE);
 	OutputLine(NULL, "「前原圭一ワンマンショーでございましてよ！！",
-		   NULL, "\"Parece que será o grande show de Keiichi Maebara!", Line_WaitForInput);
+		   NULL, "\"Parece que será o grande show de Maebara Keiichi!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/180400084", 256, TRUE);
 	OutputLine(NULL, "　楽しそうですわね！！」",
 		   NULL, " Vai ser muito divertido só de assistir!\"", Line_Normal);
@@ -1271,7 +1271,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500180", 256, TRUE);
 	OutputLine(NULL, "「……宗平が大好きだったのですよ。」",
-		   NULL, "\"......Isso porque Souhei costumava amá-los.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Isso porque o Souhei amava eles.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

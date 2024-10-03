@@ -258,7 +258,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もちろんハチマキやタスキには「北条沙都子を救え！」「相談所は即時対応せよ！」など、何だか立派な文言が踊り、とてもデモっぽい！",
-		   NULL, "As faixas e bandanas dizem \"Salvem Satoko Houjou!\" e \"O centro de consulta deve tomar medidas imediatamente!\". Elas eram perfeitas para o nosso protesto!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "As faixas e bandanas dizem \"Salvem Houjou Satoko!\" e \"O centro de consulta deve tomar medidas imediatamente!\". Elas eram perfeitas para o nosso protesto!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -457,7 +457,7 @@ void main()
 		   NULL, "\"Obrigado por estarem aqui hoje, pessoal!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6229", 256, TRUE);
 	OutputLine(NULL, "　すでに聞いてると思うが、俺たちのクラスメート、北条沙都子が叔父に誘拐同然にさらわれてもう四日目！！",
-		   NULL, " Como vocês sabem, já se passaram quatro dias desde que minha colega Satoko Houjou foi levada pelo tio!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Como vocês sabem, já se passaram quatro dias desde que minha colega Houjou Satoko foi levada pelo tio!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6230", 256, TRUE);
 	OutputLine(NULL, "　かつて気の向くままに沙都子を虐め、愛人のところへ一年間も蒸発していた叔父がどうして親権者なんて名乗れるのか！！",
@@ -720,7 +720,7 @@ void main()
 		   NULL, "\"O mesmo que ontem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6236", 256, TRUE);
 	OutputLine(NULL, "北条沙都子の緊急対応を求めて陳情に参りました！」",
-		   NULL, " Estamos aqui pra apelar por ação imediata em nome da Satoko Houjou!\"", Line_Normal);
+		   NULL, " Estamos aqui pra apelar por ação imediata em nome da Houjou Satoko!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

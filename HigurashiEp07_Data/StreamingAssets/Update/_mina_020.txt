@@ -222,7 +222,7 @@ void main()
 		   NULL, " Eu acho que Kei-chan foi o que mais contribuiu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300006", 256, TRUE);
 	OutputLine(NULL, "今回の一件で、雛見沢に前原圭一ありってのはだいぶ知れ渡ったと思うからねぇ！」",
-		   NULL, " A maioria das pessoas em Hinamizawa agora sabem quem é Keiichi Maebara!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A maioria das pessoas em Hinamizawa agora sabem quem é Maebara Keiichi!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1032,7 +1032,7 @@ void main()
 		   NULL, "\"Prazer em conhecê-los.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/280400011", 256, TRUE);
 	OutputLine(NULL, "北条沙都子と申しますわ。」",
-		   NULL, " Me chamo Satoko Houjou.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Me chamo Houjou Satoko.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -2638,7 +2638,7 @@ void main()
 		   NULL, " Sim, sou eu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100368", 256, TRUE);
 	OutputLine(NULL, "引っ越してきたばかりの前原圭一です。",
-		   NULL, " Sou Keiichi Maebara. Me mudei pra cá recentemente.", Line_WaitForInput);
+		   NULL, " Sou Maebara Keiichi. Me mudei pra cá recentemente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100369", 256, TRUE);
 	OutputLine(NULL, "こんにちは。」",
 		   NULL, " Prazer em conhecê-lo.\"", Line_Normal);
@@ -2705,7 +2705,7 @@ void main()
 		   NULL, " Mas farei o meu melhor desde que assumi o cargo, então espero que tudo corra bem!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100372", 256, TRUE);
 	OutputLine(NULL, "　前原圭一と申します。",
-		   NULL, " Sou Keiichi Maebara.", Line_WaitForInput);
+		   NULL, " Sou Maebara Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100373", 256, TRUE);
 	OutputLine(NULL, "どうかよろしくお願いします。」",
 		   NULL, " Será um prazer trabalhar com você.\"", GetGlobalFlag(GLinemodeSp));
@@ -3316,7 +3316,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼は、赤坂衛。",
-		   NULL, "Esse é Mamoru Akasaka.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Esse é Akasaka Mamoru.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3770,7 +3770,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　我が名は古手梨花。",
-		   NULL, "Meu nome é Rika Furude.", Line_WaitForInput);
+		   NULL, "Meu nome é Furude Rika.", Line_WaitForInput);
 	OutputLine(NULL, "道を開けよ、不吉な運命たち。",
 		   NULL, " Meu destino sinistro estava se afastando de mim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

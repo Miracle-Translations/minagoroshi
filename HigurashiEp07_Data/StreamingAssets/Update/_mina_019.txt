@@ -2453,7 +2453,7 @@ void main()
 		   NULL, " Isso não é pouca coisa, sabe?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6099", 256, TRUE);
 	OutputLine(NULL, "町会を動かしたってことは、園崎お魎を説き伏せたってことだ。",
-		   NULL, " O vilarejo inteiro está aqui... e isso significa que ele convenceu Oryou Sonozaki. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O vilarejo inteiro está aqui... e isso significa que ele convenceu Sonozaki Oryou. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi6100", 256, TRUE);
 	OutputLine(NULL, "園崎天皇をあの年で説得するなんて、できることじゃありません。」",
@@ -2463,13 +2463,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s12/19/183100007", 256, TRUE);
 	OutputLine(NULL, "「……やはり、これだけの人数を集めるには、園崎お魎の根回しは不可欠ですか。」",
-		   NULL, "\"Você acha que Oryou Sonozaki está apoiando essa multidão......?\"", Line_Normal);
+		   NULL, "\"Você acha que Sonozaki Oryou está apoiando essa multidão......?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700375", 256, TRUE);
 	OutputLine(NULL, "「連中が助けろって言ってる沙都子ってのは、ダム推進派の北条夫妻の娘です。",
-		   NULL, "\"A garota que eles estão tentando ajudar é Satoko Houjou, filha dos apoiadores da represa.", Line_WaitForInput);
+		   NULL, "\"A garota que eles estão tentando ajudar é Houjou Satoko, filha dos apoiadores da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700376", 256, TRUE);
 	OutputLine(NULL, "見殺しにはしても助けるために村が立ち上がるなんてことはありえない。",
 		   NULL, " É difícil acreditar que os moradores estariam tentando salvá-la. ", GetGlobalFlag(GLinemodeSp));
@@ -2633,7 +2633,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Representante Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/sonop18001", 256, TRUE);
 	OutputLine(NULL, "「前原圭一くんはいるかッ！！",
-		   NULL, "\"Keiichi Maebara-kun está presente?!", Line_WaitForInput);
+		   NULL, "\"Maebara Keiichi-kun está presente?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/sonop18002", 256, TRUE);
 	OutputLine(NULL, "　どこだ！」",
 		   NULL, " Onde ele está!?\"", GetGlobalFlag(GLinemodeSp));
@@ -2642,7 +2642,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101609", 256, TRUE);
 	OutputLine(NULL, "「ま、前原圭一は俺です…！",
-		   NULL, "\"E... Eu sou Keiichi Maebara...", Line_WaitForInput);
+		   NULL, "\"E... Eu sou Maebara Keiichi...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101610", 256, TRUE);
 	OutputLine(NULL, "　な、何の用ですか…！」",
 		   NULL, " C-Como posso te ajudar...?\"", GetGlobalFlag(GLinemodeSp));
@@ -2856,7 +2856,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎弁護士</color>", NULL, "<color=#f5e6d3>Advogado dos Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/sonobe6004", 256, TRUE);
 	OutputLine(NULL, "また、前原圭一氏は雛見沢連合町会が委任した陳情団の団長です。",
-		   NULL, "Além disso, Keiichi Maebara-san é o líder nomeado do Conselho Unificado Hinamizawa.", Line_WaitForInput);
+		   NULL, "Além disso, Maebara Keiichi-san é o líder nomeado do Conselho Unificado Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/sonobe6005", 256, TRUE);
 	OutputLine(NULL, "こちらが連合町会発行の委任状。",
 		   NULL, " Esta é a procuração emitida pelo conselho. ", GetGlobalFlag(GLinemodeSp));
@@ -3261,7 +3261,7 @@ void main()
 		   NULL, "\"Sou Maebara Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6312", 256, TRUE);
 	OutputLine(NULL, "北条沙都子の即時保護についてお願いにあがりました…！」",
-		   NULL, " Estou aqui para solicitar que Satoko Houjou seja colocada sob proteção!\"", Line_Normal);
+		   NULL, " Estou aqui para solicitar que Houjou Satoko seja colocada sob proteção!\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_Down", 56, 64 );
@@ -3854,7 +3854,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それくらいに、お魎が自ら足を運ぶことは重い意味を伴っていたのだ。",
-		   NULL, "...É sempre importante quando Oryou Sonozaki vem diretamente ao seu escritório.", Line_Normal);
+		   NULL, "...É sempre importante quando Sonozaki Oryou vem diretamente ao seu escritório.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -3867,17 +3867,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはつまり、この北条沙都子という少女を、お魎が救ったのではなく、前原圭一が救ったという形にしようということに違いなかった。",
-		   NULL, "Em vez de liderar o protesto sozinha, ela pediu a Keiichi Maebara que o fizesse.", Line_Normal);
+		   NULL, "Em vez de liderar o protesto sozinha, ela pediu a Maebara Keiichi que o fizesse.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　市長はすぐにこの水面下の遠回しな根回しを、前原圭一に花を持たせるためにやっているんだなと理解した。",
-		   NULL, "O Prefeito entendeu imediatamente que ela estava fazendo isso para que Keiichi Maebara ficasse com todo o crédito.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O Prefeito entendeu imediatamente que ela estava fazendo isso para que Maebara Keiichi ficasse com todo o crédito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、お魎がそれだけ入れ込む前原圭一という少年に関心を持つのは当然のことだった。",
-		   NULL, "Por causa disso, ela estava muito interessada neste jovem Keiichi Maebara.", Line_Normal);
+		   NULL, "Por causa disso, ela estava muito interessada neste jovem Maebara Keiichi.", Line_Normal);
 	ClearMessage();
 	ModFadeOutBGM( 1, 300, FALSE, 1 );
 
@@ -4422,7 +4422,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6098", 256, TRUE);
 	OutputLine(NULL, "「北条沙都子さんですね？",
-		   NULL, "\"Satoko Houjou-san?", Line_WaitForInput);
+		   NULL, "\"Houjou Satoko-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6099", 256, TRUE);
 	OutputLine(NULL, "　こちらは興宮児童相談所の原山と申します。",
 		   NULL, " Aqui é Harayama, falando do centro de consulta infantil.", Line_WaitForInput);

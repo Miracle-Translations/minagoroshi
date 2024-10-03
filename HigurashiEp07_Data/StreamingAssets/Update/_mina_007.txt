@@ -1099,7 +1099,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900189", 256, TRUE);
 	OutputLine(NULL, "「くすくす、古手梨花が夢にうなされたので派遣をお願いします、なんて言えませんものねぇ。",
-		   NULL, "\"Hihi... É verdade, você não pode pedir que eles venham só porque Rika Furude teve um pesadelo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Hihi... É verdade, você não pode pedir que eles venham só porque Furude Rika teve um pesadelo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

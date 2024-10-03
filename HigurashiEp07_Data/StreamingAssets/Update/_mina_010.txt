@@ -122,7 +122,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花が、そんな言葉を発するなんて誰も思わなかったからだ。",
-		   NULL, "Ninguém esperava que Rika Furude falasse assim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ninguém esperava que Furude Rika falasse assim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1204,7 +1204,7 @@ void main()
 	OutputLine(NULL, "「私、雛見沢分校教諭の知恵と申します…！",
 		   NULL, "\"Meu nome é Chie e eu sou a professora da Escola Secundária de Hinamizawa!", Line_WaitForInput);
 	OutputLine(NULL, "　北条沙都子さんはいらっしゃいますか。」",
-		   NULL, " Satoko Houjou-san está aqui?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Houjou Satoko-san está aqui?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ddc16b>鉄平</color>", NULL, "<color=#ddc16b>Teppei</color>", NULL, Line_ContinueAfterTyping); }
@@ -1952,7 +1952,7 @@ void main()
 		   NULL, "Você é quem tem que fazer essas coisas!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100419", 256, TRUE);
 	OutputLine(NULL, "　園崎詩音だろッ？！",
-		   NULL, " Shion Sonozaki!!", Line_WaitForInput);
+		   NULL, " Sonozaki Shion!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100420", 256, TRUE);
 	OutputLine(NULL, "　お前が本当に目指す世界には、お前が沙都子の脇にいなければ駄目なんだよ！！",
 		   NULL, " Você tem que estar ao lado dela em todos os momentos!!", Line_WaitForInput);
@@ -2031,7 +2031,7 @@ void main()
 		   NULL, "\"Então é assim?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600144", 256, TRUE);
 	OutputLine(NULL, "なら圭ちゃんは北条鉄平を庇ってるってわけですね。",
-		   NULL, " Isso significa que você está do lado de Teppei Houjou.", Line_WaitForInput);
+		   NULL, " Isso significa que você está do lado de Houjou Teppei.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600145", 256, TRUE);
 	OutputLine(NULL, "なら同罪だ、お前から先に頭を叩き割ってやるッ！！！」",
 		   NULL, " Você é tão culpado quanto ele. Vou abrir sua cabeça e te matar primeiro!!!\"", Line_Normal);
@@ -2163,7 +2163,7 @@ void main()
 		   NULL, " Confie em mim!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100439", 256, TRUE);
 	OutputLine(NULL, "　前原圭一が必ず沙都子を救う！",
-		   NULL, " Eu, Keiichi Maebara, prometo que vou salvar a Satoko! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu, Maebara Keiichi, prometo que vou salvar a Satoko! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100440", 256, TRUE);
 	OutputLine(NULL, "　だからそいつに賭けてみろ！！！」",
@@ -2412,7 +2412,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>校長</color>", NULL, "<color=#f5e6d3>Diretor</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/183200008", 256, TRUE);
 	OutputLine(NULL, "「園崎詩音くん。",
-		   NULL, "\"Shion Sonozaki-kun...", Line_WaitForInput);
+		   NULL, "\"Sonozaki Shion-kun...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/183200009", 256, TRUE);
 	OutputLine(NULL, "私は言葉の中でもっとも憎むべきものがあるのを知っている。",
 		   NULL, " há uma expressão que eu realmente não gosto.", Line_WaitForInput);
@@ -2576,7 +2576,7 @@ void main()
 		   NULL, "Fica vendo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100464", 256, TRUE);
 	OutputLine(NULL, "前原圭一が、絶対と言ったらそれは絶対なんだッ！！」",
-		   NULL, " Eu, Keiichi Maebara, estou prometendo isso a você!\"", Line_Normal);
+		   NULL, " Eu, Maebara Keiichi, estou prometendo isso a você!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

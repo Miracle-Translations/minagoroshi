@@ -21,12 +21,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "件　名　　北条サトコさんの件",
-		   NULL, "Assunto: Sobre Satoko Houjou-san.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Assunto: Sobre Houjou Satoko-san.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "来訪者　　前原圭一　外４名（関係：友人）",
-		   NULL, "Visitante: Keiichi Maebara e outras quatro amigas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Visitante: Maebara Keiichi e outras quatro amigas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	SetSpeedOfMessage( FALSE, 0 );
 
@@ -35,7 +35,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "・北条サトコさんが叔父に虐待を受けているので、一時保護をしてほしい旨、訴えがありました。",
-		   NULL, "・ Eles estão solicitando proteção para Satoko Houjou-san, para salvá-la de ser abusada por seu tio.", Line_WaitForInput);
+		   NULL, "・ Eles estão solicitando proteção para Houjou Satoko-san, para salvá-la de ser abusada por seu tio.", Line_WaitForInput);
 	OutputLine(NULL, "（対応中？）",
 		   NULL, " (Já está sendo tratado?)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

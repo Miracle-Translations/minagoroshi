@@ -675,7 +675,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "高野一二三記ス",
-		   NULL, "de Hifumi Takano", Line_ContinueAfterTyping);
+		   NULL, "de Takano Hifumi", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 1, 0, FALSE );
 
@@ -1593,7 +1593,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　信心深い老人たちは、先日死んだ古手梨花の死による祟りだと信じ、ひたすら数珠を揉み続けていた。",
-		   NULL, "Os mais religiosos entre os idosos continuaram esfregando seus Juzu, acreditando que se tratava da maldição de Rika Furude, que faleceu no dia anterior.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os mais religiosos entre os idosos continuaram esfregando seus Juzu, acreditando que se tratava da maldição de Furude Rika, que faleceu no dia anterior.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2098,7 +2098,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900344", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまの生まれ変わりである古手梨花を綿流しにするという冒涜によって、オヤシロさまの怒りが村に下される。",
-		   NULL, "Oyashiro-sama punirá este vilarejo por causa da profanação de realizar o Watanagashi na sua reencarnação, Rika Furude. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Oyashiro-sama punirá este vilarejo por causa da profanação de realizar o Watanagashi na sua reencarnação, Furude Rika. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900345", 256, TRUE);
 	OutputLine(NULL, "それで、この５年間の連続した祟りは本当の神罰に昇格される。",

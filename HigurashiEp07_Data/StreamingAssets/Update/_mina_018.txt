@@ -147,7 +147,7 @@ void main()
 		   NULL, "\"Kasai, você o investigou, certo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600367", 256, TRUE);
 	OutputLine(NULL, "　北条鉄平のこと。」",
-		   NULL, " O passado de Teppei Houjou.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O passado de Houjou Teppei.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -237,7 +237,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なるほどな、これが園崎天皇とか鬼婆とか呼ばれる園崎お魎ってわけか。",
-		   NULL, "Essa era Oryou Sonozaki, conhecida também como \"a bruxa\" ou \"Imperatriz Sonozaki.\"", Line_Normal);
+		   NULL, "Essa era Sonozaki Oryou, conhecida também como \"a bruxa\" ou \"Imperatriz Sonozaki.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -387,10 +387,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101425", 256, TRUE);
 	OutputLine(NULL, "「園崎お魎さん。",
-		   NULL, "\"Oryou Sonozaki-san...", Line_WaitForInput);
+		   NULL, "\"Sonozaki Oryou-san...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101426", 256, TRUE);
 	OutputLine(NULL, "前原圭一と申します。",
-		   NULL, " Meu nome é Keiichi Maebara.", Line_WaitForInput);
+		   NULL, " Meu nome é Maebara Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101427", 256, TRUE);
 	OutputLine(NULL, "まだ引っ越してきたばかりですが、よろしくお願いします。」",
 		   NULL, " Eu me mudei pra cá faz pouco tempo. Prazer em conhecê-la.\"", GetGlobalFlag(GLinemodeSp));
@@ -437,7 +437,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101428", 256, TRUE);
 	OutputLine(NULL, "「北条沙都子かどうかが問題じゃない。",
-		   NULL, "\"Deixe de lado o fato de que é Satoko Houjou por um minuto.", Line_WaitForInput);
+		   NULL, "\"Deixe de lado o fato de que é Houjou Satoko por um minuto.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101429", 256, TRUE);
 	OutputLine(NULL, "村の一員が今、危機的な状況にあります。",
 		   NULL, " O importante a notar é que uma moradora está em perigo neste momento. ", GetGlobalFlag(GLinemodeSp));
@@ -839,7 +839,7 @@ void main()
 		   NULL, " Eu não sou um forasteiro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101466", 256, TRUE);
 	OutputLine(NULL, "俺は雛見沢の前原圭一だ。",
-		   NULL, " Eu sou Keiichi Maebara, de Hinamizawa.", Line_WaitForInput);
+		   NULL, " Eu sou Maebara Keiichi, de Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101467", 256, TRUE);
 	OutputLine(NULL, "雛見沢の仲間を助けるために戦ってる。",
 		   NULL, " Estou lutando pra salvar minha amiga, que também é de Hinamizawa.", Line_WaitForInput);
@@ -894,7 +894,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101470", 256, TRUE);
 	OutputLine(NULL, "……北条沙都子を救うために、園崎家も協力してください。",
-		   NULL, "Queremos a ajuda da família Sonozaki pra salvar Satoko Houjou.", Line_WaitForInput);
+		   NULL, "Queremos a ajuda da família Sonozaki pra salvar Houjou Satoko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101471", 256, TRUE);
 	OutputLine(NULL, "沙都子は村の一員です。",
 		   NULL, " Satoko mora neste vilarejo também.", Line_WaitForInput);
@@ -3073,7 +3073,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/183000018", 540, TRUE);
 	OutputLine(NULL, "「そ、そうですか園崎顧問が…！",
-		   NULL, "\"O-Oryou Sonozaki-san disse isso...?", Line_WaitForInput);
+		   NULL, "\"O-Sonozaki Oryou-san disse isso...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000019", 540, TRUE);
 	OutputLine(NULL, "　……………………ま、",
 		   NULL, " ............Bom,", Line_Continue);

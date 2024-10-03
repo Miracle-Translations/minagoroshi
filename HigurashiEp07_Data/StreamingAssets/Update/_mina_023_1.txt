@@ -668,7 +668,7 @@ void main()
 		   NULL, "\"Quando um corpo é queimado, os registros dentários são a única maneira de identificá-lo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700140", 256, TRUE);
 	OutputLine(NULL, "例えば、これは推理小説的な荒技ですが、興宮のデンタルクリニックに残されていた『鷹野三四』の歯型のカルテ、",
-		   NULL, " Esse tipo de coisa só aconteceria em um mistério fictício, mas e se, por exemplo, alguém falsificasse os registros dentários de Miyo Takano? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Esse tipo de coisa só aconteceria em um mistério fictício, mas e se, por exemplo, alguém falsificasse os registros dentários de Takano Miyo? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700141", 256, TRUE);
 	OutputLine(NULL, "これが、巧妙な手口で捏造されていたら、誤認もありえる。",
@@ -703,7 +703,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi6135", 256, TRUE);
 	OutputLine(NULL, "「鷹野三四は先日以来、車ごと行方不明です。",
-		   NULL, "\"Desde ontem à noite, Miyo Takano e seu carro desapareceram.", Line_WaitForInput);
+		   NULL, "\"Desde ontem à noite, Takano Miyo e seu carro desapareceram.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6136", 256, TRUE);
 	OutputLine(NULL, "岐阜の死体が鷹野でないなら、……これは何だか面白そうな話になってきます。」",
 		   NULL, " Se aquele corpo encontrado em Gifu não for dela... esse caso ficaria bem mais interessante.\"", GetGlobalFlag(GLinemodeSp));

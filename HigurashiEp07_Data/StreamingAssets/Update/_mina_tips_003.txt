@@ -8,7 +8,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、自分が初めて家族の存在を知った時、自分を４人家族だと信じて疑わなかった。",
-		   NULL, "Rika Furude sempre pensou que havia quatro membros em sua família.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika sempre pensou que havia quatro membros em sua família.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -199,7 +199,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花の人生は確かに運命の袋小路に埋もれ、悲惨の一言に尽きる。",
-		   NULL, "O destino de Rika Furude é um trágico beco sem saída.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O destino de Furude Rika é um trágico beco sem saída.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

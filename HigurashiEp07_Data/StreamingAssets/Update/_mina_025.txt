@@ -2466,7 +2466,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700174", 256, TRUE);
 	OutputLine(NULL, "「……今ね、古手梨花から電話がありました。",
-		   NULL, "\".......Acabei de receber uma ligação da Rika Furude.", Line_WaitForInput);
+		   NULL, "\".......Acabei de receber uma ligação da Furude Rika.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700175", 256, TRUE);
 	OutputLine(NULL, "匿名の電話があり、彼女の命を誰かが狙っているらしいと警告してきたらしいって言うんです。」",
 		   NULL, " Alguém ligou para avisá-la que ela seria assassinada.\"", Line_Normal);
@@ -2515,7 +2515,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花は、連続怪死事件の唯一の手掛かりになるかもしれない人間だ。",
-		   NULL, "Rika Furude pode ter algum tipo de dica sobre as misteriosas mortes em Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Furude Rika pode ter algum tipo de dica sobre as misteriosas mortes em Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3015,7 +3015,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どう冷静を装っても、古手梨花の人生がより良くなることを祈ってしまう。",
-		   NULL, "Não consigo parar de esperar uma vida melhor para Rika Furude.", Line_Normal);
+		   NULL, "Não consigo parar de esperar uma vida melhor para Furude Rika.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
