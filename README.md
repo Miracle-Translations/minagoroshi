@@ -16,13 +16,13 @@ Veja o progresso da tradução [aqui](https://docs.google.com/spreadsheets/d/1DJ
 
 ### Arcos de Perguntas ( 無印 Mujirushi / Question Arcs )
 
-[Cap. 1 - Onikakushi](https://github.com/0Mateus/onikakushi/releases/latest)
+[Cap. 1 - Onikakushi](https://github.com/0Mateus/onikakushi)
 
-[Cap. 2 - Watanagashi](https://github.com/0Mateus/watanagashi/releases/latest)
+[Cap. 2 - Watanagashi](https://github.com/0Mateus/watanagashi)
 
-[Cap. 3 - Tatarigoroshi](https://github.com/0Mateus/tatarigoroshi/releases/latest)
+[Cap. 3 - Tatarigoroshi](https://github.com/0Mateus/tatarigoroshi)
 
-[Cap. 4 - Himatsubushi](https://github.com/0Mateus/himatsubushi/releases/latest)
+[Cap. 4 - Himatsubushi](https://github.com/0Mateus/himatsubushi)
 
 ### Arcos de Respostas ( 解 Kai / Answer Arcs )
 
