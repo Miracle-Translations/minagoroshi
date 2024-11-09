@@ -18,7 +18,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この度は『ひぐらしのなく頃に解』皆殺し編をお楽しみいただき、誠にありがとうございます。",
-		   NULL, "Obrigado por jogar\nHigurashi no Naku Koro ni Kai - Cap. 7 Minagoroshi.", Line_Normal);
+		   NULL, "Obrigado por jogar\n\"Higurashi no Naku Koro ni Kai - Cap. 7 Minagoroshi\".", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -125,7 +125,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日まで『ひぐらし』を支えてくださったのは皆さんに心より感謝いたします。",
-		   NULL, "Muito obrigado por apoiar Higurashi.", Line_Normal);
+		   NULL, "Muito obrigado por apoiar \"Higurashi\".", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -169,7 +169,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これだけの長い物語となった『ひぐらしのなく頃に』の、締めとなるシナリオとして見事描ききれるかどうか、",
-		   NULL, "Estou sobrecarregado com a pressão de escrever o último capítulo de Higurashi no Naku Koro ni,", Line_WaitForInput);
+		   NULL, "Estou sobrecarregado com a pressão de escrever o último capítulo de \"Higurashi no Naku Koro ni\",", Line_WaitForInput);
 	OutputLine(NULL, "早くもプレッシャーでいっぱいですが、頑張ろうと思います。",
 		   NULL, " que acabou sendo uma longa história.", Line_Normal);
 	ClearMessage();
