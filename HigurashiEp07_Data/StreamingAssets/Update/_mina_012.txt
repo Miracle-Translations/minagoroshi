@@ -899,14 +899,14 @@ void main()
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/keiichi6085", 256, TRUE);
 	OutputLine(NULL, "「家庭裁判所は、子の親族又は検察官の請求によって、その親権の喪失を宣告することができる。",
 		   NULL, "\"'A pedido dos familiares da criança ou de um Ministério Público, o tribunal de família pode decidir pela perda do poder parental.'", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "org/keiichi6086", 256, TRUE);
 	OutputLine(NULL, "………何ですかこれ。",
-		   NULL, " Que diabos é isso...? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, " .........Como assim? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/keiichi6087", 256, TRUE);
 	OutputLine(NULL, "あんなヤツの親権を奪うのに、のんびりと家庭裁判所の判断を待たなきゃならないんですか？！",
 		   NULL, "Então, teríamos que sentar e esperar pela decisão do tribunal de família antes que ele pudesse perder a custódia?", Line_WaitForInput);
@@ -1112,7 +1112,7 @@ void main()
 	ClearMessage();
 
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/shion6075", 256, TRUE);
 	OutputLine(NULL, "「相談所の人が行った時、叔父がどういう態度をしたのかわかりませんが、とにかくあいつは乱暴なヤツなんです！！",
 		   NULL, "\"Não sei o que o tio dela disse para a assistente social, mas ele é um cara violento!!", Line_WaitForInput);
