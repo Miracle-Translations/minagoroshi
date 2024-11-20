@@ -163,7 +163,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　残す物語は最後の第８話「祭囃し編」のみとなりました。",
-		   NULL, "O próximo capítulo, Matsuribayashi, será o último da série.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O próximo capítulo, \"Matsuribayashi\", será o último da série.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
