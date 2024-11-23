@@ -81,7 +81,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　このまま放っておけば、私は綿流しの後、何日かでいつものようにフィルムが突然途切れるように殺されて、再び今月の頭に戻るだろう。",
-		   NULL, "Se eu deixar as coisas como estão, alguns dias depois do festival do Watanagashi meu rolo de filme será cortado, pois serei assassinada como sempre, e voltarei ao início deste mês novamente.", Line_Normal);
+		   NULL, "Se eu deixar as coisas como estão, alguns dias depois do Watanagashi meu rolo de filme será cortado, pois serei assassinada como sempre, e voltarei ao início deste mês novamente.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

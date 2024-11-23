@@ -461,7 +461,7 @@ void main()
 		   NULL, "Estamos fazendo algo especial este ano!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300017", 256, TRUE);
 	OutputLine(NULL, "　綿流祭、えっと、６人か！",
-		   NULL, " Esse festival do Watanagashi, pra nós seis...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Esse festival Watanagashi... pra nós seis...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	SetSpeedOfMessage( TRUE, 128 );
 
@@ -1137,7 +1137,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500014", 256, TRUE);
 	OutputLine(NULL, "「そもそも綿流しのお祭りが、楽しいお祭りになったのはここ数年のことでしょう？",
-		   NULL, "\"O festival do Watanagashi só ficou assim há pouco anos, não é mesmo?", Line_WaitForInput);
+		   NULL, "\"O festival Watanagashi só ficou assim há pouco anos, não é mesmo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500015", 256, TRUE);
 	OutputLine(NULL, "　明治以降は退屈な古手家の儀式だし。",
 		   NULL, " Antes era só uma cerimônia tradicional chata que a família Furude realizava. ", GetGlobalFlag(GLinemodeSp));

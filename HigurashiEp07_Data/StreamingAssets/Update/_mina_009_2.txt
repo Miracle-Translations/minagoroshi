@@ -1584,7 +1584,7 @@ void main()
 		   NULL, "\"Tudo bem então...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500489", 256, TRUE);
 	OutputLine(NULL, "でも赤坂は綿流しのお祭りに来るとは言ってませんでしたか？」",
-		   NULL, " Akasaka te contou que ele está vindo pro festival do Watanagashi...?\"", Line_Normal);
+		   NULL, " Akasaka te contou que ele está vindo pro festival Watanagashi...?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }

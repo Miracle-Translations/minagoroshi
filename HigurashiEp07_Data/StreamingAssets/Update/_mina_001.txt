@@ -209,7 +209,7 @@ void main()
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "綿流しのお祭りが来週なのですから……えっとえっと……、」",
-		   NULL, " O festival do Watanagashi é na próxima semana... então...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O festival Watanagashi é na próxima semana... então...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

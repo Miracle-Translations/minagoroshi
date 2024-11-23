@@ -1183,12 +1183,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今年の綿流しは楽しそうだ、",
-		   NULL, "Eles estavam dizendo o quão divertido o festival do Watanagashi seria", Line_ContinueAfterTyping);
+		   NULL, "Eles estavam dizendo o quão divertido o Watanagashi desse ano seria", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 500 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "とか、期待できそうだ、とか。",
-		   NULL, " e quão altas eram suas expectativas em relação a isso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e quão altas eram suas expectativas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

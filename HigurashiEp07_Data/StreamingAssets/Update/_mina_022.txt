@@ -2319,7 +2319,7 @@ void main()
 		   NULL, "\"Não se preocupe.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900213", 256, TRUE);
 	OutputLine(NULL, "…だって、鷹野三四は現に今日、綿流しのお祭りの会場を闊歩していたのよ？",
-		   NULL, " Todo mundo viu Takano Miyo andando no festival do Watanagashi. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Todo mundo viu Takano Miyo andando no festival Watanagashi. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900214", 256, TRUE);
 	OutputLine(NULL, "　例え検死の結果、死後２４時間以上経ってると出たって、御目出度い連中は検死結果の方が間違ってると思ってくれるわよ。",

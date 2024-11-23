@@ -2102,7 +2102,7 @@ void main()
 		   NULL, " Bom, você é bem-vinda aqui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 18, "ps3/s12/18/183300010", 256, TRUE);
 	OutputLine(NULL, "詩音ちゃんも綿流しのお祭り、今年はぜひいらっしゃいよ！」",
-		   NULL, " Você vem para o festival do Watanagashi este ano, certo?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você vem para o festival Watanagashi este ano, certo?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

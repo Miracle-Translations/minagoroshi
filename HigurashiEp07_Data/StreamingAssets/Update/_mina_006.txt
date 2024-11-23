@@ -260,7 +260,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　綿流しが近付くと会合も多くなるから、自転車もまた賑わうことになる。",
-		   NULL, "Há cada vez mais reuniões quando o festival do Watanagashi se aproxima.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Há cada vez mais reuniões quando o Watanagashi se aproxima.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
