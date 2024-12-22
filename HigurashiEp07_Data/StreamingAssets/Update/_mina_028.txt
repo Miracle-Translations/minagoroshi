@@ -3142,7 +3142,7 @@ void main()
 		   NULL, "\"Todo mundo já morreu, mas você ainda está implorando pela sua vida?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900331", 256, TRUE);
 	OutputLine(NULL, "　くっくっくっく！」",
-		   NULL, " Hihihihihi!\"", Line_Normal);
+		   NULL, " Hi hi hi hi!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3161,7 +3161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…鷹野は思わぬ提案に一瞬驚いたが、いやらしい笑みを浮かべて小さく頷いた。",
-		   NULL, "Ainda assim, mesmo surpresa, ela assentiu com um leve sorriso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ainda assim, mesmo surpresa, ela assentiu com um leve sorriso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

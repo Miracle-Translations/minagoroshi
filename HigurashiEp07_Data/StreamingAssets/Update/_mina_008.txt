@@ -1410,7 +1410,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300174", 256, TRUE);
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Hihihi!", Line_WaitForInput);
+		   NULL, "\"He he he!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300175", 256, TRUE);
 	OutputLine(NULL, "　だからね、手牌と仕込んだ牌を、一気に入れ替えちゃうわけよ！",
 		   NULL, " Bem, você troca instantaneamente todas as peças da sua mão pelas peças colocadas!", GetGlobalFlag(GLinemodeSp));
@@ -1468,7 +1468,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこにあるのは自分の手牌１３牌…。",
-		   NULL, "Ela tinha treze peças na frente dela...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela tinha 13 peças na frente dela...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1526,20 +1526,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300179", 256, TRUE);
 	OutputLine(NULL, "「というわけで、ここで、麻雀の詳しくない人にいかに山牌を掴むのが大変かを説明しよう！",
-		   NULL, "\"Deixe-me explicar como é difícil pegar o muro, pra quem não está familiarizado com mahjong!", Line_WaitForInput);
+		   NULL, "\"Deixa eu explicar como é difícil pegar o muro, pra quem não está familiarizado com mahjong!", Line_WaitForInput);
 
 	PlaySE( 0, "s_Kyupiin", 56, 64 );
 
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300180", 256, TRUE);
 	OutputLine(NULL, "　自分の手牌は通常１３牌だ。",
-		   NULL, " Sua mão geralmente é feita de treze peças. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sua mão geralmente é feita de 13 peças. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "s_cork", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300181", 256, TRUE);
 	OutputLine(NULL, "この程度の数なら両手でうまく押さえつけるように持てば、宙に持ち上げることだってできる。",
-		   NULL, "Se você empurrá-las de qualquer lado com força suficiente com as duas mãos, poderá levantá-las no ar.", Line_WaitForInput);
+		   NULL, "Se você segurar essas peças colocando força suficiente com as duas mãos, dá pra levantar elas no ar.", Line_WaitForInput);
 
 	PlaySE( 0, "s_boyoon", 56, 64 );
 	SetValidityOfInput( FALSE );
@@ -1549,7 +1549,7 @@ void main()
 
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300182", 256, TRUE);
 	OutputLine(NULL, "不慣れだと失敗してブチ撒けてしまうが、そう難しいことではない。",
-		   NULL, " Você pode deixá-las cair e espalhá-las se não tiver experiência, mas não é difícil. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se não tiver experiência, você pode acabar deixando elas cairem e fazendo elas se espalharem, mas não é difícil. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wa_011", 56, 64 );
 
@@ -1559,7 +1559,7 @@ void main()
 		   NULL, "Mas não é tão fácil quando é o muro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300184", 256, TRUE);
 	OutputLine(NULL, "山牌は基本的に１７牌ある。",
-		   NULL, " O yamahai geralmente consiste em dezessete peças.", Line_WaitForInput);
+		   NULL, " O yamahai geralmente consiste em 17 peças.", Line_WaitForInput);
 
 	PlaySE( 0, "s_tataku", 56, 64 );
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300185", 256, TRUE);
@@ -1576,7 +1576,7 @@ void main()
 		   NULL, "Essa é a parte mais importante.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300187", 256, TRUE);
 	OutputLine(NULL, "１７牌×２段を丸ごと動かせばいいわけではないのだ。",
-		   NULL, " e Não é só levantar duas fileiras de dezessete peças uma em cima da outra. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E não é só levantar 2 fileiras de 17 peças uma em cima da outra. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "s_furu", 56, 64 );
 	SetValidityOfInput( FALSE );
@@ -1597,7 +1597,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300188", 256, TRUE);
 	OutputLine(NULL, "上段は１７牌全部を、下段は端の４牌のみを移動させなければならない！！",
-		   NULL, "Você precisa levantar as dezessete peças da linha superior e só as quatro peças nas bordas da linha inferior!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Você precisa levantar as 17 peças da linha superior e só as 4 peças nas bordas da linha inferior! ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "s_daidageki", 56, 64 );
 	StartShakingOfWindow( 241, 40, 0, 2, 5*2, FALSE );
@@ -1605,7 +1605,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300189", 256, TRUE);
 	OutputLine(NULL, "　これを先ほど山の向こうに置いた手牌１３牌にかぶせることで、手牌は山の中に埋もれ、さっき山牌を移す時に残した下段の１３牌が、“自分の手牌”として残るのだ！！",
-		   NULL, "Ao colocá-las nas treze peças de sua mão que estão atrás do muro, você pode juntar a sua mão com o muro, e as treze peças inferiores que sobraram da movimentação do muro se tornarão a sua nova mão!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ao colocá-las nas 13 peças de sua mão que estão atrás do muro, você pode juntar a sua mão com o muro, e as 13 peças inferiores que sobraram da movimentação do muro se tornarão a sua nova mão! ", GetGlobalFlag(GLinemodeSp));
 
 	SetSpeedOfMessage( TRUE, 128 );
 	PlaySE( 0, "s_daidageki", 56, 64 );
@@ -1620,7 +1620,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300191", 256, TRUE);
 	OutputLine(NULL, "　全１３牌を丸ごと全部入れ替えてしまう大技なのだぁあぁ！！！」",
-		   NULL, "É uma técnica que permite trocar todas as treze peças em uma fração de segundo!!\"", Line_Normal);
+		   NULL, "É uma técnica que permite trocar todas as 13 peças em uma fração de segundo!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1744,7 +1744,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100351", 256, TRUE);
 	OutputLine(NULL, "ちょっと俺もやってみる！」",
-		   NULL, "Deixe-me tentar!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Deixa eu tentar!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1804,7 +1804,7 @@ void main()
 		   NULL, "Estou orgulhosa de como os membros do meu clube estão crescendo e se tornando crianças decentes!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300194", 256, TRUE);
 	OutputLine(NULL, "　くっくっく！」",
-		   NULL, " Hihihi!\"", Line_Normal);
+		   NULL, " He he he!\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskright", 1, 0, 300 );
@@ -1854,7 +1854,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200195", 256, TRUE);
 	OutputLine(NULL, "「最初の１３牌を持ち上げるのも難しい〜。",
-		   NULL, "\"É tão difícil levantar as primeiras treze peças.", Line_WaitForInput);
+		   NULL, "\"É tão difícil levantar as primeiras 13 peças.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200196", 256, TRUE);
 	OutputLine(NULL, "はぅ〜…。」",
 		   NULL, " Hau...\"", GetGlobalFlag(GLinemodeSp));
@@ -1925,7 +1925,7 @@ void main()
 		   NULL, "\"Mii!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500419", 256, TRUE);
 	OutputLine(NULL, "　最初の１３個をうまく持てましたのです！」",
-		   NULL, " Eu levantei as primeiras treze peças!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu levantei as primeiras 13 peças!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2024,7 +2024,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　次は山牌を、上段は全て、下段は４つだけを奥にするっと移動させる…。",
-		   NULL, "Tive que levantar toda a linha superior e apenas quatro peças da linha inferior...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tive que levantar toda a linha superior e apenas 4 peças da linha inferior...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2059,7 +2059,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300197", 256, TRUE);
 	OutputLine(NULL, "「やっぱり横に１７牌もあると、それだけで難易度は急激に高くなるねぇ。」",
-		   NULL, "\"Com o número de peças aumentando pra dezessete, ficou mais difícil, não foi?\"", Line_Normal);
+		   NULL, "\"Com o número de peças aumentando pra 17, ficou mais difícil, não foi?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -2090,7 +2090,7 @@ void main()
 		   NULL, "\"Hmm... Será que eu faço?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300199", 256, TRUE);
 	OutputLine(NULL, "　くっくっく！」",
-		   NULL, " Hihihi!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " He he he!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2463,7 +2463,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300205", 256, TRUE);
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Hihihi!", Line_WaitForInput);
+		   NULL, "\"He he he!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300206", 256, TRUE);
 	OutputLine(NULL, "　我が部の精鋭を侮ってもらっちゃ困りますねぇ！",
 		   NULL, " Por favor, não subestime meu clube!", GetGlobalFlag(GLinemodeSp));

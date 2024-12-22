@@ -1322,7 +1322,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300084", 256, TRUE);
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Hihihi!", Line_WaitForInput);
+		   NULL, "\"He he he!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300085", 256, TRUE);
 	OutputLine(NULL, "　詩音は缶詰がダメなんだよねぇ〜！」",
 		   NULL, " Você não gosta de comida enlatada, não é, Shion?\"", Line_Normal);
@@ -1381,7 +1381,7 @@ void main()
 	Wait( 2800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "くっくっく！！」",
-		   NULL, " hihihi!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " he he he!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1594,7 +1594,7 @@ void main()
 		   NULL, " Não dá pra você ter certeza de que não tem nada dentro... né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300090", 256, TRUE);
 	OutputLine(NULL, "　くっくっく！」",
-		   NULL, " Hihihi...\"", Line_Normal);
+		   NULL, " He he he...\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );

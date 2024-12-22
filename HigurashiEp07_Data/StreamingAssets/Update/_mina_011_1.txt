@@ -236,7 +236,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300263", 256, TRUE);
 	OutputLine(NULL, "「くっくっくっく！　まぁまぁ、そこは国家機密ということで。」",
-		   NULL, "\"Hihihihi! Isso é segredo nacional.\"", Line_Normal);
+		   NULL, "\"He he he he! Isso é segredo nacional.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -560,7 +560,7 @@ void main()
 		   NULL, " Mas você também me impressionou, Kei-chan.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300287", 256, TRUE);
 	OutputLine(NULL, "ちょっとカッコ良かったかもだね！　くっくっく！」",
-		   NULL, " Você estava bem legal hoje... Hihihi!\"", Line_Normal);
+		   NULL, " Você estava bem legal hoje... He he he!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

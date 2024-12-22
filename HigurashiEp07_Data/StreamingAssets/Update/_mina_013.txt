@@ -2390,7 +2390,7 @@ void main()
 		   NULL, " ...Fazia tempo que o sangue da velha não fervia dessa forma.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300400", 256, TRUE);
 	OutputLine(NULL, "くっくっく！」",
-		   NULL, " Hihihi!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " He he he!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

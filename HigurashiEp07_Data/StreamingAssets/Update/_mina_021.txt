@@ -1523,7 +1523,7 @@ void main()
 		   NULL, "\"Nah, eu acho que ele gosta mais de brincar de ginecologista.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6164", 256, TRUE);
 	OutputLine(NULL, "くっくっく！」",
-		   NULL, " Hihihi!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " He he he!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

@@ -1354,7 +1354,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300306", 256, TRUE);
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Hihihi!", Line_WaitForInput);
+		   NULL, "\"He he he!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300307_1", 256, TRUE);
 	OutputLine(NULL, "　私は誰だと思ってんの。市長懇親会メンバーにして市政モニター会員、園崎お魎の代理だよ？",
 		   NULL, " Quem você acha que eu sou? Represento Sonozaki Oryou, membro da reunião social do prefeito e do comitê de monitoramento do governo local.", Line_WaitForInput);

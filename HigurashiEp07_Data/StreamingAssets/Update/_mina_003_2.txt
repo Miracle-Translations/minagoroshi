@@ -441,7 +441,7 @@ void main()
 		   NULL, "\"Ela é tão apaixonada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300105", 256, TRUE);
 	OutputLine(NULL, "将来の妹のつもりなのかねぇ、くっくっく！」",
-		   NULL, " Talvez ela a veja como sua futura irmã mais nova. Heh heh heh!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Talvez ela a veja como sua futura irmã mais nova. He he he!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "black", 1000 );

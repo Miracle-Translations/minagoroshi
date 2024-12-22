@@ -1154,7 +1154,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300450", 256, TRUE);
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Heh heh heh!", Line_WaitForInput);
+		   NULL, "\"He he he!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300451", 256, TRUE);
 	OutputLine(NULL, "　そこは圭ちゃんやってくれますからねぇ！」",
 		   NULL, " Kei-chan é muito talentoso com essas coisas!\"", GetGlobalFlag(GLinemodeSp));

@@ -3738,7 +3738,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600039", 256, TRUE);
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Hihihi!", Line_WaitForInput);
+		   NULL, "\"He he he!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/280600040", 256, TRUE);
 	OutputLine(NULL, "　こんな時間にぬけぬけとそんなこと電話したら、あとでこってり絞られますねー。」",
 		   NULL, " Se você fizer uma ligação dessas assim do nada, aquela velha te mataria quando chegar em casa.\"", Line_Normal);
