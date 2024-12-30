@@ -3199,7 +3199,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　退屈なのかと話し掛けられる覚えがないので、他の人に話しかけたのを勘違いしたのかと思って周りをキョロキョロする。",
-		   NULL, "Isso nunca tinha acontencido antes, então pensei que ele estava falando com outra pessoa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Isso nunca tinha acontecido antes, então pensei que ele estava falando com outra pessoa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
