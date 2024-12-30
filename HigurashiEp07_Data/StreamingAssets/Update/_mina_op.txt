@@ -68,7 +68,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからあなたが自我を持ったって不思議なんて思わないわ。",
-		   NULL, "Portanto, não é uma estranho ver você ter a sua própria vontade.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Portanto, não é estranho ver você ter a sua própria vontade.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
