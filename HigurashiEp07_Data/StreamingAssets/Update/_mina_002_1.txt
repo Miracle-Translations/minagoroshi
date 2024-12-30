@@ -5235,7 +5235,7 @@ void main()
 		   NULL, "\"Temos um acordo agora!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100114", 256, TRUE);
 	OutputLine(NULL, "　俺たちの卓は白ヒゲ危機一髪で勝負だー！！」",
-		   NULL, " Vamos jogar Pop-up Pirata!!\"", Line_Normal);
+		   NULL, " Vamos jogar Pula Pirata!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
