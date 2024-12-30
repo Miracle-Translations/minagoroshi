@@ -47,7 +47,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6005", 256, TRUE);
 	OutputLine(NULL, "私みたいな男女に渡してもほら、人形の方が可哀想というか、あはははは…！」",
-		   NULL, "Esta boneca não merce pertencer a uma garota masculinizada como eu... Ahahahahaha!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Esta boneca não merece pertencer a uma garota masculinizada como eu... Ahahahahaha!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
