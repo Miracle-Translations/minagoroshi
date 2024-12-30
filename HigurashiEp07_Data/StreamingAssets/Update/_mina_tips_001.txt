@@ -87,7 +87,7 @@ void main()
 	OutputLine(NULL, "　人の身である以上、やがては焼かれて灰になる。",
 		   NULL, "Nós, que somos humanos, nos transformaremos em cinzas.", Line_WaitForInput);
 	OutputLine(NULL, "肉の身は灰となるのが定めなのだ。",
-		   NULL, " Esse é destino inevitável da carne.", Line_Normal);
+		   NULL, " Esse é o destino inevitável da carne.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
