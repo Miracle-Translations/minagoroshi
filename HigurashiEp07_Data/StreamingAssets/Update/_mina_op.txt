@@ -565,7 +565,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　くすくす。",
-		   NULL, "Hi hi...", Line_WaitForInput);
+		   NULL, "Hihi...", Line_WaitForInput);
 	OutputLine(NULL, "…そうよね、そこはとても面白いところ。",
 		   NULL, " ...É muito interessante, não é?", Line_Normal);
 	ClearMessage();
@@ -1137,7 +1137,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あら、くすくす。",
-		   NULL, "Ahh, hihihi...", Line_WaitForInput);
+		   NULL, "Ahh, hihi...", Line_WaitForInput);
 	OutputLine(NULL, "それは真っ先に気付くところよね。",
 		   NULL, " Isso lembra a outra coisa que descobrimos, não é...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
