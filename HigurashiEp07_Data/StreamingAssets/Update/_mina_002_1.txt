@@ -2420,7 +2420,7 @@ void main()
 	OutputLine(NULL, "　私が聞いてないと思って、もう一度声を掛け直すのが照れ臭くなって、",
 		   NULL, "Ela provavelmente presumiu que eu não estava ouvindo ela,", Line_WaitForInput);
 	OutputLine(NULL, "近くの圭一に言い直したのだろう…。",
-		   NULL, " então ela deicidiu falar com o Keiichi...", Line_Normal);
+		   NULL, " então ela decidiu falar com o Keiichi...", Line_Normal);
 	ClearMessage();
 
 	ModPlayBGM( 0, "it_moves", 56, 0, 1 );
