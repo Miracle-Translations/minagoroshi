@@ -677,7 +677,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100078", 256, TRUE);
 	OutputLine(NULL, "「…………今度こそ、昭和５８年の死の運命から、逃れられるのでしょうか。」",
-		   NULL, "\".......Talvez nós possamos escapar da morte de 1983 desta vez.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\".......Talvez nós possamos escapar da morte de Showa 58 (1983) desta vez.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -836,7 +836,7 @@ void main()
 		   NULL, "\"Certo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/s12/12/181100081", 256, TRUE);
 	OutputLine(NULL, "………どうして梨花が、必ず昭和５８年に殺されるか、ですね？」",
-		   NULL, ".... Você quer saber por que está sendo assassinada em 1983?\"", Line_Normal);
+		   NULL, ".... Você quer saber por que está sendo assassinada em Showa 58 (1983)?\"", Line_Normal);
 	ClearMessage();
 	ModPlayBGM( 0, "instict", 56, 0, 1 );
 
@@ -1370,7 +1370,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　案外、私が昭和５８年まで存命できるのも、彼らの水面下の努力によるものなのかもしれないのだから。",
-		   NULL, "É possível que a única razão pela qual eu tenha vivido até 1983 tenha sido o esforço deles...", Line_Normal);
+		   NULL, "É possível que a única razão pela qual eu tenha vivido até Showa 58 (1983) tenha sido o esforço deles...", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/hu_r4", "maskup", 1, 0, 1300 );

@@ -204,7 +204,7 @@ void main()
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…昭和５８年、６月なのです。",
-		   NULL, "... Estamos em junho de 1983.", Line_Continue);
+		   NULL, "... Estamos em junho de Showa 58 (1983).", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -240,7 +240,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年６月の中旬。",
-		   NULL, "Foi em meados de junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Foi em meados de junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -258,7 +258,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500009", 256, TRUE);
 	OutputLine(NULL, "「私がまた昭和５８年の６月にいるということは、………そうか。",
-		   NULL, "\"Se estamos em junho de 1983... entendo...", Line_WaitForInput);
+		   NULL, "\"Se estamos em junho de Showa 58 (1983)... entendo...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500010", 256, TRUE);
 	OutputLine(NULL, "また私は殺されたのか。」",
 		   NULL, " Eu fui morta novamente...\"", Line_Normal);
@@ -873,7 +873,7 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "……本当に久しい経験。",
-		   NULL, " Eu não me sentia assim desde que comecei minha vida sem fim em 1983...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu não me sentia assim desde que comecei minha vida sem fim em Showa 58 (1983)...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

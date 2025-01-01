@@ -86,7 +86,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうして、永遠に昭和５８年の６月を生き続ける。",
-		   NULL, "E então continuarei a viver para sempre em junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "E então continuarei a viver para sempre em junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

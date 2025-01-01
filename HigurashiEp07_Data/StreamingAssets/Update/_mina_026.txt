@@ -1720,7 +1720,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その結果、昭和５８年当時、警察はすでに公にできない特殊部隊をいくつか設立し運用を開始していた。",
-		   NULL, "Como resultado, em 1983, até a polícia começou a formar unidades secretas de forças especiais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como resultado, em Showa 58 (1983), até a polícia começou a formar unidades secretas de forças especiais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1739,7 +1739,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-7>", Line_Continue); }
 	OutputLine(NULL, "　核を持てど使えない世界の戦争は、少数精鋭の特殊部隊による首都撹乱であると想定し、警視庁も首都治安の切り札として昭和５２年、ＳＡＴの前身である特殊部隊ＳＡＰを組織。",
-		   NULL, "Eles teorizaram que num mundo onde as nações possuíam armas nucleares que não podem usar, pequenas forças especiais de elite que perturbassem as áreas metropolitanas seriam a nova forma de travar a guerra, por isso, em 1977, desenvolveram o antecessor do SAT, a força-tarefa especial SAP, para servir como trunfo da Agência Nacional de Polícia para garantir a paz.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles teorizaram que num mundo onde as nações possuíam armas nucleares que não podem usar, pequenas forças especiais de elite que perturbassem as áreas metropolitanas seriam a nova forma de travar a guerra, por isso, em Showa 52 (1977), desenvolveram o antecessor do SAT, a força-tarefa especial SAP, para servir como trunfo da Agência Nacional de Polícia para garantir a paz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1790,7 +1790,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、昭和中期の反戦ムードがこれらの部隊の存在を嫌ったため、昭和５８年の当時にはこういった特殊部隊は国民には隠蔽されていた。",
-		   NULL, "Mas desde que surgiu o movimento anti-guerra no meio do século, as pessoas começaram a se ressentir dessas forças, então estas unidades especiais foram mantidas em segredo em 1983.", Line_Normal);
+		   NULL, "Mas desde que surgiu o movimento anti-guerra no meio do século, as pessoas começaram a se ressentir dessas forças, então estas unidades especiais foram mantidas em segredo em Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 
@@ -1928,7 +1928,7 @@ void main()
 		   NULL, " descobrindo muitas respostas com base nisso. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５４年、山狗が拉致した、バラバラ殺人事件の犯人という末期発症者の生体を得た時点で『雛見沢症候群』の劇的解明に至った。",
-		   NULL, "Em 1979, a Yamainu sequestrou o culpado do assassinato por desmembramento do líder da construção da represa, que era um paciente terminal da Síndrome de Hinamizawa. A natureza da doença foi dramaticamente esclarecida.", Line_Normal);
+		   NULL, "Em Showa 54 (1979), a Yamainu sequestrou o culpado do assassinato por desmembramento do líder da construção da represa, que era um paciente terminal da Síndrome de Hinamizawa. A natureza da doença foi dramaticamente esclarecida.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2125,7 +2125,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江はそれを３カ年計画として立案し、昭和６１年までに完全治療プランを提案。",
-		   NULL, "Irie fez um plano para os próximos três anos e prometeu-lhes que encontraria uma solução até, no máximo, 1986.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Irie fez um plano para os próximos três anos e prometeu-lhes que encontraria uma solução até, no máximo, Showa 61 (1986).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2372,7 +2372,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この舞台の状況の中で、昭和５８年６月。",
-		   NULL, "Nossa história começa em junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nossa história começa em junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	DrawSceneWithMask( "background/flashback/ryuuketu1", "maskaa", 1, 0, 300 );

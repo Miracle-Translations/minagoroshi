@@ -702,13 +702,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはきっと、昭和５８年の６月を越えるのは私一人では意味がないと私が言うのと同じに違いない。",
-		   NULL, "Tenho certeza de que isso é semelhante à minha afirmação de que não faz sentido viver depois de junho de 1983 se eu sou a única que vive.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tenho certeza de que isso é semelhante à minha afirmação de que não faz sentido viver depois de junho de Showa 58 (1983) se eu sou a única que vive.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私にとっての最良の未来は、昭和５８年の６月を越えて生き延び、",
-		   NULL, "Meu futuro ideal é sobreviver até depois de junho de 1983,", Line_WaitForInput);
+		   NULL, "Meu futuro ideal é sobreviver até depois de junho de Showa 58 (1983),", Line_WaitForInput);
 	OutputLine(NULL, "しかも仲間が誰一人として欠落しない、これまでと同じ楽しい時間が続いていくことだ。",
 		   NULL, " e que os momentos felizes continuem para sempre, sem faltar ninguém.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -879,7 +879,7 @@ void main()
 		   NULL, " Ore pra que possamos persuadir o centro de consulta infantil e salvar a Satoko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500788", 256, TRUE);
 	OutputLine(NULL, "そして私が昭和５８年６月の運命に打ち勝てること。",
-		   NULL, " Ore pra que eu possa derrotar o destino de 1983. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ore pra que eu possa derrotar o destino de Showa 58 (1983). ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500789", 256, TRUE);
 	OutputLine(NULL, "昭和５８年の夏を迎えられたら、ずいぶん昔に約束したとおり、色々なことをして遊ぼう。",
@@ -942,7 +942,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500800", 256, TRUE);
 	OutputLine(NULL, "きっとね、……昭和５８年の大空は、これまでの空とは比べ物にならないくらいに美しいに違いないから。」",
-		   NULL, "Tenho certeza de que o céu do verão de 1983 é mais bonito do que qualquer céu que já vimos.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tenho certeza de que o céu do verão de Showa 58 (1983) é mais bonito do que qualquer céu que já vimos.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

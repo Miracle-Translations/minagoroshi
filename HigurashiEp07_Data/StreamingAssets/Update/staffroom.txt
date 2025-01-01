@@ -135,7 +135,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年当時はどうだったかはさて置き、",
-		   NULL, "Não sei como era em 1983,", Line_WaitForInput);
+		   NULL, "Não sei como era em Showa 58 (1983),", Line_WaitForInput);
 	OutputLine(NULL, "今日の児童福祉行政はとても親身で、劇中で描かれたような意地悪なものでは断じてありません。",
 		   NULL, " mas os centros de consulta infantil não são lugares mesquinhos como descrevi na minha história.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

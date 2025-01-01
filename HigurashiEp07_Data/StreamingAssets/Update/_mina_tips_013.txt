@@ -128,7 +128,7 @@ void main()
 	OutputLine(NULL, "梨花たちは見事、苦難に打ち勝ち、",
 		   NULL, " Rika e seus amigos sobreviveram à luta,", Line_WaitForInput);
 	OutputLine(NULL, "運命を覆して昭和５８年６月を越えるのよ。",
-		   NULL, " e romperam o destino de junho de 1983.", Line_Normal);
+		   NULL, " e romperam o destino de junho de Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -143,7 +143,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　仮に、昭和５８年６月１９日に閉じ込められてしまっても。",
-		   NULL, "Mesmo que ela esteja presa em 19 de junho de 1983...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mesmo que ela esteja presa em 19 de junho de Showa 58 (1983)...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

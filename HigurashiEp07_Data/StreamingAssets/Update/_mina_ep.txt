@@ -655,7 +655,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和二十年一月吉日",
-		   NULL, "Janeiro de 1945", Line_ContinueAfterTyping);
+		   NULL, "Janeiro de Showa 20 (1945)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 1, 0, FALSE );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -698,7 +698,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "昭和５８年６月２３日",
-		   NULL, "23 de junho de 1983", GetGlobalFlag(GLinemodeSp));
+		   NULL, "23 de junho de Showa 58 (1983)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -747,7 +747,7 @@ void main()
 		   NULL, "    ", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLine(NULL, "昭和５８年６月２３日",
-		   NULL, "23 de junho de 1983", GetGlobalFlag(GLinemodeSp));
+		   NULL, "23 de junho de Showa 58 (1983)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	SetSpeedOfMessage( TRUE, 128 );
@@ -1055,7 +1055,7 @@ void main()
 		   NULL, "Uma doença tão perigosa assim só traz prejuízo para este país!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7i6006", 256, TRUE);
 	OutputLine(NULL, "　どうして昭和の５８年までこんな馬鹿げた研究をしていたんだ！",
-		   NULL, " Já estamos em 1983, esse tipo de pesquisa absurda nem deveria continuar existindo!", Line_Normal);
+		   NULL, " Já estamos em Showa 58 (1983), esse tipo de pesquisa absurda nem deveria continuar existindo!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>官房長官</color>", NULL, "<color=#f5e6d3>Secretário-Geral do Gabinete</color>", NULL, Line_ContinueAfterTyping); }
@@ -1500,7 +1500,7 @@ void main()
 	PlayBGM( 1, "type", 56, 0 );
 
 	OutputLine(NULL, "昭和５８年６月２３日",
-		   NULL, "    23 de junho de 1983", Line_ContinueAfterTyping);
+		   NULL, "    23 de junho de Showa 58 (1983)", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 1, 0, FALSE );
 	Wait( 2000 );

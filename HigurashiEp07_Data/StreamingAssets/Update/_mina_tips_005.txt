@@ -189,7 +189,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そうしている内に、沙都子の表情は、いつの間にか鉄平がよく覚えている昭和５７年のそれに戻っていた。",
-		   NULL, "...Ao fazer isso, a expressão dela voltou a ser aquela que ela tinha em 1982, como ele lembrava.", Line_Normal);
+		   NULL, "...Ao fazer isso, a expressão dela voltou a ser aquela que ela tinha em Showa 57 (1982), como ele lembrava.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

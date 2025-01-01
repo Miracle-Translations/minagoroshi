@@ -347,7 +347,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５７年に消息を絶った片思いの恋人の仇討ちが暴走し、大勢の人を殺めてしまう。",
-		   NULL, "Em uma tentativa de vingar o desaparecimento do seu namorado, que aconteceu em 1982, ela saiu do controle e matou muitas pessoas.", Line_Normal);
+		   NULL, "Em uma tentativa de vingar o desaparecimento do seu namorado, que aconteceu em Showa 57 (1982), ela saiu do controle e matou muitas pessoas.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/flashback/so_d1", "maskup", 1, 0, 1000 );
@@ -1492,9 +1492,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今この場にある記憶のカケラはほとんどが昭和５８年のものしかないから、",
-		   NULL, "Quase todos os Fragmentos de memórias que temos aqui são de 1983,", Line_WaitForInput);
+		   NULL, "Quase todos os Fragmentos de memória que temos aqui são de Showa 58 (1983),", Line_WaitForInput);
 	OutputLine(NULL, "昭和５４年から５７年までの事件についてはさっぱりわからないけれど。",
-		   NULL, " então não sei nada sobre os incidentes de 1980 a 1982.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " então não sei nada sobre os incidentes de Showa 55 (1980) até Showa 57 (1982).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1556,7 +1556,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここにあるカケラはほとんどが昭和５８年のものだから、詩音のこの仮説が正しいかは裏付けられないけれど、それでも興味深い部分があるわ。",
-		   NULL, "A maioria dos Fragmentos aqui são de 1983, então não podemos confirmar a teoria de Shion, mas ela ainda é interessante em algumas partes.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A maioria dos Fragmentos aqui são de Showa 58 (1983), então não podemos confirmar a teoria de Shion, mas ela ainda é interessante em algumas partes.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1716,7 +1716,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは例えるなら、昭和５８年６月を塞がれて袋小路にされたようなもの。",
-		   NULL, "É como se junho de 1983 fosse um beco sem saída para ela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "É como se junho de Showa 58 (1983) fosse um beco sem saída para ela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2043,7 +2043,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これを打ち破らない限り、古手梨花に昭和５８年６月以降の未来はないのだから。",
-		   NULL, "A menos que ela a derrote, ela não terá um futuro depois de junho de 1983.", Line_Normal);
+		   NULL, "A menos que ela a derrote, ela não terá um futuro depois de junho de Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2071,7 +2071,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ルールＺがある限り、たとえ昭和５８年の惨劇を逃れても、昭和５９年以降の未来に、またしても惨劇が待ち構えているかもしれないのだから。",
-		   NULL, "Enquanto a Regra Z permanecer, mesmo que ela escape de 1983, é possível que outra tragédia esteja à espera em 1984.", Line_Normal);
+		   NULL, "Enquanto a Regra Z permanecer, mesmo que ela escape de Showa 58 (1983), é possível que outra tragédia esteja à espera em Showa 59 (1984).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2122,7 +2122,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　古手梨花を永遠に昭和５８年６月に幽閉する３つの錠前。",
-		   NULL, "Existem três regras que perseguem Rika no eterno mês de junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Existem três regras que perseguem Rika no eterno mês de junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

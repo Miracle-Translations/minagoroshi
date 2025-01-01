@@ -127,7 +127,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日は昭和５８年６月２１日、火曜日。",
-		   NULL, "Hoje é terça-feira, 21 de junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hoje é terça-feira, 21 de junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -448,7 +448,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500115", 256, TRUE);
 	OutputLine(NULL, "「羽入は、………昭和５８年の６月より先に何があるのか、見たくないの？」",
-		   NULL, "\"Hanyuu...... você não quer ver o que está além de junho de 1983?\"", Line_Normal);
+		   NULL, "\"Hanyuu...... você não quer ver o que está além de junho de Showa 58 (1983)?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
@@ -570,7 +570,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…羽入の言うように全てを諦め、傍観者として昭和５８年の６月を好きなだけ過ごすのもいいだろう。",
-		   NULL, "Talvez não seja uma coisa ruim repetir junho de 1983 de novo e de novo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Talvez não seja uma coisa ruim repetir junho de Showa 58 (1983) de novo e de novo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1193,7 +1193,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500137", 256, TRUE);
 	OutputLine(NULL, "……私にとっての幸せは、みんなと楽しく昭和５８年６月以降も過ごすこと。",
-		   NULL, "Felicidade pra mim seria ver o que está além de junho de 1983, junto com todos vocês.", Line_WaitForInput);
+		   NULL, "Felicidade pra mim seria ver o que está além de junho de Showa 58 (1983), junto com todos vocês.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500138", 256, TRUE);
 	OutputLine(NULL, "だからこそ、６月を潜り抜けるためだけにみんなを巻き込んでも、それは私にとっての幸せではない。」",
 		   NULL, " Não significaria nada se eu vivesse além deste mês de junho sem vocês.\"", Line_Normal);

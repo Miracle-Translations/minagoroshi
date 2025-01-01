@@ -1344,7 +1344,7 @@ void main()
 	OutputLine(NULL, "　去年。",
 		   NULL, "Ano passado...", Line_WaitForInput);
 	OutputLine(NULL, "つまり、昭和５７年の６月は、……沙都子が意地悪な叔母に虐め抜かれた最後の最後の時期だ。",
-		   NULL, " Junho de 1982... Foi quando Satoko estava sendo abusada por sua tia cruel.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Junho de Showa 57 (1982)... Foi quando Satoko estava sendo abusada por sua tia cruel.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4469,7 +4469,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして結局、昭和５８年の綿流しの日の数週間後、",
-		   NULL, "Algumas semanas depois do festival do Watanagashi de 1983...", Line_ContinueAfterTyping);
+		   NULL, "Algumas semanas depois do festival do Watanagashi de Showa 58 (1983)...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
