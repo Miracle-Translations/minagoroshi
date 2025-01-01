@@ -1849,7 +1849,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花ちゃんが、にぱ〜☆と笑う。",
-		   NULL, "Rika-chan sorriu com um \"nipaa~☆\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rika-chan sorriu com um \"nipah~☆\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

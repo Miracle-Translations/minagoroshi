@@ -583,7 +583,7 @@ void main()
 		   NULL, " Estou totalmente bem!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500016", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

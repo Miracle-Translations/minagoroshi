@@ -758,7 +758,7 @@ void main()
 		   NULL, "\"......Eu também adoraria ver que tipo de mágica você pode fazer.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500177", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2008,7 +2008,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺の知る梨花ちゃんは、み〜とか、にぱ〜☆とか、幼児言葉でふざける年下の女の子というイメージだ。",
-		   NULL, "Sempre pensei que Rika era só uma garota inocente que brincava o tempo todo dizendo coisas como \"mii\" e \"nipaa~☆\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sempre pensei que Rika era só uma garota inocente que brincava o tempo todo dizendo coisas como \"mii\" e \"nipah~☆\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

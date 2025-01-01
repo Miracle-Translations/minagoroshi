@@ -2037,7 +2037,7 @@ void main()
 		   NULL, "\"......Já esperava isso do Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500071", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/mati_o1", 300 );
@@ -2474,7 +2474,7 @@ void main()
 		   NULL, "\"Porque uma certa pessoa sempre me olha feio quando peço pra ela ir comprar molho de soja na loja...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500081", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4699,7 +4699,7 @@ void main()
 		   NULL, "\"......Eu sou muito boa em prever coisas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500145", 256, TRUE);
 	OutputLine(NULL, "にぱ〜。」",
-		   NULL, " Nipaa~.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4883,7 +4883,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500151", 256, TRUE);
 	OutputLine(NULL, "「……にぱ〜☆」",
-		   NULL, "\"...Nipaa~☆\"", Line_Normal);
+		   NULL, "\"...Nipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

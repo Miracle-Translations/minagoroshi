@@ -292,7 +292,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500468", 256, TRUE);
 	OutputLine(NULL, "「にぱ〜☆",
-		   NULL, "\"Nipaa~☆", Line_WaitForInput);
+		   NULL, "\"Nipah~☆", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500469", 256, TRUE);
 	OutputLine(NULL, "　…それより今日、沙都子が買い物に来なかったですか？！」",
 		   NULL, " ...Satoko veio aqui hoje, por acaso?\"", GetGlobalFlag(GLinemodeSp));
@@ -1720,7 +1720,7 @@ void main()
 		   NULL, " Agradeço pela ajuda.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500493", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " \nNipaa~☆\"", Line_Normal);
+		   NULL, " \nNipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
