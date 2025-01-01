@@ -163,7 +163,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300053", 256, TRUE);
 	OutputLine(NULL, "「おじさんだって、自分の仲間が可愛いからって推薦したわけじゃないよ。",
-		   NULL, "\"Essa velha aqui não falou de você só por causa da amizade.", Line_WaitForInput);
+		   NULL, "\"Oji-san não falou de você só por causa da amizade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300054", 256, TRUE);
 	OutputLine(NULL, "圭ちゃんならこの大任にきっと応えられるって思ったから推薦したわけさ！」",
 		   NULL, " Ela fez isso porque confia que você pode fazer o trabalho!\"", GetGlobalFlag(GLinemodeSp));
@@ -1714,7 +1714,7 @@ void main()
 		   NULL, "\"Aaaah, eu sei!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300094", 256, TRUE);
 	OutputLine(NULL, "おじさんが持ってきたおはぎだもんだから、何か罠があると思って警戒してるんでしょー。」",
-		   NULL, " Você está sendo cauteloso porque foi essa velha que trouxe, não é?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você está sendo cauteloso porque foi Oji-san que trouxe, não é?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
