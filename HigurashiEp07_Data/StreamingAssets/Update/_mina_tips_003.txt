@@ -163,7 +163,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……………だが、昭和５８年６月。",
-		   NULL, "Mas em junho de 1983...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas em junho de Showa 58 (1983)...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

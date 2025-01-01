@@ -292,7 +292,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500468", 256, TRUE);
 	OutputLine(NULL, "「にぱ〜☆",
-		   NULL, "\"Nipaa~☆", Line_WaitForInput);
+		   NULL, "\"Nipah~☆", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500469", 256, TRUE);
 	OutputLine(NULL, "　…それより今日、沙都子が買い物に来なかったですか？！」",
 		   NULL, " ...Satoko veio aqui hoje, por acaso?\"", GetGlobalFlag(GLinemodeSp));
@@ -1161,13 +1161,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そこにいるのは、一年前の、…昭和５７年の沙都子だった。",
-		   NULL, "Ela está exatamente como era há um ano, em 1982...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela está exatamente como era há um ano, em Showa 57 (1982)...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子は叔父に脅され頬をぶたれて、昭和５７年の、あの悲しい沙都子に戻ってしまったのだ…。",
-		   NULL, "O tio deu um tapa na cara dela, fazendo ela voltar a ser a Satoko de 1982...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O tio deu um tapa na cara dela, fazendo ela voltar a ser a Satoko de Showa 57 (1982)...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1720,7 +1720,7 @@ void main()
 		   NULL, " Agradeço pela ajuda.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500493", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " \nNipaa~☆\"", Line_Normal);
+		   NULL, " \nNipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2072,12 +2072,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年の沙都子だったら、きっぱりと助けを求めたかもしれない。",
-		   NULL, "A Satoko de 1983 pode ter pedido a ajuda deles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Satoko de Showa 58 (1983) pode ter pedido a ajuda deles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…でも、昭和５７年の沙都子にはできないのだ。",
-		   NULL, "Mas atualmente, ela era a Satoko de 1982.", Line_Normal);
+		   NULL, "Mas atualmente, ela era a Satoko de Showa 57 (1982).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3372,7 +3372,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私にはどうにもならない数々の条件をクリアして、その上で私はベストを尽くさないと、……昭和５８年の運命は越えられないのだ。",
-		   NULL, "Tenho que esclarecer tudo o que não está ao meu alcance e também tenho que fazer o melhor esforço possível... sem isso não consigo superar o destino de 1983.", Line_Normal);
+		   NULL, "Tenho que esclarecer tudo o que não está ao meu alcance e também tenho que fazer o melhor esforço possível... sem isso não consigo superar o destino de Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3592,7 +3592,7 @@ void main()
 		   NULL, " Não temos mais muito poder.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500559", 256, TRUE);
 	OutputLine(NULL, "多分、再び世界をやり直しても、昭和５８年の６月より前へは戻れない。",
-		   NULL, " Acho que não podemos voltar a um tempo antes de junho de 1983. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Acho que não podemos voltar a um tempo antes de junho de Showa 58 (1983). ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500560", 256, TRUE);
 	OutputLine(NULL, "……それどころか、戻れる時間はどんどん短くなっていく。",

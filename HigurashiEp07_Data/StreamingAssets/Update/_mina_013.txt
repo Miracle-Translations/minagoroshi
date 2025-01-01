@@ -2387,7 +2387,7 @@ void main()
 		   NULL, "\"Isso é verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300399", 256, TRUE);
 	OutputLine(NULL, "……おじさんも久し振りに血がたぎってきたよ。",
-		   NULL, " ...Fazia tempo que o sangue da velha não fervia dessa forma.", Line_WaitForInput);
+		   NULL, " ...Fazia tempo que o sangue de Oji-san aqui não fervia desta forma.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300400", 256, TRUE);
 	OutputLine(NULL, "くっくっく！」",
 		   NULL, " He he he!\"", GetGlobalFlag(GLinemodeSp));
@@ -4129,7 +4129,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300417", 256, TRUE);
 	OutputLine(NULL, "「さぁてね、おじさんは知ぃらない〜。」",
-		   NULL, "\"Será? A velha aqui não sabe de nada~\"", Line_Normal);
+		   NULL, "\"Será? Oji-san aqui não sabe de nada~\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/res2", "maskright", 7, 0, 300 );

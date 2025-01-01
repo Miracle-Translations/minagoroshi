@@ -1344,7 +1344,7 @@ void main()
 	OutputLine(NULL, "　去年。",
 		   NULL, "Ano passado...", Line_WaitForInput);
 	OutputLine(NULL, "つまり、昭和５７年の６月は、……沙都子が意地悪な叔母に虐め抜かれた最後の最後の時期だ。",
-		   NULL, " Junho de 1982... Foi quando Satoko estava sendo abusada por sua tia cruel.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Junho de Showa 57 (1982)... Foi quando Satoko estava sendo abusada por sua tia cruel.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2037,7 +2037,7 @@ void main()
 		   NULL, "\"......Já esperava isso do Keiichi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500071", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/mati_o1", 300 );
@@ -2474,7 +2474,7 @@ void main()
 		   NULL, "\"Porque uma certa pessoa sempre me olha feio quando peço pra ela ir comprar molho de soja na loja...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500081", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4469,7 +4469,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして結局、昭和５８年の綿流しの日の数週間後、",
-		   NULL, "Algumas semanas depois do festival do Watanagashi de 1983...", Line_ContinueAfterTyping);
+		   NULL, "Algumas semanas depois do festival do Watanagashi de Showa 58 (1983)...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
@@ -4699,7 +4699,7 @@ void main()
 		   NULL, "\"......Eu sou muito boa em prever coisas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500145", 256, TRUE);
 	OutputLine(NULL, "にぱ〜。」",
-		   NULL, " Nipaa~.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4883,7 +4883,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500151", 256, TRUE);
 	OutputLine(NULL, "「……にぱ〜☆」",
-		   NULL, "\"...Nipaa~☆\"", Line_Normal);
+		   NULL, "\"...Nipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

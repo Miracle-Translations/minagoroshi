@@ -698,7 +698,7 @@ void main()
 		   NULL, " Vou deixar você entrar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500333", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -729,7 +729,7 @@ void main()
 		   NULL, "\"N...", Line_Continue);
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "にぱ――（＞▽＜）ノ――！！」",
-		   NULL, " Nipaa――（＞▽＜）ノ――!!\"", Line_Normal);
+		   NULL, " Nipah――（＞▽＜）ノ――!!\"", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 
@@ -1278,7 +1278,7 @@ void main()
 		   NULL, "\"......Takano, um gato deveria fazer 'miau, miau'...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500353", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1478,7 +1478,7 @@ void main()
 		   NULL, "\"Eu estava bricando. Você só precisa empurrar ela.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500362", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", Line_Normal);
+		   NULL, " Nipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1300, FALSE );
@@ -1855,7 +1855,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500367", 256, TRUE);
 	OutputLine(NULL, "「……ノーコメントなのですよ、にぱ〜☆」",
-		   NULL, "\"......Sem comentários, nipaa~☆\"", Line_Normal);
+		   NULL, "\"......Sem comentários, Nipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

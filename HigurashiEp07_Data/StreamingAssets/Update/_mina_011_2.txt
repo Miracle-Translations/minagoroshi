@@ -1232,7 +1232,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6049", 256, TRUE);
 	OutputLine(NULL, "実はね、おじさんも知らなかったんだけど、図書館の一階に児童相談所があったんだよねぇ。」",
-		   NULL, "Na verade, a velha aqui também não sabia até pouco tempo atrás, mas tem um centro de consulta infantil no primeiro andar da biblioteca.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na verdade, Oji-san aqui também não sabia até pouco tempo atrás, mas tem um centro de consulta infantil no primeiro andar da biblioteca.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

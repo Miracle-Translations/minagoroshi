@@ -184,7 +184,7 @@ void main()
 		   NULL, " Além disso, ela é assustadora quando você não demonstra o devido respeito.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500392", 256, TRUE);
 	OutputLine(NULL, "　にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -740,7 +740,7 @@ void main()
 	StartShakingOfAllObjects( 241, 40, 0, 2, 3*2, FALSE );
 
 	OutputLine(NULL, "にぱ〜☆",
-		   NULL, " Nipaa~☆", Line_Normal);
+		   NULL, " Nipah~☆", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
 
@@ -1191,7 +1191,7 @@ void main()
 		   NULL, "\"...É um técnica ousada onde você troca a mão com o muro num piscar de olhos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500406", 256, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Nipah~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/mati_o4", 300 );
@@ -3322,7 +3322,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………彼は低い確率で昭和５３年に雛見沢にやって来る、東京の警視庁の人だ。",
-		   NULL, "Ele é um detetive do Departamento de Segurança Pública Metropolitana de Tóquio. Ele às vezes aparece em Hinamizawa em 1978...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele é um detetive do Departamento de Segurança Pública Metropolitana de Tóquio. Ele às vezes aparece em Hinamizawa em Showa 53 (1978)...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3636,7 +3636,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５８年の６月、私が殺されます。",
-		   NULL, "Serei morta em junho de 1983.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Serei morta em junho de Showa 58 (1983).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3765,7 +3765,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんなにも晴れ晴れとした気分を昭和５８年の６月に感じたのは何十年ぶりだろうか？",
-		   NULL, "Não conseguia me lembrar da última vez que me senti tão bem em junho de 1983.", Line_Normal);
+		   NULL, "Não conseguia me lembrar da última vez que me senti tão bem em junho de Showa 58 (1983).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

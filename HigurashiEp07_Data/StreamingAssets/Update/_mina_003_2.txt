@@ -222,7 +222,7 @@ void main()
 		   NULL, "\"A-Agulha de costura?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300098", 256, TRUE);
 	OutputLine(NULL, "　そんなの何でおじさんが入れるわけぇ！」",
-		   NULL, " Por que a velha colocaria uma agulha aí?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Por que Oji-san colocaria uma agulha aí?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

@@ -562,7 +562,7 @@ void main()
 		   NULL, " A Satoko é o meu animal de estimação. Ela tem que voltar pra minha casa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps2/05/180500679", 540, TRUE);
 	OutputLine(NULL, "にぱ〜☆」",
-		   NULL, " Nipaa~☆\"", Line_Normal);
+		   NULL, " Nipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(3, 256, "none");

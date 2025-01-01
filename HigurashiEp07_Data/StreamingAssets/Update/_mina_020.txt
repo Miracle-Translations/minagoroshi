@@ -768,7 +768,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6162", 256, TRUE);
 	OutputLine(NULL, "おじさんたちにも紹介してよ〜！！」",
-		   NULL, "Apresenta ele pra velha também!\"", Line_Normal);
+		   NULL, "Apresente ele pra Oji-san aqui também!\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "white", 1300 );
