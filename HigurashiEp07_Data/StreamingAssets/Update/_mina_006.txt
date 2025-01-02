@@ -1855,7 +1855,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500367", 256, TRUE);
 	OutputLine(NULL, "「……ノーコメントなのですよ、にぱ〜☆」",
-		   NULL, "\"......Sem comentários, Nipah~☆\"", Line_Normal);
+		   NULL, "\"......Sem comentários, nipah~☆\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
