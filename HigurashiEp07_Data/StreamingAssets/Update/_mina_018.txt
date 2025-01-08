@@ -237,7 +237,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なるほどな、これが園崎天皇とか鬼婆とか呼ばれる園崎お魎ってわけか。",
-		   NULL, "Essa era Sonozaki Oryou, conhecida também como \"a bruxa\" ou \"Imperatriz Sonozaki.\"", Line_Normal);
+		   NULL, "Essa era Sonozaki Oryou, conhecida também como \"velha demônio\" ou \"Imperatriz Sonozaki.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -466,7 +466,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200011", 256, TRUE);
 	OutputLine(NULL, "市長と鬼婆さまは過去を水に流し、連携して共存していくことを確認し合ってる。",
-		   NULL, "O prefeito de Shishibone e a velha bruxa conversaram e decidiram coexistir.", Line_WaitForInput);
+		   NULL, "O prefeito de Shishibone e a velha demônio conversaram e decidiram coexistir.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200012", 256, TRUE);
 	OutputLine(NULL, "村を栄えさせるために当然のことなのさ。」",
 		   NULL, " Isso foi necessário para este vilarejo prosperar.\"", GetGlobalFlag(GLinemodeSp));
@@ -753,7 +753,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼婆と言われるだけのことがある威圧感で、ぎょろりと睨みつけてくる。",
-		   NULL, "A bruxa malvada lançou um olhar violento em minha direção, a aura intimidadora que a cercava se tornou quase visível.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A velha demônio malvada lançou um olhar violento em minha direção, a aura intimidadora que a cercava se tornou quase visível.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2056,7 +2056,7 @@ void main()
 		   NULL, " Como foi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600382", 256, TRUE);
 	OutputLine(NULL, "　鬼婆は怒ってました？」",
-		   NULL, " A velha bruxa ainda está com raiva?\"", Line_Normal);
+		   NULL, " A velha demônio ainda está com raiva?\"", Line_Normal);
 	ClearMessage();
 	ModFadeOutBGM( 1, 3000, FALSE, 1 );
 
@@ -2128,7 +2128,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれだけ不機嫌に怒っていた婆さんが、どういう経緯で許しをくれたのか想像がつかない。",
-		   NULL, "Aquela bruxa estava tão irritada. Não consigo nem imaginar o que a levou a nos conceder permissão.", Line_WaitForInput);
+		   NULL, "Aquela velha estava tão irritada. Não consigo nem imaginar o que a levou a nos conceder permissão.", Line_WaitForInput);
 	OutputLine(NULL, "…でも、結果的には俺を認めてくれたってことだ。",
 		   NULL, " ...Não importa como aconteceu, parece que ela finalmente me aceitou.", Line_Normal);
 	ClearMessage();
@@ -2174,7 +2174,7 @@ void main()
 		   NULL, " Você tem meu respeito.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200074", 256, TRUE);
 	OutputLine(NULL, "よくあれだけ鬼婆さまに言えたもんだよ！",
-		   NULL, " É preciso muita coragem para abordar a velha daquela maneira.", Line_WaitForInput);
+		   NULL, " É preciso muita coragem para abordar a velha daquele jeito.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200075", 256, TRUE);
 	OutputLine(NULL, "　最後に飛び掛かって鬼婆さまの首根っこふん捕まえた時にはどうなるかヒヤヒヤしたねぇ。」",
 		   NULL, " Me deu arrepios quando você pulou em cima dela e a pegou pelo pescoço.\"", GetGlobalFlag(GLinemodeSp));
@@ -2222,7 +2222,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200080", 256, TRUE);
 	OutputLine(NULL, "「鬼婆さまは北条家許すまじってことになってるもの。",
-		   NULL, "\"A velha bruxa não pode perdoar a família Houjou.", Line_WaitForInput);
+		   NULL, "\"A velha demônio não pode perdoar a família Houjou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200081", 256, TRUE);
 	OutputLine(NULL, "それが、若いのに何人か頭を下げられてハイそうですかってわけには行かないもの。",
 		   NULL, " Ela também não pode te dar o que você quer simplesmente porque você veio até ela e implorou por isso. ", GetGlobalFlag(GLinemodeSp));
@@ -2230,7 +2230,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200082", 256, TRUE);
 	OutputLine(NULL, "だから、圭一くんが大立ち回りをした挙句に、鬼婆さまがその男気に惚れて特別に許したって、そのくらいの物語がないと説得力がないわけなんだよねぇ。",
-		   NULL, "Então, a menos que a história seja algo como 'depois que Keiichi-kun lutou violentamente com a velha bruxa, ela ficou impressionada com sua bravura e decidiu conceder-lhe permissão especial', não parecerá convincente. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então, a menos que a história seja algo como 'depois que Keiichi-kun lutou violentamente com a velha demônio, ela ficou impressionada com sua bravura e decidiu conceder-lhe permissão especial', não parecerá convincente. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200083", 256, TRUE);
 	OutputLine(NULL, "わかったかい魅音？」",
@@ -2272,7 +2272,7 @@ void main()
 		   NULL, " É assim que nasce uma lenda...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600385", 256, TRUE);
 	OutputLine(NULL, "沙都子を救うために鬼婆と取っ組み合いをしたと。",
-		   NULL, " Agora as pessoas vão acreditar que você lutou fisicamente com a bruxa pra salvar a Satoko.", Line_WaitForInput);
+		   NULL, " Agora as pessoas vão acreditar que você lutou fisicamente com a velha demônio pra salvar a Satoko.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600386", 256, TRUE);
 	OutputLine(NULL, "……圭ちゃん、多分、町を歩くと今後は人が避けてくれますよ。」",
 		   NULL, " ...As pessoas vão ter medo de você, Kei-chan.\"", GetGlobalFlag(GLinemodeSp));
@@ -2335,7 +2335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200089", 256, TRUE);
 	OutputLine(NULL, "「鬼婆さまも、沙都子ちゃんがいつまでもダム戦争の続きみたいに冷遇されてるのは気にしてた。",
-		   NULL, "\"A velha sempre se preocupou com a Satoko-chan, pois as pessoas ainda a tratavam mal.", Line_WaitForInput);
+		   NULL, "\"Aquela velha sempre se preocupou com a Satoko-chan, pois as pessoas ainda a tratavam mal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200090", 256, TRUE);
 	OutputLine(NULL, "自分が墓に入る時しか清算のタイミングがないと思ってたみたいだからね。",
 		   NULL, " Ela pensou que só poderia consertar tudo quando morresse. ", GetGlobalFlag(GLinemodeSp));

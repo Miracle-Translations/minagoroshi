@@ -2210,7 +2210,7 @@ void main()
 	Wait( 2200 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "鬼婆？」",
-		   NULL, " velha bruxa?\"", Line_Continue);
+		   NULL, " velha demônio?\"", Line_Continue);
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
 	SetSpeedOfMessage( FALSE, 0 );
@@ -2800,7 +2800,7 @@ void main()
 		   NULL, "\"Isso com certeza está ficando interessante.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600365", 256, TRUE);
 	OutputLine(NULL, "で、お姉、鬼婆とやり合う覚悟はあります？」",
-		   NULL, " Você está pronta pra derrotar aquela bruxa malvada, Onee?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você está pronta pra derrotar aquela velha demônio malvada, Onee?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

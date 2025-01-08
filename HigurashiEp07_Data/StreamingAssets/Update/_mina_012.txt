@@ -1473,7 +1473,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600228", 256, TRUE);
 	OutputLine(NULL, "「というか、鬼婆が北条家嫌いの筆頭ですし。",
-		   NULL, "\"Aquela avó bruxa é quem odeia a família Houjou.", Line_WaitForInput);
+		   NULL, "\"Aquela velha demônio é quem odeia a família Houjou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600229", 256, TRUE);
 	OutputLine(NULL, "……頭の中、いつまでダム戦争やってるってんですか。",
 		   NULL, " A opinião dela não mudou desde que estávamos no meio do conflito da represa.", Line_WaitForInput);

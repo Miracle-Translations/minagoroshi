@@ -123,7 +123,7 @@ void main()
 		   NULL, "\"Uau...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100307", 256, TRUE);
 	OutputLine(NULL, "魅音とこの婆さんって本当に偉いんだな…。」",
-		   NULL, " Eu acho que a avó de Mion deve ser muito assustadora...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu acho que a avó da Mion deve ser muito assustadora...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -172,7 +172,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あの文字通りの鬼婆を優しい人と言えるレナの器量にはいつも恐れ入る。",
-		   NULL, "...Sempre tive medo da capacidade da Rena de chamar aquela mulher literalmente demoníaca de uma pessoa gentil.", Line_Normal);
+		   NULL, "...Sempre tive medo da capacidade da Rena de chamar até aquela velha demoníaca de uma pessoa gentil.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }

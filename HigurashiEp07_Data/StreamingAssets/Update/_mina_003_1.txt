@@ -360,7 +360,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600005", 256, TRUE);
 	OutputLine(NULL, "「早い話が昔、鬼婆が癇癪を起こしときながら引っ込みが付かなくなったことがあるわけなんです。",
-		   NULL, "\"Pra simplificar, nossa avó bruxa deixou seu temperamento tomar conta dela e não parou mais.", Line_WaitForInput);
+		   NULL, "\"Pra simplificar, nossa avó demoníaca deixou seu temperamento tomar conta dela e não parou mais.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600006", 256, TRUE);
 	OutputLine(NULL, "鬼婆って、自分でトラブっときながら、よく後悔してますよね。」",
 		   NULL, " Mas ela realmente não considerou nenhum detalhe específico...\"", GetGlobalFlag(GLinemodeSp));

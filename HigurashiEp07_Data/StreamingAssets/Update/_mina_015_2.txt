@@ -1015,7 +1015,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600288", 256, TRUE);
 	OutputLine(NULL, "「沙都子を助けるのは私たちの戦いで、鬼婆とは何の関係もありませんからね。",
-		   NULL, "\"Salvar a Satoko é a nossa luta. Aquela velha bruxa não tem nada a ver com isso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Salvar a Satoko é a nossa luta. Aquela velha demônio não tem nada a ver com isso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

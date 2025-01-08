@@ -1378,12 +1378,12 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300309", 256, TRUE);
 	OutputLine(NULL, "「……んん、",
-		   NULL, "\"Bem...", Line_Continue);
+		   NULL, "\"......Bem...", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1600 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…それは婆っちゃが絡むからね……。",
-		   NULL, " Não se eu tiver que passar pela vovó...", Line_WaitForInput);
+		   NULL, " Não se eu tiver que passar pela vovó......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300310", 256, TRUE);
 	OutputLine(NULL, "ううん……。」",
 		   NULL, " Hmm...\"", Line_Normal);
@@ -1395,7 +1395,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600175", 256, TRUE);
 	OutputLine(NULL, "「鬼婆の力を借りるのは無理でしょ。",
-		   NULL, "\"É impossível obter ajuda dela.", Line_WaitForInput);
+		   NULL, "\"É impossível obter ajuda daquela velha demônio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600176", 256, TRUE);
 	OutputLine(NULL, "未だ頭の中はダム戦争！",
 		   NULL, " A mente dela ainda está presa no conflito da represa!", Line_WaitForInput);
@@ -1946,7 +1946,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……運命がいかに頑強なものか、知りもしないくせによくこの私に言えるものだ。",
-		   NULL, "Como ele pode dizer isso... sem saber o quão teimoso o destino pode ser...", Line_WaitForInput);
+		   NULL, "......Mesmo sem saber o quão teimoso o destino pode ser, como ele consegue dizer isso...", Line_WaitForInput);
 	OutputLine(NULL, "運命に閉じ込められた魔女である私に。",
 		   NULL, " para mim, uma bruxa presa no destino?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

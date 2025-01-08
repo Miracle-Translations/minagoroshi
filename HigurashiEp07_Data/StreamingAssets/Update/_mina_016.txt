@@ -2907,7 +2907,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300515", 256, TRUE);
 	OutputLine(NULL, "「みんなはそれを、多分、園崎本家の婆っちゃの意思だろうと思ってるでしょ。",
-		   NULL, "\"Todos acreditam que a líder da família Sonozaki, minha avó, ainda odeia a família Houjou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Todos acreditam que a líder da família Sonozaki, nossa avó, ainda odeia a família Houjou.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2987,7 +2987,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600313", 256, TRUE);
 	OutputLine(NULL, "だから鬼婆も、その後は北条家に一切関わるなと号令を出しました。",
-		   NULL, "Depois que os pais dela morreram, minha avó disse a todos pra não incomodarem mais a família Houjou.", Line_WaitForInput);
+		   NULL, "Depois que os pais dela morreram, aquela velha demônio disse a todos pra não incomodarem mais a família Houjou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600314", 256, TRUE);
 	OutputLine(NULL, "でも、北条家を許すとは号令を出せなかった。」",
 		   NULL, " Mas ela não disse às pessoas pra perdoá-la.\"", Line_Normal);
@@ -3000,7 +3000,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500834", 256, TRUE);
 	OutputLine(NULL, "「……それはきっと、……ボクのお父さんのせいもあるのです。」",
-		   NULL, "\"......Provavelmente é... por causa do meu pai.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Deve ter sido...... por causa do meu pai.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3009,10 +3009,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200551", 256, TRUE);
 	OutputLine(NULL, "「梨花ちゃんの…？！",
-		   NULL, "\"O seu pai, Rika-chan?", Line_WaitForInput);
+		   NULL, "\"O seu pai, Rika-chan...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200552", 256, TRUE);
 	OutputLine(NULL, "　どうして………？」",
-		   NULL, " Por que isso...?\"", Line_Normal);
+		   NULL, " Por quê......?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -3037,7 +3037,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300527", 256, TRUE);
 	OutputLine(NULL, "だから婆っちゃは雛見沢をひとつのまとめるため、敢えてみんなが求めたタカ派リーダーを演じたんだよ…。」",
-		   NULL, "Então minha avó se apresentou e agiu como uma só a fim de unir todo o vilarejo...\"", Line_Normal);
+		   NULL, "Então nossa avó se apresentou e agiu como uma só a fim de unir todo o vilarejo...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -3350,7 +3350,7 @@ void main()
 		   NULL, "\"Eu ouvi sobre isso dela, na verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600318", 256, TRUE);
 	OutputLine(NULL, "鬼婆さまの世間体とかいうやつですね。」",
-		   NULL, " É só o orgulho teimoso daquela velha bruxa...\"", Line_Normal);
+		   NULL, " É só o orgulho teimoso daquela velha demônio...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
