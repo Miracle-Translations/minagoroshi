@@ -165,13 +165,13 @@
 			"text": "Mostrar CGs"
 		},
 		"MODMenuNormal_32": {
-			"text": "Mostrar as CGs (Você provavelmente vai querer deixar esta opção ligada se estiver jogando com o preset 'Console' e/ou com a caixa de texto ADV/NVL)"
+			"text": "Exibe as CGs (Você provavelmente vai querer deixar esta opção ligada se estiver jogando com o preset 'Console' e/ou com a caixa de texto ADV/NVL)"
 		},
 		"MODMenuNormal_33": {
-			"text": "Esconder as CGs"
+			"text": "Esconder CGs"
 		},
 		"MODMenuNormal_34": {
-			"text": "Desativa todas as CGs (normalmente utilizado com o preset Original/Ryukishi)"
+			"text": "Desativa as CGs (normalmente utilizado com o preset Original/Ryukishi)"
 		},
 		"MODMenuNormal_35": {
 			"text": "Estilo de Background"
@@ -378,7 +378,7 @@
 			"text": "Mostrar Ferramentas de Desenvolvedor"
 		},
 		"MODMenuNormal_103": {
-			"text": "Mostrar as Ferramentas de Desenvolvedor.\n\nApenas clique neste botão se algum desenvolvedor te pedir."
+			"text": "Mostrar as Ferramentas de Desenvolvedor.\n\nApenas clique neste botão se algum desenvolvedor pedir."
 		},
 		"MODMenuNormal_104": {
 			"text": "Desbloquear Flags"
