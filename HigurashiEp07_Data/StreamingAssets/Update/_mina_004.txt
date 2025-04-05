@@ -1930,7 +1930,15 @@ void main()
 		   NULL, " O que é essa dança?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100305", 256, TRUE);
 	OutputLine(NULL, "　やっぱり古手神社の巫女さんだから、何か神事でもやるわけか？」",
-		   NULL, " Você vai fazer algum tipo de ritual tradicional por ser a miko do Santuário Furude?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você vai fazer algum tipo de ritual tradicional por ser a <color=#7ef704>miko</color> do Santuário Furude?\"", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GLanguage) == 1) {
+    if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+    if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+    OutputLine(NULL, "",
+        NULL, "<color=#7ef704>Miko: jovens mulheres responsáveis por realizar as tarefas dos santuários xintoístas.</color>", Line_WaitForInput);
+    }
+
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

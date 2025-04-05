@@ -1593,7 +1593,15 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　信心深い老人たちは、先日死んだ古手梨花の死による祟りだと信じ、ひたすら数珠を揉み続けていた。",
-		   NULL, "Os mais religiosos entre os idosos continuaram esfregando seus Juzu, acreditando que se tratava da maldição de Furude Rika, que faleceu no dia anterior.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Os mais religiosos entre os idosos continuaram esfregando seus <color=#7ef704>Juzu</color>, acreditando que se tratava da maldição de Furude Rika, que faleceu no dia anterior.", GetGlobalFlag(GLinemodeSp));
+	
+	if (GetGlobalFlag(GLanguage) == 1) {
+    if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+    if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+    OutputLine(NULL, "",
+        NULL, "<color=#7ef704>Juzu: uma pulseira budista, geralmente com 108 contas representando, principalmente, os desejos mundanos.</color>", Line_WaitForInput);
+    }
+
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
