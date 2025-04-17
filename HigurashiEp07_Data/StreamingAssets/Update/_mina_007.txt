@@ -469,7 +469,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000110", 256, TRUE);
 	OutputLine(NULL, "熱物に懲りてナマスを拭くという諺にもあるように、過去の経験を積極的に生かそうとする正常な反応なのです。」",
-		   NULL, "Como sugere a expressão ''um cachorro escaldado teme água fria'', o cérebro usa naturalmente experiêcias passadas de forma proativa para nossa sobrevivência.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como sugere a expressão ''um cachorro escaldado teme água fria'', o cérebro usa naturalmente experiências passadas de forma proativa para nossa sobrevivência.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -826,7 +826,7 @@ void main()
 		   NULL, " Takano-san...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800093", 256, TRUE);
 	OutputLine(NULL, "今日の最後にされた梨花ちゃんのあのお願いだけど、",
-		   NULL, " O que você acha do que Rika-chan nos hoje, perto do final...?", Line_Continue);
+		   NULL, " O que você acha do que Rika-chan nos disse hoje, perto do final...?", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 3700 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -1210,7 +1210,7 @@ void main()
 	Wait( 600 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "…その…。",
-		   NULL, " Então...", Line_WaitForInput);
+		   NULL, " então...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800107", 256, TRUE);
 	OutputLine(NULL, "あははははは……。」",
 		   NULL, " Ahahahahaha......\"", Line_Normal);

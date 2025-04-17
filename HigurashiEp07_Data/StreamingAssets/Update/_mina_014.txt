@@ -17,7 +17,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　建物はよく知っていたが、中に入るのは初めてだった。",
-		   NULL, "Eu já tinha visto o prédio algumas vezes. mas eu nunca fui lá dentro antes.", Line_Normal);
+		   NULL, "Eu já tinha visto o prédio algumas vezes. Mas eu nunca fui lá dentro antes.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -312,7 +312,7 @@ void main()
 	ModDrawCharacter(1, 10, "sprite/iri1_warai_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 10, "ps2/10/181000210", 540, TRUE);
 	OutputLine(NULL, "「たまに転んだ人にバンドエイドを貼るくらいです。",
 		   NULL, "\"Tudo o que tenho que fazer é dar curativos para pessoas que tropeçam e caem.", Line_WaitForInput);
@@ -1797,7 +1797,7 @@ void main()
 		   NULL, "...Mas sabe, Maebara-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700178", 256, TRUE);
 	OutputLine(NULL, "ヤブを突っついて蛇を出すという諺もありますよ。」",
-		   NULL, " Às vezes, Você não deveria cutucar a onça com a vara curta.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Às vezes, você não deveria cutucar a onça com a vara curta.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -2710,7 +2710,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それどころか俺がみんなを燃え上がらせるくらいでなくちゃ！",
-		   NULL, "Eu tive que encher outras pessoas com chamas justas, assim como eu estava!", Line_Normal);
+		   NULL, "Eu tinha que encher outras pessoas com chamas justas, assim como eu estava!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -2877,7 +2877,7 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101059", 256, TRUE);
 	OutputLine(NULL, "「男には、周りが信じてくれなくても、自分だけは信じ続けたいことってたくさんあります。",
 		   NULL, "\"Todo homem tem muitas coisas nas quais deseja continuar acreditando, mesmo que outros não compartilhem dessa força.", Line_WaitForInput);

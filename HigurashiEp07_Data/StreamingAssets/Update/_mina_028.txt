@@ -1241,7 +1241,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/280100184", 256, TRUE);
 	OutputLine(NULL, "「いやぁ、よく見つけたよな、あの暗闇で！",
-		   NULL, "\"Você viu ele no escuridão!", Line_WaitForInput);
+		   NULL, "\"Você viu ele na escuridão!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/280100185", 256, TRUE);
 	OutputLine(NULL, "　レナには嘘も迷彩も通用しないってことだな！」",
 		   NULL, " Nem mesmo mentiras ou camuflagem funcionam com você, né?!\"", GetGlobalFlag(GLinemodeSp));
@@ -2166,7 +2166,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/280100206", 256, TRUE);
 	OutputLine(NULL, "「………何かよくわからないけどさ。",
 		   NULL, "\"......Eu não sei o que está acontecendo.", Line_WaitForInput);
@@ -2253,7 +2253,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/280100213", 256, TRUE);
 	OutputLine(NULL, "「あぁそうだぜレナ。",
 		   NULL, "\"Exatamente, Rena.", Line_WaitForInput);
@@ -2443,7 +2443,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　みんなの必死の抵抗の叫び声が、とても悲しい。",
-		   NULL, "Eu ouvi os gritos desesperado de resistência de todo mundo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu ouvi os gritos desesperados de resistência de todo mundo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3296,7 +3296,7 @@ void main()
 	DrawSceneWithMask( "black", "maskdown", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　私は後手に手錠か何かで縛られ、",
 		   NULL, "Eles algemaram as minhas mãos atrás das minhas costas.", Line_WaitForInput);
 	OutputLine(NULL, "さらに両足も縛られ、",
@@ -3695,7 +3695,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……でも、たった１人、",
-		   NULL, "...Em vez disso, eu fiqui furiosa", Line_ContinueAfterTyping);
+		   NULL, "...Em vez disso, eu fiquei furiosa", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
@@ -4290,7 +4290,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 2, "sprite/re2b_komaru_b1_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/280200144", 256, TRUE);
 	OutputLine(NULL, "「名前も知らないあなた。",
 		   NULL, "\"Nós nem mesmo sabemos o seu nome.", Line_WaitForInput);

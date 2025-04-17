@@ -32,7 +32,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600195", 256, TRUE);
 	OutputLine(NULL, "「あそこで暇そうにしてる人たちが話を聞いてくれてもいいと思いません？」",
-		   NULL, "\"Essas pessoas parecem estar livres. Eles deveriam nos deixar falar com eles.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Essas pessoas parecem estar livres. Eles deveriam nos deixar falar com elas.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -613,7 +613,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相談員</color>", NULL, "<color=#f5e6d3>Conselheira</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7e6007", 256, TRUE);
 	OutputLine(NULL, "「昨夜は相談所の者が直接お伺いし、ご事情を伺わせていただきました。",
-		   NULL, "\"Enviamos uma assistente social para a casa dela e elas se encontrou com seu tutor.", Line_WaitForInput);
+		   NULL, "\"Enviamos uma assistente social para a casa dela e ela se encontrou com seu tutor.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7e6008", 256, TRUE);
 	OutputLine(NULL, "それ以上のことは、プライバシーがありますのでお話できませんが、決して見殺しなんてことはありません。",
 		   NULL, " Não podemos mais falar sobre o caso por razões de privacidade. No entanto, não a estamos negligenciando. ", GetGlobalFlag(GLinemodeSp));
@@ -782,7 +782,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……北条家がかつて、ダムに賛成していたことを根に持たれ、村中から嫌われていたという話は俺も知ってる。",
-		   NULL, "Eu sabia que família Houjou era a favor do projeto da represa, e todo o vilarejo odiava a família dela por esse motivo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu sabia que a família Houjou era a favor do projeto da represa, e todo o vilarejo odiava a família dela por esse motivo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1901,7 +1901,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　追い風を全身に受けることができるが、逆風をまともに受けてしまうタイプでもある。",
-		   NULL, "Elas avançarão com força quando o vento os apoiar, mas ficarão fracos quando o vento soprar contra elas.", Line_Normal);
+		   NULL, "Elas avançarão com força quando o vento as apoiar, mas ficarão fracas quando o vento soprar contra elas.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2030,7 +2030,7 @@ void main()
 	OutputLine(NULL, "　梨花ちゃんもまた、俺たち部活メンバーの特性に気付き、まず誰に火をつければいいのかわかってたってことだな。",
 		   NULL, "Rika-chan conhecia bem nossas personalidades e descobriu quem deveria motivar primeiro.", Line_WaitForInput);
 	OutputLine(NULL, "……うおぉ、俺という導火線に火がついてきたぜ…。",
-		   NULL, " ...Eita, Estou realmente começando a queimar...", Line_Normal);
+		   NULL, " ...Eita, estou realmente começando a queimar...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2068,7 +2068,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……これが、我が部における前原圭一の役割だ！！",
-		   NULL, "...Este foi o papel de Maebara Keiichi neste clube!", Line_Normal);
+		   NULL, "...Este era o papel de Maebara Keiichi neste clube!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

@@ -1558,7 +1558,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　みんなの話を聞けば聞くほどに、梨花ちゃんが命を狙われる心当たりが思いつかない。",
-		   NULL, "Quanto mais eu conversava com minhas amigas, mais estranho parecia a Rika-chan ser o avo de um assassinato.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quanto mais eu conversava com minhas amigas, mais estranho parecia a Rika-chan ser o alvo de um assassinato.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

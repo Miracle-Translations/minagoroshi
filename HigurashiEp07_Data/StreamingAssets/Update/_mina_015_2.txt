@@ -1006,7 +1006,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300479", 256, TRUE);
 	OutputLine(NULL, "……うぅ、大人の事情でごめん。」",
-		   NULL, "...Hm, Eu realmente sinto muito, mas são aquelas circunstâncias adultas de novo.\"", Line_Normal);
+		   NULL, "...Hm, eu realmente sinto muito, mas são aquelas circunstâncias adultas de novo.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/mati_ji1", 300 );

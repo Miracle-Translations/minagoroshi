@@ -1601,7 +1601,7 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	OutputLine(NULL, "　だから小此木は信用できない、",
 		   NULL, "Isso significa que eu não posso confiar no Okonogi.", Line_WaitForInput);
 	OutputLine(NULL, "だから小此木が悪く言う入江は逆に信用できる、",
@@ -2662,7 +2662,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>小此木</color>", NULL, "<color=#f5e6d3>Okonogi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 14, "ps3/s12/14/283400071", 256, TRUE);
 	OutputLine(NULL, "「連絡はするが、三佐はやるっちゅう言うだろな。",
 		   NULL, "\"Vou ligar para a Major, mas tenho certeza que ela vai nos ordenar a ir mesmo assim.", Line_WaitForInput);

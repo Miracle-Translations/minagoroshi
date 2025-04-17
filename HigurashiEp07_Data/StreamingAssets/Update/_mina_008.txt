@@ -81,7 +81,7 @@ void main()
 	Wait( 5800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "『期待』",
-		   NULL, " Isso é o que ela está esperando.'", Line_Continue);
+		   NULL, " Isso é o que ela está esperando.", Line_Continue);
 	OutputLine(NULL, "しております！",
 		   NULL, " Entende...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -477,7 +477,7 @@ void main()
 		   NULL, " Dá pra construir dentro de casa ou no quintal.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100314", 256, TRUE);
 	OutputLine(NULL, "公園のブランコのようなダイナミックな遊び方はできないけどな、小さい子が遊ぶには充分だよ。",
-		   NULL, " Não é tão grande quanto os balanços que você dos playgrounds, mas é grande o suficiente pras crianças brincarem.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Não é tão grande quanto os balanços que você vê nos playgrounds, mas é grande o suficiente pras crianças brincarem.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1734,7 +1734,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100350", 256, TRUE);
 	OutputLine(NULL, "「ふむふむ、でも要領は今のと魅音の解説で大体わかったぜ。",
-		   NULL, "\"Hmm, Entendi... Acho que entendi a essência da explicação da Mion.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Hmm, entendi... Acho que entendi a essência da explicação da Mion.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2523,7 +2523,7 @@ void main()
 		   NULL, "\"Hmm, o que vocês estão fazendo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700016", 256, TRUE);
 	OutputLine(NULL, "　まだ山を積んでいるところですかねぇ？」",
-		   NULL, " Você está acumulando as peças?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vocês estão empilhando as peças?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3685,7 +3685,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500449", 256, TRUE);
 	OutputLine(NULL, "「思えば、玩具屋での部活の日。",
-		   NULL, "\"Lembra daquele dia que realizamos uma atividade de clube nesta loja de brinquedos...?", Line_WaitForInput);
+		   NULL, "\"Lembra daquele dia que realizamos uma atividade do clube nesta loja de brinquedos...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500450", 256, TRUE);
 	OutputLine(NULL, "魚釣りゲームという運命を覆した瞬間から、もう世界は変っていた。",
 		   NULL, " No momento em que me recusei a jogar o jogo de pesca, este mundo começou a mudar.", Line_WaitForInput);

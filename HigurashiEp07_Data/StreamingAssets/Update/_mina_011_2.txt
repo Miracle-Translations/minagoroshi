@@ -758,7 +758,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Mãe do Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/182700003", 540, TRUE);
 	OutputLine(NULL, "「児童相談所に通報したなら、後は任せておくのがいいんじゃないの？」",
-		   NULL, "\"Eles já ligaram pro centro de consulta infantil, então vocês deveriam deixar que eles cuidarem disso.\"", Line_Normal);
+		   NULL, "\"Eles já ligaram pro centro de consulta infantil, então vocês deveriam deixar que eles cuidem disso.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Pai do Keiichi</color>", NULL, Line_ContinueAfterTyping); }

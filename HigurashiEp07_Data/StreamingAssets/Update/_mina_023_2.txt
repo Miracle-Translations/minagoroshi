@@ -385,7 +385,7 @@ void main()
 		   NULL, "\"......Você acha que a Takano pode ser a culpada?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500107", 256, TRUE);
 	OutputLine(NULL, "　鷹野なら内部の人間です。」",
-		   NULL, " Ela era da organização."", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela era da organização.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

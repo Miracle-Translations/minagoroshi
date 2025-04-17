@@ -375,7 +375,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500320", 256, TRUE);
 	OutputLine(NULL, "「……祟〜りじゃ〜〜〜〜〜。」",
-		   NULL, "\"......Eu vou amaldiçoaaaaar voooocê.\"", Line_Normal);
+		   NULL, "\"......Eu vou amaldiçoaaaaar voooocês.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1680,7 +1680,7 @@ void main()
 		   NULL, " Você sabia que existem duas maneiras de ameaçar pessoas com instrumentos de tortura?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6002", 256, TRUE);
 	OutputLine(NULL, "　１つは使用して相手を痛めつけることで効果を発揮するもの。",
-		   NULL, " A primeiro é infligir dor à vítima.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A primeira é infligir dor à vítima.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1791,14 +1791,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "org/rika6002", 256, TRUE);
 	OutputLine(NULL, "だから、実際にこれらの道具を使う時になって、サイズが合わなかったり、構造的に欠陥があったりで、満足に使用できなかったという話も結構残っていますのです。」",
-		   NULL, "É por isso que há registros dizendo que quando eles realmente tentaram usá-los, alguns deles eram do tamanho errado ou simplesmente não funcionavam bem.\"", Line_Normal);
+		   NULL, "É por isso que há registros dizendo que quando eles realmente tentaram usá-las, algumas delas eram do tamanho errado ou simplesmente não funcionavam bem.\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800027", 256, TRUE);
 	OutputLine(NULL, "「で、でも、実際に使用することもあったんだろう？",
-		   NULL, "\"E-Então eles realmente usaram alguns deles?", Line_WaitForInput);
+		   NULL, "\"E-Então eles realmente usaram algumas delas?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800028", 256, TRUE);
 	OutputLine(NULL, "　……や、やっぱり穏便な話じゃないね…。」",
 		   NULL, " ...Es-Essa não é uma história agradável.\"", GetGlobalFlag(GLinemodeSp));
@@ -1830,7 +1830,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入はさっきから痛々しい表情を浮かべていた。",
-		   NULL, "Hanyuu estva fazendo uma cara frustrada.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hanyuu estava fazendo uma cara frustrada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1965,7 +1965,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "org/takano6027", 256, TRUE);
 	OutputLine(NULL, "　銃殺や絞首刑よりも、もっともっと綺麗にあっさりすっぱりと死ねるように生み出した、",
-		   NULL, "Foi inventado porque eles podiam morrer instantaneamente, o que não acontecia com tiros ou enforcamento.", Line_WaitForInput);
+		   NULL, "Foi inventada porque eles podiam morrer instantaneamente, o que não acontecia com tiros ou enforcamento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "org/takano6028", 256, TRUE);
 	OutputLine(NULL, "死の際まで特別扱いしてもらえる貴族のための処刑道具。",
 		   NULL, " Os nobres receberam tratamento especial até na morte. ", GetGlobalFlag(GLinemodeSp));

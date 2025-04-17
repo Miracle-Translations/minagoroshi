@@ -591,7 +591,7 @@ void main()
 	DrawScene( "black", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　昨日の大石さんの情報が本当なら、",
 		   NULL, "Se o que Ooishi-san me disse ontem for verdade,", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
@@ -692,6 +692,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6218", 256, TRUE);
 	OutputLine(NULL, "「そうなんだ沙都子…。",
 		   NULL, "\"Ela está certa, Satoko.", Line_WaitForInput);
@@ -737,7 +738,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200491", 256, TRUE);
 	OutputLine(NULL, "　本当に選びたかった世界はすぐそこにある。",
 		   NULL, "O mundo que você mais deseja está bem na sua frente.", Line_WaitForInput);
@@ -846,7 +847,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101093", 256, TRUE);
 	OutputLine(NULL, "　だが、…あともうわずかが届かない。",
 		   NULL, "Mas simplesmente não conseguimos chegar longe o suficiente.", Line_WaitForInput);
@@ -2171,7 +2172,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからって、助けてと言ってないから助ける必要がないなんてめちゃくちゃな理論は、俺たち仲間内では通用しない。",
-		   NULL, "Só porque ela não perguntou não significava que ela não precisava! Como amigos dela, temos que ajudá-la!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Só porque ela não pediu não significava que ela não precisava! Como amigos dela, temos que ajudá-la!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

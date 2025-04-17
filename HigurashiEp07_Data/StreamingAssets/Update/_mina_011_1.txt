@@ -319,7 +319,7 @@ void main()
 		   NULL, " Estamos preocupados porque sabemos o que aconteceu com ela no ano passado...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6036", 256, TRUE);
 	OutputLine(NULL, "……実際、昨日今日で沙都子は何の虐待も受けていない。",
-		   NULL, " mas ela não estava machuada ontem nem hoje.", Line_WaitForInput);
+		   NULL, " mas ela não estava machucada ontem nem hoje.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "org/mion6037", 256, TRUE);
 	OutputLine(NULL, "客観的に見て、現時点で沙都子が虐待を受けているとはとても言えないんだよ。」",
 		   NULL, " Não podemos realmente provar se ela está sendo abusada ou não.\"", Line_Normal);
@@ -359,7 +359,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が言ってるわけじゃないのに、魅音に言われたかのように勘違いしてつい声を荒げてしまった。",
-		   NULL, "Eu sabia que essa não era a opinião da Mion, mas parecia que ela estava me dizendo isso, por isso acabando levantando a voz.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu sabia que essa não era a opinião da Mion, mas parecia que ela estava me dizendo isso, por isso acabei levantando a voz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -781,7 +781,7 @@ void main()
 		   NULL, "\"......Ahahahaha.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200279", 256, TRUE);
 	OutputLine(NULL, "圭一くんって、ちょっとすごいなって思う。」",
-		   NULL, " estou impressionada.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Estou impressionada.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

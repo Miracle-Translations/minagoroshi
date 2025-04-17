@@ -52,7 +52,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あはは、そうなったらいいよなーなんて適当な相槌を打つ程度の。",
-		   NULL, "Eles só são algo que você ri e responde \"Isso seria legal.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Elas só são algo que você ri e responde \"Isso seria legal.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -220,7 +220,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　世間的には、甲子園ピッチャーが俺の眼力に負けて敬遠したってことになってるんだよな……。",
-		   NULL, "O público acabou acreditando que aquele arremesador talentoso me acompanhou por medo de meu insight...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O público acabou acreditando que aquele arremessador talentoso me acompanhou por medo de meu insight...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -720,7 +720,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100171", 256, TRUE);
 	OutputLine(NULL, "「お前ら、俺をおだててるのか馬鹿にしてるのか微妙だぞ…。」",
-		   NULL, "\"Você está zombando de mim ou o quê...?\"", Line_Normal);
+		   NULL, "\"Vocês estão zombando de mim ou o quê...?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

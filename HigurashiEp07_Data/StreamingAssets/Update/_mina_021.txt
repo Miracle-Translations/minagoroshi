@@ -587,7 +587,7 @@ void main()
 		   NULL, " Você ainda está chateada por causa da semana passada.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700009", 256, TRUE);
 	OutputLine(NULL, "赤坂さんも何も恩返しができなかったことを悔やまれていましたよ。",
-		   NULL, " Akasaka-lan lamenta que ele não tenha sido capaz de ajudá-la.", Line_WaitForInput);
+		   NULL, " Akasaka-san lamenta que ele não tenha sido capaz de ajudá-la.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700010", 256, TRUE);
 	OutputLine(NULL, "長い休みが取れたら、改めて雛見沢に来たいと言っていました。",
 		   NULL, " Ele disse que adoraria voltar para Hinamizawa, quando tiver suas próximas férias.", Line_WaitForInput);
@@ -914,7 +914,7 @@ void main()
 		   NULL, "\"A maldição, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/280100022", 256, TRUE);
 	OutputLine(NULL, "　今日起こるかもしれないって噂の、オヤシロさまの祟りってヤツか？」",
-		   NULL, " Você está falando sobre a maldição de Oyashiro-sama que poder acontecer esta noite?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você está falando sobre a maldição de Oyashiro-sama que pode acontecer esta noite?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

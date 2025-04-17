@@ -1102,7 +1102,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　詩音って、元から沙都子と仲良しじゃなかったっけ。",
-		   NULL, "Elas sempre foram tão próximos ou não...?", Line_WaitForInput);
+		   NULL, "Elas sempre foram tão próximas ou não...?", Line_WaitForInput);
 	OutputLine(NULL, "………………？？",
 		   NULL, ".........??", Line_Normal);
 	ClearMessage();
@@ -1133,11 +1133,11 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "普通に恋をしよう。",
-		   NULL, " E nos apaixonaremos normalmente.", Line_WaitForInput);
+		   NULL, " E vamos nos apaixonar normalmente.", Line_WaitForInput);
 	OutputLine(NULL, "絶対に互いを疑わない。",
-		   NULL, " Não vamos duvidar um do outro.", Line_WaitForInput);
+		   NULL, " Não vamos duvidar uns dos outros.", Line_WaitForInput);
 	OutputLine(NULL, "互いを絶対に信じ合う。",
-		   NULL, " Confiaremos um no outro.", Line_Normal);
+		   NULL, " Vamos confiar uns nos outros.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1190,7 +1190,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500225", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Nii.", Line_WaitForInput);
+		   NULL, "\"......Mii.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500226", 256, TRUE);
 	OutputLine(NULL, "とても大切なことをレナが言っていますです。」",
 		   NULL, " Rena está dizendo algo muito importante agora.\"", GetGlobalFlag(GLinemodeSp));
@@ -1543,9 +1543,9 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300133", 256, TRUE);
 	OutputLine(NULL, "　詩音嫌い、",
-		   NULL, " Eu te odeio, Shion!! ", Line_Continue);
+		   NULL, " Eu te odeio, Shion!!", Line_Continue);
 	OutputLine(NULL, "詩音嫌い、",
-		   NULL, " Eu te odeio, Shion!! ", Line_Continue);
+		   NULL, " Eu te odeio, Shion!!", Line_Continue);
 	OutputLine(NULL, "詩音嫌い〜〜！！」",
 		   NULL, " Eu te odeio, Shioooon!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

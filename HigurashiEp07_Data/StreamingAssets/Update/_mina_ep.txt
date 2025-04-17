@@ -1208,7 +1208,7 @@ void main()
 	OutputLine(NULL, "国際世論は我が国を一斉に非難。",
 		   NULL, " O mundo inteiro nos responsabilizaria. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>防衛庁長官</color>", NULL, "<color=#f5e6d3>Diretor-Geral de Defesa</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/mob7j6023", 256, TRUE);
 	OutputLine(NULL, "国連に対しＮＢＣ兵器開発疑惑の査察を要求するでしょう。",
 		   NULL, "As Nações Unidas nos acusariam de desenvolver armas de destruição em massa.", Line_WaitForInput);
@@ -1536,7 +1536,6 @@ void main()
 	DrawScene( "background/m_y1", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "ps3/s12/00/forcea28001", 256, TRUE);
 	OutputLine(NULL, "「皆さん、輸送の都合で荷物を持つことはできません！",
 		   NULL, "\"Por razões logítisticas, vocês não podem trazer nenhuma bagagem!", Line_WaitForInput);
@@ -3260,7 +3259,6 @@ void main()
 	OutputLine(NULL, "神がかつて存在した痕跡が残るだけのただの古ぼけた土地だった。",
 		   NULL, " Este era um antigo vilarejo atrasado sem nenhum deus real. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900379", 256, TRUE);
 	OutputLine(NULL, "その地に、私は再び神を取り戻させたの。",
 		   NULL, "Mas eu trouxe um deus para este lugar.", Line_WaitForInput);

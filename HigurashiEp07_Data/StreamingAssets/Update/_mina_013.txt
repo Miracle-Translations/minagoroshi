@@ -50,7 +50,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100733", 256, TRUE);
 	OutputLine(NULL, "「もちろん飯を食いながらでいい。",
-		   NULL, "\"Vocês pode ouvir enquanto comem.", Line_WaitForInput);
+		   NULL, "\"Vocês podem ouvir enquanto comem.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100734", 256, TRUE);
 	OutputLine(NULL, "俺が話したいのはクラスメートの北条沙都子の件だ！！」",
 		   NULL, " Eu quero falar sobre a nossa colega de classe, Houjou Satoko!\"", GetGlobalFlag(GLinemodeSp));
@@ -333,7 +333,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100770", 256, TRUE);
 	OutputLine(NULL, "裏技ってのは奇襲的で効果がありそうに感じるが、そんなのはびっくり箱なんかと同じ安っぽいもんだ！",
-		   NULL, "Jogar de forma dissimulada e atacar de surpresa pode parece mais eficaz, mas isso é tão insignificante quanto uma caixa de surpresas!", Line_WaitForInput);
+		   NULL, "Jogar de forma dissimulada e atacar de surpresa pode parecer mais eficaz, mas isso é tão insignificante quanto uma caixa de surpresas!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100771", 256, TRUE);
 	OutputLine(NULL, "　本当の正攻法ってはな、何でもブチ抜くぞ！！」",
 		   NULL, " Um ataque real e ortodoxo pode perfurar qualquer coisa!!\"", Line_Normal);
@@ -789,10 +789,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6162", 256, TRUE);
 	OutputLine(NULL, "　そして連中は記録にこう書いた。北条沙都子の件についてクラスメート５人から陳情あり、ってな。",
-		   NULL, "Isso é o que eles escreveram depois de nós: cingo colegas de Houjou Satoko fizeram uma visita para solicitar sua proteção.", Line_WaitForInput);
+		   NULL, "Isso é o que eles escreveram: cinco colegas de Houjou Satoko fizeram uma visita para solicitar sua proteção.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6163", 256, TRUE);
 	OutputLine(NULL, "どういうことかわかるか！！",
-		   NULL, " Você sabe o que isso significa?!", Line_WaitForInput);
+		   NULL, " Vocês sabem o que isso significa?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6164", 256, TRUE);
 	OutputLine(NULL, "　５人じゃ足りねえぇ！！",
 		   NULL, " Cinco colegas não são suficientes!! ", GetGlobalFlag(GLinemodeSp));
@@ -2308,7 +2308,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、みんなはすぐに解散せず、今日の話はどういうことだったのかとわいわい話し始める。",
-		   NULL, "mas todos ficaram por perto pra falar sobre o que aconteceu hoje.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas todos ficaram por perto pra falar sobre o que aconteceu hoje.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2450,7 +2450,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100864", 256, TRUE);
 	OutputLine(NULL, "「一人には二人で戦い、千人には村全体で。",
-		   NULL, "\"Quando há um inimigo, dois devem lutar juntos, e quando há mil, toda o vilarejo deverá lutar junta...", Line_WaitForInput);
+		   NULL, "\"Quando há um inimigo, dois devem lutar juntos, e quando há mil, todo o vilarejo deverá lutar junto...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100865", 256, TRUE);
 	OutputLine(NULL, "なるほどな。",
 		   NULL, " Entendo...", Line_WaitForInput);
@@ -2490,7 +2490,7 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100867", 256, TRUE);
 	OutputLine(NULL, "「ってことはつまり、そういうことさ。俺たちの戦い方は、実に雛見沢的だってことじゃねぇか。",
 		   NULL, "\"Em outras palavras, a batalha que estamos travando agora representa Hinamizawa como um todo.", Line_WaitForInput);
@@ -3567,7 +3567,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100910", 256, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　そこに今や定番のスパイス妹味が加わりしかも属性は総受け、ほどよい反抗心は実に心地よく恋愛依存症っぽいヒロインが氾濫するこの世界に颯爽と降臨したニュージェネレーション！！",
 		   NULL, "Além disso, ela tem o tempero adicional do elemento irmã mais nova que está se tornando padrão agora, além de ser uma sou-uke! Ela é a nova geração de heroínas, com um nível perfeito de espírito rebelde fazendo sua grande descida a este mundo repleto de heroínas romanticamente dependentes!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -3932,7 +3932,7 @@ void main()
 		   NULL, " Eles têm Festas de Sobremesas quatro vezes por ano...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 23, "ps3/s12/23/182800029", 256, TRUE);
 	OutputLine(NULL, "その内の一回くらい行けなくたって…",
-		   NULL, " E daí se eu perder um deles?", Line_Continue);
+		   NULL, " E daí se eu perder uma delas?", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 4800 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -4189,7 +4189,7 @@ void main()
 		   NULL, " Vou trazer os membros do meu time de beisebol comigo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 23, "ps3/s12/23/182800042", 256, TRUE);
 	OutputLine(NULL, "それで悪くても１０人ちょいは集まるはずだぜ。",
-		   NULL, " Eu deveria conseguir pelo menos dez pessoas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu devo conseguir pelo menos dez pessoas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4237,7 +4237,7 @@ void main()
 		   NULL, "\"Dez pessoas ainda não são suficientes...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100950", 256, TRUE);
 	OutputLine(NULL, "他に声は掛けられるあてはねぇか？」",
-		   NULL, " Você acha que pode conseguir mais quantas pessoas de algum lugar?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você acha que pode conseguir mais pessoas de algum lugar?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4613,7 +4613,7 @@ void main()
 		   NULL, " Ele parece ser popular nos lugares mais inesperados...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300420", 256, TRUE);
 	OutputLine(NULL, "同性に訴えるカリスマでもあるのかねぇ？」",
-		   NULL, " Muitas outras pessoas parecem respeitá-los.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Muitas outras pessoas parecem respeitá-lo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "background/res5", 300 );

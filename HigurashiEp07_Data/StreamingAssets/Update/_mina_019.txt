@@ -861,7 +861,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今回に使えそうなものだけを持ってきたのだ。",
-		   NULL, "Eles trouxeram tantos banners quanto puderem reutilizar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles trouxeram tantos banners quanto puderam reutilizar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -954,7 +954,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつの間にか、屋根の上にスピーカーを付けた街宣車もどきのワゴン車もいる。",
-		   NULL, "Alguns caminhões que transportavam esses alto-falantes estavam estacinados do lado de fora.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Alguns caminhões que transportavam esses alto-falantes estavam estacionados do lado de fora.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1045,7 +1045,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　デモや集会にも色々なやり方があるんだな。",
-		   NULL, "Então isso que é um protesto de verdade!.", Line_Normal);
+		   NULL, "Então isso que é um protesto de verdade!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1171,7 +1171,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700326", 256, TRUE);
 	OutputLine(NULL, "「前原さん、ちょーっと急ぎのお話が！",
-		   NULL, "\"Maebara-san, Eu preciso conversar um pouco com você!", Line_WaitForInput);
+		   NULL, "\"Maebara-san, eu preciso conversar um pouco com você!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700327", 256, TRUE);
 	OutputLine(NULL, "　公由の村長さんも〜、どうもどうも！」",
 		   NULL, " Ah, Olá, Prefeito Kimiyoshi!\"", GetGlobalFlag(GLinemodeSp));
@@ -1275,7 +1275,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi6085", 256, TRUE);
 	OutputLine(NULL, "それから鹿骨市児童相談所施行条例という条例があり、施設長は業務の支障になると認定した場合、敷地からの退去を命じることができるとなってるんです。」",
-		   NULL, "Além disso, existe uma política neste centro de consulta infantil, que permite ao presidente do centro despedir qualquer qualquer um que esteja perturbando o seu serviço.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Além disso, existe uma política neste centro de consulta infantil, que permite ao presidente do centro despedir qualquer um que esteja perturbando o seu serviço.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1981,7 +1981,6 @@ void main()
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	ModPlayVoiceLS(4, 4, "ps3/s12/04/180400202", 256, TRUE);
 	OutputLine(NULL, "「通帳なんて知らないですわ！！",
 		   NULL, "\"Eu não sei de nenhuma caderneta!!", Line_WaitForInput);
@@ -2931,7 +2930,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎弁護士</color>", NULL, "<color=#f5e6d3>Advogado dos Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/sonobe6010", 256, TRUE);
 	OutputLine(NULL, "「ご心配なく。",
 		   NULL, "\"Não se preocupe.", Line_WaitForInput);
@@ -3408,7 +3407,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/harayama6065", 256, TRUE);
 	OutputLine(NULL, "「いえそれが……、県議と市議の園崎議員が両方おいでで…、",
 		   NULL, "\"Bem, na verdade... tanto os Representantes dos Sonozakis, tanto o da prefeitura quanto o municipal, estão aqui...", Line_WaitForInput);
@@ -3463,7 +3462,7 @@ void main()
 		   NULL, "\"............Então,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6070", 256, TRUE);
 	OutputLine(NULL, "その、",
-		   NULL, " esso é...", Line_WaitForInput);
+		   NULL, " isso é...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/harayama6071", 256, TRUE);
 	OutputLine(NULL, "……雛見沢ですから。」",
 		   NULL, " Hinamizawa.\"", Line_Normal);
@@ -3580,7 +3579,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	ModPlayVoiceLS(4, 0, "org/aida6005", 256, TRUE);
 	OutputLine(NULL, "「こうなったら、向こうの言い分に譲歩するしかないですよ。",
 		   NULL, "\"Neste ponto, você não tem escolha a não ser aceitar o pedido deles.", Line_WaitForInput);
@@ -4553,7 +4552,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/kei082305", 256, TRUE);
 	OutputLine(NULL, "　お前に見せられないのが残念だぜ、今、相談所の外には雛見沢から２００人以上の人が集まってる！",
 		   NULL, "Eu queria te mostrar todas as pessoas que estão reunidas ao redor do centro de consulta infantil agora!", Line_WaitForInput);
@@ -4606,7 +4605,7 @@ void main()
 		   NULL, "Todos têm nos apoiado, e tudo pra te ajudar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101649", 256, TRUE);
 	OutputLine(NULL, "人の数はどんどん増えて、今や雛見沢全部の支持を取り付けた！！",
-		   NULL, " Agora temos toda o vilarejo de Hinamizawa do nosso lado!", Line_WaitForInput);
+		   NULL, " Agora temos todo o vilarejo de Hinamizawa do nosso lado!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101650", 256, TRUE);
 	OutputLine(NULL, "　……ちょっと待て、梨花ちゃんが代わる！」",
 		   NULL, " ...Espera um pouquinho, Rika-chan quer falar com você!\"", Line_Normal);
@@ -4639,7 +4638,7 @@ void main()
 		   NULL, " O povo de Hinamizawa não será mais cruel com você.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500913", 256, TRUE);
 	OutputLine(NULL, "…………だから、ボクと沙都子が一緒にお買い物に行っても、沙都子だけが無視されたりしない。",
-		   NULL, " .........Então ninguém vai te ignorar quando formos fazer compras juntos. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " .........Então ninguém vai te ignorar quando formos fazer compras juntas. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500914", 256, TRUE);
 	OutputLine(NULL, "ボクだけがオマケをもらえたりはしないのです。",
@@ -5969,7 +5968,7 @@ void main()
 		   NULL, " A sucessora da família Sonozaki já está dizendo coisas assustadoras.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700432", 256, TRUE);
 	OutputLine(NULL, "脅迫とかはいけませんよぅ？」",
-		   NULL, " Você não pode ameaça-lo, ouviu?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você não pode ameaçá-lo, ouviu?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -6262,7 +6261,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　オヤシロさまは、相容れない敵同士を融和させて住まわせた神さまだという。",
-		   NULL, "Oyashiro-sama é um deus que reconciliou inimigos e os uniu", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Oyashiro-sama é um deus que reconciliou inimigos e os uniu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
