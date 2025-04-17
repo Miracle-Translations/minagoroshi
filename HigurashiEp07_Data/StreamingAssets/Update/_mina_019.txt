@@ -3729,13 +3729,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "org/mobfF6046", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6046", 256, TRUE);
 	OutputLine(NULL, "「本庁？",
 		   NULL, "\"Prefeitura?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "org/mobfF6047", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6047", 256, TRUE);
 	OutputLine(NULL, "　自治じゃなく？",
 		   NULL, " Não são os escritórios municipais...?", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "org/mobfF6048", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6048", 256, TRUE);
 	OutputLine(NULL, "　今度は誰です…！」",
 		   NULL, " Quem é agora...?\"", Line_Normal);
 	ClearMessage();
@@ -3985,16 +3985,16 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "org/mobfF6049", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6049", 256, TRUE);
 	OutputLine(NULL, "「わかりました！",
 		   NULL, "\"Estou entendendo!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "org/mobfF6050", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6050", 256, TRUE);
 	OutputLine(NULL, "　本当に申し訳ございませんでした…！",
 		   NULL, " Sinto muito por toda a confusão...!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "org/mobfF6051", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6051", 256, TRUE);
 	OutputLine(NULL, "　直ちに対応いたします。",
 		   NULL, " Tomaremos medidas imediatamente.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "org/mobfF6052", 256, TRUE);
+	ModPlayVoiceLS(4, 0, "org/mob7f6052", 256, TRUE);
 	OutputLine(NULL, "係長、北条さんのお宅に電話してください。」",
 		   NULL, " Gerente, por favor ligue para a casa de Houjou-san agora mesmo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
