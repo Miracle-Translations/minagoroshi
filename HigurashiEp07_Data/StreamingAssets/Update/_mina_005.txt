@@ -756,7 +756,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……それは抗うことの出来ないものであることを認めざるを得ないからだ。",
-		   NULL, "Eu teria que aceitar que meu destino não era algo que pudesse ser mudado...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "eu teria que aceitar que meu destino não era algo que pudesse ser mudado...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -777,7 +777,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…私はこの世界よりも条件の悪い、その他全ての世界で運命に抗えないことを証明してしまうことになる。",
-		   NULL, "Então foi a prova de que eu não poderia muda-lo nunca mais.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Então era a prova de que eu não poderia mudá-lo nunca mais.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1182,7 +1182,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……そして長い時間が経過して、二人を救おうという努力をしたことすら、ついさっきまで忘れていたのだ。",
-		   NULL, "Depois de todo esse tempo, esqueci o quanto tentei evitar o morte dos meus pais...", Line_Normal);
+		   NULL, "Depois de todo esse tempo, esqueci o quanto tentei evitar a morte dos meus pais...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }

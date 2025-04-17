@@ -155,7 +155,6 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101311", 256, TRUE);
 	OutputLine(NULL, "「あんたらの時代の話なんか聞いてねえし、ダム戦争なんて関係ねえ。",
 		   NULL, "\"Não estou perguntando sobre o seu passado, e o conflito da represa não tem nada a ver com isso!", Line_WaitForInput);
@@ -164,10 +163,11 @@ void main()
 		   NULL, " Essa é a minha guerra!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101313", 256, TRUE);
 	OutputLine(NULL, "　それに参戦しようってからには、俺の敵か味方かはっきりしてもらおうじゃねぇか。",
-		   NULL, " Então, se vocês vão participar da minha guerra, vamos deixar claro se vocês são mesu inimigos ou meus aliados.", Line_WaitForInput);
+		   NULL, " Então, se vocês vão participar da minha guerra, vamos deixar claro se vocês são meus inimigos ou meus aliados. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101314", 256, TRUE);
 	OutputLine(NULL, "どっちなんだてめえら！！",
-		   NULL, " De qual lado vocês estão?! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "De qual lado vocês estão?! ", Line_WaitForInput);
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101315", 256, TRUE);
 	OutputLine(NULL, "　俺の味方か、それとも敵なのか！！」",
@@ -480,7 +480,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 6, "sprite/si3_wink_a1_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 10, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600326", 256, TRUE);
 	OutputLine(NULL, "「そんなこんなで、今やお役所と村の町会はべったりです。",
 		   NULL, "\"É por isso que o conselho municipal e os funcionários do governo são melhores amigos agora.", Line_WaitForInput);
@@ -1580,7 +1580,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion6134", 256, TRUE);
 	OutputLine(NULL, "……死守同盟の魂を忘れた人間が、この元事務所の敷居を跨げるわけがない。」",
-		   NULL, "...Alguém sem esse espiríto jamais chegaria um lugar como este.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Alguém sem esse espiríto jamais chegaria a um lugar como este.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3ceb3>喜一郎</color>", NULL, "<color=#f3ceb3>Kiichirou</color>", NULL, Line_ContinueAfterTyping); }
@@ -1753,7 +1753,7 @@ void main()
 	ModDrawCharacterWithFiltering(1, 6, "sprite/si3_wink_a1_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600346", 256, TRUE);
 	OutputLine(NULL, "「歴史に残る圭ちゃんの名演説がありました。",
 		   NULL, "\"Kei-chan fez um discurso muito comovente.", Line_WaitForInput);
@@ -2184,7 +2184,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そいつを説得できれば、町会はこっちの味方につくってことなんだ！",
-		   NULL, "Se eu conseguisse convencê-lo, O vilarejo acabaria nos apoiando!", Line_Normal);
+		   NULL, "Se eu conseguisse convencê-lo, o vilarejo acabaria nos apoiando!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

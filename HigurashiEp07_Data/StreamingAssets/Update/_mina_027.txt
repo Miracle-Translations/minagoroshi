@@ -153,7 +153,6 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700225", 256, TRUE);
 	OutputLine(NULL, "「……確かに薬物反応は出なかったそうですが、だからって絶対なかったって保証はありません。",
 		   NULL, "\"...Eles não encontraram, mas isso não prova nada.", Line_WaitForInput);
@@ -162,11 +161,11 @@ void main()
 		   NULL, " Existem inúmeros produtos químicos estranhos neste mundo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700227", 256, TRUE);
 	OutputLine(NULL, "それら全部が間違いなく使われていないなんて保証は誰にも出せませんよ。",
-		   NULL, " Ninguém pode garantir que uma droga não tenha sido usada.", Line_WaitForInput);
+		   NULL, " Ninguém pode garantir que uma droga não tenha sido usada. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700228", 256, TRUE);
 	OutputLine(NULL, "自分が知らない薬だから実在しないなんて、そんな傲慢は刑事が口にしちゃいけない。",
-		   NULL, " Não é porque não temos conhecimento de uma droga que ela não existe. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, "Não é porque não temos conhecimento de uma droga que ela não existe. ", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700229", 256, TRUE);
 	OutputLine(NULL, "あったからにはあるんです。",
 		   NULL, "Eu tenho certeza que esse é o caso.", Line_Normal);
@@ -198,7 +197,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 11, "org/ooishi6176", 256, TRUE);
 	OutputLine(NULL, "「結局、最後まで間違いは認めてませんからねぇ。",
 		   NULL, "\"Ele insistiu que não cometeu um erro até o fim.", Line_WaitForInput);

@@ -708,7 +708,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江のモルモットは沙都子だけではない。",
-		   NULL, "A Satoko não é a única cobaia do Irie. Eu também sou uma delas.", Line_WaitForInput);
+		   NULL, "A Satoko não é a única cobaia do Irie.", Line_WaitForInput);
 	OutputLine(NULL, "私もだ。",
 		   NULL, " Eu também sou uma delas.", Line_Normal);
 	ClearMessage();
@@ -785,7 +785,7 @@ void main()
 		   NULL, "\"Você tem uma ligação da Tóquio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7a6001", 256, TRUE);
 	OutputLine(NULL, "そちらへ回します。』",
-		   NULL, " Vou transferi-lo para o outro telefone.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vou transferi-la para o outro telefone.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1443,7 +1443,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500061", 256, TRUE);
 	OutputLine(NULL, "「……今日はみんなで魅ぃの叔父さんの玩具屋さんで部活があるのですよ。」",
-		   NULL, "\"......Hoje estamos fazendo uma atividade de clube na loja de brinquedos do tio da Mii.\"", Line_Normal);
+		   NULL, "\"......Hoje estamos fazendo uma atividade do clube na loja de brinquedos do tio da Mii.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

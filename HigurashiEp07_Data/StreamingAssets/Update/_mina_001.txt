@@ -559,7 +559,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200004", 256, TRUE);
 	OutputLine(NULL, "どうしよう、監督を呼んでくる？！」",
-		   NULL, "Você quer que eu vá e buscá-lo?!\"", Line_Normal);
+		   NULL, "Você quer que eu vá buscá-lo?!\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(0, 3, "sprite/me2_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 0, FALSE );
@@ -934,7 +934,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あれはあり得ない「奇跡」なのだ。",
-		   NULL, "...O milagre não aconteceria .", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...O milagre não aconteceria.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1166,7 +1166,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……………この世界の圭一にその経験がないのは知っている！",
-		   NULL, "..........Claro que você ainda não experenciou isso neste mundo!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "..........Claro que você ainda não experienciou isso neste mundo!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

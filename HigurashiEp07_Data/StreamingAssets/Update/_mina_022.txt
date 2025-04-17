@@ -24,7 +24,7 @@ void main()
 		   NULL, "\"Eles com certeza foram persistentes.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/280800032", 256, TRUE);
 	OutputLine(NULL, "ははは、そんなに僕らに死んでほしいのかなぁ。」",
-		   NULL, " Hahaha, será que eles querem a nossa morte tanto assim?.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hahaha, será que eles querem a nossa morte tanto assim?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2596,7 +2596,7 @@ void main()
 	ModDrawCharacter(2, 11, "sprite/oisi1_5_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/280700052", 256, TRUE);
 	OutputLine(NULL, "「ってことは、一番考えられるストーリーは、",
 		   NULL, "\"A explicação mais fácil que consigo pensar é esta", Line_Continue);
@@ -3048,7 +3048,6 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	OutputLine(NULL, "　……だが、入江には東京の内情を知りようがなかったから、それ以上はいくら考えても至れない。",
 		   NULL, "...Porém, Irie não tinha meios de saber as informações internas da Tóquio e, por isso, não conseguia pensar em mais nada.", Line_WaitForInput);
 	OutputLine(NULL, "入江を井の中の蛙と笑うのは容易かった。",

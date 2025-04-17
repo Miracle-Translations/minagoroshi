@@ -86,7 +86,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが沙都子の家の方なら、今も住んでいるだろうし、何しろ家事は沙都子がやってくれるから気楽なもんだ。",
-		   NULL, "Também seroa mais fácil se ele fosse para a casa da Satoko, porque ela ainda deveria estar lá e poderia limpar e cozinhar para ele também.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Também seria mais fácil se ele fosse para a casa da Satoko, porque ela ainda deveria estar lá e poderia limpar e cozinhar para ele também.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

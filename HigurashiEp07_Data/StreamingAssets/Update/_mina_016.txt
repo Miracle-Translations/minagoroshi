@@ -1627,7 +1627,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600295", 256, TRUE);
 	OutputLine(NULL, "「…………自分にその力がないのが悲しいですけど、…同感です。",
-		   NULL, "\"......Eu gostaria de poder falar com ela também. ...mas eu concordo.", Line_WaitForInput);
+		   NULL, "\"......Eu gostaria de poder falar com ela também. ...Mas eu concordo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600296", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃまは無二の親友。",
 		   NULL, " Rika-chama é a melhor amiga dela...", Line_WaitForInput);
@@ -2919,7 +2919,7 @@ void main()
 		   NULL, "Mas isso não é verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300517", 256, TRUE);
 	OutputLine(NULL, "婆っちゃだってやっぱり恐れてるんだよ。",
-		   NULL, " Vovó também está com medo. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A vovó também está com medo. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300518", 256, TRUE);
 	OutputLine(NULL, "自分が北条家を擁護したら、村の年寄り連中に対して求心力を失ってしまうのではないかって思ってる。」",
@@ -3427,7 +3427,7 @@ void main()
 		   NULL, "\"Oyashiro-sama foi quem uniu humanos e demônios.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300547", 256, TRUE);
 	OutputLine(NULL, "だからつまり、」",
-		   NULL, " O Que significa...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " O que significa...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -4261,7 +4261,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101291", 256, TRUE);
 	OutputLine(NULL, "「梨花ちゃんは沙都子の一番の友人であると同時に、御三家のひとりでもある。",
 		   NULL, "\"Você não é só a melhor amiga da Satoko, mas também membro das Três Famílias do vilarejo.", Line_WaitForInput);

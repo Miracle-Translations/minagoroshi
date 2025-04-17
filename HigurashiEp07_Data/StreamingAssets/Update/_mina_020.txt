@@ -108,7 +108,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300001", 256, TRUE);
 	OutputLine(NULL, "「あはははは、わかったー。",
-		   NULL, "\"Ahahahaha, Entendi!", Line_WaitForInput);
+		   NULL, "\"Ahahahaha, entendi!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/280300002", 256, TRUE);
 	OutputLine(NULL, "診療所でひとりでお泊りするのが怖かったんでしょー！",
 		   NULL, " Você estava com medo de ficar sozinha na clínica, não é?", Line_WaitForInput);
@@ -372,7 +372,7 @@ void main()
 	OutputLine(NULL, "　たこ焼き、やきそば、カキ氷。あんず飴にソースせんべい、チョコバナナ。",
 		   NULL, "Barracas que vendiam takoyaki, yakisoba, raspadinha de gelo, doce de damasco, molho senbei, banana com chocolate...", Line_WaitForInput);
 	OutputLine(NULL, "ヨーヨーすくいに金魚すくい、射的屋と本当にいっぱいあり、それらにたくさんに人々が群がっていた。",
-		   NULL, " Também tinha jogo de ioiô, jogo de pegar peixeinhos dourados, tiro ao alvo... Várias pessoas se aglomeravam ao redor.", Line_Normal);
+		   NULL, " Também tinha jogo de ioiô, jogo de pegar peixinhos dourados, tiro ao alvo... Várias pessoas se aglomeravam ao redor.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

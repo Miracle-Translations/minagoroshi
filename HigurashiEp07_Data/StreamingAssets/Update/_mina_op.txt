@@ -139,7 +139,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それがさらに続いて、あなたまで生まれてくるなら、やがてはこの世界もあなたの妹たちで埋め尽くされていくかもね。",
-		   NULL, "..Então, à medida que isso progride, até mesmo alguém como você nasce e, um dia, talvez este mundo seja preenchido com suas irmãs também.", Line_Normal);
+		   NULL, "...Então, à medida que isso progride, até mesmo alguém como você nasce e, um dia, talvez este mundo seja preenchido com suas irmãs também.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -149,7 +149,7 @@ void main()
 	Wait( 800 );
 	SetValidityOfInput( TRUE );
 	OutputLine(NULL, "狭い迷宮世界に興味を失った時が、私たち「古手梨花」が消えてしまう時なのでしょうね。",
-		   NULL, " E assim que perdemos o interesse neste labirinto, \"Furude Rika\" desaparecerá deste mundo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E assim que perdermos o interesse neste labirinto, \"Furude Rika\" desaparecerá deste mundo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

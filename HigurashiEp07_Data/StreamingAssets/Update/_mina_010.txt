@@ -48,7 +48,7 @@ void main()
 		   NULL, "\"Há algo de errado, Furude-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s12/22/181400012", 256, TRUE);
 	OutputLine(NULL, "　今日は北条さんはお休みですか…？」",
-		   NULL, " Houjou-san está vai faltar hoje...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Houjou-san vai faltar hoje...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -457,7 +457,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その義務を果たそうとする気持ちは疑わないけれど、その訴えに意味があるかどうかは大いに疑わしい。",
-		   NULL, "Eu não estava negando a paxião dela, mas não poderia dizer que havia significado nisso.", Line_Normal);
+		   NULL, "Eu não estava negando a paixão dela, mas não poderia dizer que havia significado nisso.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2396,7 +2396,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600155", 256, TRUE);
 	OutputLine(NULL, "「どうせ助けてなんかくれませんよ！",
-		   NULL, "\"Tanto faz, eles não ajudá-la!", Line_WaitForInput);
+		   NULL, "\"Tanto faz, eles não vão ajudá-la!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600156", 256, TRUE);
 	OutputLine(NULL, "　他力本願もいいとこです！」",
 		   NULL, " Isso é só perda de tempo!\"", GetGlobalFlag(GLinemodeSp));

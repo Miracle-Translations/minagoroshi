@@ -1354,7 +1354,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………私は小さく会釈してその場を走り去ることしかできなかった。",
-		   NULL, "....tudo que pude fazer foi fazer um breve reverência e fugir de lá.", Line_Normal);
+		   NULL, "....tudo que pude fazer foi uma breve reverência e fugir de lá.", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 300 );
@@ -3449,7 +3449,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　気付けば、…………そこには羽入がいた。",
-		   NULL, "Antes que eu percebesse... Hanyuu estava parado na minha frente.", Line_Normal);
+		   NULL, "Antes que eu percebesse... Hanyuu estava parada na minha frente.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3554,7 +3554,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　１がいくつ続こうが嫌な思いなどしない。",
-		   NULL, "Eu não deveria ficar ficar desapontada se eu rolar um algumas vezes seguidas.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu não deveria ficar desapontada se eu rolar um algumas vezes seguidas.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

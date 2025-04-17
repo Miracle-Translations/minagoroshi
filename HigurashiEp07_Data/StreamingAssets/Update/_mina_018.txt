@@ -696,7 +696,6 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101451", 256, TRUE);
 	OutputLine(NULL, "「付け上がったついでで恐縮ですが。",
 		   NULL, "\"Deixe-me dizer isso sem rodeios.", Line_WaitForInput);
@@ -1066,7 +1065,7 @@ void main()
 		   NULL, " Bem, vou pensar nisso quando ela me pedir desculpas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s12/17/182300027", 256, TRUE);
 	OutputLine(NULL, "すったらん水に流すのも考えよ。」",
-		   NULL, " Eu poderia perdoá-la... se ela realmenter se desculpar.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu poderia perdoá-la... se ela realmente se desculpar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1279,7 +1278,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そういや、本職だって聞いたような…。",
-		   NULL, "...Espera, ouvi uma vez que o pai dela é exatemente isso...", Line_WaitForInput);
+		   NULL, "...Espera, ouvi uma vez que o pai dela é exatamente isso...", Line_WaitForInput);
 	OutputLine(NULL, "なるほど納得の迫力だ。",
 		   NULL, " Ele certamente se parece com o que foi descrito.", Line_Normal);
 	ClearMessage();
@@ -2227,7 +2226,7 @@ void main()
 	OutputLine(NULL, "それが、若いのに何人か頭を下げられてハイそうですかってわけには行かないもの。",
 		   NULL, " Ela também não pode te dar o que você quer simplesmente porque você veio até ela e implorou por isso. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200082", 256, TRUE);
 	OutputLine(NULL, "だから、圭一くんが大立ち回りをした挙句に、鬼婆さまがその男気に惚れて特別に許したって、そのくらいの物語がないと説得力がないわけなんだよねぇ。",
 		   NULL, "Então, a menos que a história seja algo como 'depois que Keiichi-kun lutou violentamente com a velha demônio, ela ficou impressionada com sua bravura e decidiu conceder-lhe permissão especial', não parecerá convincente. ", GetGlobalFlag(GLinemodeSp));
@@ -3073,7 +3072,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/183000018", 540, TRUE);
 	OutputLine(NULL, "「そ、そうですか園崎顧問が…！",
-		   NULL, "\"O-Sonozaki Oryou-san disse isso...?", Line_WaitForInput);
+		   NULL, "\"S-Sonozaki Oryou-san disse isso...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000019", 540, TRUE);
 	OutputLine(NULL, "　……………………ま、",
 		   NULL, " ............Bom,", Line_Continue);

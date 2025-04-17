@@ -112,7 +112,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それどころか、テレビが私の感情に何も訴えないということが、まるで羽入や私の見方を象徴しているようで、かえって気持ちを不愉快にさせた。",
-		   NULL, "...Pior ainda, aĺem de a TV não ter me ajudado a esquecer o medo, ela também parecia simbolizar a forma como Hanyuu e eu vemos o mundo, aumentando ainda mais o meu desconforto.", Line_Normal);
+		   NULL, "...Pior ainda, além de a TV não ter me ajudado a esquecer o medo, ela também parecia simbolizar a forma como Hanyuu e eu vemos o mundo, aumentando ainda mais o meu desconforto.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -1241,7 +1241,7 @@ void main()
 	DrawScene( "background/aka2", 1000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　つまり、オヤシロさまの教えに従わないと祟りがあるというのは、",
 		   NULL, "As pessoas disseram que quem não seguisse as regras de Oyashiro-sama seria amaldiçoado.", Line_WaitForInput);
 	OutputLine(NULL, "オヤシロさまの教えという鉄則を守る限りこの風土病と共存していけるという風にも読み解けるのだ。",
@@ -1327,7 +1327,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こちらがもっともわかりやすく、そして教義の根幹となった。",
-		   NULL, "Esta é muito mais clara e foi particada com mais rigor.", Line_Normal);
+		   NULL, "Esta é muito mais clara e foi praticada com mais rigor.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1410,12 +1410,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、政財界などの重鎮の中には、無条件降伏とアメリカによる洗脳政策を受け容れず、再び戦前の日本を再興したいという人々がまだ燻っていた。",
-		   NULL, "Mas algumas pessoas poderasas no mundo político não queriam aceitar o modo de pensar americano.", Line_Normal);
+		   NULL, "Mas algumas pessoas poderosas no mundo político não queriam aceitar o modo de pensar americano.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それらの重鎮たちはＧＨＱによって職を追放された者もいれば、今だ中枢に居座る者もいたが、長老者を尊ぶ日本社会では変らず黒幕として君臨し続けていた。",
-		   NULL, "Alguns deles foram demitidos do quartel-general, mas continuaram como assessores do governo, já que o Japão tem uma cultura de respetio aos idosos.", Line_Normal);
+		   NULL, "Alguns deles foram demitidos do quartel-general, mas continuaram como assessores do governo, já que o Japão tem uma cultura de respeito aos idosos.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 0, 1300, FALSE );
@@ -1927,6 +1927,7 @@ void main()
 	OutputLine(NULL, "仮設の外堀を徐々に埋め、",
 		   NULL, " descobrindo muitas respostas com base nisso. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-1>", Line_Continue); }
 	OutputLine(NULL, "昭和５４年、山狗が拉致した、バラバラ殺人事件の犯人という末期発症者の生体を得た時点で『雛見沢症候群』の劇的解明に至った。",
 		   NULL, "Em Showa 54 (1979), a Yamainu sequestrou o culpado do assassinato por desmembramento do líder da construção da represa, que era um paciente terminal da Síndrome de Hinamizawa. A natureza da doença foi dramaticamente esclarecida.", Line_Normal);
 	ClearMessage();
@@ -2093,7 +2094,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もともと善良な小市民である彼は軍事的研究の中止にはさほど異議は唱えず、すぐに了承したという。",
-		   NULL, "Irie já não interesse em transformar a doença em uma arma, então ele aceitou esses termos imediatamente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Irie já não tem interesse em transformar a doença em uma arma, então ele aceitou esses termos imediatamente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
