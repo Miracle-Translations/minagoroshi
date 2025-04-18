@@ -126,7 +126,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100140", 256, TRUE);
 	OutputLine(NULL, "「まぁ…確かに選べる範囲があるなら、わざわざ人形は選ばねぇな。",
-		   NULL, "\"Bem... Se eu pudesse, escolheria outra coisa...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ah... Se eu pudesse, escolheria outra coisa...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -135,10 +135,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100141", 256, TRUE);
 	OutputLine(NULL, "でもよ、男の世界じゃ、相手に悪意がない限り、贈り物は拒まねぇぜ？",
-		   NULL, "Mas de qualquer forma, um cara nunca rejeitaria um presente, a menos que houvesse algo obscuro acontecendo.", Line_WaitForInput);
+		   NULL, "Mas, um cara nunca rejeitaria o presente de um amigo, só se fosse com má intenção, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100142", 256, TRUE);
 	OutputLine(NULL, "　相手の気持ちなんだからよ、変に断られるとかえって男気がないよな！」",
-		   NULL, " Sou fui generoso... Por que você recusou então?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu só fui generoso, então é estranho ser rejeitado assim... Não parece coisa de homem!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -147,10 +147,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300040", 256, TRUE);
 	OutputLine(NULL, "「ふ、…ふ〜ん？",
-		   NULL, "\"Oh...", Line_WaitForInput);
+		   NULL, "\"Hm... Hm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300041", 256, TRUE);
 	OutputLine(NULL, "　じゃあ、その、女の子でなくても……人形を受け取ってもいいんだ…？」",
-		   NULL, " Então eu posso aceitar essa boneca... mesmo não sendo uma garota feminina...?\"", Line_Normal);
+		   NULL, " Então eu posso aceitar essa boneca...... mesmo não sendo uma garota feminina...?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -176,10 +176,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100143", 256, TRUE);
 	OutputLine(NULL, "「男が仲間に贈ったもんだぜ！",
-		   NULL, "\"Estou oferecendo isso a você como amigo!", Line_WaitForInput);
+		   NULL, "\"Eu tô oferecendo isso a você como amigo!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100144", 256, TRUE);
 	OutputLine(NULL, "　大事にしなかったら承知しないぞ！」",
-		   NULL, " Eu não quero ouvir que você não está gostando!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu quero que você goste do presente!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -188,7 +188,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300042", 256, TRUE);
 	OutputLine(NULL, "「う、",
-		   NULL, "\"O...", Line_Continue);
+		   NULL, "\"O......", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );
@@ -196,10 +196,10 @@ void main()
 		   NULL, " ok...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300043", 256, TRUE);
 	OutputLine(NULL, "あ、あの！",
-		   NULL, " E-Eu...!", Line_WaitForInput);
+		   NULL, " E-Ei!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300044", 256, TRUE);
 	OutputLine(NULL, "　おじさんがこの人形が欲しいからもらうんじゃないよ？！",
-		   NULL, " Eu só queria deixar claro que Oji-san aqui só aceitou essa boneca porque ele não quis!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu só queria deixar bem claro que a Oji-san aqui só aceitou essa boneca porque ele não quis!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -208,12 +208,12 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300045", 256, TRUE);
 	OutputLine(NULL, "圭ちゃんが仲間に贈るって言ったから……",
-		   NULL, "Estou aceitando porque você disse que é um presente seu como amigo...", Line_Continue);
+		   NULL, "Tô aceitando porque você disse que é um presente seu como amigo......", Line_Continue);
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 2800 );
 	// (backup) SetValidityOfInput( TRUE );
 	OutputLine(NULL, "圭ちゃんの顔を立てるために受け取るんだからね？！」",
-		   NULL, " Estou considerando isso uma cortesia para não desrespeitar sua generosidade!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tô considerando isso uma cortesia pra não desrespeitar a sua generosidade!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 	DrawScene( "black", 1000 );
@@ -230,17 +230,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、男友達に渡す贈り物ということでいいんだろうか？",
-		   NULL, "Mas isso foi realmente uma boa maneira de resolver o problema...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas essa foi realmente uma boa maneira de resolver o problema?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…確か以前の世界では、圭一に女の子扱いしてもらえなくって話がおかしくなったんじゃなかったっけ…？",
-		   NULL, "Eu pensei que o problema da Mion na vida anterior era que ela <i>queria</i> que Keiichi a tratasse como uma menina...", Line_Normal);
+		   NULL, "...Eu pensei que o problema da Mion na vida anterior era que ela queria que o Keiichi a tratasse como uma menina...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お人形は確かにもらえたけど、相変わらず圭一に女の子扱いはしてもらっていないように思うのだが…。",
-		   NULL, "Ela ganhou a boneca, mas Keiichi ainda não a tratava assim...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela ganhou a boneca, mas ele ainda não a tratava como uma menina...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -251,16 +251,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あのお人形、魅音は絶対今晩、抱きながら寝るに違いない。",
-		   NULL, "Tenho certeza que Mion vai levar aquela boneca com ela para a cama hoje à noite.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tenho certeza que ela vai levar aquela boneca com ela para a cama hoje à noite.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お休みのキスもする。",
 		   NULL, "Ela vai dar um beijo de boa noite também.", Line_WaitForInput);
 	OutputLine(NULL, "賭けてもいい。",
-		   NULL, " Eu poderia apostar nisso.", Line_WaitForInput);
+		   NULL, " Pode apostar.", Line_WaitForInput);
 	OutputLine(NULL, "そう顔に書いてあるから間違いない。",
-		   NULL, " Estava escrito em todo o rosto dela.", Line_Normal);
+		   NULL, " Está escrito no rosto dela.", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(0, 256, "none");

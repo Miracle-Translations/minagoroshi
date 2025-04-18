@@ -503,7 +503,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　知恵が、誰ですか！と叫ぶと、ヤバっと魅音の小さい声が聞こえた。",
-		   NULL, "Chie gritou, \"Quem está aqui?!\" e ouvi Mion ofegante, \"Merda!\"", Line_Normal);
+		   NULL, "Chie gritou, \"Quem está aí?!\" e ouvi Mion ofegante, \"Merda!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -114,7 +114,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いずれもとても素晴らしい推理で、中には劇中よりも考察が深く、それを正解にしてしまいたいと思ったことも何度かあるくらいです（苦笑）。",
-		   NULL, "Eram todas teorias maravilhosas, e algumas foram pensadas muito mais do que a história real, que frequentemente pensei em torná-las respostas certa (risos irônicos).", Line_Normal);
+		   NULL, "Eram todas teorias maravilhosas, e algumas foram até mais a fundo do que a história real, tanto que frequentemente pensei em torná-las a resposta certa (risos irônicos).", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

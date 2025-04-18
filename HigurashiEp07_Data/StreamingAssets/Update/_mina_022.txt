@@ -2647,7 +2647,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "org/ooishi6110", 256, TRUE);
 	OutputLine(NULL, "「私もそっちは専門じゃありませんが、…ヤク中の末期症状に自傷行為ってあるらしいじゃないですか。",
-		   NULL, "\"Também não sou especialista nisso... mas dizem que a automutilação é um dos seus sintomas terminais do viciado em drogas, né?", Line_WaitForInput);
+		   NULL, "\"Também não sou especialista nisso... mas dizem que a automutilação é um dos sintomas terminais de um viciado em drogas, né?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6111", 256, TRUE);
 	OutputLine(NULL, "まぁ、その辺はうちの鑑識のじいさまが調べてくれるでしょう。」",
 		   NULL, " Bem, tenho certeza que o velho da perícia cuidará da investigação.\"", Line_Normal);

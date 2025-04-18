@@ -720,7 +720,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100171", 256, TRUE);
 	OutputLine(NULL, "「お前ら、俺をおだててるのか馬鹿にしてるのか微妙だぞ…。」",
-		   NULL, "\"Vocês estão zombando de mim ou o quê...?\"", Line_Normal);
+		   NULL, "\"Vocês tão tirando uma com a minha cara ou o quê...?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

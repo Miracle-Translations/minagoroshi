@@ -777,7 +777,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちゃんとルールに従ってロの字型に積み上げてあり、まるでさっきまで誰かが遊んでいたように見えた。",
-		   NULL, "Eles estavam dispostos em formato quadrado, como se alguém estivesse jogando ali até poucos minutos atrás.", Line_Normal);
+		   NULL, "Elas estavam dispostas em formato quadrado, como se alguém estivesse jogando ali até poucos minutos atrás.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

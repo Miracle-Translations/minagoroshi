@@ -3185,7 +3185,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは羽入にはきっと、あんたのせいで奇跡が起きないのだと言っているように聞こえただろう。",
-		   NULL, "Para ela, o que acabei de dizer pode soar como se eu estivesse a culpando porque o milagre não ter aconteceu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Para ela, o que acabei de dizer pode soar como se eu estivesse a culpando porque o milagre não aconteceu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

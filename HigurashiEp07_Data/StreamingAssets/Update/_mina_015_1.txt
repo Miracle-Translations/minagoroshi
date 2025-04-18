@@ -716,16 +716,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200486", 256, TRUE);
 	OutputLine(NULL, "「私、……とても昔に逆の立場だったことがあるの。",
-		   NULL, "\"Eu entendo... eu já fui igual a você...", Line_WaitForInput);
+		   NULL, "\"Eu...... já estive na mesma posição que você.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200487", 256, TRUE);
 	OutputLine(NULL, "どうせ誰にも自分は救えないと。",
-		   NULL, " Eu pensei que ninguém poderia me ajudar.", Line_WaitForInput);
+		   NULL, " Pensei que ninguém poderia me ajudar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200488", 256, TRUE);
 	OutputLine(NULL, "自分が今していることが最善手だと。",
-		   NULL, " Eu pensei que tudo o que eu estava fazendo era a única coisa que eu poderia fazer.", Line_WaitForInput);
+		   NULL, " E que tudo o que eu estava fazendo era a única solução.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200489", 256, TRUE);
 	OutputLine(NULL, "そう思い込んでいるから、仲間が差し伸べてくれる手を受け容れられないの。",
-		   NULL, " Por isso nem aceitei a ajuda dos meus amigos.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Por isso, não consegui sequer aceitar a ajuda dos meus amigos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

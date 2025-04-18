@@ -1644,14 +1644,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何を言ってるのかわからないが、怒り心頭だということはとりあえずわかる。",
-		   NULL, "Ela estava resmungando demais pra eu saber o que ela estava dizendo, mas eu percebi que ela estava furiosa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela estava resmungando demais pra eu saber o que ela estava dizendo, mas percebi que ela estava furiosa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、不機嫌そうにごにょごにょと魅音のお母さんに囁いた。",
-		   NULL, "Ela sussurou algo no ouvido da mãe da Mion.", Line_WaitForInput);
+		   NULL, "Então, ela sussurou alguma coisa no ouvido da mãe da Mion,", Line_WaitForInput);
 	OutputLine(NULL, "それを彼女が代弁する。",
-		   NULL, " que falou por ela logo em.", Line_Normal);
+		   NULL, " que, em seguida, repetiu em voz alta.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/ima3", 300 );

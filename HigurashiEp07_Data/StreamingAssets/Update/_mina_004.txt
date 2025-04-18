@@ -97,7 +97,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500218", 256, TRUE);
 	OutputLine(NULL, "「……みー。最近の若者は潔癖なのです。」",
-		   NULL, "\"...Nii. Os jovens de hoje em dia são exigentes.\"", Line_Normal);
+		   NULL, "\"...Mii. Os jovens de hoje em dia são exigentes.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/js4", 300 );
@@ -177,7 +177,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500219", 256, TRUE);
 	OutputLine(NULL, "「……レナのお父さんは、…就職したのですか？」",
-		   NULL, "\"......O pai dela... encontrou um novo emprego?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Rena, o seu pai... encontrou um novo emprego?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -188,7 +188,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ということは、ついこの間までレナのお父さんは無職だったということか…？",
-		   NULL, "Isso significava que o pai da Rena estava desempregado até recentemente...?", Line_Normal);
+		   NULL, "...Isso significava que o pai da Rena estava desempregado até recentemente...?", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

@@ -1796,7 +1796,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何しろ、沙都子を引っ張り込んだその翌日にはもう学校の教師が押し掛けてきてる。",
-		   NULL, "A professora veio visitá-lo um dia depois que ele a levou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A professora veio visitá-la um dia depois que ele a levou.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1807,9 +1807,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　相談所からもだ。",
-		   NULL, "Eles eram todos do centro de consulta infantil.", Line_WaitForInput);
+		   NULL, "Elas sempre eram do centro de consulta infantil.", Line_WaitForInput);
 	OutputLine(NULL, "しかもどいつも沙都子を電話口に出せとうるさい。",
-		   NULL, " Cada um deles disse a ele para colocar Satoko no telefone.", Line_Normal);
+		   NULL, " Toda vez pedindo a ele para colocar a Satoko no telefone.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4558,7 +4558,7 @@ void main()
 		   NULL, "Eu queria te mostrar todas as pessoas que estão reunidas ao redor do centro de consulta infantil agora!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101635", 256, TRUE);
 	OutputLine(NULL, "　明日の綿流しの祭りの準備を放り出して、お前を助けるために相談所へ陳情に集まってくれてるんだよッ！！",
-		   NULL, " Todos de Hinamizawa estão aqui pra salvar você. Eles estão até abandonaram a preparação pro festival de amanhã! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Todos de Hinamizawa estão aqui pra salvar você. Eles até abandonaram a preparação pro festival de amanhã! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101636", 256, TRUE);
 	OutputLine(NULL, "　…………ぇ？",
@@ -5590,7 +5590,7 @@ void main()
 		   NULL, "A polícia entrou na residência Houjou agora há pouco.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "org/ooishi6107", 256, TRUE);
 	OutputLine(NULL, "沙都子さんに暴行を加える時間なんて与えません。」",
-		   NULL, " Ele não teve tido tempo para machucar Satoko-chan.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ele não teve tempo para machucar a Satoko-chan.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -5608,16 +5608,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700419", 256, TRUE);
 	OutputLine(NULL, "「……さぁて、どうしてでしょうねぇ。",
-		   NULL, "\"...Não faço ideia. Por que será?", Line_WaitForInput);
+		   NULL, "\"......Sei lá, por que será?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700420", 256, TRUE);
 	OutputLine(NULL, "とにかく、一件落着ならこの集団、解散してくださいよ？",
-		   NULL, " Enfim, você poderia acabar com essa multidão agora?", Line_WaitForInput);
+		   NULL, " Enfim, você poderia, por favor, acabar com essa multidão agora?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700421", 256, TRUE);
 	OutputLine(NULL, "　それじゃひとまずこの場は失礼します。",
-		   NULL, " Eu vou embora, então com licença.", Line_WaitForInput);
+		   NULL, " Eu vou embora, então, com licença.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700422", 256, TRUE);
 	OutputLine(NULL, "それではよいお年を。",
-		   NULL, " Tenha um bom ano.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tenha um bom ano novo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -5635,7 +5635,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500987", 256, TRUE);
 	OutputLine(NULL, "「……大石は沙都子の電話を聞くのと同時に、無線でどこかへ連絡していましたです。」",
-		   NULL, "\"......Ooishi deve ter contatado alguém assim que ouviu Satoko pedindo ajuda.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Ooishi deve ter contatado alguém assim que ouviu a Satoko pedindo ajuda.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

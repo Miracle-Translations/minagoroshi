@@ -1536,7 +1536,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……俺たちを覆うのは閉塞感。",
-		   NULL, "......Todos nós nos sentimentos desesperados.", Line_WaitForInput);
+		   NULL, "......Todos nós nos sentimos desesperados.", Line_WaitForInput);
 	OutputLine(NULL, "手詰まり感だった。",
 		   NULL, " Não tínhamos ideia do que fazer...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
