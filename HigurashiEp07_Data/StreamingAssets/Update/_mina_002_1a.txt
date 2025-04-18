@@ -67,7 +67,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもそれは圭一個人の価値観に基づく考え方で、魅音には通じないのだ。",
-		   NULL, "Mas, essa era só a forma como ele se sentia. Mion não concordou.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mas essa forma de pensar era apenas um reflexo dos valores pessoais do Keiichi, valores esses que a Mion não compreendia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
