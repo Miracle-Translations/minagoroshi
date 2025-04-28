@@ -8,6 +8,10 @@
 			"text": "ddd dd MMM, yyyy h:mm tt",
 			"comment": "The 'text' field sets the displayed date time format for save files, for example 'ddd MMM dd, yyyy h:mm tt'. See https://github.com/07th-mod/higurashi-assembly/issues/109 for more details."
 		},
+		"HouPlusWideMenuButtons": {
+			"text": "-1.0",
+			"comment": "To enable, set to the opacity you want for the title menu button when it is hovered, eg '0.5'. For Hou+ the main menu contains one is very wide (button hovered), and one only is as long as the english text (button not hovered). Translators may be unable to fit the text in the short UI file, so I've added a mode which only uses the long button, and uses the engine to give a fade effect when you hover the button. Setting a negative value uses the normal menu."
+		},
 		"ExampleEntry": {
 			"text": "This text will displayed by default.",
 			"textJP": "This text will be displayed when the language is changed to Japanese in-game.",
@@ -41,7 +45,7 @@
 			"text": "Menu do Mod\n(Atalho: F10)"
 		},
 		"MODMenu_8": {
-			"text": "Informações da BGM"
+			"text": "Informações da Música de Fundo (BGM)"
 		},
 		"MODMenu_9": {
 			"text": "Copiar Nome da BGM"
@@ -84,7 +88,7 @@
 			"text": "MangaGamer"
 		},
 		"MODMenuNormal_5": {
-			"text": "Utilizar os sprites Mangagamer"
+			"text": "Utilizar os sprites MangaGamer"
 		},
 		"MODMenuNormal_6": {
 			"text": "Original"
@@ -234,7 +238,7 @@
 			"text": "Como Segunda Opção"
 		},
 		"MODMenuNormal_55": {
-			"text": "Apenas usa o lipsync computado se não houver um arquivo de 'spectrum' preparado para um arquivo .ogg"
+			"text": "Apenas usa lipsync computado se não houver um arquivo de 'spectrum' preparado para um arquivo .ogg"
 		},
 		"MODMenuNormal_56": {
 			"text": "Sempre Computado"
@@ -258,13 +262,13 @@
 			"text": "Áudio"
 		},
 		"MODMenuNormal_63": {
-			"text": "Opções de BGM e SE"
+			"text": "Opções de Músicas de Fundo (BGM) e Efeitos Sonoros (SE)"
 		},
 		"MODMenuNormal_64": {
 			"text": "Soluções"
 		},
 		"MODMenuNormal_65": {
-			"text": "Ferramentas para te ajudar se algo der errado"
+			"text": "Ferramentas para te ajudar caso algo dê errado"
 		},
 		"MODMenuNormal_66": {
 			"text": "Proporção de Tela 4:3 (Original/Ryukishi, experimental)"
@@ -273,7 +277,7 @@
 			"text": "16:9 (padrão)"
 		},
 		"MODMenuNormal_68": {
-			"text": "A proporção de tela do jogo será 16:9.\n\nQuando jogando com o preset 'Original', as partes esquerda e direita da tela serão preenchidas para 4:3 com barras pretas."
+			"text": "A proporção de tela do jogo será 16:9.\n\nAo jogar com o preset 'Original', as partes laterais além da proporção de 4:3 serão preenchidas com barras pretas."
 		},
 		"MODMenuNormal_69": {
 			"text": "A proporção de tela do jogo será 4:3, no entanto isso pode causar alguns problemas enquanto você estiver jogando com nosso mod.\nApenas utilize esta opção se o seu monitor utilizar a proporção de tela 4:3, por exemplo um monitor antigo CRT.\n\nPor favor, note o seguinte:\n\n - Você deve selecionar o preset 'Original' antes de ativar esta opção. Outras configurações devem funcionar, mas não foram testadas.\n\n - Imagens 16:9 serão esticadas para encaixar em 4:3 para não serem cortadas. Isso inclui imagens com texto, e CGs se estiverem ativadas.\n\n - Você pode ver alguns artefatos gráficos após ativar esta opção - eles devem desaparecer após a próxima transição de personagem ou após a caixa de texto ser limpa.\n\n"
@@ -360,7 +364,7 @@
 			"text": "Ferramentas de Desenvolvedor"
 		},
 		"MODMenuNormal_97": {
-			"text": "Menu de Debug do Desenvolvedor"
+			"text": "Menu de Debug de Desenvolvedor"
 		},
 		"MODMenuNormal_98": {
 			"text": "Alternar o menu de Debug (Shift-F9)"
@@ -372,7 +376,7 @@
 			"text": "Alternar o menu de flags (Shift-F10)"
 		},
 		"MODMenuNormal_101": {
-			"text": "Alterna o menu de flags. Alterne várias vezes para ver mais opções.\n\nNota: o 3º e 4º painel apenas serão mostrados se o valor de GMOD_DEBUG_MODE for true."
+			"text": "Alterna o menu de flags. Alterne várias vezes para ver mais opções.\n\nNota: o 3º e 4º painel apenas serão mostrados se o valor de 'GMOD_DEBUG_MODE' for 'true'."
 		},
 		"MODMenuNormal_102": {
 			"text": "Mostrar Ferramentas de Desenvolvedor"
@@ -432,13 +436,13 @@
 			"text": "LipSync Thresh 1: "
 		},
 		"MODMenuNormal_121": {
-			"text": "Acima desse threshold, a expressão 1 será usada.\n\nAbaixo ou igual a esse limite, a expressão 0 será usada.\n\nApenas será salvo até que o jogo reinicie"
+			"text": "Acima desse threshold, a expressão 1 será usada.\n\nAbaixo ou igual a esse limite, a expressão 0 será usada.\n\nApenas será salvo até que o jogo reinicie."
 		},
 		"MODMenuNormal_122": {
 			"text": "LipSync Thresh 2: "
 		},
 		"MODMenuNormal_123": {
-			"text": "Acima desse threshold, a expressão 2 será usada.\n\nApenas será salvo até que o jogo reinicie"
+			"text": "Acima desse threshold, a expressão 2 será usada.\n\nApenas será salvo até que o jogo reinicie."
 		},
 		"MODMenuNormal_124": {
 			"text": "Definir"
@@ -456,11 +460,11 @@
 			"text": "\n\nDefine o nível de censura do script\n- Esta configuração existe porque as vozes foram retiradas da versão de Console do jogo que contém censura, então, não existem vozes do diálogo sem censura da versão de PC.\n- Nós recomendamos o nível padrão (2), a opção mais equilibrada. Usando esta oção, apenas mudanças de copyright, insinuações, e poucas palavras serão alteradas.\n  - 5: Usa as vozes do script de PS3 o tanto quanto for possível (com censura em algumas partes).\n  - 2: Padrão - opção mais equilibrada.\n  - 0: Script original de PC com vozes onde encaixam (sem censura alguma), mas cenas sem a censura podem ficar sem vozes."
 		},
 		"MODMenuNormal_129": {
-			"text": "Passe o mouse sobre um botão na esquerda para ver sua descrição.\n\n[Atalhos Vanilla]\nEnter,Return,RightArrow,PageDown : Avançar Texto\nLeftArrow,Pageup : Ver Histórico\nESC : Abrir Menu\nSegurar Ctrl : Pular Texto\nA : Modo Automático\nS : Alternar Pulo de Texto\nF, Alt + Enter : Alternar Tela Cheia\nEspaço : Esconder Texto\nL : Trocar Idioma\n\n[Atalhos do MOD]\nF1 : Modo ADV-NVL\nF2 : Nível de Voice Matching\nF3 : Nível de Efeito (Não usado)\nF5 : Salvamento Rápido\nF7 : Carregamento Rápido\nF10 : Menu do Mod\nM : Aumentar Volume da Voz\nN : Diminuir Volume da Voz\nP : Alternar Estilo de Sprite\n2 : Alternar BGM/SE\n7 : Ligar/Desligar Lip-Sync\nLShift + M : Volume da Voz Máximo\nLShift + N : Volume da Voz Mínimo"
+			"text": "Passe o mouse sobre um botão na esquerda para ver sua descrição.\n\n[Atalhos Vanilla]\nEnter, Return, RightArrow, PageDown : Avançar Texto\nLeftArrow, Pageup : Ver Histórico\nESC : Abrir Menu\nSegurar Ctrl : Pular Texto\nA : Modo Automático\nS : Alternar Pulo de Texto\nF, Alt + Enter : Alternar Tela Cheia\nEspaço : Esconder Texto\nL : Trocar Idioma\n\n[Atalhos do MOD]\nF1 : Modo ADV-NVL\nF2 : Nível de Voice Matching\nF3 : Nível de Efeito (Não usado)\nF5 : Salvamento Rápido\nF7 : Carregamento Rápido\nF10 : Menu do Mod\nM : Aumentar Volume da Voz\nN : Diminuir Volume da Voz\nP : Alternar Estilo de Sprite\n2 : Alternar BGM/SE\n7 : Ligar/Desligar Lip-Sync\nLShift + M : Volume da Voz Máximo\nLShift + N : Volume da Voz Mínimo"
 		},
 		"MODMenuResolution_0": {
 			"comment": "The below entries are for Resolution part of the F10 mod menu, in the file MOD.Scripts.UI/MODMenuResolution.cs",
-			"text": "Define uma resolução de tela cheia customizada\n\nUtilize esta opção apenas se a resolução de tela cheia detectada pelo jogo for incorreta (como em alguns sistemas Linux).\nVocê pode digitar manualmente uma resolução na esquerda.\n\nClique em 'Limpar' para deixar que o jogo determine automaticamente a resolução."
+			"text": "Define uma resolução de tela cheia personalizada\n\nUtilize esta opção apenas se a resolução de tela cheia detectada pelo jogo for incorreta (como em alguns sistemas Linux).\nVocê pode digitar manualmente uma resolução na esquerda.\n\nClique em 'Limpar' para deixar que o jogo determine automaticamente a resolução."
 		},
 		"MODMenuResolution_1": {
 			"text": "Configurações de Resolução do Modo Janela"
@@ -610,13 +614,13 @@
 			"text": "Mostrar output_log.txt / Player.log"
 		},
 		"MODMenuSupport_3": {
-			"text": "Este botão mostra a localização dos arquivos 'ouput_log.txt' ou 'Player.log'\n\n- Este arquivo é chamado 'output_log.txt' no Windows e 'Player.log' no MacOS/Linux\n- Este arquivo grava erros que ocorreram durante a gameplay, e durante a inicialização do jogo\n- Este arquivo ajuda quando o jogo falha em iniciar, por exemplo\n  - um save corrompido\n  - Interface de Usuário errada (arquivo sharedassets0.assets)\n- Note que cada vez que o jogo inicia, o arquivo de log atual é substituído"
+			"text": "Este botão mostra a localização dos arquivos 'ouput_log.txt' ou 'Player.log'\n\n- Este arquivo é chamado 'output_log.txt' no Windows e 'Player.log' no MacOS/Linux\n- Este arquivo grava erros que ocorreram durante a gameplay e a inicialização do jogo\n- Este arquivo ajuda quando o jogo falha em iniciar, por exemplo\n  - um save corrompido\n  - Interface de Usuário errada (arquivo sharedassets0.assets)\n- Note que, a cada vez que o jogo for iniciado, o arquivo de log atual é substituído"
 		},
 		"MODMenuSupport_4": {
 			"text": "Mostrar Saves"
 		},
 		"MODMenuSupport_5": {
-			"text": "Clique para abrir a pasta de saves, que inclui saves, quicksaves, e dados globais de save\n\nLimpar seus arquivos de save pode consertar alguns problemas com a inicialização do jogo, e resetar todas as flags do mod.\n\n- AVISO: A Nuvem da Steam vai restaurar seus saves se você deletá-los manualmente! Antes disso, lembre-se de desativar a nuvem da steam, caso contrário, seus saves vão magicamente reaparecer!\n- O arquivo 'global.dat' guarda seu progresso de conclusão global e as flags do mod\n- O arquivo 'qsaveX.dat' e 'saveXXX.dat' contém saves individuais. Se esses corromperem podem acabar quebrando seu jogo!\n- É recomendado fazer um backup de todos os seus saves antes de modificá-los."
+			"text": "Clique para abrir a pasta de saves, que inclui saves, quicksaves, e dados globais de save\n\nLimpar seus arquivos de save pode consertar alguns problemas com a inicialização do jogo, além de resetar todas as flags do mod.\n\n- AVISO: A Nuvem da Steam vai restaurar seus saves se você deletá-los manualmente! Antes disso, lembre-se de desativar a nuvem da steam, caso contrário, seus saves vão magicamente reaparecer!\n- O arquivo 'global.dat' guarda seu progresso de conclusão global e as flags do mod\n- O arquivo 'qsaveX.dat' e 'saveXXX.dat' contém saves individuais. Se esses corromperem podem acabar quebrando seu jogo!\n- É recomendado fazer um backup de todos os seus saves antes de modificá-los."
 		},
 		"MODMenuSupport_6": {
 			"text": "Acesso Rápido às Pastas do Jogo"
@@ -631,7 +635,7 @@
 			"text": "Mostrar Pasta StreamingAssets"
 		},
 		"MODMenuSupport_10": {
-			"text": "Clique para abrir a Pasta StreamingAssets, que contém a maioria dos assets do jogo.\n\n- Maior parte da Imagens/Texturas, incluindo Sprites, Backgrounds, Imagens de Texto, e efeitos de Filtro\n- Vozes, Músicas de Fundo (BGM), e Efeitos Sonoros (SE)\n- Scripts do Jogo e Scripts Compilados do Jogo\n- Aberturas\n- E Outros Arquivos Relacionados ao Jogo"
+			"text": "Clique para abrir a Pasta StreamingAssets, que contém a maioria dos assets do jogo.\n\n- Maior parte da Imagens/Texturas, incluindo Sprites, Backgrounds, Imagens de Texto e efeitos de Filtro\n- Vozes, Músicas de Fundo (BGM) e Efeitos Sonoros (SE)\n- Scripts do Jogo e Scripts Compilados do Jogo\n- Aberturas\n- E Outros Arquivos Relacionados ao Jogo"
 		},
 		"MODMenuSupport_11": {
 			"text": "Mostrar Pasta DLL"
@@ -675,6 +679,26 @@
 		},
 		"MODMenuSupportCompileFailed_24": {
 			"text": "NÃO É RECOMENDADO continuar jogando após este erro. O jogo pode parecer estar OK, mas assim que você chegar no script que falhou em compilar, o jogo pode reiniciar, você pode ver vários glitches gráficos, ou acabar pulando grande parte da história inesperadamente."
+		},
+		"MusicBoxRepeat": {
+			"text": "Repetir",
+			"textJP": "1曲リピート",
+			"comment": "Music box button (hou+)"
+		},
+		"MusicBoxShuffle": {
+			"text": "Aleatório",
+			"textJP": "気まぐれ演奏",
+			"comment": "Music box button (hou+)"
+		},
+		"MusicBoxPlayAll": {
+			"text": "Todas",
+			"textJP": "全曲演奏",
+			"comment": "Music box button (hou+)"
+		},
+		"MusicBoxTitle": {
+			"text": "[Título]",
+			"textJP": "【Title】",
+			"comment": "Music box button (hou+)"
 		}
 	}
 }
