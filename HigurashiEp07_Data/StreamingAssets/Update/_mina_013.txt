@@ -1595,27 +1595,29 @@ void main()
 		   NULL, "Murmura, murmura, murmura, murmura!!!", Line_Normal);
 	ClearMessage();
 
+	DisableWindow();
+	ModDrawCharacterWithFiltering(1, 6, "sprite/si3_ikari_a1_", "2", "maskleft", 1, -160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "org/shion6087", 256, TRUE);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "org/shion6087", 256, TRUE);
 	OutputLine(NULL, "「はぁッ？！",
-		   NULL, "\"Quê?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "org/shion6088", 256, TRUE);
+		   NULL, "\"Hã?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "org/shion6088", 256, TRUE);
 	OutputLine(NULL, "　去年のあんたたちは何をやってたんですか！！",
-		   NULL, " O que diabos vocês estavam fazendo ano passado?!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "org/shion6089", 256, TRUE);
+		   NULL, " O que é que vocês estavam fazendo ano passado?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "org/shion6089", 256, TRUE);
 	OutputLine(NULL, "　叔父叔母夫婦で共に虐めてたんです！！",
-		   NULL, " Ela estava sendo abusada pelos tios!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 1, "org/shion6090", 256, TRUE);
+		   NULL, " Ela estava sendo abusada pelos dois!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "org/shion6090", 256, TRUE);
 	OutputLine(NULL, "　まさか叔母だけが虐めてたって認識じゃないですよね？！」",
-		   NULL, " Por favor, não nos diga que você só sabia do abuso da tia dela!!\"", Line_Normal);
+		   NULL, " Não é possível que vocês só sabiam do abuso da tia dela!!\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6007", 256, TRUE);
 	OutputLine(NULL, "「……本来なら個人情報なので申し上げられないことですが、皆さんには特別にお話します。",
-		   NULL, "\"Normalmente não falamos sobre tais assuntos privados, mas nestas circunstâncias especiais, penso que é aceitável dizer. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Normalmente não falamos sobre tais assuntos privados, mas nestas circunstâncias especiais, penso que é aceitável dizer. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>原山</color>", NULL, "<color=#f5e6d3>Harayama</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/harayama6008", 256, TRUE);
 	OutputLine(NULL, "去年の件では、叔母の玉枝氏と沙都子さんにトラブルがあったことは確認しておりますが、叔父が関わったという認識はありませんでした。",
@@ -2080,24 +2082,24 @@ void main()
 	ClearMessage();
 
 	DrawScene( "background/ka1_01", 300 );
-	ModDrawCharacter(0, 3, "sprite/me1b_def_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 300, TRUE );
+	ModDrawCharacter(0, 2, "sprite/re1a_okoru_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 300, TRUE );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "org/rena6066", 256, TRUE);
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "org/rena6066", 256, TRUE);
 	OutputLine(NULL, "「係長さん。",
 		   NULL, "\"Por favor.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "org/rena6067", 256, TRUE);
+	ModPlayVoiceLS(4, 2, "org/rena6067", 256, TRUE);
 	OutputLine(NULL, "その対応を決める期限を教えてください。」",
-		   NULL, " Diga-nos quando vocês tomarão essa decisão.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Diga-nos em quanto tempo vocês tomarão essa decisão.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "org/keiichi6189", 256, TRUE);
 	OutputLine(NULL, "「そ、そうだ！！",
-		   NULL, "\"Es-Está certo!!", Line_WaitForInput);
+		   NULL, "\"S-Sim!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "org/keiichi6190", 256, TRUE);
 	OutputLine(NULL, "　対応を検討するって、いつまでのんびりと検討する気なんだよ！！」",
-		   NULL, " Quanto tempo vocês vão levar?!\"", Line_Normal);
+		   NULL, " Vocês disseram que vão considerar, mas quanto tempo vocês vão levar?!\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ka4", "maskleft", 1, 0, 300 );
