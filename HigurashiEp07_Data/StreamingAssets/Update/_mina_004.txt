@@ -1936,7 +1936,7 @@ void main()
     if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
     if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
     OutputLine(NULL, "",
-        NULL, "<color=#7ef704>Miko: jovens mulheres responsáveis por realizar as tarefas dos santuários xintoístas.</color>", GetGlobalFlag(GLinemodeSp));
+        NULL, "<color=#7ef704>Miko: jovens mulheres responsáveis por realizar as tarefas dos santuários shintoístas.</color>", GetGlobalFlag(GLinemodeSp));
     }
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

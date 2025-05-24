@@ -2298,7 +2298,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　真相は不明だが、太古にはそのような力が本当にあり、古手家には神職に相応しい奇跡の力が宿っていたのかもしれない。",
-		   NULL, "A verdade ainda é desconhecida, mas talvez a família Furude realmente detenha tal poder desde os tempos antigos, um poder milagroso que os tornaria perfeitos para servir em um sacerdócio xintoísta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A verdade ainda é desconhecida, mas talvez a família Furude realmente detenha tal poder desde os tempos antigos, um poder milagroso que os tornaria perfeitos para servir em um sacerdócio shintoísta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
