@@ -97,7 +97,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500218", 256, TRUE);
 	OutputLine(NULL, "「……みー。最近の若者は潔癖なのです。」",
-		   NULL, "\"...Mii. Os jovens de hoje em dia são exigentes.\"", Line_Normal);
+		   NULL, "\"...Mii—. Os jovens de hoje em dia são exigentes.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/js4", 300 );

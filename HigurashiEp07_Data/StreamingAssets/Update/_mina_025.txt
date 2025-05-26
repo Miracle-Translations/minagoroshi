@@ -98,7 +98,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500155", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500156", 256, TRUE);
 	OutputLine(NULL, "沙都子の他にもこの部屋に住んでいる人がいますのですよ？",
 		   NULL, " Tem outra pessoa morando nesta casa além de você e eu.", Line_WaitForInput);
@@ -2102,7 +2102,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500197", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500198", 256, TRUE);
 	OutputLine(NULL, "根に持たれているのです。」",
 		   NULL, " Desculpa por aquilo...\"", GetGlobalFlag(GLinemodeSp));

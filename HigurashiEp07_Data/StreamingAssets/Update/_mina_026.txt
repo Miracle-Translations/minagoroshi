@@ -580,7 +580,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500242", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"...Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500243", 256, TRUE);
 	OutputLine(NULL, "みんなは鋭いので、ボクが何も話さなくても勝手に話が進んでしまうのです。」",
 		   NULL, " Vocês são tão inteligentes. Eu nem precisei dizer nada e vocês já descobriram tudo.\"", Line_Normal);
@@ -2516,7 +2516,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500255", 256, TRUE);
 	OutputLine(NULL, "「………みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500256", 256, TRUE);
 	OutputLine(NULL, "…ボクの話はこれで終わりなのです。」",
 		   NULL, " ...E esse é o fim da minha história.\"", Line_Normal);

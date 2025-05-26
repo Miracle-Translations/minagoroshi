@@ -1019,7 +1019,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500346", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500347", 256, TRUE);
 	OutputLine(NULL, "可能ですが１枚１００円なのですよ。」",
 		   NULL, " Você pode, mas cobrarei cem ienes por foto.\"", GetGlobalFlag(GLinemodeSp));

@@ -238,13 +238,13 @@ void main()
 		   NULL, "\"O que você acha, Keiichi-kun?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200030", 256, TRUE);
 	OutputLine(NULL, "レナは圭一くんにはその力があると思うな。",
-		   NULL, " Eu acho que você pode fazer isso.", Line_WaitForInput);
+		   NULL, " Eu acredito que você consegue fazer isso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200031", 256, TRUE);
 	OutputLine(NULL, "魅ぃちゃんだけの推薦で足りないなら、レナも推薦するよ。",
-		   NULL, " Estou apoiando você também!", Line_WaitForInput);
+		   NULL, " Se só a Mii-chan apoiando não for o suficiente, eu também te apoio!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200032", 256, TRUE);
 	OutputLine(NULL, "圭一くんならきっと、綿流し実行委員の大任を全うできる！」",
-		   NULL, " Você definitivamente deveria estar no comando do comitê de planejamento do Watanagashi!\"", Line_Normal);
+		   NULL, " Eu tenho certeza que você consegue comandar o comitê de planejamento do Watanagashi!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -1317,7 +1317,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500409", 256, TRUE);
 	OutputLine(NULL, "「……みー！",
-		   NULL, "\"......Mii!", Line_WaitForInput);
+		   NULL, "\"......Mii—!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500410", 256, TRUE);
 	OutputLine(NULL, "　ボクも見てみたいのです。」",
 		   NULL, " Eu quero ver isso também.\"", Line_Normal);
@@ -1922,7 +1922,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500418", 256, TRUE);
 	OutputLine(NULL, "「みー！",
-		   NULL, "\"Mii!", Line_WaitForInput);
+		   NULL, "\"Mii—!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500419", 256, TRUE);
 	OutputLine(NULL, "　最初の１３個をうまく持てましたのです！」",
 		   NULL, " Eu levantei as primeiras 13 peças!\"", GetGlobalFlag(GLinemodeSp));

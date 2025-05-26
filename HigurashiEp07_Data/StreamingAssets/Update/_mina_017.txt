@@ -864,7 +864,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500854", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500855", 256, TRUE);
 	OutputLine(NULL, "公由がダム戦争の戦勝記念に書いたものなのです。",
 		   NULL, " Isso é o que Kimiyoshi escreveu pro memorial do conflito da represa.", Line_WaitForInput);
@@ -2234,7 +2234,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500862", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500863", 256, TRUE);
 	OutputLine(NULL, "ボクも御三家の頭首なのです。」",
 		   NULL, " Eu também sou uma das líderes das Três Famíias.\"", Line_Normal);

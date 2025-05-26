@@ -2033,7 +2033,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500328", 256, TRUE);
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Mii.", Line_WaitForInput);
+		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/280500329", 256, TRUE);
 	OutputLine(NULL, "ボクたちの家の床が抜けてしまうかもしれませんです。」",
 		   NULL, " O chão daqui pode quebrar com tantas pessoas juntas.\"", GetGlobalFlag(GLinemodeSp));

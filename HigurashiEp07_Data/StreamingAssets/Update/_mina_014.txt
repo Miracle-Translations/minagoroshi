@@ -781,7 +781,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps2/05/180500671", 540, TRUE);
 	OutputLine(NULL, "「……みー…。」",
-		   NULL, "\"......Mii.\"", Line_Normal);
+		   NULL, "\"......Mii—...\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
