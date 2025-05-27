@@ -1823,7 +1823,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつてのダム戦争でも、山狗は影で暗躍していた。",
-		   NULL, "Eles também estavam por perto durante o conflito da represa.", Line_Normal);
+		   NULL, "Eles também estavam por perto durante a guerra da represa.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1853,7 +1853,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム戦争後の彼らの主な仕事は、奇病の隠蔽だった。",
-		   NULL, "A sua principal tarefa após o fim do conflito da represa tem sido continuar a manter a doença escondida do público.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A sua principal tarefa após o fim da guerra da represa tem sido continuar a manter a doença escondida do público.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

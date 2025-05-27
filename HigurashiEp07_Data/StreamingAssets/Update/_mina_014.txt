@@ -22,13 +22,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　集会所の中にはダム戦争の偉業を称える額縁や写真が所狭しと飾られている。",
-		   NULL, "Havia fotos retratando a história do conflito da represa na parede.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Havia fotos retratando a história da guerra da represa na parede.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…魅音の話によると、ダム戦争の当時は抵抗運動の事務所として使われていたらしい。",
-		   NULL, "Pelo que Mion disse, esse prédio de montagem havia sido usado como sede do protesto contra a represa naquela época.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Pelo que Mion disse, esse prédio de montagem havia sido usado como sede do protesto contra a represa naquela época.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2454,14 +2454,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700251", 256, TRUE);
 	OutputLine(NULL, "……知ってるかどうかわかりませんが、この村では、未だにダム戦争の戦犯である北条家に恨みを持つ人間が少なくありません。",
-		   NULL, "Não tenho certeza se você está ciente disso, mas algumas pessoas no vilarejo ainda guardam rancor da família Houjou, os traidores do conflito da represa. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Não tenho certeza se você está ciente disso, mas algumas pessoas no vilarejo ainda guardam rancor da família Houjou, os traidores da guerra da represa. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700252", 256, TRUE);
 	OutputLine(NULL, "オヤシロさまの祟り以降、園崎本家からは、一切北条家に関わるなという大号令が出ていますしね。",
 		   NULL, "Desde a maldição de Oyashiro-sama, a família Sonozaki tem dito às pessoas para não interagirem com a família Houjou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s12/11/180700253", 256, TRUE);
 	OutputLine(NULL, "………このままだと蛇が出てきかねませんよ、ということです。」",
-		   NULL, " ......A onça pode acabar te pegando se você continuar cutucando.\"", Line_Normal);
+		   NULL, " .........A onça pode acabar te pegando se você continuar cutucando.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }

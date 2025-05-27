@@ -2048,7 +2048,7 @@ void main()
 	OutputLine(NULL, "　そもそも、オヤシロさまの祟りと呼ばれる連続怪死事件が起こるまで、",
 		   NULL, "Antes da série de mortes misteriosas,", Line_WaitForInput);
 	OutputLine(NULL, "オヤシロさまの祟りなどという単語は信仰の中とダム戦争のスローガンに登場するだけで、口にする者が多いような言葉ではなかったはずなのに。",
-		   NULL, " ninguém usava o termo \"a maldição de Oyashiro-sama\" tão frequentemente.", Line_Normal);
+		   NULL, " o termo \"maldição de Oyashiro-sama\" só aparecia em slogans da guerra da represa. Ninguém usava essas palavras com tanta frequência.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3341,7 +3341,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900396", 256, TRUE);
 	OutputLine(NULL, "　ダム戦争が終わるまで明治から百年にも渡り雛見沢は神を失ってきた。",
-		   NULL, "Hinamizawa ficou sem um deus por cem anos, até o fim do conflito da represa.", Line_WaitForInput);
+		   NULL, "Hinamizawa ficou sem um deus por cem anos, até o fim da guerra da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/280900397", 256, TRUE);
 	OutputLine(NULL, "それを私が蘇らせろという神の啓示だと私は思ったわ！！",
 		   NULL, " Então pensei que era a minha missão restaurar a existência de um deus neste vilarejo!!", Line_WaitForInput);

@@ -300,13 +300,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800111", 256, TRUE);
 	OutputLine(NULL, "「こんなのを身に着けると、ダム戦争の時代に戻った気がするよ。",
-		   NULL, "\"Parece que estou de volta ao conflito da represa.", Line_WaitForInput);
+		   NULL, "\"Parece até que eu estou de volta na guerra da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800112", 256, TRUE);
 	OutputLine(NULL, "ハチマキやタスキをした雛見沢の人たちは無敵だったんだ。",
-		   NULL, " O povo de Hinamizawa usava bandanas e faixas iguais a estas. Era como se eles fossem invencíveis.", Line_WaitForInput);
+		   NULL, " O povo de Hinamizawa usava bandanas e faixas iguais a essas. Era como se eles fossem invencíveis.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800113", 256, TRUE);
 	OutputLine(NULL, "誰が相手でも怯まなかった！」",
-		   NULL, " Ninguém poderia fazê-los parar!\"", Line_Normal);
+		   NULL, " Ninguém conseguia parar eles!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -518,10 +518,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800116", 256, TRUE);
 	OutputLine(NULL, "「…すごいね！",
-		   NULL, "\"...Extraordinário!", Line_WaitForInput);
+		   NULL, "\"...Incrível!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s12/08/180800117", 256, TRUE);
 	OutputLine(NULL, "　こいつは間違いなくダム戦争の再来だよ！」",
-		   NULL, " Este é realmente o retorno do conflito da represa!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " É mesmo o retorno da guerra da represa!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -530,7 +530,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900263", 256, TRUE);
 	OutputLine(NULL, "「ダム戦争を知らないはずの前原くんが、ダム戦争を再びなんて。",
-		   NULL, "\"Maebara-kun nem morava aqui quando isso aconteceu.", Line_WaitForInput);
+		   NULL, "\"Maebara-kun nem morava aqui quando ela aconteceu.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900264", 256, TRUE);
 	OutputLine(NULL, "面白いものね。",
 		   NULL, " Isso é muito interessante.", Line_WaitForInput);

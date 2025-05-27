@@ -761,14 +761,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/shion6066", 256, TRUE);
 	OutputLine(NULL, "「ダム戦争の直後の雛見沢で、憎き北条家の子どもですから。",
-		   NULL, "\"Mas eles eram filhos da família Houjou, o inimigo no conflito da represa.", Line_WaitForInput);
+		   NULL, "\"Mas eles eram filhos da família Houjou, os inimigos desde a guerra da represa......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "org/shion6067", 256, TRUE);
 	OutputLine(NULL, "……引き取り手なんて現れるわけないじゃないですか。",
 		   NULL, " Ninguém iria cuidar deles... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/shion6068", 256, TRUE);
 	OutputLine(NULL, "…引き手数多であっさり公由のおじいちゃんが後見人になってくれた梨花ちゃまとは事情が違うんです。」",
-		   NULL, "Eles eram diferentes de Rika-chama. Muitas pessoas queriam ser seu responsável, mas o Kimiyoshi conseguiu a custódia dela.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eles eram diferentes da Rika-chama. Muitas pessoas queriam ser seu responsável, mas o Kimiyoshi conseguiu a custódia dela.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -782,12 +782,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……北条家がかつて、ダムに賛成していたことを根に持たれ、村中から嫌われていたという話は俺も知ってる。",
-		   NULL, "Eu sabia que a família Houjou era a favor do projeto da represa, e todo o vilarejo odiava a família dela por esse motivo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Eu sabia que a família Houjou era a favor do projeto da represa, e todo o vilarejo odiava a família dela por esse motivo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、そいつはダム戦争が終わり、少なくとも、直接の当事者である沙都子の両親が亡くなった時に終わった話だと思っていた。",
-		   NULL, "Mas pensei que tudo tinha acabado depois que cancelaram o projeto e os pais de Satoko morreram.", Line_Normal);
+		   NULL, "...Mas pensei que tudo tinha acabado depois que cancelaram o projeto e os pais da Satoko morreram.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -797,7 +797,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……まったく同じ境遇なのに、まったく村の対応が違う、沙都子と梨花ちゃんの対比を。",
-		   NULL, "A diferença entre como os moradores tratam Rika-chan?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......A diferença entre como os moradores tratam a Rika-chan?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1473,10 +1473,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600228", 256, TRUE);
 	OutputLine(NULL, "「というか、鬼婆が北条家嫌いの筆頭ですし。",
-		   NULL, "\"Aquela velha demônio é quem odeia a família Houjou.", Line_WaitForInput);
+		   NULL, "\"Aquela velha demônio é quem odeia a família Houjou......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600229", 256, TRUE);
 	OutputLine(NULL, "……頭の中、いつまでダム戦争やってるってんですか。",
-		   NULL, " A opinião dela não mudou desde que estávamos no meio do conflito da represa.", Line_WaitForInput);
+		   NULL, " A opinião dela não mudou desde a época da guerra da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600230", 256, TRUE);
 	OutputLine(NULL, "死守同盟が解散して何年経ってるんです？！」",
 		   NULL, " Já se passarem tantos anos, mas ela ainda não consegue esquecer o passado!\"", GetGlobalFlag(GLinemodeSp));

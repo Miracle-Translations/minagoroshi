@@ -2480,7 +2480,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつてのダム戦争の折に、この学校は廃校になった。",
-		   NULL, "A escola foi fechada quando aconteceu o conflito da represa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A escola foi fechada quando aconteceu a guerra da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2490,14 +2490,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、ここは廃校だから先生はいない。",
-		   NULL, "Porém, não havia professores lá, porque a escola não estava funcionando oficialmente.", Line_WaitForInput);
+		   NULL, "Porém, não havia professores lá, porque a escola não estava funcionando oficialmente......", Line_WaitForInput);
 	OutputLine(NULL, "……そこに駆けつけてくれたのが知恵先生だった。",
-		   NULL, " ...Foi quando a Chie-sensei chegou.", Line_Normal);
+		   NULL, " Foi quando a Chie-sensei chegou.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがてダム戦争に勝利し、園崎家などの村の重鎮が強力に働きかけた結果、この学校が分校と無理やり認められたのだ。",
-		   NULL, "Depois de vencerem o conflito da represa, a família Sonozaki e outros moradores fizeram um apelo e a existência da escola foi finalmente aprovada.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Depois de vencerem a guerra da represa, a família Sonozaki e outros moradores fizeram um apelo e a existência da escola foi finalmente aprovada.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2731,9 +2731,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから俺は、少し荒々しく言った。",
-		   NULL, "Eu pude sentir um tom de raiva entrando na minha voz.", Line_WaitForInput);
+		   NULL, "Eu pude sentir um tom de raiva aparecendo na minha voz...", Line_WaitForInput);
 	OutputLine(NULL, "…もうこういうのはたくさんだったのだ。",
-		   NULL, " Eu já estava farto.", Line_Normal);
+		   NULL, " Eu já estava farto de tudo isso.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 0, "Cradle_song", 56, 0 );
@@ -2747,23 +2747,23 @@ void main()
 		   NULL, " Por que os idosos do vilarejo ainda odeiam tanto a família Houjou?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101214", 256, TRUE);
 	OutputLine(NULL, "もうダム戦争は終わってる。",
-		   NULL, " O conflito da represa terminou.", Line_WaitForInput);
+		   NULL, " A guerra da represa já acabou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101215", 256, TRUE);
 	OutputLine(NULL, "残された沙都子には何の罪もないはずだ。",
-		   NULL, " Satoko é totalmente inocente, não é?", Line_WaitForInput);
+		   NULL, " A Satoko é totalmente inocente, não é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101216", 256, TRUE);
 	OutputLine(NULL, "なのに、どうしてここまで嫌うんだ？！",
-		   NULL, " Por que eles ainda a odeiam tanto?", Line_WaitForInput);
+		   NULL, " Por que eles ainda odeiam tanto ela?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101217", 256, TRUE);
 	OutputLine(NULL, "　誰が嫌ってる！！",
-		   NULL, " Quem a odeia? ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Quem odeia ela?! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101218", 256, TRUE);
 	OutputLine(NULL, "　誰のせいだ！",
-		   NULL, "De quem é a culpa?", Line_WaitForInput);
+		   NULL, "De quem é a culpa?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101219", 256, TRUE);
 	OutputLine(NULL, "　そいつに俺が話をつける！！」",
-		   NULL, " Vou bater um papo com quem quer que seja!\"", Line_Normal);
+		   NULL, " Vou ter uma conversinha com essa pessoa!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 3, "sprite/me1a_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -2777,10 +2777,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101220", 256, TRUE);
 	OutputLine(NULL, "「何？",
-		   NULL, "\"O quê?", Line_WaitForInput);
+		   NULL, "\"Quê?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180101221", 256, TRUE);
 	OutputLine(NULL, "　お前は何を言ってるんだ？！」",
-		   NULL, " O que você está dizendo?\"", Line_Normal);
+		   NULL, " Como assim?!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2789,7 +2789,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300511", 256, TRUE);
 	OutputLine(NULL, "「……ダム戦争で北条家は村の仇敵だった。",
-		   NULL, "\"...É verdade que a família Houjou era inimiga.", Line_WaitForInput);
+		   NULL, "\"......É verdade que a família Houjou era inimiga durante a guerra.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300512", 256, TRUE);
 	OutputLine(NULL, "村全体でそういう風に盛り上げたからね。",
 		   NULL, " Todo o vilarejo acreditava nisso.", Line_WaitForInput);
@@ -2859,7 +2859,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、………北条家を助けたと思われたら、",
-		   NULL, "Em outras palavras... se você ajudar um membro da família Houjou,", Line_WaitForInput);
+		   NULL, "Em outras palavras......... se você ajudar um membro da família Houjou,", Line_WaitForInput);
 	OutputLine(NULL, "自分も北条家と一緒の扱いを受けて、村中から攻撃されるかもしれない。",
 		   NULL, " você pode ser atacado pelo vilarejo, assim como eles foram.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2867,7 +2867,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それがダム戦争が終わって今に至っても、まだ拭えずにいるというのだ。",
-		   NULL, "...Eles ainda se sentem assim, anos após o conflito.", Line_Normal);
+		   NULL, "...Eles ainda se sentem assim, mesmo anos após o fim da guerra.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3102,7 +3102,7 @@ void main()
 		   NULL, " É importante que todo o vilarejo esteja na mesma sintonia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300537", 256, TRUE);
 	OutputLine(NULL, "だから、実はダム戦争の直前。",
-		   NULL, " Antes do conflito da represa, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Antes da guerra da represa, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300538", 256, TRUE);
 	OutputLine(NULL, "雛見沢は戦争どころか内部分裂状態だったんだよ…。」",
@@ -3134,10 +3134,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200556", 256, TRUE);
 	OutputLine(NULL, "「立ち退き派って、……不思議な響きだね。",
-		   NULL, "\"Apoiadores do plano de evacuação... Isso soa estranho...", Line_WaitForInput);
+		   NULL, "\"Apoiadores do plano de evacuação...... Isso soa estranho.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200557", 256, TRUE);
 	OutputLine(NULL, "初めて聞くよ。",
-		   NULL, " Essa é a primeira vez que ouço falar disso.", Line_WaitForInput);
+		   NULL, " Essa é a primeira vez que eu ouço falar disso.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200558", 256, TRUE);
 	OutputLine(NULL, "村の人はよく、ダムの推進派って言わない？」",
 		   NULL, " As pessoas do vilarejo sempre disseram que apoiavam o projeto da represa...\"", GetGlobalFlag(GLinemodeSp));
@@ -3153,7 +3153,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム戦争の時、村の仇敵となったダム推進派って言い方をするよな。",
-		   NULL, "Eles geralmente afirmam que seus inimigos apoiaram o projeto em si.", Line_Normal);
+		   NULL, "Elas geralmente afirmam que os inimigos apoiaram o projeto em si.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3162,7 +3162,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300539", 256, TRUE);
 	OutputLine(NULL, "「…………立ち退き派って言うより、ダム推進派って方が悪っぽそうな感じでしょ？",
-		   NULL, "\"......Parece pior se você os chamar de 'apoiadores do projeto da represa' do que se você os chamar de 'apoiadores da evacuação', não é?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Parece pior se você chamar eles de 'apoiadores do projeto da represa' do que se chamar de 'apoiadores da evacuação', né?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3297,7 +3297,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200563", 256, TRUE);
 	OutputLine(NULL, "「ダム戦争は終わった上に、沙都子ちゃんの両親は亡くなった。",
-		   NULL, "\"O conflito da represa acabou e os pais da Satoko-chan estão mortos.", Line_WaitForInput);
+		   NULL, "\"A guerra da represa acabou e os pais da Satoko-chan estão mortos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200564", 256, TRUE);
 	OutputLine(NULL, "ならそういう変な遺恨は全部水に流そうって、言い出した園崎家がちゃんと終了宣言を出すべきじゃないのかな。」",
 		   NULL, " Acho que a família Sonozaki deveria falar abertamente e perdoar publicamente a família Houjou.\"", GetGlobalFlag(GLinemodeSp));
@@ -3335,7 +3335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300544", 256, TRUE);
 	OutputLine(NULL, "そして、自分が死んで頭首が代わったら、その就任の時に、ダム戦争の完全終了宣言を出して、北条家に対する遺恨を完全に流そうと、そういう話になってるんだよ。",
-		   NULL, "Quando ela morrer, ela quer que o próximo chefe de família declare oficialmente o fim do conflito da represa e pare de discriminar a família Houjou.", Line_WaitForInput);
+		   NULL, "Quando ela morrer, ela quer que o próximo chefe de família declare oficialmente o fim da guerra da represa e pare de discriminar a família Houjou.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300545", 256, TRUE);
 	OutputLine(NULL, "…これはお母さんも知ってる。」",
 		   NULL, " ...Minha mãe também sabe disso.\"", GetGlobalFlag(GLinemodeSp));
@@ -3375,7 +3375,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600319", 256, TRUE);
 	OutputLine(NULL, "「……それが笑っちゃうんです。",
-		   NULL, "\"...Isso é ridículo.", Line_WaitForInput);
+		   NULL, "\"......Isso é ridículo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600320", 256, TRUE);
 	OutputLine(NULL, "実は、公由のおじいちゃんだって、誰だって、もう北条家を恨んでなんかないってんです。」",
 		   NULL, " Até o tio Kimiyoshi acha que ninguém no vilarejo odeia a família Houjou.\"", Line_Normal);
@@ -3387,10 +3387,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>Irie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000285", 256, TRUE);
 	OutputLine(NULL, "「つまり、悲しい話なんですが、……彼らにとってまだダム戦争は尾を引いているのです。",
-		   NULL, "\"É muito triste que o conflito da represa não tenha terminado completamente para essas pessoas.", Line_WaitForInput);
+		   NULL, "\"Ou seja, é bem triste, mas...... a guerra da represa ainda não acabou completamente para essas pessoas.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s12/10/181000286", 256, TRUE);
 	OutputLine(NULL, "北条家と親交があったら、後ろ指を差されるかもしれないと未だに恐れているのです。」",
-		   NULL, " Eles ainda têm medo de serem mal falados pelas costas se interagirem com a família Houjou.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Elas ainda têm medo de serem mal faladas pelas costas se interagirem com a família Houjou.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3476,7 +3476,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ダム戦争の最中にはそういうこともあったかもしれないと思っていたが、",
-		   NULL, "Eu sabia que ela passou por momentos difíceis durante o conflito da represa...", Line_ContinueAfterTyping);
+		   NULL, "Eu sabia que ela passou por momentos difíceis durante a guerra da represa...", Line_ContinueAfterTyping);
 	SetValidityOfInput( FALSE );
 	Wait( 600 );
 	SetValidityOfInput( TRUE );
@@ -3619,12 +3619,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何の恨みもない沙都子を許すと、居もしない誰かに陰口を叩かれるのではないかと怯えて、未だダム戦争の遺恨を“守ってる”。",
-		   NULL, "Eles ainda seguem as regras do conflito da represa, pensando que serão amaldiçoados se perdoarem a Satoko.", Line_Normal);
+		   NULL, "Essas pessoas ainda mantêm o rancor começado na guerra da represa, pensando que serão tratadas como traidoras se perdoarem a Satoko.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　居もしない誰かって何だ。",
-		   NULL, "Quem diabos é esse alguém?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quem é esse \"alguém\"?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3634,12 +3634,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村を滅ぼすダムに賛成した北条家にオヤシロさまが祟りを下した。",
-		   NULL, "Oyashiro-sama amaldiçoou a família Houjou porque apoiou o projeto da represa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Oyashiro-sama amaldiçoou a família Houjou porque ela apoiou o projeto da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが未だに残っていて、沙都子の生活に影を落としているのだ。",
-		   NULL, "Eles ainda acreditam nisso, e Satoko está lutando por causa disso.", Line_Normal);
+		   NULL, "Eles ainda acreditam nisso, e a Satoko está lutando por causa disso.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

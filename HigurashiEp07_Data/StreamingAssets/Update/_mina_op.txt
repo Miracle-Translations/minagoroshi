@@ -1311,7 +1311,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また当時、ダム戦争が激化している最中に大石はいた。",
-		   NULL, "Ooishi estava lá quando o conflito na represa estava no seu auge.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ooishi estava lá quando a guerra da represa estava no seu auge.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1456,7 +1456,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その結果、村人たちは、ダム戦争以来、常に裏で園崎家が暗躍していることを疑わなくなった。",
-		   NULL, "Como resultado, os moradores acreditam que a família Sonozaki controlou tudo por debaixo dos panos desde o fim do conflito da represa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Como resultado, os moradores acreditam que a família Sonozaki controlou tudo por debaixo dos panos desde o fim da guerra da represa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

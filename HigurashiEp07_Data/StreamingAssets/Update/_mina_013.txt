@@ -2342,7 +2342,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600253", 256, TRUE);
 	OutputLine(NULL, "「何だか、ダム戦争の時みたいですね。",
-		   NULL, "\"Isso me faz lembrar do conflito da represa.", Line_WaitForInput);
+		   NULL, "\"Isso me lembra a guerra da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600254", 256, TRUE);
 	OutputLine(NULL, "こういう盛り上がり方は。」",
 		   NULL, " Os sentimentos de todos estão unidos.\"", GetGlobalFlag(GLinemodeSp));
@@ -2357,17 +2357,17 @@ void main()
 		   NULL, "\"Isso é verdade.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300397", 256, TRUE);
 	OutputLine(NULL, "考えてみればここにいる子たちの一部はダム戦争は覚えていても、参加したわけじゃないだろうしね。」",
-		   NULL, " Pensando bem, nenhuma dessas crianças aqui participou do conflito, mesmo que se lembrem dele de quando eram bebês.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Pensando bem, nenhuma dessas crianças aqui participou da guerra, mesmo que se lembrem dela de quando eram bebês.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600255", 256, TRUE);
 	OutputLine(NULL, "「まぁ、あの時より紳士的ですよ？",
-		   NULL, "\"Mas o que fizemos hoje foi mais educado do que o que fizeram no conflito da represa.", Line_WaitForInput);
+		   NULL, "\"Mas o que fizemos hoje foi mais educado do que o que fizeram na guerra da represa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600256", 256, TRUE);
 	OutputLine(NULL, "　誰も血を流さないし、火炎瓶もなければ機動隊もいないし。」",
-		   NULL, " Ninguém está sangrando e não tem bombas ou polícia de choque!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ninguém está sangrando e não tem bombas nem polícia de choque!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2386,10 +2386,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300398", 256, TRUE);
 	OutputLine(NULL, "「そうだね。",
-		   NULL, "\"Isso é verdade.", Line_WaitForInput);
+		   NULL, "\"Isso é verdade......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300399", 256, TRUE);
 	OutputLine(NULL, "……おじさんも久し振りに血がたぎってきたよ。",
-		   NULL, " ...Fazia tempo que o sangue de Oji-san aqui não fervia desta forma.", Line_WaitForInput);
+		   NULL, " Fazia tempo que o sangue de Oji-san aqui não fervia desta forma.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300400", 256, TRUE);
 	OutputLine(NULL, "くっくっく！」",
 		   NULL, " He he he!\"", GetGlobalFlag(GLinemodeSp));
@@ -2403,7 +2403,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……戦って打ち勝ったことよりも、村全体で一丸となって立ち上がったことの方がポイントらしい。",
-		   NULL, "...Todos trabalhando juntos como uma equipe significam muito pros moradores daqui.", Line_Normal);
+		   NULL, "......Todos trabalhando juntos como uma equipe significam muito pros moradores daqui.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2514,13 +2514,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、ある者にとってはダム戦争の再来であり、ある者にとっては、小さい頃から聞かされてきた武勇伝に自分も加わるチャンスでもある。",
-		   NULL, "Para alguns deles, isso foi como um retorno do conflito da represa, e também uma grande chance para aqueles que nunca vivenciaram isso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Para alguns deles, isso foi como um retorno da guerra da represa, e também uma grande chance para aqueles que nunca vivenciaram ela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まるで、何年かに一度の祭りのような高揚感すらあるようだった。",
-		   NULL, "Quase parecia um festival.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era parecido com a emoção de um festival que acontece de anos em anos.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2848,10 +2848,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100876", 256, TRUE);
 	OutputLine(NULL, "「…ダム戦争以来のしがらみがあるんだよな。",
-		   NULL, "\"Por causa do que aconteceu durante o conflito da represa?", Line_WaitForInput);
+		   NULL, "\"...Por causa do que aconteceu durante a guerra da represa?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100877", 256, TRUE);
 	OutputLine(NULL, "……ならお年寄りはどうだ。",
-		   NULL, " ...E as pessoas mais velhas?", Line_WaitForInput);
+		   NULL, " ......E as pessoas mais velhas?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s12/01/180100878", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃんの方で、神社に出入りするお年寄りに声を掛けられないか？」",
 		   NULL, " Você não pode colocar os idosos do nosso lado, Rika-chan?\"", GetGlobalFlag(GLinemodeSp));

@@ -634,10 +634,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6bd09f>茜</color>", NULL, "<color=#6bd09f>Akane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200022", 256, TRUE);
 	OutputLine(NULL, "「お前たちも、ダム戦争の時の北条夫妻の態度は知ってるだろ。",
-		   NULL, "\"Todos vocês sabem como a família Houjou agiu durante o conflito da represa, não é?", Line_WaitForInput);
+		   NULL, "\"Todos vocês sabem como a família Houjou agiu durante a guerra da represa, não é?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 16, "ps3/s12/16/182200023", 256, TRUE);
 	OutputLine(NULL, "あれを許せるのかって言われると、私も答えはノーだねぇ。」",
-		   NULL, " Se vocês estão me pedindo para perdoá-los, minha resposta ainda é 'não'.\"", Line_Normal);
+		   NULL, " Se vocês estão me pedindo para perdoá-los, minha resposta ainda é não.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(2, 2, "sprite/re2a_nande_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
@@ -1049,7 +1049,7 @@ void main()
 		   NULL, "\"O que você acha, Oryou-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s12/02/180200629", 256, TRUE);
 	OutputLine(NULL, "沙都子ちゃんが、ダム戦争時のことを謝ったら。」",
-		   NULL, " E se a Satoko-chan pedisse desculpas a você pelo conflito na represa?\"", Line_Normal);
+		   NULL, " E se a Satoko-chan pedisse desculpas a você pela guerra na represa?\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "maskleft", 1, 0, 300 );
@@ -1062,16 +1062,16 @@ void main()
 		   NULL, "\"...Pff... Ha ha ha haaaa!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s12/17/182300026", 256, TRUE);
 	OutputLine(NULL, "　まぁ、そこまでやって見せたら考えんこともなぁん。",
-		   NULL, " Bem, vou pensar nisso quando ela me pedir desculpas.", Line_WaitForInput);
+		   NULL, " Então, eu penso no caso quando ela pedir.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s12/17/182300027", 256, TRUE);
 	OutputLine(NULL, "すったらん水に流すのも考えよ。」",
-		   NULL, " Eu poderia perdoá-la... se ela realmente se desculpar.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Eu poderia perdoar ela... se ela realmente se desculpasse.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その笑いは、沙都子が頭を下げられるわけがないという前提に基づいたものだ。",
-		   NULL, "Ela riu, obviamente pensando que Satoko nunca iria se desculpar com ela.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ela riu, obviamente pensando que a Satoko nunca iria se desculpar com ela.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3225,14 +3225,14 @@ void main()
 		   NULL, "\"Isso é preocupante... Hinamizawa está provocando uma tempestade de novo...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000035", 540, TRUE);
 	OutputLine(NULL, "斉藤くん、悪いんだけどさ、園崎顧問に電話して事情を聞いてくれないかい。",
-		   NULL, " Saitou-kun... você poderia ligar para Sonozaki-san e perguntar a ela o que está acontecendo...?", Line_WaitForInput);
+		   NULL, " Saitou-kun... você poderia ligar para a Sonozaki-san e perguntar a ela o que está acontecendo...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000036", 540, TRUE);
 	OutputLine(NULL, "俺は相談所に連絡する。",
 		   NULL, " Preciso ligar para o centro de consulta infantil. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/183000037", 540, TRUE);
 	OutputLine(NULL, "…これは……ひょっとするとヤバイぞ、ダム戦争の再発になるぞ……。",
-		   NULL, "...Isso... pode ser uma ressurreição do conflito da represa......", Line_WaitForInput);
+		   NULL, "...Isso...... pode ser o retorno dos protestos da represa......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000038", 540, TRUE);
 	OutputLine(NULL, "……あー、もしもし。",
 		   NULL, " ...Ah, alô?", Line_WaitForInput);
@@ -3286,22 +3286,22 @@ void main()
 		   NULL, "\"Senhor... acredito que você esteja ciente disso, mas eles são os Guardiões Onigafuchi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000043", 540, TRUE);
 	OutputLine(NULL, "所長はダム戦争はご存知ですよね？」",
-		   NULL, " Você sabe sobre o conflito da represa, certo?\"", Line_Normal);
+		   NULL, " Você sabe sobre os protestos da represa, certo?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>所長</color>", NULL, "<color=#f5e6d3>Chefe</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/182100006", 540, TRUE);
 	OutputLine(NULL, "「ダム戦争の時は県にいましたから新聞に載っている以上のことはよく知りません。",
-		   NULL, "\"Eu não morava aqui naquela época, então não sei muito sobre isso.", Line_WaitForInput);
+		   NULL, "\"Eu não morava aqui nessa época, então não sei muito sobre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/182100007", 540, TRUE);
 	OutputLine(NULL, "本庁の方にデモが来てたみたいな話は聞いてますが。」",
-		   NULL, " Ouvi dizer que foi um grande protesto do governo ou algo parecido...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ouvi dizer que foi uma grande confusão no escritório do governo ou algo parecido.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps2/00/183000044", 540, TRUE);
 	OutputLine(NULL, "「……端的に申し上げて、少しですね、",
-		   NULL, "\"...Eu vou ser honesto com você.", Line_WaitForInput);
+		   NULL, "\"......Eu vou ser honesto com você.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/183000045", 540, TRUE);
 	OutputLine(NULL, "先方の話に耳を傾けられた方がよろしいんじゃないかと…。」",
 		   NULL, " Eu acho que você deveria prestar atenção no que eles estão dizendo...\"", GetGlobalFlag(GLinemodeSp));
@@ -3316,7 +3316,7 @@ void main()
 		   NULL, " Ouvi dizer que os Guardiões Onigafuchi se separaram anos atrás.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps2/00/182100010", 540, TRUE);
 	OutputLine(NULL, "その後、お宅とうまくやってると聞いてます。」",
-		   NULL, " Você não teve um relacionamento bastante próximo com o vilarejo desde o fim do conflito?\"", Line_Normal);
+		   NULL, " Você não teve um relacionamento bastante próximo com o vilarejo desde o fim desses protestos?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>相田</color>", NULL, "<color=#f5e6d3>Aida</color>", NULL, Line_ContinueAfterTyping); }

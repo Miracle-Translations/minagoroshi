@@ -1386,7 +1386,7 @@ void main()
 		   NULL, " Não se eu tiver que passar pela vovó......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300310", 256, TRUE);
 	OutputLine(NULL, "ううん……。」",
-		   NULL, " Hmm...\"", Line_Normal);
+		   NULL, " Hmm......\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(1, 6, "sprite/si3_majime_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 0, FALSE );
@@ -1395,13 +1395,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600175", 256, TRUE);
 	OutputLine(NULL, "「鬼婆の力を借りるのは無理でしょ。",
-		   NULL, "\"É impossível obter ajuda daquela velha demônio.", Line_WaitForInput);
+		   NULL, "\"É impossível conseguir ajuda daquela velha demônio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600176", 256, TRUE);
 	OutputLine(NULL, "未だ頭の中はダム戦争！",
-		   NULL, " A mente dela ainda está presa no conflito da represa!", Line_WaitForInput);
+		   NULL, " A mente dela ainda tá presa na guerra da represa!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600177", 256, TRUE);
 	OutputLine(NULL, "　一億一心火の玉ですからね。",
-		   NULL, " Cem milhões com um só espírito e coisas assim!", Line_WaitForInput);
+		   NULL, " Cem milhões com um só espírito e tal!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s12/06/180600178", 256, TRUE);
 	OutputLine(NULL, "今でも北条家のこと嫌ってるみたいですし。」",
 		   NULL, " Ela odeia a família Houjou até hoje.\"", GetGlobalFlag(GLinemodeSp));

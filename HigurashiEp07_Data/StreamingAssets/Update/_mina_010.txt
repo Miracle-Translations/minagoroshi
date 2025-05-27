@@ -766,7 +766,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/shion6022", 256, TRUE);
 	OutputLine(NULL, "　……わかってるよ、ダム戦争で遺恨が残る北条家には一切関わらないって鬼婆の方針なんでしょ？！",
-		   NULL, "......Eu sei. A política da velha demônio é ficar completamente fora dos assuntos Houjou por causa de seu ressentimento sobre o conflito da represa, certo?! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......Eu sei. A política da velha demônio é não se envolver de forma alguma com os Houjou por causa do rancor que ela guardou desde a guerra da represa, não é?! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "org/shion6023", 256, TRUE);
 	OutputLine(NULL, "　沙都子がどうなろうと見て見ぬふりというのが園崎本家の方針なんでしょ！！",

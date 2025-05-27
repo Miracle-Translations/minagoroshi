@@ -1028,7 +1028,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300076", 256, TRUE);
 	OutputLine(NULL, "「雛見沢もダム戦争に打ち勝って、これからは新しい時代を築き、どんどん栄えさせていかなくちゃならない。",
-		   NULL, "\"Vencemos o conflito da represa e agora pretendemos construir uma nova era e crescer cada vez mais prósperos.", Line_WaitForInput);
+		   NULL, "\"Vencemos a guerra da represa e agora pretendemos construir uma nova era e crescer cada vez mais prósperos.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s12/03/180300077", 256, TRUE);
 	OutputLine(NULL, "だから若者歓迎、余所者飛び入り大歓迎って風にどんどん意識改革をしてかなくちゃならないんだよ。」",
 		   NULL, " É por isso que valorizamos o envolvimento dos jovens e também de pessoas de fora do vilarejo!\"", Line_Normal);
