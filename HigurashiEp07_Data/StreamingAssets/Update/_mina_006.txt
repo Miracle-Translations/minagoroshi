@@ -1022,7 +1022,7 @@ void main()
 		   NULL, "\"......Mii—.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500347", 256, TRUE);
 	OutputLine(NULL, "可能ですが１枚１００円なのですよ。」",
-		   NULL, " Você pode, mas cobrarei cem ienes por foto.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Você pode, mas vou cobrar 100 ienes por foto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1046,13 +1046,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900063", 256, TRUE);
 	OutputLine(NULL, "ジロウさん、あなた今いくら持ってるかしら？！」",
-		   NULL, "Quanto dinheiro você tem agora, Jirou-san?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Jirou-san, você tem quanto dinheiro aí?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s12/05/180500348", 256, TRUE);
 	OutputLine(NULL, "「……１万円払うと、お得な一日撮り放題券になりますです。」",
-		   NULL, "\"Se você me pagar 10 mil ienes, poderá tirar todas as fotos que quiser.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......Se você me pagar 10 mil ienes, vai poder tirar quantas fotos quiser por hoje.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1062,7 +1062,8 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s12/09/180900064", 256, TRUE);
 	OutputLine(NULL, "「安い！！",
-		   NULL, "\"Isso é um bom negócio!!", Line_WaitForInput);
+		   NULL, "\"Que barato!!", Line_WaitForInput);
+	SetSpeedOfMessage( FALSE, 0 );
 
 	PlaySE( 0, "s_boyoon", 56, 64 );
 	StartShakingOfWindow( 248, 40, 0, 2, 2*2, FALSE );
