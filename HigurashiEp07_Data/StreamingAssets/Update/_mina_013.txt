@@ -479,13 +479,13 @@ void main()
 	DrawSceneWithMask( "background/gk3", "maskright", 1, 0, 300 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>", NULL, "<color=#a17d6b>Tomita</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/182400009", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400009", 540, TRUE);
 	OutputLine(NULL, "「ま、前原さん！",
 		   NULL, "\"Maebara-san!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/182400010", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400010", 540, TRUE);
 	OutputLine(NULL, "　これは明白な児童虐待です！！",
 		   NULL, " Este é um caso flagrante de abuso infantil!!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/182400011", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400011", 540, TRUE);
 	OutputLine(NULL, "　例え北条さんが暴行を受けていなかったからと言って、虐待を受けていないという根拠にはなりえません！」",
 		   NULL, " Só porque ela não tem nenhum ferimento não prova que ela não está sendo abusada!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -494,10 +494,10 @@ void main()
 	ModDrawCharacterWithFiltering(1, 25, "sprite/oka1_shinken_", "0", "maskright", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 0, 300, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#7a7e7d>岡村</color>", NULL, "<color=#7a7e7d>Okamura</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/182500005", 540, TRUE);
+	ModPlayVoiceLS(4, 25, "ps2/00/182500005", 540, TRUE);
 	OutputLine(NULL, "「僕もそう思います…！",
 		   NULL, "\"Eu concordo com ele...!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/182500006", 540, TRUE);
+	ModPlayVoiceLS(4, 25, "ps2/00/182500006", 540, TRUE);
 	OutputLine(NULL, "　どうしてこれで虐待だと認定されないんですか？！」",
 		   NULL, " Como é que eles não conseguem ver isso? É tão óbvio!\"", Line_Normal);
 	ClearMessage();
@@ -531,8 +531,8 @@ void main()
 	StartShakingOfAllObjects( 248, 40, 0, 2, 2*2, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>&<color=#7a7e7d>岡村</color>", NULL, "<color=#a17d6b>Tomita</color>&<color=#7a7e7d>Okamura</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/182400012", 540, TRUE);
-	ModPlayVoiceLS(5, 0, "ps2/00/182500007", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400012", 540, TRUE);
+	ModPlayVoiceLS(5, 25, "ps2/00/182500007", 540, TRUE);
 	OutputLine(NULL, "「「言えない！！",
 		   NULL, "\"Sem chance!!", Line_Continue);
 	Wait(1200);
@@ -564,13 +564,13 @@ void main()
 	ModDrawCharacter(2, 24, "sprite/tomita1_shinken_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>", NULL, "<color=#a17d6b>Tomita</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/182400013", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400013", 540, TRUE);
 	OutputLine(NULL, "「はい！",
 		   NULL, "\"Senhor!", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/182400014", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400014", 540, TRUE);
 	OutputLine(NULL, "　問題となるのは児童相談所側の認識の甘さだと思います。",
 		   NULL, " Acho que a questão aqui é que o centro de consulta infantil não está entendendo a urgência da situação dela.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 0, "ps2/00/182400015", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400015", 540, TRUE);
 	OutputLine(NULL, "これについて、事情をよく知る人間が説明する必要があると思います！」",
 		   NULL, " Acho que alguém precisa ir lá e explicar o quão sério isso é!\"", Line_Normal);
 	ClearMessage();
@@ -715,8 +715,8 @@ void main()
 
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a17d6b>富田</color>&<color=#7a7e7d>岡村</color>", NULL, "<color=#a17d6b>Tomita</color>&<color=#7a7e7d>Okamura</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 0, "ps2/00/182400016", 540, TRUE);
-	ModPlayVoiceLS(5, 0, "ps2/00/182500008", 540, TRUE);
+	ModPlayVoiceLS(4, 24, "ps2/00/182400016", 540, TRUE);
+	ModPlayVoiceLS(5, 25, "ps2/00/182500008", 540, TRUE);
 	OutputLine(NULL, "「「いません！！",
 		   NULL, "\"Não!!", Line_Continue);
 	Wait(1200);
