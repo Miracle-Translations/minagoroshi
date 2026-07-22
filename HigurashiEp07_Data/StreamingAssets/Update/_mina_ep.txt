@@ -1727,10 +1727,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>Homem</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "org/mob7o6002", 256, TRUE);
 	OutputLine(NULL, "「みんな営林署へ集まれぇぇ！！",
-		   NULL, "\"Todo mundo deve se reunir na propriedade do serviço florestal!", Line_WaitForInput);
+		   NULL, "\"Todo mundo deve se reunir no Serviço Florestal!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7o6003", 256, TRUE);
 	OutputLine(NULL, "　４丁目は違うだろ、郵便局裏の公民館だぞ！！」",
-		   NULL, " Mas não as pessoas do Distrito 4! Vocês tem que ir ao centro comunitário atrás dos correios!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mas não as pessoas do Distrito 4!! Vocês tem que ir ao centro comunitário atrás dos correios!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>Membro das Forças de Autodefesa</color>", NULL, Line_ContinueAfterTyping); }
@@ -2557,7 +2557,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　営林署の他の部屋でも同時に行なわれていた。",
-		   NULL, "Também aconteceu em todas as outras salas, ao mesmo tempo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Também aconteceu em todas as outras salas do Serviço Florestal, ao mesmo tempo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2789,7 +2789,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　営林署外壁のどこかに着弾した音がした。",
-		   NULL, "Dava para ouvir os tiros em todo o local.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Era possível ouvir o impacto dos tiros em todo o local.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -3003,7 +3003,7 @@ void main()
 		   NULL, "\"Aqui é o Primeiro Pelotão.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6025", 256, TRUE);
 	OutputLine(NULL, "営林署の滅菌を終了。",
-		   NULL, " A esterilização na propriedade do serviço florestal foi concluída.", Line_WaitForInput);
+		   NULL, " A esterilização no Serviço Florestal foi concluída.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "org/mob7p6026", 256, TRUE);
 	OutputLine(NULL, "脱走者４名は射殺。」",
 		   NULL, " Quatro conseguiram escapar. Nós os matamos.\"", GetGlobalFlag(GLinemodeSp));
